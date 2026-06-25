@@ -1,0 +1,11 @@
+kind: station
+name: "Mottingham (L3)"
+slug: "mottingham"
+sector: "south-east"
+type: "ambulance-station"
+lat: 51.45261
+lng: 0.03213
+order: 59
+reps:
+  - name: "Edwina Priddle"
+hsReps: []

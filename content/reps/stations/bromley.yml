@@ -1,0 +1,12 @@
+kind: station
+name: "Bromley (M1)"
+slug: "bromley"
+sector: "south-east"
+type: "ambulance-station"
+lat: 51.38931
+lng: 0.03687
+order: 61
+reps:
+  - name: "Tony Scantlebury"
+hsReps:
+  - name: "Dave Reed"

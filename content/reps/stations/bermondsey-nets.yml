@@ -1,0 +1,8 @@
+kind: station
+name: "Bermondsey NETS"
+slug: "bermondsey-nets"
+sector: "south-east"
+type: "nets"
+order: 71
+reps: []
+hsReps: []

@@ -1,0 +1,12 @@
+kind: station
+name: "Isleworth (A2)"
+slug: "isleworth"
+sector: "north-west"
+type: "ambulance-station"
+lat: 51.45962
+lng: -0.3368
+order: 2
+reps:
+  - name: "Steve Warwick"
+hsReps:
+  - name: "George Millis"

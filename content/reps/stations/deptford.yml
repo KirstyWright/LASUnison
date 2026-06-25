@@ -1,0 +1,12 @@
+kind: station
+name: "Deptford (N1)"
+slug: "deptford"
+sector: "south-east"
+type: "ambulance-station"
+lat: 51.47816
+lng: -0.05231
+order: 68
+reps:
+  - name: "Patrick Wright"
+hsReps:
+  - name: "Keith Henley"

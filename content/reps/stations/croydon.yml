@@ -1,0 +1,12 @@
+kind: station
+name: "Croydon (M2)"
+slug: "croydon"
+sector: "south-west"
+type: "ambulance-station"
+lat: 51.37874
+lng: -0.05797
+order: 51
+reps:
+  - name: "Abbey Cheetham"
+hsReps:
+  - name: "Louise Reading"

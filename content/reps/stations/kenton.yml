@@ -1,0 +1,12 @@
+kind: station
+name: "Kenton (C1)"
+slug: "kenton"
+sector: "north-west"
+type: "ambulance-station"
+lat: 51.58409
+lng: -0.2833
+order: 12
+reps:
+  - name: "Raj Mann"
+hsReps:
+  - name: "Gemma Yearley"

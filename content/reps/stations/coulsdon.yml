@@ -1,0 +1,12 @@
+kind: station
+name: "Coulsdon (P1)"
+slug: "coulsdon"
+sector: "south-west"
+type: "ambulance-station"
+lat: 51.3171
+lng: -0.13379
+order: 54
+reps:
+  - name: "Gary Watson"
+hsReps:
+  - name: "Scot Grant"

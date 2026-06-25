@@ -1,0 +1,12 @@
+kind: station
+name: "Edmonton (H3)"
+slug: "edmonton"
+sector: "north-central"
+type: "ambulance-station"
+lat: 51.61951
+lng: -0.08108
+order: 20
+reps:
+  - name: "Emily Hurrel"
+hsReps:
+  - name: "Harry Donohoe"

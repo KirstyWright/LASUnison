@@ -1,0 +1,11 @@
+kind: station
+name: "Sutton (R2)"
+slug: "sutton"
+sector: "south-west"
+type: "ambulance-station"
+lat: 51.34793
+lng: -0.20187
+order: 56
+reps:
+  - name: "Karen Tapp"
+hsReps: []

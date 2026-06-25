@@ -1,0 +1,11 @@
+kind: station
+name: "South Croydon (P2)"
+slug: "south-croydon"
+sector: "south-west"
+type: "ambulance-station"
+lat: 51.3567
+lng: -0.1002
+order: 52
+reps:
+  - name: "Nick Tibbett"
+hsReps: []

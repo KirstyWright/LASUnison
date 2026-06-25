@@ -1,0 +1,12 @@
+kind: station
+name: "D Watch"
+slug: "eoc-hq-d-watch"
+sector: "eoc-iuec"
+area: "EOC HQ"
+type: "control-room"
+lat: 51.5045
+lng: -0.1124
+order: 81
+reps:
+  - name: "Charley Hasted"
+hsReps: []

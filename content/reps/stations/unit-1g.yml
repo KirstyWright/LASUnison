@@ -1,0 +1,12 @@
+kind: station
+name: "Unit 1G"
+slug: "unit-1g"
+sector: "north-east"
+type: "support"
+lat: 51.5384
+lng: 0.0252
+order: 44
+reps:
+  - name: "Moss Mehmet"
+hsReps:
+  - name: "Moss Mehmet"

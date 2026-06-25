@@ -1,0 +1,12 @@
+kind: station
+name: "Hayes (B2)"
+slug: "hayes"
+sector: "north-west"
+type: "ambulance-station"
+lat: 51.5168
+lng: -0.41912
+order: 6
+reps:
+  - name: "Kirsty Wright"
+hsReps:
+  - name: "Reece Mann"

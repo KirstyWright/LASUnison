@@ -1,0 +1,8 @@
+kind: station
+name: "Rainham Logistics"
+slug: "rainham-logistics"
+sector: "north-east"
+type: "logistics"
+order: 42
+reps: []
+hsReps: []

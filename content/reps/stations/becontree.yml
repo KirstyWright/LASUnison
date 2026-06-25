@@ -1,0 +1,12 @@
+kind: station
+name: "Becontree (K2)"
+slug: "becontree"
+sector: "north-east"
+type: "ambulance-station"
+lat: 51.53372
+lng: 0.13663
+order: 38
+reps:
+  - name: "Paul Whitlock"
+hsReps:
+  - name: "Thomas Crudgington"

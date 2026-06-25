@@ -1,0 +1,11 @@
+kind: station
+name: "Fleet"
+slug: "fleet"
+sector: "other"
+type: "support"
+lat: 51.5112
+lng: -0.038
+order: 93
+reps:
+  - name: "Moss Mehmet"
+hsReps: []

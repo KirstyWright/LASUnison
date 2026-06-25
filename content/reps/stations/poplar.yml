@@ -1,0 +1,12 @@
+kind: station
+name: "Poplar (J1)"
+slug: "poplar"
+sector: "north-east"
+type: "ambulance-station"
+lat: 51.52292
+lng: -0.03932
+order: 35
+reps:
+  - name: "Darran Billings-Cray"
+hsReps:
+  - name: "Craig Cassidy"

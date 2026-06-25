@@ -1,0 +1,8 @@
+kind: station
+name: "West Ham Workshop"
+slug: "west-ham-workshop"
+sector: "north-east"
+type: "workshop"
+order: 33
+reps: []
+hsReps: []

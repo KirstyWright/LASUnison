@@ -1,0 +1,11 @@
+kind: station
+name: "A Watch"
+slug: "eoc-newham-a-watch"
+sector: "eoc-iuec"
+area: "EOC Newham"
+type: "control-room"
+order: 72
+reps:
+  - name: "Sam Billoo"
+hsReps:
+  - name: "Andrew Hummerston"

@@ -1,0 +1,12 @@
+kind: station
+name: "Newham (K1)"
+slug: "newham"
+sector: "north-east"
+type: "ambulance-station"
+lat: 51.53148
+lng: 0.05814
+order: 32
+reps:
+  - name: "Dean Jackson"
+hsReps:
+  - name: "Laurence Rankin"

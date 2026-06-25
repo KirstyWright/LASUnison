@@ -1,0 +1,12 @@
+kind: station
+name: "Streatham (P3)"
+slug: "streatham"
+sector: "south-east"
+type: "ambulance-station"
+lat: 51.43642
+lng: -0.12095
+order: 69
+reps:
+  - name: "Teresa Johnson"
+hsReps:
+  - name: "Christopher Attrill"

@@ -1,0 +1,15 @@
+kind: station
+name: "111 Newham"
+slug: "111-newham"
+sector: "eoc-iuec"
+area: "111"
+type: "control-room"
+order: 86
+reps:
+  - name: "Samir Patel"
+  - name: "Mohammed Ali"
+  - name: "Taimur Sroya"
+hsReps:
+  - name: "Hassan Haque"
+  - name: "Murad Ali"
+  - name: "Sara Shayer"

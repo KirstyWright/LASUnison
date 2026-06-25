@@ -1,0 +1,8 @@
+kind: station
+name: "Scheduling"
+slug: "scheduling"
+sector: "other"
+type: "support"
+order: 90
+reps: []
+hsReps: []

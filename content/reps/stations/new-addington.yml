@@ -1,0 +1,12 @@
+kind: station
+name: "New Addington (M3)"
+slug: "new-addington"
+sector: "south-west"
+type: "ambulance-station"
+lat: 51.35116
+lng: -0.02358
+order: 53
+reps:
+  - name: "Tony Montebello"
+hsReps:
+  - name: "Steve Gregory"

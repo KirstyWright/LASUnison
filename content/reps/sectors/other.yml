@@ -1,0 +1,6 @@
+kind: sector
+name: "Other workplaces"
+sector: "other"
+order: 7
+description: "Branch-wide support: IM&T, Scheduling, Admin, Logistics, Fleet and the MPU"
+# No sector senior rep — this groups branch-wide support functions.

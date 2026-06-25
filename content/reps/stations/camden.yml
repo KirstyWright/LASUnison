@@ -1,0 +1,12 @@
+kind: station
+name: "Camden (E3)"
+slug: "camden"
+sector: "north-central"
+type: "ambulance-station"
+lat: 51.55372
+lng: -0.16133
+order: 23
+reps:
+  - name: "Ilan Fertig"
+hsReps:
+  - name: "Stan Dixon"

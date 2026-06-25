@@ -1,0 +1,15 @@
+kind: station
+name: "IRO"
+slug: "eoc-hq-iro"
+sector: "eoc-iuec"
+area: "EOC HQ"
+type: "control-room"
+lat: 51.5045
+lng: -0.1124
+order: 85
+reps:
+  - name: "Michael McGinn"
+  - name: "Rob Sydney"
+  - name: "Rob O’Sullivan"
+  - name: "David Barnes"
+hsReps: []

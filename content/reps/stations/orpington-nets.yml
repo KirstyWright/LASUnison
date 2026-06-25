@@ -1,0 +1,10 @@
+kind: station
+name: "Orpington NETS"
+slug: "orpington-nets"
+sector: "south-east"
+type: "nets"
+order: 64
+reps:
+  - name: "Richard Turnham"
+hsReps:
+  - name: "Gus Kennedy"

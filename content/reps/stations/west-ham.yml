@@ -1,0 +1,13 @@
+kind: station
+name: "West Ham (J2)"
+slug: "west-ham"
+sector: "north-east"
+type: "ambulance-station"
+lat: 51.52754
+lng: 0.02002
+order: 31
+reps:
+  - name: "Kayleigh Purcell"
+hsReps:
+  - name: "Katherine Le Gros"
+    note: "covering, not elected"

@@ -1,0 +1,13 @@
+kind: station
+name: "A Watch"
+slug: "eoc-hq-a-watch"
+sector: "eoc-iuec"
+area: "EOC HQ"
+type: "control-room"
+lat: 51.5045
+lng: -0.1124
+order: 78
+reps:
+  - name: "Claudette Ellis"
+hsReps:
+  - name: "James Hamilton"

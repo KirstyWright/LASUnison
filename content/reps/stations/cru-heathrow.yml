@@ -1,0 +1,12 @@
+kind: station
+name: "CRU Heathrow (B4)"
+slug: "cru-heathrow"
+sector: "north-west"
+type: "specialist"
+lat: 51.484
+lng: -0.4488
+order: 7
+reps:
+  - name: "Sebastian Outfin"
+hsReps:
+  - name: "Frank Hill"

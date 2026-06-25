@@ -1,0 +1,8 @@
+kind: station
+name: "Camden NETS"
+slug: "camden-nets"
+sector: "north-central"
+type: "nets"
+order: 26
+reps: []
+hsReps: []

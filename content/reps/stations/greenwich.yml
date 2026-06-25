@@ -1,0 +1,12 @@
+kind: station
+name: "Greenwich (L2)"
+slug: "greenwich"
+sector: "south-east"
+type: "ambulance-station"
+lat: 51.47251
+lng: 0.04696
+order: 57
+reps:
+  - name: "Carly Harris"
+hsReps:
+  - name: "Liz Meaney"

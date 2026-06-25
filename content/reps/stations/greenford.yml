@@ -1,0 +1,12 @@
+kind: station
+name: "Greenford (B1)"
+slug: "greenford"
+sector: "north-west"
+type: "ambulance-station"
+lat: 51.53398
+lng: -0.34819
+order: 4
+reps:
+  - name: "Gary Maitland"
+hsReps:
+  - name: "Jen McNulty"

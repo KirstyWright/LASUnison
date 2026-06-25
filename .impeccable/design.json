@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-06-25T17:35:30Z",
+  "title": "Design System: LAS UNISON",
+  "extensions": {
+    "colorMeta": {
+      "unison-purple": { "role": "primary", "displayName": "UNISON Purple", "canonical": "#5E22A6", "tonalRamp": ["#170728", "#341259", "#491A82", "#5E22A6", "#7634C4", "#8E5AD2", "#CBB4ED", "#F3EDFB"] },
+      "unison-green": { "role": "secondary", "displayName": "UNISON Green", "canonical": "#00843D", "tonalRamp": ["#00502A", "#006B33", "#00843D", "#009E4A", "#3FB46E", "#82CDA1", "#BCE5CC", "#F0F9F3"] },
+      "spark-green": { "role": "tertiary", "displayName": "Spark Green", "canonical": "#1FB866", "tonalRamp": ["#0E9E55", "#14AD5F", "#1FB866", "#4ECB86", "#86DCAC", "#B6E9CE", "#DDF6E8", "#EFFBF4"] },
+      "nhs-blue": { "role": "tertiary", "displayName": "NHS Blue", "canonical": "#005EB8", "tonalRamp": ["#002B52", "#003B6F", "#005EB8", "#2B7FD0", "#5BA0E0", "#A8CCF0", "#E3EFFA", "#F1F7FD"] },
+      "emergency-red": { "role": "tertiary", "displayName": "Emergency Red (999)", "canonical": "#D5281B", "tonalRamp": ["#A81B10", "#D5281B", "#E63329", "#F0635B", "#F6938D", "#FBC4C0", "#FBE3E1", "#FEF2F1"] },
+      "ink-strong": { "role": "neutral", "displayName": "Warm Ink", "canonical": "#16121C", "tonalRamp": ["#0F0B14", "#2A2433", "#423B4E", "#5C5468", "#7A7287", "#9D96A8", "#C5C0CD", "#E2DFE8"] },
+      "page-bg": { "role": "neutral", "displayName": "Warm Off-White", "canonical": "#F8F7FA", "tonalRamp": ["#5C5468", "#7A7287", "#9D96A8", "#C5C0CD", "#E2DFE8", "#F0EEF3", "#F8F7FA", "#FFFFFF"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero headline only — Archivo 900, banner-loud." },
+      "headline": { "displayName": "Headline", "purpose": "Section heads — Archivo 800." },
+      "title": { "displayName": "Title", "purpose": "Card and alert titles — Archivo 800." },
+      "body": { "displayName": "Body", "purpose": "Default prose — Public Sans 400, measure 65–75ch." },
+      "label": { "displayName": "Label", "purpose": "Eyebrows, badges, kickers — Public Sans 700, uppercase, +0.08em." },
+      "mono": { "displayName": "Mono", "purpose": "Pay rates, reference numbers, phone numbers — IBM Plex Mono." }
+    },
+    "shadows": [
+      { "name": "xs", "value": "0 1px 2px rgba(22,18,28,0.06)", "purpose": "Header bar, hairline lift." },
+      { "name": "sm", "value": "0 1px 2px rgba(22,18,28,0.06), 0 2px 4px rgba(22,18,28,0.05)", "purpose": "Cards at rest." },
+      { "name": "md", "value": "0 4px 8px rgba(22,18,28,0.06), 0 8px 20px rgba(22,18,28,0.07)", "purpose": "Raised panels, popovers." },
+      { "name": "lg", "value": "0 12px 28px rgba(22,18,28,0.10), 0 4px 10px rgba(22,18,28,0.05)", "purpose": "Card hover." },
+      { "name": "xl", "value": "0 24px 56px rgba(22,18,28,0.16), 0 8px 18px rgba(22,18,28,0.06)", "purpose": "Hero photo, modals." }
+    ],
+    "motion": [
+      { "name": "ease-standard", "value": "cubic-bezier(0.2, 0, 0.2, 1)", "purpose": "Default easing for state transitions." },
+      { "name": "ease-out", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Exponential ease-out for hover lifts and reveals." },
+      { "name": "duration-button", "value": "150ms", "purpose": "Button background transitions." },
+      { "name": "duration-card", "value": "200ms", "purpose": "Card shadow/translate transitions." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" },
+      { "name": "container-max", "value": "1200px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The default call to action — 'Join us'. Pill, purple fill, white text.",
+      "html": "<button class=\"ds-btn ds-btn-primary\">Join us</button>",
+      "css": ".ds-btn { display:inline-flex; align-items:center; justify-content:center; gap:.5rem; font-family:'Public Sans','Helvetica Neue',Arial,sans-serif; font-weight:700; line-height:1; height:2.75rem; padding:0 1.5rem; border-radius:999px; border:2px solid transparent; cursor:pointer; white-space:nowrap; text-decoration:none; transition:background-color .15s cubic-bezier(0.16,1,0.3,1); } .ds-btn:active { transform:translateY(1px); } .ds-btn:focus-visible { outline:3px solid #005EB8; outline-offset:2px; } .ds-btn-primary { background:#5E22A6; color:#fff; } .ds-btn-primary:hover { background:#491A82; }"
+    },
+    {
+      "name": "Highlight Button",
+      "kind": "button",
+      "refersTo": "button-highlight",
+      "description": "The hero's lead CTA — spark green with ink text (verified contrast), large size.",
+      "html": "<button class=\"ds-btn ds-btn-highlight\">Join UNISON today</button>",
+      "css": ".ds-btn { display:inline-flex; align-items:center; justify-content:center; gap:.5rem; font-family:'Public Sans','Helvetica Neue',Arial,sans-serif; font-weight:700; line-height:1; height:3.375rem; padding:0 2rem; font-size:1.125rem; border-radius:999px; border:2px solid transparent; cursor:pointer; white-space:nowrap; transition:background-color .15s cubic-bezier(0.16,1,0.3,1); } .ds-btn:active { transform:translateY(1px); } .ds-btn:focus-visible { outline:3px solid #005EB8; outline-offset:2px; } .ds-btn-highlight { background:#1FB866; color:#16121C; } .ds-btn-highlight:hover { background:#14AD5F; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary action — transparent with purple border and text; soft-purple fill on hover.",
+      "html": "<a class=\"ds-btn ds-btn-outline\" href=\"#\">Our campaigns</a>",
+      "css": ".ds-btn { display:inline-flex; align-items:center; justify-content:center; gap:.5rem; font-family:'Public Sans','Helvetica Neue',Arial,sans-serif; font-weight:700; line-height:1; height:2.75rem; padding:0 1.5rem; border-radius:999px; border:2px solid transparent; cursor:pointer; white-space:nowrap; text-decoration:none; transition:background-color .15s cubic-bezier(0.16,1,0.3,1),color .15s; } .ds-btn:focus-visible { outline:3px solid #005EB8; outline-offset:2px; } .ds-btn-outline { background:transparent; color:#5E22A6; border-color:#5E22A6; } .ds-btn-outline:hover { background:#E7DBF7; color:#491A82; }"
+    },
+    {
+      "name": "Badge",
+      "kind": "chip",
+      "refersTo": "badge-default",
+      "description": "Small uppercase category label in a soft-tint pill. Default = purple.",
+      "html": "<span class=\"ds-badge\">Campaign</span>",
+      "css": ".ds-badge { display:inline-flex; align-items:center; gap:.4em; font-family:'Public Sans','Helvetica Neue',Arial,sans-serif; font-weight:700; font-size:.75rem; letter-spacing:.02em; text-transform:uppercase; line-height:1; padding:.42em .7em; border-radius:6px; background:#E7DBF7; color:#491A82; }"
+    },
+    {
+      "name": "Content Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "News/resource card — eyebrow, Archivo title, meta, body, link. Lifts on hover.",
+      "html": "<div class=\"ds-card\"><div class=\"ds-card-body\"><span class=\"ds-card-eyebrow\">News</span><h3 class=\"ds-card-title\">Pay deal: where we stand</h3><span class=\"ds-card-meta\">12 June 2026</span><p class=\"ds-card-text\">The latest on the NHS pay award and what it means for London Ambulance Service staff.</p><a class=\"ds-card-link\" href=\"#\">Read more &rarr;</a></div></div>",
+      "css": ".ds-card { display:flex; flex-direction:column; background:#fff; border:1px solid #EAE7EF; border-radius:14px; overflow:hidden; box-shadow:0 1px 2px rgba(22,18,28,.06),0 2px 4px rgba(22,18,28,.05); transition:box-shadow .2s cubic-bezier(0.16,1,0.3,1),transform .2s cubic-bezier(0.16,1,0.3,1),border-color .2s; max-width:360px; } .ds-card:hover { box-shadow:0 12px 28px rgba(22,18,28,.10),0 4px 10px rgba(22,18,28,.05); transform:translateY(-3px); border-color:#E2DFE8; } .ds-card-body { padding:1.25rem 1.25rem 1.5rem; display:flex; flex-direction:column; gap:.5rem; } .ds-card-eyebrow { font-family:'Public Sans','Helvetica Neue',Arial,sans-serif; font-weight:700; font-size:.875rem; letter-spacing:.08em; text-transform:uppercase; color:#00843D; } .ds-card-title { font-family:'Archivo','Helvetica Neue',Arial,sans-serif; font-weight:800; font-size:1.5rem; line-height:1.25; letter-spacing:-0.015em; color:#16121C; margin:0; } .ds-card-meta { font-family:'Public Sans',sans-serif; font-size:.875rem; color:#7A7287; } .ds-card-text { font-family:'Public Sans','Helvetica Neue',Arial,sans-serif; font-size:1rem; line-height:1.55; color:#5C5468; margin:0; } .ds-card-link { font-family:'Public Sans',sans-serif; color:#5E22A6; font-weight:700; text-decoration:none; } .ds-card-link:hover { color:#491A82; text-decoration:underline; }"
+    },
+    {
+      "name": "Emergency Bar",
+      "kind": "custom",
+      "refersTo": "emergency-bar",
+      "description": "Signature component. Drenched-red UNISON Direct help line — the one element allowed to own the red. Number set in Archivo black as a tel: link.",
+      "html": "<div class=\"ds-emerg\"><span class=\"ds-emerg-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M5 4h3l1.6 4-2 1.4a12 12 0 005 5l1.4-2 4 1.6V19a2 2 0 01-2 2A15 15 0 014 6a2 2 0 012-2z\" stroke=\"#fff\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/></svg></span><span class=\"ds-emerg-text\"><span class=\"ds-emerg-kicker\">UNISON Direct &mdash; get help now</span><a class=\"ds-emerg-number\" href=\"tel:08000857857\">0800 0857 857</a></span><span class=\"ds-emerg-hours\">Mon&ndash;Fri 06:00&ndash;midnight &middot; Sat 09:00&ndash;16:00</span></div>",
+      "css": ".ds-emerg { display:flex; align-items:center; gap:1rem; flex-wrap:wrap; font-family:'Public Sans','Helvetica Neue',Arial,sans-serif; background:#D5281B; color:#fff; padding:1rem 1.5rem; border-radius:14px; } .ds-emerg-icon { flex:none; width:42px; height:42px; display:inline-flex; align-items:center; justify-content:center; background:rgba(255,255,255,.16); border-radius:999px; } .ds-emerg-icon svg { width:22px; height:22px; } .ds-emerg-text { display:flex; flex-direction:column; line-height:1.1; } .ds-emerg-kicker { font-weight:700; font-size:.875rem; letter-spacing:.08em; text-transform:uppercase; opacity:.9; } .ds-emerg-number { font-family:'Archivo','Helvetica Neue',Arial,sans-serif; font-weight:900; font-size:clamp(1.75rem,1.4rem + 1.8vw,2.375rem); letter-spacing:-0.015em; color:#fff; text-decoration:none; } .ds-emerg-number:hover { text-decoration:underline; } .ds-emerg-hours { margin-left:auto; font-size:.875rem; opacity:.9; text-align:right; }"
+    },
+    {
+      "name": "Stat",
+      "kind": "custom",
+      "refersTo": "stat",
+      "description": "Signature component. A countable proof point — big Archivo-black figure over a small label.",
+      "html": "<div class=\"ds-stat\"><span class=\"ds-stat-value\">7,000</span><span class=\"ds-stat-label\">LAS members</span></div>",
+      "css": ".ds-stat { display:flex; flex-direction:column; gap:.25rem; font-family:'Public Sans','Helvetica Neue',Arial,sans-serif; } .ds-stat-value { font-family:'Archivo','Helvetica Neue',Arial,sans-serif; font-weight:900; letter-spacing:-0.015em; line-height:1; font-size:clamp(2.5rem,1.8rem + 3.6vw,3.75rem); color:#5E22A6; } .ds-stat-label { font-size:1rem; font-weight:600; color:#16121C; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Branch Banner",
+    "overview": "The site carries itself the way a trade-union branch carries its banner: proud, heritage-bound, and made to be seen at the front of a march. UNISON purple grounds everything; green and a brighter spark green are the rallying accents. Display type is Archivo at 800–900 — banner lettering, loud and unembarrassed — over the quiet, Helvetica-adjacent calm of Public Sans for everything you actually read. The feeling to land is solidarity made visible: almost 7,000 members standing together, a branch that represents, protects and stands up for the people who answer the call.\n\nUnderneath the banner there is an operational discipline borrowed from the service itself. Numbers that matter — pay rates, reference numbers, the help-line phone number — are set in IBM Plex Mono so they read as fact, not decoration. The 999-emergency register (a single hard red) is held in reserve and spent only on the genuinely urgent; its rarity is the whole point. Motion is restrained and quick; surfaces lift gently on soft, purple-tinted shadows. The result should read as institutional and trustworthy first, campaigning second — never the other way around.",
+    "keyCharacteristics": [
+      "Heritage-led: UNISON purple + green do the identity work; everything else is functional.",
+      "Banner-bold display type (Archivo 800–900) against calm humanist body type (Public Sans).",
+      "Mono for facts: rates, references and phone numbers in IBM Plex Mono.",
+      "The red is earned — emergency register reserved for genuine urgency.",
+      "Accessibility-first: built for a tired reader, mid-shift, on a small bright screen (WCAG 2.2 AA floor)."
+    ],
+    "rules": [
+      { "name": "The Earned-Red Rule", "body": "Emergency Red (#D5281B) is reserved for the genuinely urgent — the help line and true alerts. Never use it for general emphasis, decoration, or a 'look at this' accent. Its rarity is what gives it force.", "section": "colors" },
+      { "name": "The Hi-Vis Rule", "body": "Hi-Vis Yellow (#FFD200) appears only inside the battenburg motif. It is never a UI colour — not a button, not a highlight, not text.", "section": "colors" },
+      { "name": "The One Heritage Rule", "body": "Purple and green carry the identity. Blue, spark green, red and amber are functional — they mean something (clinical, highlight, emergency, warning). Never promote a functional colour to a decorative brand colour.", "section": "colors" },
+      { "name": "The Banner Rule", "body": "Headlines use Archivo 800–900 and never apologise. Letter-spacing on display sits at -0.02em — tight and confident, never looser, never tighter than letters touching.", "section": "typography" },
+      { "name": "The Mono-for-Numbers Rule", "body": "Anything a member might quote back — a pay figure, a case reference, the UNISON Direct number — is set in IBM Plex Mono so it reads as fact.", "section": "typography" },
+      { "name": "The One-Eyebrow Rule", "body": "The uppercase label/eyebrow is a deliberate category marker (a news category, the hero's 'UK's biggest ambulance branch'). It is not scaffolding to drop above every section. Earn each one.", "section": "typography" },
+      { "name": "The Warm-Shadow Rule", "body": "Shadows are tinted with the ink-strong hue (rgba(22,18,28,…)), never plain rgba(0,0,0,…). If a shadow looks grey and dirty, it is wrong.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do lead with the heritage: UNISON Purple grounds the page, green and spark green rally it.",
+      "Do keep the emergency help line (UNISON Direct) reachable within seconds on every screen — help first, fast.",
+      "Do set rates, reference numbers and phone numbers in IBM Plex Mono so they read as fact.",
+      "Do use Spark Green text (#1FB866) and white on dark purple; on light surfaces keep body text at #2A2433 and muted no lighter than #5C5468 (verified ≥4.5:1).",
+      "Do keep the one global focus ring (3px NHS-blue, 2px offset) on every interactive element, and honour prefers-reduced-motion.",
+      "Do put Archivo 800–900 to work on headlines — confident, tight at -0.02em, balanced wrapping."
+    ],
+    "donts": [
+      "Don't make it corporate / SaaS slick — no gradient-mesh heroes, no 'book a demo' gloss, no glassmorphism by default.",
+      "Don't make it a dated gov template — no grey-box GDS clone, no accordion soup, no hard grey drop-shadows.",
+      "Don't make it loud / agitprop — no all-caps body shouting, no clip-art megaphones, no ransom-note layouts. Conviction shows in clarity, not volume.",
+      "Don't spend the emergency red on anything but genuine urgency, and never use hi-vis yellow as a UI colour (battenburg motif only).",
+      "Don't use gradient text (background-clip: text) — emphasis comes from Archivo weight and size, a single solid colour.",
+      "Don't set the two sans-serifs (Archivo / Public Sans) at similar sizes side by side; separate them by role and weight.",
+      "Don't drop an uppercase eyebrow above every section — it's a deliberate category marker, not scaffolding."
+    ]
+  }
+}

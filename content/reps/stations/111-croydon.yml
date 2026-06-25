@@ -1,0 +1,17 @@
+kind: station
+name: "111 Croydon"
+slug: "111-croydon"
+sector: "eoc-iuec"
+area: "111"
+type: "control-room"
+lat: 51.376
+lng: -0.094
+order: 87
+reps:
+  - name: "Shirley James"
+  - name: "Rebecca Davis"
+  - name: "Audrey De’Allie"
+  - name: "Ben Nunn"
+hsReps:
+  - name: "Shirley James"
+  - name: "Ezra Denis"

@@ -1,0 +1,8 @@
+kind: station
+name: "Camden Workshop"
+slug: "camden-workshop"
+sector: "north-central"
+type: "workshop"
+order: 27
+reps: []
+hsReps: []

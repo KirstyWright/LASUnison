@@ -1,0 +1,12 @@
+kind: station
+name: "Waterloo (N3)"
+slug: "waterloo"
+sector: "south-east"
+type: "ambulance-station"
+lat: 51.50017
+lng: -0.10901
+order: 65
+reps:
+  - name: "Marcus Davis"
+hsReps:
+  - name: "Antonia Gosnell"

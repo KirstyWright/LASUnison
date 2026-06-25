@@ -1,0 +1,12 @@
+kind: station
+name: "Chase Farm (H1)"
+slug: "chase-farm"
+sector: "north-central"
+type: "ambulance-station"
+lat: 51.66589
+lng: -0.10671
+order: 21
+reps:
+  - name: "Jack Jeffrey"
+hsReps:
+  - name: "Lyndon Allen"

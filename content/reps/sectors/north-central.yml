@@ -1,0 +1,8 @@
+kind: sector
+name: "North Central"
+sector: "north-central"
+order: 2
+description: "Tottenham, Edmonton, Chase Farm, Ponders End, Camden, Islington, Bloomsbury, Barnet, Friern Barnet, Mill Hill"
+seniorReps:
+  - name: "Mark Belkin"
+  - name: "Julie Cunnane"

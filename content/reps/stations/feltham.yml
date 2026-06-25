@@ -1,0 +1,12 @@
+kind: station
+name: "Feltham (A1)"
+slug: "feltham"
+sector: "north-west"
+type: "ambulance-station"
+lat: 51.46152
+lng: -0.41525
+order: 3
+reps:
+  - name: "Steve Warwick"
+hsReps:
+  - name: "Jack Denham"

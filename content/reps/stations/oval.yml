@@ -1,0 +1,12 @@
+kind: station
+name: "Oval (Q3)"
+slug: "oval"
+sector: "south-east"
+type: "ambulance-station"
+lat: 51.47882
+lng: -0.10769
+order: 67
+reps:
+  - name: "Andy Clark"
+hsReps:
+  - name: "Joe Wheatley"

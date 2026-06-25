@@ -1,0 +1,12 @@
+kind: station
+name: "Pinner (B6)"
+slug: "pinner"
+sector: "north-west"
+type: "ambulance-station"
+lat: 51.57765
+lng: -0.36827
+order: 13
+reps:
+  - name: "Tom De Ronde"
+hsReps:
+  - name: "Marcus Ramini"

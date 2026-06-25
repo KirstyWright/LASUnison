@@ -1,0 +1,12 @@
+kind: station
+name: "Putney (Q4)"
+slug: "putney"
+sector: "south-west"
+type: "ambulance-station"
+lat: 51.45729
+lng: -0.20113
+order: 50
+reps:
+  - name: "Samantha Sanson"
+hsReps:
+  - name: "Martin Clayton"

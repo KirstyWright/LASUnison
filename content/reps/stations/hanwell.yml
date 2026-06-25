@@ -1,0 +1,12 @@
+kind: station
+name: "Hanwell (B3)"
+slug: "hanwell"
+sector: "north-west"
+type: "ambulance-station"
+lat: 51.5062
+lng: -0.33684
+order: 1
+reps:
+  - name: "Malgorzata (Gosha) Graf"
+hsReps:
+  - name: "Jen McNulty"

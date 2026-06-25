@@ -1,0 +1,12 @@
+kind: station
+name: "Walthamstow (J4)"
+slug: "walthamstow"
+sector: "north-east"
+type: "ambulance-station"
+lat: 51.60083
+lng: -0.00993
+order: 41
+reps:
+  - name: "Emma McGregor"
+hsReps:
+  - name: "Fay Reid"

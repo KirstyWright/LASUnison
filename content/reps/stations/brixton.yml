@@ -1,0 +1,11 @@
+kind: station
+name: "Brixton (Q2)"
+slug: "brixton"
+sector: "south-east"
+type: "ambulance-station"
+lat: 51.45911
+lng: -0.10294
+order: 66
+reps: []
+hsReps:
+  - name: "Adrian Landman"

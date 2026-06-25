@@ -1,0 +1,8 @@
+kind: sector
+name: "South East"
+sector: "south-east"
+order: 5
+description: "Greenwich, Barnehurst, Mottingham, Woolwich, Bromley, St Pauls Cray, Forest Hill, Waterloo, Brixton, Oval, Deptford, Streatham"
+seniorReps:
+  - name: "Marcus Davis"
+  - name: "Carly Harris"

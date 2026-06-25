@@ -1,0 +1,12 @@
+kind: station
+name: "Ponders End (H4)"
+slug: "ponders-end"
+sector: "north-central"
+type: "ambulance-station"
+lat: 51.66025
+lng: -0.05125
+order: 22
+reps:
+  - name: "Kelly Bull"
+hsReps:
+  - name: "Keith Buckor"

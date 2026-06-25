@@ -1,0 +1,12 @@
+kind: station
+name: "Homerton (G3)"
+slug: "homerton"
+sector: "north-east"
+type: "ambulance-station"
+lat: 51.54781
+lng: -0.04554
+order: 34
+reps:
+  - name: "Andy Green"
+hsReps:
+  - name: "Laura Harrison"

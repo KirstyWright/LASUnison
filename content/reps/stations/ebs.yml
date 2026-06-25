@@ -1,0 +1,12 @@
+kind: station
+name: "EBS"
+slug: "ebs"
+sector: "eoc-iuec"
+area: "EBS"
+type: "specialist"
+lat: 51.5047
+lng: -0.1118
+order: 88
+reps:
+  - name: "Kevan Horner"
+hsReps: []

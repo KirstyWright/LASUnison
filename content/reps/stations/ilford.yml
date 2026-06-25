@@ -1,0 +1,12 @@
+kind: station
+name: "Ilford (K3)"
+slug: "ilford"
+sector: "north-east"
+type: "ambulance-station"
+lat: 51.57758
+lng: 0.10153
+order: 39
+reps:
+  - name: "Craig Birkin"
+hsReps:
+  - name: "Teresa Gilbert"

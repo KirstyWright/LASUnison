@@ -1,0 +1,12 @@
+kind: station
+name: "Fulham (F2)"
+slug: "fulham"
+sector: "north-west"
+type: "ambulance-station"
+lat: 51.48622
+lng: -0.19619
+order: 17
+reps:
+  - name: "Lauren Innes"
+hsReps:
+  - name: "Zohir Ferchiche"

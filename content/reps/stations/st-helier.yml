@@ -1,0 +1,12 @@
+kind: station
+name: "St Helier (R1)"
+slug: "st-helier"
+sector: "south-west"
+type: "ambulance-station"
+lat: 51.38677
+lng: -0.18411
+order: 55
+reps:
+  - name: "Donna Reeves"
+hsReps:
+  - name: "Donna Murray"

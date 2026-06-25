@@ -1,0 +1,11 @@
+kind: station
+name: "E Watch"
+slug: "eoc-newham-e-watch"
+sector: "eoc-iuec"
+area: "EOC Newham"
+type: "control-room"
+order: 76
+reps:
+  - name: "Samantha Mason"
+hsReps:
+  - name: "Wendyl Harris"

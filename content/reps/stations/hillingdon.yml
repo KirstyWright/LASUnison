@@ -1,0 +1,12 @@
+kind: station
+name: "Hillingdon (B5)"
+slug: "hillingdon"
+sector: "north-west"
+type: "ambulance-station"
+lat: 51.5243
+lng: -0.46508
+order: 5
+reps:
+  - name: "Kev Brace"
+hsReps:
+  - name: "Adam Farr"

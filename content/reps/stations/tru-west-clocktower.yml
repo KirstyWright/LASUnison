@@ -1,0 +1,10 @@
+kind: station
+name: "TRU West (Clocktower)"
+slug: "tru-west-clocktower"
+sector: "north-west"
+type: "specialist"
+order: 9
+reps:
+  - name: "Chris Pickering"
+hsReps:
+  - name: "Jason Anderson"

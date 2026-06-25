@@ -1,0 +1,12 @@
+kind: station
+name: "HART West (Clocktower)"
+slug: "hart-west-clocktower"
+sector: "north-west"
+type: "specialist"
+lat: 51.5479
+lng: -0.4711
+order: 8
+reps:
+  - name: "Chris Pickering"
+hsReps:
+  - name: "Jason Anderson"

@@ -1,0 +1,11 @@
+kind: station
+name: "Richmond (S2)"
+slug: "richmond"
+sector: "south-west"
+type: "ambulance-station"
+lat: 51.46053
+lng: -0.29364
+order: 47
+reps:
+  - name: "Dan Hurley"
+hsReps: []

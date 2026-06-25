@@ -1,0 +1,13 @@
+kind: station
+name: "Barnet (D2)"
+slug: "barnet"
+sector: "north-central"
+type: "ambulance-station"
+lat: 51.648
+lng: -0.1983
+order: 28
+reps:
+  - name: "Dave Smith"
+hsReps:
+  - name: "Roy Handley"
+    note: "GMB"

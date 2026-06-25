@@ -1,0 +1,12 @@
+kind: station
+name: "East Education Centre"
+slug: "east-education-centre"
+sector: "north-east"
+type: "education"
+aliases:
+  - "Clinical Education East"
+order: 45
+reps:
+  - name: "Marie Randall"
+hsReps:
+  - name: "Colin Parker"

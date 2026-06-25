@@ -1,1 +1,412 @@
 @import "tailwindcss";
+
+/* ============================================================
+   LAS UNISON Design System — design tokens
+   Heritage: UNISON purple + green. Functional accents: NHS blue
+   (clinical), spark green (highlight), 999 red (emergency),
+   hi-vis yellow (battenburg motif only).
+   Ported from the LAS UNISON design artifact.
+   ============================================================ */
+:root {
+  /* ---- UNISON Purple (primary / heritage) ---- */
+  --purple-950: #170728;
+  --purple-900: #220B3C;
+  --purple-800: #341259;
+  --purple-750: #3C1D5D; /* UNISON national hero / band */
+  --purple-700: #491A82;
+  --purple-600: #5E22A6; /* PRIMARY */
+  --purple-500: #7634C4;
+  --purple-400: #8E5AD2;
+  --purple-300: #AD88E1;
+  --purple-200: #CBB4ED;
+  --purple-100: #E7DBF7;
+  --purple-50:  #F3EDFB;
+
+  /* ---- UNISON Green (secondary / heritage) ---- */
+  --green-800: #00502A;
+  --green-700: #006B33;
+  --green-600: #00843D; /* SECONDARY */
+  --green-500: #009E4A;
+  --green-400: #3FB46E;
+  --green-300: #82CDA1;
+  --green-200: #BCE5CC;
+  --green-100: #E0F2E8;
+  --green-50:  #F0F9F3;
+
+  /* ---- Spark green (single bright accent / highlight) ---- */
+  --spark-700: #0E9E55;
+  --spark-600: #14AD5F;
+  --spark-500: #1FB866; /* HIGHLIGHT */
+  --spark-400: #4ECB86;
+  --spark-300: #86DCAC;
+  --spark-100: #DDF6E8;
+
+  /* ---- NHS / emergency blue (clinical context) ---- */
+  --blue-800: #002B52;
+  --blue-700: #003B6F;
+  --blue-600: #005EB8; /* NHS BLUE */
+  --blue-500: #2B7FD0;
+  --blue-400: #5BA0E0;
+  --blue-100: #E3EFFA;
+  --blue-50:  #F1F7FD;
+
+  /* ---- 999 emergency red ---- */
+  --red-700: #A81B10;
+  --red-600: #D5281B; /* EMERGENCY */
+  --red-500: #E63329;
+  --red-400: #F0635B;
+  --red-100: #FBE3E1;
+
+  /* ---- Hi-vis yellow (battenburg motif only) ---- */
+  --yellow-500: #E8BE00;
+  --yellow-400: #FFD200;
+  --yellow-300: #FFE14D;
+  --yellow-100: #FFF6CC;
+
+  /* ---- Amber (warning) ---- */
+  --amber-600: #B26A00;
+  --amber-500: #E08600;
+  --amber-100: #FCEFD6;
+
+  /* ---- Neutrals — warm, faintly purple-tinted ink ---- */
+  --ink-950: #0F0B14;
+  --ink-900: #16121C;
+  --ink-800: #2A2433;
+  --ink-700: #423B4E;
+  --ink-600: #5C5468;
+  --ink-500: #7A7287;
+  --ink-400: #9D96A8;
+  --ink-300: #C5C0CD;
+  --ink-200: #E2DFE8;
+  --ink-150: #EAE7EF;
+  --ink-100: #F0EEF3;
+  --ink-50:  #F8F7FA;
+  --white:   #FFFFFF;
+
+  /* ---- Semantic aliases — reference these in components ---- */
+  --brand-primary:        var(--purple-600);
+  --brand-primary-strong: var(--purple-700);
+  --brand-primary-soft:   var(--purple-100);
+  --brand-secondary:      var(--green-600);
+  --brand-secondary-soft: var(--green-100);
+  --brand-accent:         var(--blue-600);
+  --brand-accent-soft:    var(--blue-100);
+  --brand-highlight:      var(--spark-500);
+  --brand-highlight-soft: var(--spark-100);
+
+  --text-strong:  var(--ink-900);
+  --text-body:    var(--ink-800);
+  --text-muted:   var(--ink-600);
+  --text-subtle:  var(--ink-500);
+  --text-inverse: var(--white);
+  --text-on-brand:var(--white);
+  --text-link:    var(--purple-600);
+  --text-link-hover: var(--purple-700);
+
+  --surface-page:       var(--ink-50);
+  --surface-card:       var(--white);
+  --surface-raised:     var(--white);
+  --surface-sunken:     var(--ink-100);
+  --surface-brand:      var(--purple-750);
+  --surface-brand-deep: var(--purple-800);
+  --surface-brand-soft: var(--purple-50);
+  --surface-accent:     var(--blue-600);
+  --surface-inverse:    var(--ink-900);
+
+  --border-subtle:  var(--ink-150);
+  --border-default: var(--ink-200);
+  --border-strong:  var(--ink-300);
+  --border-brand:   var(--purple-600);
+  --border-focus:   var(--blue-600);
+
+  --success:      var(--green-600);
+  --success-soft: var(--green-100);
+  --warning:      var(--amber-500);
+  --warning-soft: var(--amber-100);
+  --danger:       var(--red-600);
+  --danger-soft:  var(--red-100);
+  --info:         var(--blue-600);
+  --info-soft:    var(--blue-100);
+
+  --emergency:      var(--red-600);
+  --emergency-soft: var(--red-100);
+  --emergency-ink:  var(--white);
+
+  /* ---- Typography ---- */
+  --font-display: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --font-sans:    'Public Sans', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono:    'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+  --text-xs:   0.75rem;
+  --text-sm:   0.875rem;
+  --text-base: 1rem;
+  --text-md:   1.125rem;
+  --text-lg:   1.25rem;
+  --text-xl:   1.5rem;
+  --text-2xl:  clamp(1.5rem, calc(1.2rem + 1.4vw), 1.875rem);
+  --text-3xl:  clamp(1.75rem, calc(1.4rem + 1.8vw), 2.375rem);
+  --text-4xl:  clamp(2.125rem, calc(1.6rem + 2.6vw), 3rem);
+  --text-5xl:  clamp(2.5rem, calc(1.8rem + 3.6vw), 3.75rem);
+  --text-6xl:  clamp(3rem, calc(2rem + 5vw), 4.75rem);
+
+  /* ---- Spacing & layout ---- */
+  --space-1:  0.25rem;  --space-2:  0.5rem;  --space-3:  0.75rem;
+  --space-4:  1rem;     --space-5:  1.25rem; --space-6:  1.5rem;
+  --space-8:  2rem;     --space-10: 2.5rem;  --space-12: 3rem;
+  --space-16: 4rem;     --space-20: 5rem;    --space-24: 6rem;
+
+  --section-y:       clamp(3rem, calc(2rem + 5vw), 6rem);
+  --section-y-tight: clamp(2rem, calc(1.5rem + 2.5vw), 3.5rem);
+
+  --container-max:  1200px;
+  --gutter:         clamp(1rem, calc(0.5rem + 2.5vw), 2.5rem);
+  --header-h:       118px; /* sticky header: utility strip (40) + main bar (78) */
+
+  /* ---- Radius / shadow / motion ---- */
+  --radius-xs: 4px;  --radius-sm: 6px;  --radius-md: 10px;
+  --radius-lg: 14px; --radius-xl: 20px; --radius-2xl: 28px;
+  --radius-pill: 999px;
+  --radius-card: var(--radius-lg);
+
+  --shadow-xs:  0 1px 2px rgba(22, 18, 28, 0.06);
+  --shadow-sm:  0 1px 2px rgba(22, 18, 28, 0.06), 0 2px 4px rgba(22, 18, 28, 0.05);
+  --shadow-md:  0 4px 8px rgba(22, 18, 28, 0.06), 0 8px 20px rgba(22, 18, 28, 0.07);
+  --shadow-lg:  0 12px 28px rgba(22, 18, 28, 0.10), 0 4px 10px rgba(22, 18, 28, 0.05);
+  --shadow-xl:  0 24px 56px rgba(22, 18, 28, 0.16), 0 8px 18px rgba(22, 18, 28, 0.06);
+
+  --ease-standard: cubic-bezier(0.2, 0, 0.2, 1);
+  --ease-out:      cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ============================================================
+   Base layer — element defaults wired to tokens.
+   Declared in @layer base so they override Tailwind preflight
+   (also base) but still LOSE to utilities (@layer utilities) —
+   so `text-white` etc. on a heading wins as expected.
+   ============================================================ */
+@layer base {
+  body {
+    margin: 0;
+    font-family: var(--font-sans);
+    font-size: var(--text-base);
+    line-height: 1.55;
+    color: var(--text-body);
+    background: var(--surface-page);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: clip;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    color: var(--text-strong);
+    line-height: 1.12;
+    letter-spacing: -0.015em;
+    font-weight: 800;
+    margin: 0 0 0.5em;
+    text-wrap: balance;
+  }
+
+  p { text-wrap: pretty; }
+}
+
+::selection { background: var(--brand-highlight); color: var(--ink-900); }
+
+:focus-visible {
+  outline: 3px solid var(--border-focus);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---- Layout helpers ---- */
+.las-container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.las-section { padding-block: var(--section-y); }
+
+/* In-page anchor targets clear the sticky header — works with the router scrollBehavior
+   for routed nav links, and natively for the skip link and direct hash loads. */
+:where(section[id], main[id]) { scroll-margin-top: calc(var(--header-h) + 1rem); }
+/* The main landmark is a programmatic focus target for the skip link, not a control. */
+main:focus { outline: none; }
+
+/* Skip link — first focusable element, visible only when focused (WCAG 2.4.1). */
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 300;
+  transform: translateY(calc(-100% - 1.25rem));
+  transition: transform 160ms var(--ease-out);
+  background: var(--brand-primary);
+  color: var(--text-on-brand);
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: var(--text-sm);
+  padding: 0.625rem 1.25rem;
+  border-radius: var(--radius-pill);
+  box-shadow: var(--shadow-lg);
+  text-decoration: none;
+}
+.skip-link:focus { transform: translateY(0); }
+
+html { scroll-behavior: smooth; }
+
+/* ============================================================
+   Prose — rich text rendered by ContentRenderer (legal pages, etc.)
+   Scoped to .las-prose so it can't bleed into component markup.
+   ============================================================ */
+.las-prose {
+  color: var(--text-body);
+  font-size: var(--text-base);
+  line-height: 1.7;
+}
+.las-prose > * + * { margin-top: 1.25em; }
+.las-prose > * { margin-bottom: 0; }
+
+.las-prose h2 {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  font-weight: 800;
+  color: var(--text-strong);
+  letter-spacing: -0.015em;
+  line-height: 1.15;
+  margin-top: 2.25em;
+  margin-bottom: 0.6em;
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid var(--border-subtle);
+}
+.las-prose h2:first-child { margin-top: 0; }
+
+.las-prose h3 {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 800;
+  color: var(--text-strong);
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.las-prose h4 {
+  font-family: var(--font-display);
+  font-size: var(--text-md);
+  font-weight: 700;
+  color: var(--text-strong);
+  margin-top: 1.75em;
+  margin-bottom: 0.4em;
+}
+
+.las-prose p {
+  line-height: 1.7;
+  text-wrap: pretty;
+}
+
+.las-prose a {
+  color: var(--text-link);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: color 0.15s;
+}
+.las-prose a:hover { color: var(--text-link-hover); }
+
+.las-prose strong { font-weight: 700; color: var(--text-strong); }
+
+.las-prose ul,
+.las-prose ol {
+  padding-left: 1.5em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+.las-prose ul { list-style-type: disc; }
+.las-prose ol { list-style-type: decimal; }
+.las-prose li { margin-top: 0.4em; line-height: 1.6; }
+.las-prose li::marker { color: var(--brand-primary); }
+
+.las-prose hr {
+  border: none;
+  border-top: 1px solid var(--border-subtle);
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
+.las-prose blockquote {
+  border-left: 2px solid var(--border-default);
+  margin-left: 0;
+  padding: 0.5em 1.25em;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.las-prose code {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+  background: var(--surface-sunken);
+  padding: 0.15em 0.4em;
+  border-radius: var(--radius-xs);
+  color: var(--brand-primary-strong);
+}
+
+/* Data tables (pay scales, supplements). Labels in Public Sans; the figures a member
+   might quote back in IBM Plex Mono with tabular figures so they read as fact and line
+   up. The table scrolls horizontally on narrow screens rather than squashing. */
+.las-prose table {
+  display: block;
+  width: 100%;
+  max-width: max-content;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin-top: 1.75em;
+  margin-bottom: 1.75em;
+  font-size: 0.9375rem;
+}
+.las-prose thead th {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  text-align: left;
+  color: var(--text-strong);
+  background: var(--surface-sunken);
+  padding: 0.625rem 0.875rem;
+  border-bottom: 2px solid var(--border-default);
+  line-height: 1.25;
+  vertical-align: bottom;
+}
+.las-prose tbody td {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  padding: 0.5rem 0.875rem;
+  border-top: 1px solid var(--border-subtle);
+  color: var(--text-body);
+  white-space: nowrap;
+}
+.las-prose tbody tr:hover { background: var(--surface-sunken); }
+
+/* ============================================================
+   Motion — intentional, reduced-motion-safe.
+   Content is always visible by default; these only enhance.
+   ============================================================ */
+@keyframes las-rise {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* On-load entrance (above the fold). Stagger with inline animation-delay. */
+@media (prefers-reduced-motion: no-preference) {
+  .las-rise { animation: las-rise 0.7s var(--ease-out) both; }
+}
+
+/* Scroll-into-view reveal removed by request — below-the-fold content is now
+   shown statically (no fade/rise as it enters). The `.las-reveal` class is left
+   on elements as an inert no-op; it can be stripped later for tidiness. */

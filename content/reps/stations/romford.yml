@@ -1,0 +1,12 @@
+kind: station
+name: "Romford (K4)"
+slug: "romford"
+sector: "north-east"
+type: "ambulance-station"
+lat: 51.57176
+lng: 0.18179
+order: 37
+reps:
+  - name: "Dave Dipalma"
+hsReps:
+  - name: "George Allen"

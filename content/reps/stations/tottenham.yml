@@ -1,0 +1,12 @@
+kind: station
+name: "Tottenham (H5)"
+slug: "tottenham"
+sector: "north-central"
+type: "ambulance-station"
+lat: 51.58063
+lng: -0.09207
+order: 19
+reps:
+  - name: "Julie Cunnane"
+hsReps:
+  - name: "Claire Rush"

@@ -1,0 +1,12 @@
+kind: station
+name: "Mill Hill (C8)"
+slug: "mill-hill"
+sector: "north-central"
+type: "ambulance-station"
+lat: 51.61499
+lng: -0.24357
+order: 30
+reps:
+  - name: "Dave Jones"
+hsReps:
+  - name: "Natasha Fogg"

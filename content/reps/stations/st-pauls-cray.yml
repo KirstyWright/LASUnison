@@ -1,0 +1,12 @@
+kind: station
+name: "St Pauls Cray (L4)"
+slug: "st-pauls-cray"
+sector: "south-east"
+type: "ambulance-station"
+lat: 51.40256
+lng: 0.10313
+order: 62
+reps:
+  - name: "Dave Bremerkamp"
+hsReps:
+  - name: "Dave Austin"

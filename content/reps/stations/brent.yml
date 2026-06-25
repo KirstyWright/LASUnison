@@ -1,0 +1,12 @@
+kind: station
+name: "Brent (C3)"
+slug: "brent"
+sector: "north-west"
+type: "ambulance-station"
+lat: 51.55503
+lng: -0.24886
+order: 11
+reps:
+  - name: "Alex Kvam"
+hsReps:
+  - name: "Yusuf Akram"

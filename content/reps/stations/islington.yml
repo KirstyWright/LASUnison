@@ -1,0 +1,12 @@
+kind: station
+name: "Islington (G1)"
+slug: "islington"
+sector: "north-central"
+type: "ambulance-station"
+lat: 51.54457
+lng: -0.12414
+order: 24
+reps:
+  - name: "Terry Stubbs"
+hsReps:
+  - name: "Rosanna Hiscock"

@@ -1,0 +1,8 @@
+kind: sector
+name: "EOC / IUEC"
+sector: "eoc-iuec"
+order: 6
+description: "Emergency Operations Centre (Newham & HQ), NHS 111 (Newham & Croydon) and EBS"
+seniorReps:
+  - name: "Sam Billoo"
+  - name: "Callum Gillies"

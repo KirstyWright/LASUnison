@@ -1,0 +1,12 @@
+kind: station
+name: "Friern Barnet (D4)"
+slug: "friern-barnet"
+sector: "north-central"
+type: "ambulance-station"
+lat: 51.609
+lng: -0.15415
+order: 29
+reps:
+  - name: "Mark Belkin"
+hsReps:
+  - name: "Ibrahim Abdikadir"

@@ -1,0 +1,12 @@
+kind: station
+name: "Wimbledon (R3)"
+slug: "wimbledon"
+sector: "south-west"
+type: "ambulance-station"
+lat: 51.41626
+lng: -0.21631
+order: 48
+reps:
+  - name: "Laren Tinsdale"
+hsReps:
+  - name: "Chris Chapman"

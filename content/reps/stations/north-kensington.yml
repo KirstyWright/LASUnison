@@ -1,0 +1,11 @@
+kind: station
+name: "North Kensington (C4)"
+slug: "north-kensington"
+sector: "north-west"
+type: "ambulance-station"
+lat: 51.51741
+lng: -0.21217
+order: 18
+reps: []
+hsReps:
+  - name: "Matthew Rolfe"

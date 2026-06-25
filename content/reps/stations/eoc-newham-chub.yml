@@ -1,0 +1,11 @@
+kind: station
+name: "CHUB"
+slug: "eoc-newham-chub"
+sector: "eoc-iuec"
+area: "EOC Newham"
+type: "control-room"
+order: 77
+reps:
+  - name: "Paulus Nangolo"
+hsReps:
+  - name: "Shamim Akhtar"

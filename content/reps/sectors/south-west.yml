@@ -1,0 +1,8 @@
+kind: sector
+name: "South West"
+sector: "south-west"
+order: 4
+description: "New Malden, Richmond, Wimbledon, Battersea, Putney, Croydon, South Croydon, New Addington, Coulsdon, St Helier, Sutton"
+seniorReps:
+  - name: "Donna Reeves"
+  - name: "Jason Clelland"

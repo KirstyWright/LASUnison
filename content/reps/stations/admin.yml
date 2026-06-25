@@ -1,0 +1,8 @@
+kind: station
+name: "Admin"
+slug: "admin"
+sector: "other"
+type: "support"
+order: 91
+reps: []
+hsReps: []

@@ -1,0 +1,13 @@
+kind: station
+name: "E Watch"
+slug: "eoc-hq-e-watch"
+sector: "eoc-iuec"
+area: "EOC HQ"
+type: "control-room"
+lat: 51.5045
+lng: -0.1124
+order: 82
+reps:
+  - name: "Amanda Cassidy"
+hsReps:
+  - name: "Rhys Wait"

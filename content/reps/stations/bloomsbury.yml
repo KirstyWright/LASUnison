@@ -1,0 +1,12 @@
+kind: station
+name: "Bloomsbury (E1)"
+slug: "bloomsbury"
+sector: "north-central"
+type: "ambulance-station"
+lat: 51.52489
+lng: -0.12661
+order: 25
+reps:
+  - name: "Paula Fryer"
+hsReps:
+  - name: "Eideann Sly"

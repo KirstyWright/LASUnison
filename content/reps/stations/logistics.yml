@@ -1,0 +1,8 @@
+kind: station
+name: "Logistics"
+slug: "logistics"
+sector: "other"
+type: "logistics"
+order: 92
+reps: []
+hsReps: []

@@ -1,0 +1,10 @@
+kind: station
+name: "Medicines Packing Unit"
+slug: "mpu"
+sector: "other"
+type: "support"
+order: 96
+reps:
+  - name: "James Townsend"
+hsReps:
+  - name: "Jordan Forrest"

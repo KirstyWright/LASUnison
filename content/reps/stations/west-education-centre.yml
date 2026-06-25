@@ -1,0 +1,12 @@
+kind: station
+name: "West Education Centre"
+slug: "west-education-centre"
+sector: "north-west"
+type: "education"
+aliases:
+  - "Clinical Education West"
+order: 10
+reps:
+  - name: "Suzie Hymers"
+hsReps:
+  - name: "Robert Hood"

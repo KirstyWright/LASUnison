@@ -1,0 +1,12 @@
+kind: station
+name: "Shoreditch (G4)"
+slug: "shoreditch"
+sector: "north-east"
+type: "ambulance-station"
+lat: 51.52888
+lng: -0.07841
+order: 36
+reps:
+  - name: "Michael Carter"
+hsReps:
+  - name: "Michael Carter"

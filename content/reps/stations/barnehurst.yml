@@ -1,0 +1,12 @@
+kind: station
+name: "Barnehurst (L1)"
+slug: "barnehurst"
+sector: "south-east"
+type: "ambulance-station"
+lat: 51.46079
+lng: 0.15383
+order: 58
+reps:
+  - name: "Dean Welch"
+hsReps:
+  - name: "Richard Reynold"

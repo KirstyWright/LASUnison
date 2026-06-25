@@ -1,0 +1,12 @@
+kind: station
+name: "Forest Hill (N6)"
+slug: "forest-hill"
+sector: "south-east"
+type: "ambulance-station"
+lat: 51.44036
+lng: -0.05457
+order: 63
+reps:
+  - name: "Sophie Hall"
+hsReps:
+  - name: "Sophie Hall"

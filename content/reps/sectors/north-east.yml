@@ -1,0 +1,8 @@
+kind: sector
+name: "North East"
+sector: "north-east"
+order: 3
+description: "West Ham, Newham, Homerton, Poplar, Shoreditch, Romford, Becontree, Ilford, Whipps Cross, Walthamstow, Cody Road"
+seniorReps:
+  - name: "Nick McKenna"
+  - name: "Dave Dipalma"

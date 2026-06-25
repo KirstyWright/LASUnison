@@ -1,0 +1,9 @@
+kind: station
+name: "Kenton NETS"
+slug: "kenton-nets"
+sector: "north-west"
+type: "nets"
+order: 14
+reps:
+  - name: "Mike Duffy"
+hsReps: []

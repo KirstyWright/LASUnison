@@ -1,0 +1,10 @@
+kind: station
+name: "Woolwich (L5)"
+slug: "woolwich"
+sector: "south-east"
+type: "ambulance-station"
+lat: 51.49416
+lng: 0.06683
+order: 60
+reps: []
+hsReps: []

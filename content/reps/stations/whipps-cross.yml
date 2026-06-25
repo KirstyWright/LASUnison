@@ -1,0 +1,12 @@
+kind: station
+name: "Whipps Cross (J3)"
+slug: "whipps-cross"
+sector: "north-east"
+type: "ambulance-station"
+lat: 51.57765
+lng: 0.00663
+order: 40
+reps:
+  - name: "Nick McKenna"
+hsReps:
+  - name: "Paul Stewart"

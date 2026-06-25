@@ -1,0 +1,12 @@
+kind: station
+name: "Cody Road"
+slug: "cody-road"
+sector: "north-east"
+type: "ambulance-station"
+lat: 51.5388
+lng: 0.024
+order: 43
+reps:
+  - name: "Simon Dady"
+hsReps:
+  - name: "Ciaran Naughton"

@@ -1,0 +1,12 @@
+kind: station
+name: "Westminster (F1)"
+slug: "westminster"
+sector: "north-west"
+type: "ambulance-station"
+lat: 51.49042
+lng: -0.13106
+order: 15
+reps:
+  - name: "Robert Hughes"
+hsReps:
+  - name: "Geoff Nicholls"

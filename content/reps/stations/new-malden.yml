@@ -1,0 +1,12 @@
+kind: station
+name: "New Malden (S1)"
+slug: "new-malden"
+sector: "south-west"
+type: "ambulance-station"
+lat: 51.4027
+lng: -0.26935
+order: 46
+reps:
+  - name: "Jason Clelland"
+hsReps:
+  - name: "Paul Delafond"

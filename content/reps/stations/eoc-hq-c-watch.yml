@@ -1,0 +1,13 @@
+kind: station
+name: "C Watch"
+slug: "eoc-hq-c-watch"
+sector: "eoc-iuec"
+area: "EOC HQ"
+type: "control-room"
+lat: 51.5045
+lng: -0.1124
+order: 80
+reps:
+  - name: "Callum Gillies"
+hsReps:
+  - name: "Scott Robertson"

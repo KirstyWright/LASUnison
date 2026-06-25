@@ -1,0 +1,8 @@
+kind: sector
+name: "North West"
+sector: "north-west"
+order: 1
+description: "Hanwell, Isleworth, Feltham, Greenford, Hillingdon, Hayes, Heathrow, HART/TRU West, Brent, Kenton, Pinner, Westminster, St Johns Wood, Fulham, North Kensington"
+seniorReps:
+  - name: "Kev Brace"
+  - name: "Victoria Lichay"

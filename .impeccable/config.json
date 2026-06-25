@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-radius",
+        "value": "2px",
+        "reason": "Focus ring border-radius — accessibility affordance, not a decorative shape",
+        "createdAt": "2026-06-25T14:49:48.133Z"
+      }
+    ]
+  }
+}
