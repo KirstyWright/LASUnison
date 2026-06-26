@@ -73,3 +73,12 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Todo
+
+- [ ] Implement Analytics
+- [ ] Get branch rep/officer pictures & ensure emails up to date
+- [ ] Ensure Rep details are correct
+- [ ] Sort out VPS?
+- [ ] Sort out smoke test
+- [ ] Sort out documentation

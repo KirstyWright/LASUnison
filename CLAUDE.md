@@ -19,11 +19,11 @@ When adding a feature, flag content-vs-structure decisions so editable copy ends
 Note: the homepage is currently a hardcoded Vue port of an external design (see memory `unison-design-source`); its editable copy can be migrated to Content collections before connecting Studio.
 
 ## Content migration & URLs (preserve old slugs)
-We are cloning the old WordPress site (https://lasunison.com) into this project — the full export is at `../old` and the content audit lives in `docs/migration/` (see memory `unison-old-site-audit`).
+The WordPress site (https://lasunison.com) has been migrated into this project. The one-time audit (`docs/migration/`) and migration scripts (`scripts/wp-audit`, `scripts/wp-migrate`, and the various `fetch-*`/`wire-*`/`enrich-*` helpers) have been **removed now the migration is complete** — the full WP export still lives at `../old` if anything ever needs re-deriving.
 
-**We MUST respect the old page slugs for every migrated article and page.** The old permalink structure is `/%postname%` — posts live at `https://lasunison.com/<slug>` (flat) and pages are hierarchical (`/<parent>/<slug>`). When migrating any post or page:
-- Reuse its **original slug** so its existing URL keeps working (the `Old URL` column in `docs/migration/pages.csv` / `posts.csv` is the source of truth).
-- If the new information architecture changes a path (e.g. posts move under `/news/<slug>`), add a **redirect** from the old URL to the new one in `nuxt.config.ts` `routeRules` — never silently drop or rename a URL.
+**We MUST respect the old page slugs for every migrated article and page.** The old permalink structure is `/%postname%` — posts lived at `https://lasunison.com/<slug>` (flat) and pages were hierarchical (`/<parent>/<slug>`). When adding or moving any post or page:
+- Reuse its **original slug** so its existing URL keeps working.
+- If the information architecture changes a path (e.g. posts moved under `/news/<slug>`), add a **redirect** from the old URL to the new one — the redirect map is `app/redirects.json` (bulk, post-level) + `app/redirects.manual.mjs` (curated page/IA changes), compiled to `public/.htaccess` by `scripts/build-htaccess.mjs` (runs on `pnpm generate`). Never silently drop or rename a URL.
 - Preserve these slugs/redirects right through to launch so inbound links, bookmarks, and search rankings survive the move.
 
 ## Design context

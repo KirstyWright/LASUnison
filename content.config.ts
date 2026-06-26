@@ -1,5 +1,31 @@
 import { defineContentConfig, defineCollection, z } from '@nuxt/content'
 
+// Editable per-page SEO overrides — surfaced as fields in Nuxt Studio so a
+// non-technical editor owns each page's search/social presence. Every field is
+// optional; when blank the page falls back to its own title / description / excerpt
+// and a branded default share image (see the page components). Originally back-filled
+// from the old site's Yoast metadata during migration, now refined by editors.
+const seo = z
+  .object({
+    title: z
+      .string()
+      .optional()
+      .describe('Search/browser-tab title. Blank = the page title. Aim for ≤ 60 characters.'),
+    description: z
+      .string()
+      .optional()
+      .describe('Meta description shown in search results & social cards. Aim for 150–160 characters.'),
+    image: z
+      .string()
+      .optional()
+      .describe('Social share image, e.g. /images/2026/05/foo.jpg. Blank = the branded default.'),
+    noindex: z
+      .boolean()
+      .optional()
+      .describe('Hide this page from search engines and the sitemap.'),
+  })
+  .optional()
+
 export default defineContentConfig({
   collections: {
     // General page content (about, migrated WordPress pages, etc.). News, legal and reps
@@ -15,9 +41,27 @@ export default defineContentConfig({
         date: z.string().optional(),
         // True for empty WordPress pages migrated as title-only placeholders.
         stub: z.boolean().optional(),
+        // Suppress the trailing "join the union" CTA that the catch-all appends to
+        // every content page. Set true on pages that carry their own join CTAs
+        // (e.g. the membership page) so the pitch isn't doubled up.
+        hideJoinCta: z
+          .boolean()
+          .optional()
+          .describe('Hide the join-the-union call-to-action at the foot of this page (for pages that already have their own).'),
+        // Branch officer pages (International, Welfare, Education, …) can credit the
+        // officer responsible for the area as the page's "author". Value = their
+        // committee file name (slug) from content/committee/, e.g. "paul-ray".
+        // Renders an author card at the foot of the page; blank = no card.
+        officer: z
+          .string()
+          .optional()
+          .describe(
+            'Branch officer responsible for this page — their committee file name, e.g. paul-ray. Shows an author card at the foot of the page.',
+          ),
         // Provenance for migrated pages (traceability + future re-taxonomy).
         wpId: z.number().optional(),
         legacyUrl: z.string().optional(),
+        seo,
       }),
     }),
 
@@ -25,7 +69,7 @@ export default defineContentConfig({
     // document in content/documents/. Editors add a document by creating an
     // entry (title, date, topic, type) and pointing `file` at the uploaded PDF.
     // The PDFs live in public/docs/ (upload via Studio's media manager); the
-    // build script seeds existing files. Drives /resources' searchable library.
+    // existing files were seeded during migration. Drives /resources' searchable library.
     documents: defineCollection({
       type: 'data',
       source: 'documents/**',
@@ -158,6 +202,7 @@ export default defineContentConfig({
         description: z.string().optional(),
         // ISO date (yyyy-mm-dd) shown as "Last updated" in the page footer.
         lastUpdated: z.string().optional(),
+        seo,
       }),
     }),
 
@@ -175,8 +220,10 @@ export default defineContentConfig({
         category: z.string(),
         // Subject tag shown as a badge, e.g. Pay, Pensions, Safety, Wellbeing, Equality.
         topic: z.string().optional(),
-        // Card / SEO summary.
-        excerpt: z.string(),
+        // Card / SEO summary — shown on news cards and used as the meta description.
+        // NB: must NOT be named `excerpt` — that key is reserved by @nuxt/content for
+        // the <!--more--> body excerpt and would be silently dropped.
+        description: z.string(),
         // Who it is from (branch officer, committee, UNISON spokesperson).
         author: z.string().optional(),
         // Approximate reading time in minutes.
@@ -196,6 +243,7 @@ export default defineContentConfig({
         // Provenance: WordPress post ID and its original flat URL (redirect source).
         wpId: z.number().optional(),
         legacyUrl: z.string().optional(),
+        seo,
       }),
     }),
   },

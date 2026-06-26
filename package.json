@@ -5,18 +5,22 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "generate": "node scripts/build-htaccess.mjs && nuxt generate",
     "preview": "nuxt preview",
-    "migrate": "node scripts/wp-migrate/migrate.mjs",
-    "migrate:dry": "node scripts/wp-migrate/migrate.mjs --dry-run"
+    "build:htaccess": "node scripts/build-htaccess.mjs"
   },
   "dependencies": {
     "@nuxt/content": "^3.14.0",
+    "@nuxtjs/robots": "^6.1.1",
+    "@nuxtjs/sitemap": "^8.2.1",
     "@tailwindcss/vite": "^4.3.1",
     "@types/leaflet": "^1.9.21",
     "better-sqlite3": "^12.11.1",
     "leaflet": "^1.9.4",
     "nuxt": "^4.4.8",
+    "nuxt-schema-org": "^6.2.1",
+    "nuxt-seo-utils": "^8.3.1",
+    "nuxt-studio": "1.7.0",
     "tailwindcss": "^4.3.1",
     "vue": "^3.5.35",
     "vue-router": "^5.1.0"
