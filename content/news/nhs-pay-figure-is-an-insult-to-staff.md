@@ -4,7 +4,7 @@ date: '2025-11-04'
 category: News
 topic: Pay
 readTime: 1
-excerpt: Head of health Helga Pile responds to suggested NHS pay rise Commenting on the government’s submission to the NHS Pay Review Body that it can afford only a 2.5% pay…
+description: Head of health Helga Pile responds to suggested NHS pay rise Commenting on the government’s submission to the NHS Pay Review Body that it can afford only a 2.5% pay…
 tags:
   - government
   - pay

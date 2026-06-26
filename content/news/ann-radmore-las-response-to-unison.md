@@ -4,7 +4,7 @@ date: '2013-06-27'
 category: News
 topic: Pay
 readTime: 11
-excerpt: '*This post has been updated. You can now also download a copy of the LAS Response to consultation report Click here to download a PDF of the response sent from…'
+description: '*This post has been updated. You can now also download a copy of the LAS Response to consultation report Click here to download a PDF of the response sent from…'
 tags:
   - a time for change
   - a&e support

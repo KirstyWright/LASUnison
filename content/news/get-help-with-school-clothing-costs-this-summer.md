@@ -4,7 +4,7 @@ date: '2022-06-06'
 category: News
 topic: Wellbeing
 readTime: 1
-excerpt: Struggling to make ends meet? Worried about back to school costs? Help is on hand From 24 June 2022, we are setting up a limited fund to help UNISON members…
+description: Struggling to make ends meet? Worried about back to school costs? Help is on hand From 24 June 2022, we are setting up a limited fund to help UNISON members…
 wpCategories:
   - Benefits
   - UNISON News
@@ -29,4 +29,4 @@ Please only contact UNISON Direct on 0800 0 857 857 if you need a paper applicat
 
 Please note: This grant fund will close once we have received enough qualifying applications
 
-[Download a poster to display in your workplace](/?mdocs-file=6336)
+[Download a poster to display in your workplace](/docs/mdocs/2022%20School%20Clothing%20Grant.pdf)

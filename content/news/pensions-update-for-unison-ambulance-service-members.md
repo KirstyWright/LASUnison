@@ -4,7 +4,7 @@ date: '2012-01-16'
 category: News
 topic: Pensions
 readTime: 3
-excerpt: Heads of Agreement – final proposals from Government on structure of 2015 scheme The pensions Heads of Agreement ‘offer’ from the Government was debated at the union’s health executive meeting…
+description: Heads of Agreement – final proposals from Government on structure of 2015 scheme The pensions Heads of Agreement ‘offer’ from the Government was debated at the union’s health executive meeting…
 wpCategories:
   - Branch News
   - Pensions
@@ -35,7 +35,7 @@ The ballot of NHS members will take place following the conclusion of negotiatio
 
 What you can do:
 
-[**Make sure your membership details are up to date**](/member%20services/update.htm) – check on the UNISON website to see if we have your current home address.
+[**Make sure your membership details are up to date**](/update-your-details) – check on the UNISON website to see if we have your current home address.
 
 You can check and update your details online by clicking on this link:  Update your details
 

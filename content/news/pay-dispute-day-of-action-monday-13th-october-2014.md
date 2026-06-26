@@ -4,7 +4,7 @@ date: '2014-10-02'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Dear UNISON Member, By now you should have received a letter from UNISON confirming to you the outcome of the recent Industrial Action Ballot.
+description: Dear UNISON Member, By now you should have received a letter from UNISON confirming to you the outcome of the recent Industrial Action Ballot.
 tags:
   - afc
   - ballot

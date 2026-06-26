@@ -7,9 +7,13 @@
  * keyboard focus. Escape closes and returns focus to the trigger; ArrowDown
  * opens it and moves into the list. Focus leaving the group closes it.
  */
-import type { NavGroup } from '~/data/nav'
+import { navGroupForPath, type NavGroup } from '~/data/nav'
 
-defineProps<{ group: NavGroup }>()
+const props = defineProps<{ group: NavGroup }>()
+
+const route = useRoute()
+// Highlight the trigger when the current route lives anywhere in this group.
+const isActive = computed(() => navGroupForPath(route.path)?.id === props.group.id)
 
 const open = ref(false)
 const root = ref<HTMLElement | null>(null)
@@ -85,7 +89,9 @@ function onItemKeydown(e: KeyboardEvent, i: number) {
       :to="group.hub"
       data-nav-trigger
       :aria-expanded="open"
-      class="inline-flex items-center gap-1 px-3 py-2 rounded-[var(--radius-md)] font-bold text-[1rem] no-underline text-[var(--text-body)] hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)] transition-colors duration-150"
+      :aria-current="route.path === group.hub ? 'page' : (isActive ? 'true' : undefined)"
+      class="inline-flex items-center gap-1 px-3 py-2 rounded-[var(--radius-md)] font-bold text-[1rem] no-underline hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)] transition-colors duration-150"
+      :class="isActive ? 'text-[var(--brand-primary)]' : 'text-[var(--text-body)]'"
       @keydown="onTriggerKeydown"
     >
       {{ group.label }}
@@ -115,7 +121,7 @@ function onItemKeydown(e: KeyboardEvent, i: number) {
             <NuxtLink
               :to="item.path"
               data-nav-item
-              class="group/item flex items-start gap-3 p-2.5 rounded-[var(--radius-md)] no-underline text-[var(--text-body)] hover:bg-[var(--surface-sunken)] focus-visible:bg-[var(--surface-sunken)] focus-visible:outline-none transition-colors duration-150"
+              class="group/item flex items-start gap-3 p-2.5 rounded-[var(--radius-md)] no-underline text-[var(--text-body)] hover:bg-[var(--surface-sunken)] focus-visible:bg-[var(--surface-sunken)] transition-colors duration-150"
               @keydown="onItemKeydown($event, i)"
             >
               <span

@@ -4,7 +4,7 @@ date: '2021-08-05'
 category: News
 topic: Pay
 readTime: 1
-excerpt: This pay rise is not only short of the mark; it’s unfair. It only delivers for staff on the very highest bands and leaves the lowest paid stranded below the…
+description: This pay rise is not only short of the mark; it’s unfair. It only delivers for staff on the very highest bands and leaves the lowest paid stranded below the…
 tags:
   - afc
   - consultation

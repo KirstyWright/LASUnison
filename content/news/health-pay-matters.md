@@ -4,7 +4,7 @@ date: '2008-05-12'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Members in the NHS are being asked to vote on a proposed multi-year agreement on pay.
+description: Members in the NHS are being asked to vote on a proposed multi-year agreement on pay.
 wpCategories:
   - Pay
   - UNISON News

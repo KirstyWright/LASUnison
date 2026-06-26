@@ -4,7 +4,7 @@ date: '2017-03-23'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Yesterday (22 March) our Branch Secretary, Eddie Brand, wrote to the LAS management to request that EMT4's pay cap in band 5 is removed and they are now allowed to…
+description: Yesterday (22 March) our Branch Secretary, Eddie Brand, wrote to the LAS management to request that EMT4's pay cap in band 5 is removed and they are now allowed to…
 tags:
   - afc
   - emt
@@ -42,4 +42,4 @@ The letter is as follows:
 >
 > Eddie
 >
-> Eddie Brand Staff Side Secretary | LAS Unison Branch Secretary | Unison Office London Ambulance Service NHS Trust HQ | 220 Waterloo Road London SE1 8SD |Tel: 07766524972 | 07887850317 | E-mail: Eddie.Brand@lond-amb.nhs.uk | Website: [https://www.lasunison.co.uk](/)"
+> Eddie Brand Staff Side Secretary | LAS Unison Branch Secretary | Unison Office London Ambulance Service NHS Trust HQ | 220 Waterloo Road London SE1 8SD |Tel: 07766524972 | 07887850317 | E-mail: Eddie.Brand@lond-amb.nhs.uk | Website: [lasunison.com](/)"

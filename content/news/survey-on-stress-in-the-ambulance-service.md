@@ -3,7 +3,7 @@ title: Survey on stress in the Ambulance Service
 date: '2014-03-07'
 category: News
 readTime: 1
-excerpt: We are planning to do some work around the levels of stress in the ambulance sector and are seeking more information on the scale and extent of the problem.
+description: We are planning to do some work around the levels of stress in the ambulance sector and are seeking more information on the scale and extent of the problem.
 tags:
   - unison
 wpCategories:

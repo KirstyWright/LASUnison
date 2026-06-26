@@ -3,7 +3,7 @@ title: General Secretary Election
 date: '2015-11-03'
 category: News
 readTime: 1
-excerpt: We are pleased to announce that London Ambulance UNISON Branch has nominated Dave Prentis for re-election as General Secretary.
+description: We are pleased to announce that London Ambulance UNISON Branch has nominated Dave Prentis for re-election as General Secretary.
 tags:
   - ballot
   - election

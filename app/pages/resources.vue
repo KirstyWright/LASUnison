@@ -48,16 +48,13 @@ useSeoMeta({
     <main id="main-content">
       <!-- Masthead -->
       <section class="bg-[var(--surface-brand)] text-white relative overflow-hidden">
+        <!-- Pulse, refined — live cardiac-monitor edge motif -->
         <div
           aria-hidden="true"
-          class="absolute inset-0 opacity-50"
-          :style="{
-            backgroundImage: 'url(/pattern-pulse.svg)',
-            backgroundSize: '320px auto',
-            backgroundRepeat: 'repeat-x',
-            backgroundPosition: 'left bottom',
-          }"
-        />
+          class="absolute inset-x-0 bottom-0 text-[var(--brand-highlight)] pointer-events-none"
+        >
+          <MotifPulse />
+        </div>
         <div class="las-container relative py-14 md:py-[4.5rem]">
           <nav aria-label="Breadcrumb" class="mb-5 text-[0.875rem] text-[var(--purple-200)]">
             <NuxtLink to="/" class="text-[var(--purple-200)] no-underline hover:text-white">Home</NuxtLink>
@@ -89,7 +86,7 @@ useSeoMeta({
               v-for="j in JUMPS"
               :key="j.href"
               :href="j.href"
-              class="inline-flex items-center px-3 h-8 rounded-full text-[0.8125rem] font-bold no-underline bg-white/10 text-[var(--purple-100)] hover:bg-white/20 hover:text-white transition-colors duration-150"
+              class="inline-flex items-center px-4 h-11 rounded-full text-[0.8125rem] font-bold no-underline bg-white/10 text-[var(--purple-100)] hover:bg-white/20 hover:text-white transition-colors duration-150"
             >{{ j.label }}</a>
           </nav>
         </div>
@@ -298,11 +295,6 @@ useSeoMeta({
           </div>
         </section>
       </template>
-
-      <!-- Help first, fast -->
-      <div class="las-container pb-[var(--section-y)]">
-        <UiEmergencyBar />
-      </div>
 
       <HomeJoin />
     </main>

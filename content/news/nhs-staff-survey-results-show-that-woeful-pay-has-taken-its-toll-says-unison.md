@@ -4,7 +4,7 @@ date: '2018-03-06'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Only 31% of NHS staff were satisfied with their level of pay in 2017 Responding to the publication today (Tuesday) of the NHS Staff Survey UNISON head of health Sara…
+description: Only 31% of NHS staff were satisfied with their level of pay in 2017 Responding to the publication today (Tuesday) of the NHS Staff Survey UNISON head of health Sara…
 tags:
   - las
   - pay
@@ -29,9 +29,9 @@ Responding to the publication today (Tuesday) of the NHS Staff Survey **UNISON h
 
 “It will also come as no surprise to the public to hear that NHS staff are regularly doing unpaid overtime. It’s a disgrace that the government is relying on the good will of overworked staff to prop up the NHS.”
 
-[Download the summary of results from London Ambulance Service NHS Trust](/?mdocs-file=3101)
+[Download the summary of results from London Ambulance Service NHS Trust](/docs/mdocs/NHS_staff_survey_2017_RRU_sum.pdf)
 
-[Download the full 2017 National NHS staff survey results from London Ambulance Service NHS Trust](/?mdocs-file=3099)
+[Download the full 2017 National NHS staff survey results from London Ambulance Service NHS Trust](/docs/mdocs/NHS_staff_survey_2017_RRU_full.pdf)
 
 **Notes to editors:
 **– The full results of the NHS Staff Survey 2017 are available [here](http://www.nhsstaffsurveys.com/Page/1064/Latest-Results/2017-Results/)– Only 31% of staff were satisfied with their level of pay in 2017 (compared to 37% in 2016)

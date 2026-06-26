@@ -3,7 +3,7 @@ title: Central & SE Sector launch Facebook Group
 date: '2016-08-06'
 category: News
 readTime: 2
-excerpt: The branch is pleased to announce the launch of our latest Facebook group for members working in Central and South East Sectors.
+description: The branch is pleased to announce the launch of our latest Facebook group for members working in Central and South East Sectors.
 wpCategories:
   - Branch News
   - Website News

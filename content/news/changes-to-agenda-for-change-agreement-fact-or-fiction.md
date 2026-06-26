@@ -4,7 +4,7 @@ date: '2013-02-28'
 category: News
 topic: Pay
 readTime: 2
-excerpt: The NHS Staff Council yesterday agreed to alter the Agenda for Change Agreement for staff in England.
+description: The NHS Staff Council yesterday agreed to alter the Agenda for Change Agreement for staff in England.
 tags:
   - afc
   - pay
@@ -29,4 +29,4 @@ UNISON has and will continue to take industrial action to protect members’ job
 
 Empty rhetoric with no alternative strategy does not make a trade union strong and effective. Being honest, listening to members and acting on their views and decisions does that. We know members are genuinely worried about what these proposals will mean and we will be sending out additional information and FAQs. The NHS Staff Council also agreed to produce further joint guidance on how these proposals will be implemented locally.
 
-If you are not in a union and want honest advice and support and to have your views and concerns treated seriously – [Join UNISON](/join).
+If you are not in a union and want honest advice and support and to have your views and concerns treated seriously – [Join UNISON](/#join).

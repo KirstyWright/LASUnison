@@ -3,7 +3,7 @@ title: Haiti earthquake appeal
 date: '2010-01-18'
 category: News
 readTime: 1
-excerpt: TUC Aid is making an appeal to affiliates, union members and to the general public for funds for emergency relief and long-term rehabilitation of the victims of the earthquake in…
+description: TUC Aid is making an appeal to affiliates, union members and to the general public for funds for emergency relief and long-term rehabilitation of the victims of the earthquake in…
 wpCategories:
   - Other
 wpId: 52

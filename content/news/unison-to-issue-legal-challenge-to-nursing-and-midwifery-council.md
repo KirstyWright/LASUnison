@@ -3,7 +3,7 @@ title: UNISON to issue legal challenge to Nursing and Midwifery Council
 date: '2011-10-08'
 category: News
 readTime: 1
-excerpt: UNISON, the UK’s largest union, is set to issue legal proceedings on Monday, challenging the Nursing and Midwifery Council (NMC) over its statement that said nurses and midwives could be…
+description: UNISON, the UK’s largest union, is set to issue legal proceedings on Monday, challenging the Nursing and Midwifery Council (NMC) over its statement that said nurses and midwives could be…
 wpCategories:
   - UNISON News
 wpId: 452

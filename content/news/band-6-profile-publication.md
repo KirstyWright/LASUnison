@@ -4,7 +4,7 @@ date: '2016-11-15'
 category: News
 topic: Pay
 readTime: 3
-excerpt: Joint Ambulance Trade Union Statement 15 November 2016 Paramedic banding update – Band 6 profile publication In September we announced that the NHS Staff Council had agreed to publish a…
+description: Joint Ambulance Trade Union Statement 15 November 2016 Paramedic banding update – Band 6 profile publication In September we announced that the NHS Staff Council had agreed to publish a…
 tags:
   - afc
   - pay
@@ -17,6 +17,8 @@ wpCategories:
   - Agenda for Change
 wpId: 2453
 legacyUrl: https://lasunison.co.uk/band-6-profile-publication
+seo:
+  description: The Band 6 Paramedic profile is available for all UK countries to use. Separate discussions will take place about how this is implemented in
 ---
 
 ## Joint Ambulance Trade Union Statement
@@ -46,6 +48,6 @@ Alongside the pay negotiations we are also embarking on an ambitious collaborati
 
 Our collective voice is strong. Working together we make a difference.
 
-[Download this statement as a PDF](/?mdocs-file=2455)
+[Download this statement as a PDF](/docs/mdocs/Joint%20Union%20Ambulance%20paramedic%20banding%20update.pdf)
 
 This can also be viewed on the NHS Employers website

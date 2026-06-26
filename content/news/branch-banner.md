@@ -3,7 +3,7 @@ title: Branch Banner
 date: '2022-04-21'
 category: News
 readTime: 1
-excerpt: Not long after the inception of London Ambulance Service UNISON branch (1995) it was agreed at one of our Branch Committee meetings that we should have a Branch Banner.
+description: Not long after the inception of London Ambulance Service UNISON branch (1995) it was agreed at one of our Branch Committee meetings that we should have a Branch Banner.
 tags:
   - ambulance
   - branch

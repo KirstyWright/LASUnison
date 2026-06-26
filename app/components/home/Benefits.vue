@@ -1,5 +1,7 @@
 <script setup lang="ts">
-// Why join — the recruitment conversion. Benefit copy as data for Studio.
+// Why join — the homepage's join conversion (the `#join` anchor target).
+// Benefit copy as data for Studio.
+const JOIN_URL = 'https://join.unison.org.uk'
 const BENEFITS: { icon: string; title: string; body: string }[] = [
   { icon: 'shield', title: 'Expert representation', body: 'A trained rep beside you in any meeting at work.' },
   { icon: 'scale', title: 'Free legal help', body: 'For you and your family, at work and at home.' },
@@ -11,7 +13,7 @@ const BENEFITS: { icon: string; title: string; body: string }[] = [
 </script>
 
 <template>
-  <section id="join-benefits" class="las-section bg-[var(--surface-card)] border-y border-[var(--border-subtle)]">
+  <section id="join" class="las-section bg-[var(--surface-card)] border-y border-[var(--border-subtle)]">
     <div class="las-container grid gap-10 lg:gap-16 lg:grid-cols-[0.85fr_1.15fr] items-center">
       <!-- Pitch + price + CTA -->
       <div>
@@ -21,8 +23,8 @@ const BENEFITS: { icon: string; title: string; body: string }[] = [
           More than a membership card
         </h2>
         <p class="text-[length:var(--text-md)] leading-[1.6] text-[var(--text-muted)] mt-4 mb-7 max-w-[46ch]">
-          Members have won over <strong class="text-[var(--text-body)] font-bold">£4&nbsp;million</strong>
-          in compensation since 1999. Join almost 7,000 colleagues and get the full weight of the branch
+          Members have won over <strong class="font-[family-name:var(--font-mono)] text-[var(--text-body)] font-bold">£4&nbsp;million</strong>
+          in compensation since 1999. Join your colleagues and get the full weight of the branch
           behind you.
         </p>
 
@@ -30,7 +32,7 @@ const BENEFITS: { icon: string; title: string; body: string }[] = [
           class="flex items-end gap-4 bg-[var(--surface-brand-soft)] border border-[var(--border-subtle)] rounded-[var(--radius-lg)] p-5 mb-6"
         >
           <div>
-            <div class="text-[0.8125rem] font-bold tracking-[0.06em] uppercase text-[var(--brand-primary)] mb-1">
+            <div class="text-[0.8125rem] font-bold tracking-[0.08em] uppercase text-[var(--brand-primary)] mb-1">
               From
             </div>
             <div class="font-[family-name:var(--font-mono)] font-semibold text-[length:var(--text-4xl)] leading-none text-[var(--text-strong)]">
@@ -43,9 +45,15 @@ const BENEFITS: { icon: string; title: string; body: string }[] = [
         </div>
 
         <div class="flex gap-3 flex-wrap">
-          <UiButton variant="primary" size="lg" href="#join" icon-right="arrowRight">Join UNISON</UiButton>
+          <UiButton variant="primary" size="lg" :href="JOIN_URL" icon-right="arrowRight">Join UNISON</UiButton>
           <UiButton variant="outline" size="lg" href="/membership">Compare benefits</UiButton>
         </div>
+        <NuxtLink
+          to="/update-your-details"
+          class="inline-block mt-4 text-[var(--brand-primary)] font-semibold text-[0.9375rem] underline decoration-[var(--brand-primary)]/30 hover:decoration-[var(--brand-primary)] underline-offset-4"
+        >
+          Already a member? Update your details →
+        </NuxtLink>
       </div>
 
       <!-- What you get -->

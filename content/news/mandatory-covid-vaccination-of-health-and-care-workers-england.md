@@ -3,7 +3,7 @@ title: Mandatory COVID vaccination of health and care workers (England)
 date: '2021-11-27'
 category: News
 readTime: 4
-excerpt: What is happening? The government has finished a consultation about making COVID vaccines compulsory for health and care staff in England .
+description: What is happening? The government has finished a consultation about making COVID vaccines compulsory for health and care staff in England .
 tags:
   - covid 19
   - government
@@ -56,7 +56,7 @@ UNISON supports vaccination in health and social care. The vaccine is safe, and 
 
 UNISON has been clear in our consultation response and announcements that we think this decision is a [sledgehammer approach](https://www.unison.org.uk/news/press-release/2021/11/forced-jab-rule-in-the-nhs-risks-doing-more-harm-than-good/) that will do more harm than good.
 
-When published, UNISON will examine the draft legislation and provide further [advice to branches](https://www.unison.org.uk/content/uploads/2021/09/COVID-19-vaccination-status-requirements-in-the-workplace-v2.pdf) on how to support members with questions around the vaccines.
+When published, UNISON will examine the draft legislation and provide further [advice to branches](https://www.unison.org.uk/content/uploads/2021/09/COVID-19-vaccination-status-requirements-in-the-workplace-v2.pdf) [Link no longer available]{.link-unavailable} on how to support members with questions around the vaccines.
 
 ### **My employer is saying I must have the vaccine now or face dismissal, what should I do?**
 
@@ -64,4 +64,4 @@ It is likely the new legislation will come into force from 1 April 2022 giving t
 
 Until 1 April 2022, it may not be possible for employers to dismiss staff unless they are deployed in a care home in England. If you are threatened with dismissal you should speak to your UNISON branch.
 
-**[More information can be downloaded here](/?mdocs-file=5858)**
+**[More information can be downloaded here](/docs/mdocs/COVID-19-vaccination-status-requirements-in-the-workplace-v3i.pdf)**

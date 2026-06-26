@@ -10,7 +10,7 @@ defineProps<{
 const emit = defineEmits<{ 'update:modelValue': [value: string] }>()
 
 const BASE =
-  'inline-flex items-center gap-2 font-[family-name:var(--font-sans)] font-bold text-[0.875rem] leading-none px-4 h-10 rounded-full border-2 cursor-pointer whitespace-nowrap transition-colors duration-150 ease-out focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]'
+  'inline-flex items-center gap-2 font-[family-name:var(--font-sans)] font-bold text-[0.875rem] leading-none px-4 h-11 rounded-full border-2 cursor-pointer whitespace-nowrap transition-colors duration-150 ease-out focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]'
 const ACTIVE = 'bg-[var(--brand-primary)] border-[var(--brand-primary)] text-white'
 const IDLE =
   'bg-[var(--surface-card)] border-[var(--border-default)] text-[var(--text-body)] hover:border-[var(--brand-primary)] hover:text-[var(--brand-primary)]'

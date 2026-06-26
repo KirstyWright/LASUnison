@@ -3,7 +3,7 @@ title: Annual General Meeting - CANCELLED
 date: '2020-03-12'
 category: News
 readTime: 1
-excerpt: The LAS UNISON Branch Committee have taken the decision to cancel our AGM on the 24th March.
+description: The LAS UNISON Branch Committee have taken the decision to cancel our AGM on the 24th March.
 tags:
   - afc
   - branch
@@ -51,6 +51,6 @@ Buffet available after meeting.
 
 [Embedded media](https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.1825389670075!2d-0.13171218402762322!3d51.52821171700195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b24d5b73e01%3A0x4f5cf3c72ab233fc!2sKings+Cross%2C+London+NW1+2AY!5e0!3m2!1sen!2suk!4v1486763004849)
 
-[Click here to download a flyer](/?mdocs-file=3660)
+[Click here to download a flyer](/docs/mdocs/AGM%20Poster%202020.pdf)
 
 [If you are on facebook and going to the AGM then click here to let us know](https://www.facebook.com/events/2501365683323463/)

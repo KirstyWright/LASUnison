@@ -3,7 +3,7 @@ title: Cookies
 date: '2012-08-21'
 category: News
 readTime: 6
-excerpt: We have updated our privacy policy and introduced a new cookies information page due to the introduction of the new EU cookie law (e-Privacy Directive) The law which applies to…
+description: We have updated our privacy policy and introduced a new cookies information page due to the introduction of the new EU cookie law (e-Privacy Directive) The law which applies to…
 tags:
   - cookie
   - website
@@ -97,6 +97,6 @@ DoubleClick - [Privacy Policy](http://www.google.com/policies/privacy/ads/) owne
 
 ### Turning Cookies Off
 
-You can usually switch cookies off by adjusting your browser settings to stop it from accepting cookies (Learn how [here](http://www.attacat.co.uk/resources/cookies/how-to-ban)). Doing so however will likely limit the functionality of our's and a large proportion of the world's websites as cookies are a standard part of most modern websites
+You can usually switch cookies off by adjusting your browser settings to stop it from accepting cookies (Learn how [here](http://www.attacat.co.uk/resources/cookies/how-to-ban) [Link no longer available]{.link-unavailable}). Doing so however will likely limit the functionality of our's and a large proportion of the world's websites as cookies are a standard part of most modern websites
 
-It may be that you concerns around cookies relate to so called "spyware". Rather than switching off cookies in your browser you may find that anti-spyware software achieves the same objective by automatically deleting cookies considered to be invasive. Learn more about [managing cookies with anti-spyware software](http://www.attacat.co.uk/resources/cookies/how-to-control-your-online-privacy).
+It may be that you concerns around cookies relate to so called "spyware". Rather than switching off cookies in your browser you may find that anti-spyware software achieves the same objective by automatically deleting cookies considered to be invasive. Learn more about [managing cookies with anti-spyware software](http://www.attacat.co.uk/resources/cookies/how-to-control-your-online-privacy) [Link no longer available]{.link-unavailable}.

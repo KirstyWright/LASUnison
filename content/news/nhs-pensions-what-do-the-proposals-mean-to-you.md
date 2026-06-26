@@ -4,7 +4,7 @@ date: '2011-09-22'
 category: News
 topic: Pensions
 readTime: 1
-excerpt: UNISON has produced a “ready reckoner” to help you understand what the proposals for increased contributions to the NHS Pension Scheme would mean to your annual pay.
+description: UNISON has produced a “ready reckoner” to help you understand what the proposals for increased contributions to the NHS Pension Scheme would mean to your annual pay.
 tags:
   - pensions
 wpCategories:
@@ -14,7 +14,7 @@ wpId: 424
 legacyUrl: https://lasunison.co.uk/nhs-pensions-what-do-the-proposals-mean-to-you
 ---
 
-UNISON has produced a “ready reckoner” to help you understand what the proposals for increased contributions to the NHS Pension Scheme would mean to your annual pay. To take a look at the reckoner, go to [http://www.unison.org.uk/pensions/reckoner.asp](http://www.unison.org.uk/pensions/reckoner.asp) (the page may take a few moments to load)
+UNISON has produced a “ready reckoner” to help you understand what the proposals for increased contributions to the NHS Pension Scheme would mean to your annual pay. To take a look at the reckoner, go to [http://www.unison.org.uk/pensions/reckoner.asp](http://www.unison.org.uk/pensions/reckoner.asp) [Link no longer available]{.link-unavailable} (the page may take a few moments to load)
 
 Last week, UNISON launched a survey of health members seeking your views of the proposed changes to the NHS Pension Scheme and your reactions to the proposed increases in the retirement age, increased contribution rates and reductions in the annual uplift to payments.
 

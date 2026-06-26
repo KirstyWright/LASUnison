@@ -4,7 +4,7 @@ date: '2022-11-15'
 category: News
 topic: Pay
 readTime: 4
-excerpt: Over 182,290 people signed the petition, demanding that the government ends the pay crisis by raising the minimum wage to £15 an hour.
+description: Over 182,290 people signed the petition, demanding that the government ends the pay crisis by raising the minimum wage to £15 an hour.
 tags:
   - afc
   - ballot
@@ -38,11 +38,11 @@ The text read: “When pay rises by less than our bills, we’re all getting poo
 
 Amongst those handing in the petition was UNISON member Eddie Brand, who has worked in the ambulance service for over 35 years. He said: “The pressure on ambulance services is unprecedented, and something needs to change. We can’t carry on working under this level of demand.”
 
-Last week, two UNISON members featured in a moving ITV news segment on [the strain that ambulance waiting times are putting on workers.](https://www.unison.org.uk/news/article/2022/11/unison-ambulance-workers-share-heartbreaking-stories-of-wait-times/)
+Last week, two UNISON members featured in a moving ITV news segment on [the strain that ambulance waiting times are putting on workers.](https://www.unison.org.uk/news/article/2022/11/unison-ambulance-workers-share-heartbreaking-stories-of-wait-times/) [Link no longer available]{.link-unavailable}
 
 Mr Brand continued: “I haven’t had a decent pay rise for more than 10 years, but the cost of living crisis means that the basics have now become unaffordable. Bills are going up, which means we’re left with no time or money for anything. The fact that mortgages are now rising will push many over the edge.”
 
-In reference to the [ongoing strike ballot for health workers](https://www.unison.org.uk/news/article/2022/11/vote-yes-for-the-nhs-unison-urges-backing-for-strike-action/), Mr Brand said: “I’m prepared to strike for better pay in the NHS. I hope this petition shows the strength of feeling from workers across the country.”
+In reference to the [ongoing strike ballot for health workers](https://www.unison.org.uk/news/article/2022/11/vote-yes-for-the-nhs-unison-urges-backing-for-strike-action/) [Link no longer available]{.link-unavailable}, Mr Brand said: “I’m prepared to strike for better pay in the NHS. I hope this petition shows the strength of feeling from workers across the country.”
 
 UNISON member Anu Prashar also joined the petition delivery group. As a trading standards officer, she’s seen firsthand how the cost of living crisis is making people more vulnerable to scams.
 

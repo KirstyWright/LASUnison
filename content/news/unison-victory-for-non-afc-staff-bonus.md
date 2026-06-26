@@ -4,7 +4,7 @@ date: '2023-06-14'
 category: News
 topic: Pay
 readTime: 1
-excerpt: 'UNISON has secured fair pay for our non-AfC colleagues. LAS Chief Executive Officer Daniel Elkeles has released the following statement: "I’m pleased to say we have agreed that the 448…'
+description: 'UNISON has secured fair pay for our non-AfC colleagues. LAS Chief Executive Officer Daniel Elkeles has released the following statement: "I’m pleased to say we have agreed that the 448…'
 tags:
   - ambulance
   - pay

@@ -3,7 +3,7 @@ title: Skill Mix Changes Update
 date: '2020-01-20'
 category: News
 readTime: 2
-excerpt: “Last week we had an update to the ongoing arrangement that has temporarily changed the skill mix of how the LAS deploy NQPs, a bulletin has now been released to…
+description: “Last week we had an update to the ongoing arrangement that has temporarily changed the skill mix of how the LAS deploy NQPs, a bulletin has now been released to…
 tags:
   - consultation
   - las

@@ -3,7 +3,7 @@ title: Skill Mix Changes
 date: '2019-12-02'
 category: News
 readTime: 3
-excerpt: It has been reported to our reps that our NQP members have had a change in how they are deployed and the skill mix they work to as part of…
+description: It has been reported to our reps that our NQP members have had a change in how they are deployed and the skill mix they work to as part of…
 tags:
   - branch
   - consultation

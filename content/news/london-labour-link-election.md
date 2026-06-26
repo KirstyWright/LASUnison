@@ -3,7 +3,7 @@ title: London Labour Link Election
 date: '2013-08-03'
 category: News
 readTime: 1
-excerpt: Ballot papers will be going out to members who pay into the Affiliated Political Fund (APF) from Monday 5 th August 2013 to elect a London Representative to sit on…
+description: Ballot papers will be going out to members who pay into the Affiliated Political Fund (APF) from Monday 5 th August 2013 to elect a London Representative to sit on…
 tags:
   - ballot
   - labour link

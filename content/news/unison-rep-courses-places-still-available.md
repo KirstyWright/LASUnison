@@ -3,7 +3,7 @@ title: UNISON Rep Courses, Places Still Available
 date: '2010-09-04'
 category: News
 readTime: 1
-excerpt: 'There are still a limited number of spaces available for the following in house training courses: Introductory Organising Stewards This 2 day course covers the job of the LAS UNISON…'
+description: 'There are still a limited number of spaces available for the following in house training courses: Introductory Organising Stewards This 2 day course covers the job of the LAS UNISON…'
 wpCategories:
   - Branch News
   - Event
@@ -43,6 +43,6 @@ Friern Barnet Ambulance Station (D4)
 
 Telephone: 077809 92708
 
-E-Mail: [markbelkin@lasunison.co.uk](mailto:markbelkin@lasunison.co.uk)
+E-Mail: [markbelkin@lasunison.com](mailto:markbelkin@lasunison.com)
 
  Download in PDF format**

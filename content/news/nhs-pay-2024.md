@@ -4,7 +4,7 @@ date: '2024-08-01'
 category: News
 topic: Pay
 readTime: 5
-excerpt: What is the NHS pay rise? NHS staff in England are to be awarded a 5.5% pay increase.
+description: What is the NHS pay rise? NHS staff in England are to be awarded a 5.5% pay increase.
 tags:
   - nhs
   - pay
@@ -74,4 +74,4 @@ Nurses, admin staff, catering staff and many others tell us that they are workin
 
 UNISON’s ambition is for a reduced working week in the NHS with no loss of pay. Better work-life balance would improve wellbeing, reduce burnout and keep staff in their jobs, reducing reliance on overtime and agency staff. While there may not be a quick route to a shorter working week, many staff have already identified areas of their work that could run more smoothly. Let’s start the conversation now!
 
-You can read the evidence UNISON sent to the former Secretary of State in February [here.](https://www.unison.org.uk/content/uploads/2024/02/237_NHS_pay_position_Feb24_England.pdf)
+You can read the evidence UNISON sent to the former Secretary of State in February [here.](https://www.unison.org.uk/content/uploads/2024/02/237_NHS_pay_position_Feb24_England.pdf) [Link no longer available]{.link-unavailable}

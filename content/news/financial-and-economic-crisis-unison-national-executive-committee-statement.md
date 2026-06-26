@@ -3,7 +3,7 @@ title: FINANCIAL AND ECONOMIC CRISIS - UNISON NATIONAL EXECUTIVE COMMITTEE STATE
 date: '2008-11-02'
 category: News
 readTime: 6
-excerpt: The crisis in the financial system, caused by the greed and irresponsibility of a privileged minority, now threatens the living standards and future security of millions of ordinary working people…
+description: The crisis in the financial system, caused by the greed and irresponsibility of a privileged minority, now threatens the living standards and future security of millions of ordinary working people…
 wpCategories:
   - UNISON News
 wpId: 85

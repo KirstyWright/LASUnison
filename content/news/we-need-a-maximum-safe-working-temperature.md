@@ -4,7 +4,7 @@ date: '2019-07-25'
 category: News
 topic: Safety
 readTime: 2
-excerpt: UNISON backs Labour plans to legislate on excessive heat in the workplace UNISON has welcomed Labour’s pledge to legislate for a maximum safe working temperature, with legal safeguards to help…
+description: UNISON backs Labour plans to legislate on excessive heat in the workplace UNISON has welcomed Labour’s pledge to legislate for a maximum safe working temperature, with legal safeguards to help…
 tags:
   - health & safety
   - unison
@@ -36,4 +36,4 @@ UNISON head of health and safety Robert Baughan points out that both the union a
 
 **UNISON health and safety information sheet – temperature at work**
 
-**[Health and Safety Executive: Temperature at work FAQs](http://www.hse.gov.uk/temperature/faq.htm)**
+**[Health and Safety Executive: Temperature at work FAQs](http://www.hse.gov.uk/temperature/faq.htm) [Link no longer available]{.link-unavailable}**

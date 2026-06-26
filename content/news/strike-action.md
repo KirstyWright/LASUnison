@@ -3,7 +3,7 @@ title: Strike Action
 date: '2022-12-06'
 category: News
 readTime: 2
-excerpt: LAS UNISON Branch to take Strike Action Firstly, thank you for the help that got the London Ambulance UNISON Branch over the 50% turnout threshold in the ballot, which means…
+description: LAS UNISON Branch to take Strike Action Firstly, thank you for the help that got the London Ambulance UNISON Branch over the 50% turnout threshold in the ballot, which means…
 tags:
   - ambulance
   - ballot

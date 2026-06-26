@@ -4,7 +4,7 @@ date: '2021-02-21'
 category: News
 topic: Pay
 readTime: 2
-excerpt: The Health and Care Professions Council has announced an £8.12 a year increase to their registration fee.
+description: The Health and Care Professions Council has announced an £8.12 a year increase to their registration fee.
 wpCategories:
   - Pay
   - UNISON News

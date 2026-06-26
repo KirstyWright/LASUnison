@@ -3,7 +3,7 @@ title: Jab backdown the right thing to do, but the damage has already been done,
 date: '2022-02-01'
 category: News
 readTime: 2
-excerpt: These ill-thought-out rules have worsened the staffing crisis hampering the NHS and social care and caused significant upset.
+description: These ill-thought-out rules have worsened the staffing crisis hampering the NHS and social care and caused significant upset.
 tags:
   - covid 19
   - general secretary

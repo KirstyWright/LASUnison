@@ -3,7 +3,7 @@ title: ‘We need our union to be stronger than ever’ Dave Prentis tells NEC
 date: '2020-07-24'
 category: News
 readTime: 5
-excerpt: As the health crisis turns into an economic crisis, UNISON needs to be stronger and more united than ever, so it can be in a better position to look after…
+description: As the health crisis turns into an economic crisis, UNISON needs to be stronger and more united than ever, so it can be in a better position to look after…
 tags:
   - branch
   - dave
@@ -60,7 +60,7 @@ The statement said: “Continued warm words are not enough and action is needed 
 
 Mr Prentis added: “This is a strong statement that the whole union signed up to, because we fight racism wherever we find it. We will do everything in our power to protect Black workers.”
 
-[**Download the full statement here**](http://www.unison.org.uk/content/uploads/2020/06/UNISON-Statement-Black-lives-and-COVID.docx)
+[**Download the full statement here**](http://www.unison.org.uk/content/uploads/2020/06/UNISON-Statement-Black-lives-and-COVID.docx) [Link no longer available]{.link-unavailable}
 
 After the announcement that he is retiring as UNISON general secretary at the end of the year, president Josie Bird paid tribute to Mr Prentis, saying: “Dave is the only general secretary I have ever known and, while today is not the day for tributes, Dave leaves us with a really strong legacy.
 

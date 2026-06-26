@@ -6,12 +6,12 @@
 // the category counts and the total are exact, then slice the current page out
 // client-side. The page lives in the URL (?page=N) so every page of results is
 // a real, server-rendered, shareable URL — paginated posts stay crawlable, and
-// site-wide search (server/api/search.get.ts) already indexes all posts
+// site-wide search (the client search engine) already indexes all posts
 // directly, independent of how this page is paged.
 const { data: posts } = await useAsyncData('news-index', () =>
   queryCollection('news')
     .order('date', 'DESC')
-    .select('path', 'title', 'date', 'category', 'topic', 'excerpt', 'readTime', 'urgent', 'image')
+    .select('path', 'title', 'date', 'category', 'topic', 'description', 'readTime', 'urgent', 'image')
     .all(),
 )
 
@@ -139,19 +139,16 @@ useSeoMeta({
   <div>
     <SiteHeader />
 
-    <main>
+    <main id="main-content">
       <!-- Masthead -->
       <section class="bg-[var(--surface-brand)] text-white relative overflow-hidden">
+        <!-- Pulse, refined — live cardiac-monitor edge motif -->
         <div
           aria-hidden="true"
-          class="absolute inset-0 opacity-50"
-          :style="{
-            backgroundImage: 'url(/pattern-pulse.svg)',
-            backgroundSize: '320px auto',
-            backgroundRepeat: 'repeat-x',
-            backgroundPosition: 'left bottom',
-          }"
-        />
+          class="absolute inset-x-0 bottom-0 text-[var(--brand-highlight)] pointer-events-none"
+        >
+          <MotifPulse />
+        </div>
         <div class="las-container relative py-14 md:py-[4.5rem]">
           <nav aria-label="Breadcrumb" class="mb-5 text-[0.875rem] text-[var(--purple-200)]">
             <NuxtLink to="/" class="text-[var(--purple-200)] no-underline hover:text-white">Home</NuxtLink>
@@ -179,7 +176,7 @@ useSeoMeta({
           <NewsCard v-if="showFeatured" :post="(featured as NewsItem)" featured class="mb-12 las-reveal" />
 
           <!-- Controls -->
-          <div ref="listTop" class="flex flex-col gap-4 mb-8 lg:flex-row lg:items-center lg:justify-between scroll-mt-28">
+          <div ref="listTop" class="flex flex-col gap-4 mb-8 lg:flex-row lg:items-center lg:justify-between scroll-mt-[calc(var(--header-h)+1rem)]">
             <NewsFilters :model-value="activeCategory" :categories="categories" @update:model-value="setCategory" />
             <p
               class="font-[family-name:var(--font-mono)] text-[0.8125rem] text-[var(--text-muted)] m-0 flex-none"
@@ -221,11 +218,6 @@ useSeoMeta({
           />
         </div>
       </section>
-
-      <!-- Help first, fast -->
-      <div class="las-container pb-[var(--section-y)]">
-        <UiEmergencyBar />
-      </div>
 
       <HomeJoin />
     </main>

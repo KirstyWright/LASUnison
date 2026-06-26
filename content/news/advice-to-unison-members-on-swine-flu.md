@@ -3,7 +3,7 @@ title: ADVICE TO UNISON MEMBERS ON SWINE FLU
 date: '2009-07-14'
 category: News
 readTime: 1
-excerpt: Cases of swine flu (H1N1) are on the increase and the government recently took the decision to move from containment of the illness to treatment.
+description: Cases of swine flu (H1N1) are on the increase and the government recently took the decision to move from containment of the illness to treatment.
 wpCategories:
   - UNISON News
 wpId: 67

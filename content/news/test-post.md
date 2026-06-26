@@ -3,7 +3,7 @@ title: UNISON reacts to London Ambulance Service being placed into special measu
 date: '2015-11-30'
 category: News
 readTime: 2
-excerpt: 'Commenting on the CQC report that placed London Ambulance Service into special measures, UNISON General Secretary Dave Prentis said: “This is a shocking indictment of the lack of funding that…'
+description: 'Commenting on the CQC report that placed London Ambulance Service into special measures, UNISON General Secretary Dave Prentis said: “This is a shocking indictment of the lack of funding that…'
 tags:
   - las
   - unison

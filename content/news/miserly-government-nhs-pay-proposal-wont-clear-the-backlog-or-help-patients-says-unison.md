@@ -4,7 +4,7 @@ date: '2022-02-23'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Pay proposal is a wage cut in all but name Commenting on the government’s submission today (Wednesday) to the NHS pay review body recommending a ​maximum pay rise of 3%…
+description: Pay proposal is a wage cut in all but name Commenting on the government’s submission today (Wednesday) to the NHS pay review body recommending a ​maximum pay rise of 3%…
 tags:
   - afc
   - government

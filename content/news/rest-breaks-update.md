@@ -4,7 +4,7 @@ date: '2011-07-30'
 category: News
 topic: Pay
 readTime: 1
-excerpt: '*UPDATED - A joint bulletin has been issued in regard to the Rest Breaks situation and can be viewed by clicking the link at the bottom of this page.'
+description: '*UPDATED - A joint bulletin has been issued in regard to the Rest Breaks situation and can be viewed by clicking the link at the bottom of this page.'
 tags:
   - afc
   - pay

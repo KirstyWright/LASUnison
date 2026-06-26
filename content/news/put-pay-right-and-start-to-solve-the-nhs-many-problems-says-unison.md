@@ -4,7 +4,7 @@ date: '2024-02-12'
 category: News
 topic: Pay
 readTime: 5
-excerpt: A proper pay rise for NHS staff in England this year is essential if there is to be any hope of filling the huge vacancies hole and stopping waiting lists…
+description: A proper pay rise for NHS staff in England this year is essential if there is to be any hope of filling the huge vacancies hole and stopping waiting lists…
 tags:
   - government
   - nhs
@@ -57,7 +57,7 @@ And all too often NHS staff are working above their salary bands, it adds. There
 
 **Notes to editors:**
 - The UNISON survey was conducted online last autumn and around 40,000 responses were received from NHS staff in England.
-- *Put NHS pay right,* UNISON’s case for investing in the NHS workforce, can be found [here](https://www.unison.org.uk/content/uploads/2024/02/UNISON-NHS-pay-position-2024.pdf).
+- *Put NHS pay right,* UNISON’s case for investing in the NHS workforce, can be found [here](https://www.unison.org.uk/content/uploads/2024/02/UNISON-NHS-pay-position-2024.pdf) [Link no longer available]{.link-unavailable}.
 - The minimum wage is rising to £11.44 an hour in April. Staff on the bottom of Agenda for Change band 2 are currently on an hourly rate of £11.45. The real living wage is £12 an hour (£13.15 in London).
 - \*Healthcare assistants tend to be on band 2 but regularly undertake complex tasks more in line with the higher band 3 salary. UNISON campaigns have already seen thousands of healthcare assistants regraded on to higher salaries and many others are currently pushing for their pay to be similarly corrected.
 - In Northern Ireland, health unions are about to enter intensive talks over the 2023/24 pay rise, with the PRB expected to also make recommendations for their pay for 2024/25. In Wales, the health minister only issued a PRB remit on 30 January and UNISON expects to set out a similar case for investment in the NHS workforce there. In Scotland, unions have submitted a pay claim and hope talks will start soon.

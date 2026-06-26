@@ -3,7 +3,7 @@ title: 'UNISON webinar: HCPC – A Conversation With Your Regulator'
 date: '2020-10-13'
 category: News
 readTime: 1
-excerpt: '20 October 2020 6:00pm–7:00pm Online HCPC-registered UNISON members and branch activists are invited to attend UNISON’s webinar: “ HCPC – a Conversation with your Regulator ” on 20th October from…'
+description: '20 October 2020 6:00pm–7:00pm Online HCPC-registered UNISON members and branch activists are invited to attend UNISON’s webinar: “ HCPC – a Conversation with your Regulator ” on 20th October from…'
 tags:
   - branch
   - consultation

@@ -125,7 +125,7 @@ const CHIP_IDLE =
             <select
               id="doc-year"
               v-model="year"
-              class="appearance-none h-10 pl-3.5 pr-9 bg-[var(--surface-card)] border-2 border-[var(--border-default)] rounded-[var(--radius-md)] font-bold text-[0.875rem] text-[var(--text-body)] cursor-pointer hover:border-[var(--brand-primary)] focus:outline-none focus-visible:border-[var(--border-focus)]"
+              class="appearance-none h-10 pl-3.5 pr-9 bg-[var(--surface-card)] border-2 border-[var(--border-default)] rounded-[var(--radius-md)] font-bold text-[0.875rem] text-[var(--text-body)] cursor-pointer hover:border-[var(--brand-primary)] focus-visible:outline-none focus-visible:border-[var(--border-focus)] focus-visible:ring-[3px] focus-visible:ring-[var(--border-focus)]"
             >
               <option value="All">All years</option>
               <option v-for="y in years" :key="y" :value="String(y)">{{ y }}</option>

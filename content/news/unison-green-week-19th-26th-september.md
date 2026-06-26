@@ -3,7 +3,7 @@ title: 'UNISON Green Week: 19th – 26th September'
 date: '2025-08-31'
 category: News
 readTime: 1
-excerpt: Seed giveaway. As part of our celebration of UNISON Green Week from 19th to 26th September, we are pleased to offer a limited giveaway of 1000 packets of seeds to…
+description: Seed giveaway. As part of our celebration of UNISON Green Week from 19th to 26th September, we are pleased to offer a limited giveaway of 1000 packets of seeds to…
 tags:
   - environment
   - green

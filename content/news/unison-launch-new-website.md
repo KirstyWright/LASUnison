@@ -3,7 +3,7 @@ title: UNISON Launch new website
 date: '2013-06-11'
 category: News
 readTime: 1
-excerpt: UNISON have launched a brand new website. This site has been in development for well over a year and contains lots of new features such as the 'Knowledge' section.
+description: UNISON have launched a brand new website. This site has been in development for well over a year and contains lots of new features such as the 'Knowledge' section.
 tags:
   - unison
   - website
@@ -20,4 +20,4 @@ UNISON Knowledge is our member-only hub for information on employment rights and
 
 Some of the topics covered include Discrimination, Health & Safety, Pay, Pensions and Employment rights.
 
-To access the full site you will need to be logged in. If you are a UNISON member then you can simply login using your membership number. Visit [My UNISON](http://www.unison.org.uk/my-unison/welcome) to register. From there you will also be able to update all your details.
+To access the full site you will need to be logged in. If you are a UNISON member then you can simply login using your membership number. Visit [My UNISON](https://my.unison.org.uk/) to register. From there you will also be able to update all your details.

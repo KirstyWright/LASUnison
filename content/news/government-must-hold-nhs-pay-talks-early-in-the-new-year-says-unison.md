@@ -3,7 +3,7 @@ title: Government must hold NHS pay talks early in the new year, says UNISON
 date: '2023-12-22'
 category: News
 readTime: 2
-excerpt: UNISON responds to the government issuing pay review body remit letters Commenting on the government issuing of remits to the pay review bodies today (Wednesday), which effectively start the NHS…
+description: UNISON responds to the government issuing pay review body remit letters Commenting on the government issuing of remits to the pay review bodies today (Wednesday), which effectively start the NHS…
 tags:
   - government
   - pay

@@ -3,7 +3,7 @@ title: UNISON's SGE Elections 2024
 date: '2024-04-20'
 category: News
 readTime: 1
-excerpt: Dear LAS UNISON Members, The ballot for UNISON's Service Group Elections opens on Monday 22 April.
+description: Dear LAS UNISON Members, The ballot for UNISON's Service Group Elections opens on Monday 22 April.
 tags:
   - service
   - group

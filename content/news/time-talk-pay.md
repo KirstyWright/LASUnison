@@ -4,7 +4,7 @@ date: '2016-07-29'
 category: News
 topic: Pay
 readTime: 4
-excerpt: Preparation for new pay round gets underway Following the miserly 1% award for all NHS staff in 2016/17, UNISON’s health conference set out a clear strategy for the union’s pay…
+description: Preparation for new pay round gets underway Following the miserly 1% award for all NHS staff in 2016/17, UNISON’s health conference set out a clear strategy for the union’s pay…
 tags:
   - afc
   - pay
@@ -18,6 +18,9 @@ wpCategories:
   - Agenda for Change
 wpId: 2365
 legacyUrl: https://lasunison.co.uk/time-talk-pay
+seo:
+  description: Pay Review Body round 2017/18 UNISON is committed to campaigning for a pay settlement that reflects what NHS staff deserve and have been denied for so long.
+  title: UNISON Pay Survey — LAS UNISON
 ---
 
 ## **Preparation for new pay round gets underway**

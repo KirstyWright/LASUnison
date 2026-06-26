@@ -3,7 +3,7 @@ title: ANNUAL GENERAL MEETING
 date: '2015-02-19'
 category: News
 readTime: 1
-excerpt: This years AGM will be held @ 18.00 On MONDAY 23rd MARCH 2015 In the Gascoigne Room, Union Jack Club, Sandell Street, London SE1 (Opposite Waterloo East Station) All LAS…
+description: This years AGM will be held @ 18.00 On MONDAY 23rd MARCH 2015 In the Gascoigne Room, Union Jack Club, Sandell Street, London SE1 (Opposite Waterloo East Station) All LAS…
 tags:
   - afc
   - las

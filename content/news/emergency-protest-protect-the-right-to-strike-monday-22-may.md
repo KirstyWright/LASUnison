@@ -3,7 +3,7 @@ title: 'Emergency protest: Protect the right to strike - Monday 22 May'
 date: '2023-05-16'
 category: Campaign
 readTime: 1
-excerpt: On Monday 22 May at 6pm, join the emergency protest in Westminster to demand that MPs REJECT the Strikes Bill and to demand that opposition parties commit to REPEAL the…
+description: On Monday 22 May at 6pm, join the emergency protest in Westminster to demand that MPs REJECT the Strikes Bill and to demand that opposition parties commit to REPEAL the…
 tags:
   - strike
   - tuc

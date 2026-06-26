@@ -3,7 +3,7 @@ title: Joint Trade Union Paramedic Retention Survey 2015
 date: '2015-10-11'
 category: News
 readTime: 1
-excerpt: UNISON, GMB and Unite, the 3 main trade unions representing ambulance staff are running a joint survey on Paramedic retention.
+description: UNISON, GMB and Unite, the 3 main trade unions representing ambulance staff are running a joint survey on Paramedic retention.
 tags:
   - survey
   - unison

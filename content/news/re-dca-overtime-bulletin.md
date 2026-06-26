@@ -3,7 +3,7 @@ title: 'RE: DCA OVERTIME BULLETIN'
 date: '2020-03-06'
 category: News
 readTime: 2
-excerpt: Yesterday, (Thursday 05/03/20) We met with Senior Management to raise our concerns regarding the Bulletin that was sent out on ( Wednesday 04/03/20 DCA Overtime Bulletin ) We appreciate our…
+description: Yesterday, (Thursday 05/03/20) We met with Senior Management to raise our concerns regarding the Bulletin that was sent out on ( Wednesday 04/03/20 DCA Overtime Bulletin ) We appreciate our…
 tags:
   - branch secretary
   - consultation
@@ -34,4 +34,4 @@ If this is a funding issue someone from our senior management should stand up an
 
 **Branch Secretary**
 
-[Click here to download this as a bulletin](/?mdocs-file=3984)
+[Click here to download this as a bulletin](/docs/mdocs/Branch%20Sec%20-%2006032020.pdf)

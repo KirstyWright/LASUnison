@@ -100,15 +100,10 @@ useSeoMeta({
           <!-- Suggest a form -->
           <p class="text-[length:var(--text-sm)] text-[var(--text-muted)] mt-8 max-w-[60ch]">
             Is there a form you think should be here? Let us know via the
-            <NuxtLink to="/about-us/contact-us" class="text-[var(--text-link)] underline underline-offset-2 font-semibold hover:text-[var(--text-link-hover)]">contact form</NuxtLink>.
+            <NuxtLink to="/branch" class="text-[var(--text-link)] underline underline-offset-2 font-semibold hover:text-[var(--text-link-hover)]">branch office</NuxtLink>.
           </p>
         </div>
       </section>
-
-      <!-- Help first, fast -->
-      <div class="las-container pb-[var(--section-y)]">
-        <UiEmergencyBar />
-      </div>
 
       <HomeJoin />
     </main>

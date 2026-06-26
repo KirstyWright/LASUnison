@@ -3,7 +3,7 @@ title: New design for LAS UNISON Web Site
 date: '2010-02-12'
 category: News
 readTime: 1
-excerpt: On 11 February LAS UNISON launched a redesigned home page. The structure is simpler with clearer lines between differing boxes.
+description: On 11 February LAS UNISON launched a redesigned home page. The structure is simpler with clearer lines between differing boxes.
 wpCategories:
   - Website News
 wpId: 51

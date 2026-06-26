@@ -3,7 +3,7 @@ title: Loss of a Much Loved Paramedic & Former UNISON rep Yesterday
 date: '2020-05-07'
 category: News
 readTime: 1
-excerpt: Such sad news yesterday to hear about our wonderful and much loved colleague Ben Woodhart, who died suddenly and unexpectedly at home.
+description: Such sad news yesterday to hear about our wonderful and much loved colleague Ben Woodhart, who died suddenly and unexpectedly at home.
 tags:
   - branch
   - las

@@ -4,7 +4,7 @@ date: '2017-11-20'
 category: News
 topic: Pay
 readTime: 4
-excerpt: Ambulance national discussions – November 2017 joint update Ambulance employers, national trade unions and NHS Employers have been working closely together over recent months to progress the requirements of the…
+description: Ambulance national discussions – November 2017 joint update Ambulance employers, national trade unions and NHS Employers have been working closely together over recent months to progress the requirements of the…
 tags:
   - afc
   - paramedic
@@ -49,6 +49,6 @@ Employers are working to implement this agreement.  NQPs will need to participat
 
 Related Documents:
 
-[Fast Track Process Guidance & Flow Charts](/?mdocs-file=2941)
+[Fast Track Process Guidance & Flow Charts](/docs/mdocs/V.8%20Fast%20Track%20Process%20Guidance%20and%20Flow%20Charts%20%28003%29.pdf)
 
-[Download a copy of this statement to display](/?mdocs-file=2943)
+[Download a copy of this statement to display](/docs/mdocs/ambulance%20FINAL%20jointly%20agreed%20statement%20Nov%202017%20%28002%29.pdf)

@@ -4,7 +4,7 @@ date: '2023-01-21'
 category: News
 topic: Pay
 readTime: 6
-excerpt: Message of solidarity from Bryn Webster, Chair of UNISON’s National Ambulance Occupational Group Five weeks ago, I wrote to you in preparation for what was to be our first day…
+description: Message of solidarity from Bryn Webster, Chair of UNISON’s National Ambulance Occupational Group Five weeks ago, I wrote to you in preparation for what was to be our first day…
 tags:
   - afc
   - government

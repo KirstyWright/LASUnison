@@ -4,7 +4,7 @@ date: '2021-07-28'
 category: News
 topic: Pay
 readTime: 4
-excerpt: Rise doesn’t fulfil government’s own pledge to level up The government has failed to honour its own ‘levelling up’ promises with the disappointing 3% pay rise for NHS workers in…
+description: Rise doesn’t fulfil government’s own pledge to level up The government has failed to honour its own ‘levelling up’ promises with the disappointing 3% pay rise for NHS workers in…
 tags:
   - afc
   - ballot

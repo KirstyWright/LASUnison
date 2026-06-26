@@ -3,7 +3,7 @@ title: London Ambulance Service appoints new Chief Executive
 date: '2012-10-09'
 category: News
 readTime: 2
-excerpt: The London Ambulance Service has today announced the appointment of Ann Radmore as the organisation’s new Chief Executive.
+description: The London Ambulance Service has today announced the appointment of Ann Radmore as the organisation’s new Chief Executive.
 tags:
   - chief executive
   - las

@@ -6,7 +6,7 @@ lastUpdated: 2024-01-01
 
 ## Who we are
 
-LAS UNISON is the UNISON branch for London Ambulance Service NHS Trust staff. Our website address is [https://lasunison.co.uk](https://lasunison.co.uk).
+LAS UNISON is the UNISON branch for London Ambulance Service NHS Trust staff. Our website address is [https://lasunison.com](https://lasunison.com).
 
 **Data controller:** LAS UNISON Branch, London Ambulance Service NHS Trust, 220 Waterloo Road, London SE1 8SD.
 
@@ -20,7 +20,7 @@ If you use a contact form on this website we collect your name, email address an
 
 ### Membership applications
 
-If you join UNISON through this site you are directed to the national UNISON join form at [my.unison.org.uk](https://my.unison.org.uk). LAS UNISON does not handle or store the personal data you submit there — please refer to [UNISON's privacy policy](https://www.unison.org.uk/privacy-statement/) for how that data is used.
+If you join UNISON through this site you are directed to the national UNISON join form at [my.unison.org.uk](https://my.unison.org.uk). LAS UNISON does not handle or store the personal data you submit there — please refer to [UNISON's privacy policy](https://www.unison.org.uk/privacy-policy/) for how that data is used.
 
 ### Cookies
 

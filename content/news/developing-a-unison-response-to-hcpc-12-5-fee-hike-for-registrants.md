@@ -3,7 +3,7 @@ title: Developing a UNISON response to HCPC 12.5% fee hike for registrants
 date: '2015-04-20'
 category: News
 readTime: 6
-excerpt: The Health and Care Professions Council is consulting on increasing its annual registration fee from £80 to £90. This affects all 16 professions regulated by HCPC.
+description: The Health and Care Professions Council is consulting on increasing its annual registration fee from £80 to £90. This affects all 16 professions regulated by HCPC.
 tags:
   - government
   - hcpc
@@ -25,7 +25,7 @@ The Health and Care Professions Council is consulting on increasing its annual r
 
 Download the consultation here:
 
-http://www.hcpc-uk.org/aboutus/consultations/index.asp?id=188
+https://www.hcpc-uk.org/
 
 **This briefing summarises the consultation and invites activists to give their views so we can formulate a UNISON response.**
 

@@ -3,7 +3,7 @@ title: 6000 members!
 date: '2023-04-20'
 category: News
 readTime: 1
-excerpt: The biggest ambulance service branch just keeps getting bigger. Thank you and welcome to all our new members.
+description: The biggest ambulance service branch just keeps getting bigger. Thank you and welcome to all our new members.
 tags:
   - ambulance
   - green family

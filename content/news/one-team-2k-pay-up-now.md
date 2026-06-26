@@ -4,7 +4,7 @@ date: '2020-09-11'
 category: News
 topic: Pay
 readTime: 4
-excerpt: As the biggest trade union in the ambulance sector, UNISON understands the role you play and continue to play in dealing with the pandemic.
+description: As the biggest trade union in the ambulance sector, UNISON understands the role you play and continue to play in dealing with the pandemic.
 tags:
   - government
   - nhs
@@ -23,7 +23,7 @@ As the biggest trade union in the ambulance sector, UNISON understands the role 
 
 Now it’s time for the government to recognise this and turn their applause and warm words for NHS staff into a meaningful and early pay rise.
 
-This is why UNISON led the way and delivered a [letter](https://www.unison.org.uk/content/uploads/2020/08/2k-claim-Prime-Minister-letter.pdf) to the Prime Minister urging him to give every NHS employee an increase of at least £2,000 by the end of the year.
+This is why UNISON led the way and delivered a [letter](https://www.unison.org.uk/content/uploads/2020/08/2k-claim-Prime-Minister-letter.pdf) [Link no longer available]{.link-unavailable} to the Prime Minister urging him to give every NHS employee an increase of at least £2,000 by the end of the year.
 
 £2,000 for everyone is fair and reasonable for the whole NHS team. It is easy to explain to the government and supporting it is the least they can do for NHS staff. It isn’t complicated, and it could be implemented quickly.
 

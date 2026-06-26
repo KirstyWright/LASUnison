@@ -4,7 +4,7 @@ date: '2025-06-02'
 category: News
 topic: Pay
 readTime: 2
-excerpt: The government has announced a 3.6% pay increase for NHS staff in England. What do we know? There have been no negotiations with unions and this is not an offer…
+description: The government has announced a 3.6% pay increase for NHS staff in England. What do we know? There have been no negotiations with unions and this is not an offer…
 tags:
   - government
   - pay

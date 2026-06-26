@@ -4,7 +4,7 @@ date: '2018-04-11'
 category: News
 topic: Pay
 readTime: 5
-excerpt: Dear Ambulance member, We are writing to you about the pay proposals for NHS staff in England.
+description: Dear Ambulance member, We are writing to you about the pay proposals for NHS staff in England.
 tags:
   - afc
   - consultation
@@ -60,4 +60,4 @@ UNISON National Officer for Ambulance Sector
 
 [Update your details here](https://my.unison.org.uk/)
 
-[Download this in bulletin format to display in your workplace](/?mdocs-file=3130)
+[Download this in bulletin format to display in your workplace](/docs/mdocs/General%20-%20Pay%20proposal%20-%20April%202018.pdf)

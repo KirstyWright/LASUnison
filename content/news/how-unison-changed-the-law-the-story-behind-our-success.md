@@ -3,7 +3,7 @@ title: 'How UNISON changed the law: the story behind our success'
 date: '2017-08-03'
 category: News
 readTime: 8
-excerpt: How UNISON won the most significant judicial intervention in the history of British employment law On Wednesday 26 July, a grey and rainy morning, UNISON members and staff gathered outside…
+description: How UNISON won the most significant judicial intervention in the history of British employment law On Wednesday 26 July, a grey and rainy morning, UNISON members and staff gathered outside…
 tags:
   - government
   - unison
@@ -29,7 +29,7 @@ The fees were brought in at a time when the Ministry of Justice was facing huge 
 
 Anyone who felt they had been illegally treated by their employer suddenly had to include a cheque when they sent off their claim form, or pay with a card online, or the form wouldn’t even be looked at.
 
-![](https://www.unison.org.uk/content/uploads/2017/07/RS2058_17-UNISON-0534-scr-768x512.jpg)
+![](https://www.unison.org.uk/content/uploads/2017/07/RS2058_17-UNISON-0534-scr-768x512.jpg) [Link no longer available]{.link-unavailable}
 
 One of the members standing outside the Supreme Court on the day of the result was Clara Mason.
 
@@ -47,7 +47,7 @@ Type A claims generally require little or no work before the hearing, and have v
 
 For a single claimant, the total fees are £390 for a type A claim and £1,200 for a type B claim. There’s a different cost system for groups of people making a joint claim.
 
-![](https://www.unison.org.uk/content/uploads/2017/07/RS2051_17-UNISON-5382-scr-768x512.jpg)
+![](https://www.unison.org.uk/content/uploads/2017/07/RS2051_17-UNISON-5382-scr-768x512.jpg) [Link no longer available]{.link-unavailable}
 
 Simon Steptoe is a UNISON branch chair who was also waiting outside the Supreme Court to hear the verdict. He has helped UNISON members bring tribunal cases, with the fees paid for by UNISON.
 
@@ -107,17 +107,17 @@ Now that’s what we call a success.
 
 # More on this
 
-![](https://www.unison.org.uk/content/uploads/2012/10/121031_bs_Scales2-235x130.jpg)
+![](https://www.unison.org.uk/content/uploads/2012/10/121031_bs_Scales2-235x130.jpg) [Link no longer available]{.link-unavailable}
 
 ### [Legal services](https://www.unison.org.uk/get-help/services-support/legal-services/)
 
 UNISON provides quality legal services for employment-related and non-work issues at no extra cost to members and their family. In fact, UNISON provides the broadest range of legal help to union members in the UK.
 
-### [Working patterns](https://www.unison.org.uk/get-help/knowledge/working-patterns/)
+### [Working patterns](https://www.unison.org.uk/get-help/knowledge/working-patterns/) [Link no longer available]{.link-unavailable}
 
 Nearly all workers, regardless of the number of hours per week they work, have certain legal rights.
 
-![Meeting, serious expressions.](https://www.unison.org.uk/content/uploads/2012/10/121018_rf_meeting22-235x130.jpg)
+![Meeting, serious expressions.](https://www.unison.org.uk/content/uploads/2012/10/121018_rf_meeting22-235x130.jpg) [Link no longer available]{.link-unavailable}
 
 ### [Employment tribunals](https://www.unison.org.uk/get-help/knowledge/disputes-grievances/employment-tribunals/)
 

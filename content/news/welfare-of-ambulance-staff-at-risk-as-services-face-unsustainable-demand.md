@@ -3,7 +3,7 @@ title: Welfare of ambulance staff at risk as services face ‘unsustainable’ d
 date: '2021-08-06'
 category: News
 readTime: 3
-excerpt: UNISON has written to ambulance service chiefs calling for urgent support for staff as services face unprecedented 999 call volumes and unsustainable demand from the public.
+description: UNISON has written to ambulance service chiefs calling for urgent support for staff as services face unprecedented 999 call volumes and unsustainable demand from the public.
 tags:
   - ambulance
   - covid 19

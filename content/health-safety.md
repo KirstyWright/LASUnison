@@ -1,5 +1,6 @@
 ---
 title: Health & Safety
+officer: paul-stewart
 description: 'Welcome to the LAS Unison Branch Health and Safety Page ''No one should be made ill by their work'' (ref: LAS Manual Handling Policy) UNISON and the LAS Branch take…'
 date: '2020-06-10'
 wpId: 1315
@@ -35,7 +36,7 @@ Are You At Risk? – UNISON’s poster which aims to raise awareness about the i
 
 The poster identifies the HSE’s five steps to risk assessment.
 
-**[CLICK HERE TO DOWNLOAD](/?mdocs-file=4990)**
+**[CLICK HERE TO DOWNLOAD](/docs/mdocs/233521.pdf)**
 
 ---
 

@@ -4,7 +4,7 @@ date: '2020-12-14'
 category: News
 topic: Safety
 readTime: 2
-excerpt: We are currently conducting a short survey of members and branches to find out your views on what UNISON can do to address another urgent issue, the climate emergency.
+description: We are currently conducting a short survey of members and branches to find out your views on what UNISON can do to address another urgent issue, the climate emergency.
 tags:
   - health & safety
   - nhs

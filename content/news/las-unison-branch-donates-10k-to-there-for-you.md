@@ -4,7 +4,7 @@ date: '2023-11-29'
 category: News
 topic: Wellbeing
 readTime: 1
-excerpt: At our branch meeting this week, we unanimously voted to donate £10,000 to UNISON's welfare fund - There For You To apply for financial assistance, please follow the link above…
+description: At our branch meeting this week, we unanimously voted to donate £10,000 to UNISON's welfare fund - There For You To apply for financial assistance, please follow the link above…
 tags:
   - welfare
   - crisis

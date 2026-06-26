@@ -4,7 +4,7 @@ date: '2017-03-28'
 category: News
 topic: Pay
 readTime: 2
-excerpt: The government has today (28 March) announced that NHS staff in England will receive a consolidated pay increase of 1% from 1 April .
+description: The government has today (28 March) announced that NHS staff in England will receive a consolidated pay increase of 1% from 1 April .
 tags:
   - afc
   - government

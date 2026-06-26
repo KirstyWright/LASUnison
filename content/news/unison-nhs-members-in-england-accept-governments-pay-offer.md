@@ -4,7 +4,7 @@ date: '2015-03-03'
 category: News
 topic: Pay
 readTime: 2
-excerpt: UNISON members have accepted the government’s pay offer for NHS workers in a ballot that closed today ( Tuesday ).
+description: UNISON members have accepted the government’s pay offer for NHS workers in a ballot that closed today ( Tuesday ).
 tags:
   - afc
   - ballot

@@ -4,7 +4,7 @@ date: '2020-04-27'
 category: News
 topic: Pay
 readTime: 1
-excerpt: Pay Journey Update Union membership is an integral part of the foundation that makes collective bargaining like this both possible and, in our case, so effective.
+description: Pay Journey Update Union membership is an integral part of the foundation that makes collective bargaining like this both possible and, in our case, so effective.
 tags:
   - branch
   - emt
@@ -19,7 +19,7 @@ wpId: 4849
 legacyUrl: https://lasunison.co.uk/emt-pay-journey-update
 ---
 
-[![](/images/2020/04/pay-1.jpg)](/?mdocs-file=4846)
+[![](/images/2020/04/pay-1.jpg)](/docs/mdocs/EMT%20full.pdf)
 
 # Pay Journey Update
 
@@ -45,4 +45,4 @@ Of course, our efforts benefit all staff but, if you're not already, why not bec
 
 - #### Pushing for shorter pay journeys in the 2018 NHS pay deal so all staff reach the top of their band quicker
 
-**[Click here to download this as a poster to display in your workplace](/?mdocs-file=4846)**
+**[Click here to download this as a poster to display in your workplace](/docs/mdocs/EMT%20full.pdf)**

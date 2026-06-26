@@ -4,7 +4,7 @@ date: '2022-08-13'
 category: News
 topic: Pay
 readTime: 1
-excerpt: It's nearly time to pledge YES for the NHS! Our pledge drive campaign starts next week before the ballot that will run from 27th October to the 25th November.
+description: It's nearly time to pledge YES for the NHS! Our pledge drive campaign starts next week before the ballot that will run from 27th October to the 25th November.
 tags:
   - afc
   - ballot

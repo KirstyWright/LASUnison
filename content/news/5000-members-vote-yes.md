@@ -3,7 +3,7 @@ title: 5000 Members & Vote Yes
 date: '2022-10-27'
 category: News
 readTime: 2
-excerpt: Dear Colleagues, LAS UNISON Branch is proud to announce a momentous occasion, we have reached over 5000 Members! Yesterday (26 Oct) at our training centre in Newham Dockside we signed…
+description: Dear Colleagues, LAS UNISON Branch is proud to announce a momentous occasion, we have reached over 5000 Members! Yesterday (26 Oct) at our training centre in Newham Dockside we signed…
 tags:
   - ambulance
   - ballot

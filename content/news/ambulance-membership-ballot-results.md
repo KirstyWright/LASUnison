@@ -4,7 +4,7 @@ date: '2012-01-04'
 category: News
 topic: Pensions
 readTime: 1
-excerpt: TRADE DISPUTE OVER CHANGES TO NHS PENSIONS ENGLAND & WALES Our independent scrutineers' report of voting, as required in accordance with section 231B of the Trade Union and Labour Relations…
+description: TRADE DISPUTE OVER CHANGES TO NHS PENSIONS ENGLAND & WALES Our independent scrutineers' report of voting, as required in accordance with section 231B of the Trade Union and Labour Relations…
 wpCategories:
   - Pensions
   - UNISON News

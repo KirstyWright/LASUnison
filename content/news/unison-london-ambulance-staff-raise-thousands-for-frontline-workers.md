@@ -4,7 +4,7 @@ date: '2020-07-28'
 category: News
 topic: Wellbeing
 readTime: 2
-excerpt: Sales of a commemorative badge created by two UNISON London Ambulance Service (LAS) staff have raised more than £50,000 for charities providing mental health and financial support to frontline staff…
+description: Sales of a commemorative badge created by two UNISON London Ambulance Service (LAS) staff have raised more than £50,000 for charities providing mental health and financial support to frontline staff…
 tags:
   - branch
   - covid 19

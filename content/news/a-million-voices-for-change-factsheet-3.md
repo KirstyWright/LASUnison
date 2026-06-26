@@ -3,7 +3,7 @@ title: A Million Voices for Change - Factsheet 3
 date: '2009-07-21'
 category: News
 readTime: 1
-excerpt: What’s happening to the NHS? During the recession, the NHS will play a vital role in ensuring that when people lose their jobs or homes they do not lose access…
+description: What’s happening to the NHS? During the recession, the NHS will play a vital role in ensuring that when people lose their jobs or homes they do not lose access…
 wpCategories:
   - UNISON News
 wpId: 66

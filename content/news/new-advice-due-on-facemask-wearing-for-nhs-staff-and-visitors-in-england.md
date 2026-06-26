@@ -4,7 +4,7 @@ date: '2020-06-15'
 category: News
 topic: Safety
 readTime: 5
-excerpt: From Monday 15 June all staff in the NHS in England will need to wear facemasks at work, according to an announcement by the Secretary of State for Health on…
+description: From Monday 15 June all staff in the NHS in England will need to wear facemasks at work, according to an announcement by the Secretary of State for Health on…
 tags:
   - branch
   - covid 19
@@ -91,6 +91,6 @@ UNISON continues to raise concerns with supply and quality of PPE as an urgent m
 
 Branches should continue to ensure NHS staff are accessing Covid-19 special leave regardless of which route the advice to self-isolate comes.
 
-**[Find more information from the NHS Trade Unions’ Blueprint for Return](https://www.unison.org.uk/content/uploads/2020/05/26086.pdf)**
+**[Find more information from the NHS Trade Unions’ Blueprint for Return](https://www.unison.org.uk/content/uploads/2020/05/26086.pdf) [Link no longer available]{.link-unavailable}**
 
-**[See also the NHS Employers Risk Assessments for Staff guidance which has joint union advice within it.](https://www.nhsemployers.org/covid19/health-safety-and-wellbeing/risk-assessments-for-staff)**
+**[See also the NHS Employers Risk Assessments for Staff guidance which has joint union advice within it.](https://www.nhsemployers.org/covid19/health-safety-and-wellbeing/risk-assessments-for-staff) [Link no longer available]{.link-unavailable}**

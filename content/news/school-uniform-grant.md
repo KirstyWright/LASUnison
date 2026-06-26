@@ -4,7 +4,7 @@ date: '2024-05-24'
 category: News
 topic: Wellbeing
 readTime: 3
-excerpt: There For You - UNISON's welfare fund - are offering help for members struggling to pay for school uniform.
+description: There For You - UNISON's welfare fund - are offering help for members struggling to pay for school uniform.
 tags:
   - welfare
   - uniform
@@ -64,4 +64,4 @@ Be in receipt of means-tested benefits. This includes:
 
 \*\* Where members either have no recourse to public funds and their household income is above £26,000/year or have no recourse to public funds and don’t receive Child Benefit; an assessment will be undertaken to see whether they would be eligible for benefits if they did have recourse to public funds.
 
-For more info and FAQs, see UNISON's main website: [here](https://www.unison.org.uk/get-help/services-support/there-for-you/school-uniform-grant-2/)
+For more info and FAQs, see UNISON's main website: [here](https://www.unison.org.uk/get-help/services-support/there-for-you/school-uniform-grant-2/) [Link no longer available]{.link-unavailable}

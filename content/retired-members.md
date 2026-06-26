@@ -1,5 +1,6 @@
 ---
 title: Retired Members
+officer: tracy-ward
 description: After many years working within the NHS as an employee of the London Ambulance Service in whatever capacity and having been a UNISON member during that time, you have now…
 date: '2025-04-21'
 wpId: 1339

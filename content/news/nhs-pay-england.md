@@ -4,7 +4,7 @@ date: '2021-11-03'
 category: News
 topic: Pay
 readTime: 2
-excerpt: The government has imposed a 3% pay rise for all NHS staff in England. UNISON is running an indicative ballot to find out whether members want to take action.
+description: The government has imposed a 3% pay rise for all NHS staff in England. UNISON is running an indicative ballot to find out whether members want to take action.
 tags:
   - afc
   - ballot

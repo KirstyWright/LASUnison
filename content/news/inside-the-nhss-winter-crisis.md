@@ -3,7 +3,7 @@ title: Inside the NHS’s winter crisis
 date: '2018-01-27'
 category: News
 readTime: 6
-excerpt: The nation is in panic over the so-called ‘winter crisis’ in the NHS. But according to paramedic and LAS UNISON member Jason Anderson, such pressures have become “the norm” for…
+description: The nation is in panic over the so-called ‘winter crisis’ in the NHS. But according to paramedic and LAS UNISON member Jason Anderson, such pressures have become “the norm” for…
 tags:
   - government
   - las
@@ -60,7 +60,7 @@ He describes those corridors as often overflowing with people: patients, paramed
 
 “But we still have to stay with them, until we can hand them over. So we get frustrated too. The longer we’re in a hospital, that’s one less ambulance on the road.”
 
-![](https://www.unison.org.uk/content/uploads/2018/01/jason-2.jpg)
+![](https://www.unison.org.uk/content/uploads/2018/01/jason-2.jpg) [Link no longer available]{.link-unavailable}
 
 In some respects, ambulance crews offer the perfect overview of a patient’s A&E experience: they collect a patient from their home, having to administer initial care and witnessing their distress; they bring them to a hospital, which at times can be crowded, and have to wait with them for what can be hours.
 

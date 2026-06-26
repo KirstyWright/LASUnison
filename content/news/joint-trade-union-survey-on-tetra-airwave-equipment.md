@@ -3,7 +3,7 @@ title: Joint Trade Union Survey on Tetra Airwave Equipment
 date: '2010-03-31'
 category: News
 readTime: 2
-excerpt: Dear Colleague A number of members working within the Ambulance and Police sector have raised concerns about the health effects of using the Tetra Airwave system.
+description: Dear Colleague A number of members working within the Ambulance and Police sector have raised concerns about the health effects of using the Tetra Airwave system.
 wpCategories:
   - UNISON News
 wpId: 45

@@ -3,7 +3,7 @@ title: MOBILE APPS PROJECT LAUNCHED
 date: '2012-06-01'
 category: News
 readTime: 2
-excerpt: The London Ambulance Service, in partnership with UNISON, has recently been awarded funding to build mobile applications, or „apps‟, to benefit Service staff.
+description: The London Ambulance Service, in partnership with UNISON, has recently been awarded funding to build mobile applications, or „apps‟, to benefit Service staff.
 wpCategories:
   - Branch News
   - LAS News

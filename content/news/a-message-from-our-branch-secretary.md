@@ -4,7 +4,7 @@ date: '2023-01-26'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Dear UNISON Members, I hope you are all keeping well? We have just completed our third date into our industrial action, you have all played your part and our Branch…
+description: Dear UNISON Members, I hope you are all keeping well? We have just completed our third date into our industrial action, you have all played your part and our Branch…
 tags:
   - afc
   - branch secretary

@@ -4,7 +4,7 @@ date: '2019-10-11'
 category: News
 topic: Safety
 readTime: 3
-excerpt: Last month, LAS UNISON Branch Health & Safety Officer Paul Stewart and Branch Communications Officer Rob Sydney travelled up to Birmingham to visit the Emergency Services Show.
+description: Last month, LAS UNISON Branch Health & Safety Officer Paul Stewart and Branch Communications Officer Rob Sydney travelled up to Birmingham to visit the Emergency Services Show.
 tags:
   - communications
   - consultation
@@ -26,7 +26,7 @@ Last month, LAS UNISON Branch Health & Safety Officer Paul Stewart and Branch Co
 On display at this year’s show were over 300 manufacturers and suppliers with a wide range of vehicles and equipment for all emergency services.
 However, there was one particular vehicle we were keen to see. The new National Ambulance Specification vehicle.
 
-Despite objections raised by UNISON, the current specification is for a van conversion. [https://lasunison.co.uk/unison-response-to-the-introduction-of-national-ambulance-vehicle-specification-for-english-nhs-ambulance-trusts](/unison-response-to-the-introduction-of-national-ambulance-vehicle-specification-for-english-nhs-ambulance-trusts)
+Despite objections raised by UNISON, the current specification is for a van conversion. [Read UNISON's response to the new vehicle specification](/news/unison-response-to-the-introduction-of-national-ambulance-vehicle-specification-for-english-nhs-ambulance-trusts)
 This has now been mandated by NHSI, and therefore any orders placed after April 2019 will only be the national Vehicle spec vehicle; a van conversion.
 
 Although there were a couple of versions at the show, they were very disappointing, in many aspects, no more than the increased risk to staff of MSK injuries, from a loading of patient perspective.

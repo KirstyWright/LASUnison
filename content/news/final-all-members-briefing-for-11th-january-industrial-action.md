@@ -4,7 +4,7 @@ date: '2023-01-10'
 category: News
 topic: Pay
 readTime: 9
-excerpt: Following on from the success of strike action we took on the 21 st of December, the cracks started to appear in the government’s ignorance to our campaign very quickly…
+description: Following on from the success of strike action we took on the 21 st of December, the cracks started to appear in the government’s ignorance to our campaign very quickly…
 tags:
   - afc
   - branch

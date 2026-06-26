@@ -12,9 +12,9 @@ const props = withDefaults(
 )
 
 const BASE =
-  'group flex flex-col bg-[var(--surface-card)] border border-[var(--border-subtle)] rounded-[var(--radius-card)] overflow-hidden shadow-[var(--shadow-sm)] text-[var(--text-body)] transition duration-200 ease-out'
+  'group flex flex-col bg-[var(--surface-card)] border border-[var(--border-subtle)] rounded-[var(--radius-card)] overflow-hidden shadow-[var(--shadow-sm)] text-[var(--text-body)] transition duration-150 ease-out'
 const INTERACTIVE =
-  'cursor-pointer no-underline hover:shadow-[var(--shadow-lg)] hover:-translate-y-[3px] hover:border-[var(--border-default)]'
+  'cursor-pointer no-underline hover:shadow-[var(--shadow-lg)] hover:-translate-y-[3px] hover:border-[var(--border-default)] focus-visible:shadow-[var(--shadow-lg)] focus-visible:-translate-y-[3px] focus-visible:border-[var(--border-default)]'
 
 const isInteractive = computed(() => props.interactive || !!props.href)
 const stripColor = computed(() => (props.accent ? `bg-[var(--${props.accent})]` : 'bg-[var(--brand-primary)]'))
@@ -26,7 +26,7 @@ const stripColor = computed(() => (props.accent ? `bg-[var(--${props.accent})]` 
     :href="href"
     :class="[BASE, isInteractive && INTERACTIVE]"
   >
-    <div v-if="topStrip" class="h-1.5" :class="stripColor" aria-hidden="true" />
+    <div v-if="topStrip" class="h-[1.5px]" :class="stripColor" aria-hidden="true" />
     <div
       v-if="$slots.media"
       class="relative aspect-video bg-[var(--surface-sunken)] overflow-hidden [&>img]:w-full [&>img]:h-full [&>img]:object-cover"

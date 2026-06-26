@@ -4,7 +4,7 @@ date: '2017-12-03'
 category: News
 topic: Pay
 readTime: 4
-excerpt: Government announces additional funding for NHS pay In the Budget on 22 November 2017 the Chancellor confirmed additional funding could be made available for NHS pay for 2018/19.
+description: Government announces additional funding for NHS pay In the Budget on 22 November 2017 the Chancellor confirmed additional funding could be made available for NHS pay for 2018/19.
 tags:
   - afc
   - consultation
@@ -85,4 +85,4 @@ The NHS PRB usually reports by March, for April implementation, but this timesca
 The Government confirms additional funding could be made available for NHS PRB recommendation for 2018/19, but availability of funding is linked to “modernisation” of the pay scale. The Government wishes to seek agreement with NHS trade unions on what that looks like.
 UNISON health executive will hold an extraordinary meeting in December to consider whether proposals are substantive enough to warrant entering formal negotiations. UNISON branches and members will be consulted before UNISON agrees any deal
 
-[Click here to download the original version of this story](/?mdocs-file=2959)
+[Click here to download the original version of this story](/docs/mdocs/HC-099-17%20NHS%20pay%20-%20UNISON%20response%20to%20Budget.pdf)

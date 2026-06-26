@@ -4,7 +4,7 @@ date: '2015-01-28'
 category: News
 topic: Pensions
 readTime: 2
-excerpt: Click here to download and read the offer letter from Jeremy Hunt to Christina which the SGE agreed to consult members on.
+description: Click here to download and read the offer letter from Jeremy Hunt to Christina which the SGE agreed to consult members on.
 tags:
   - afc
   - ballot

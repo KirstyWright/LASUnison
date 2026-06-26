@@ -3,7 +3,7 @@ title: Pickles gets it wrong on trade union facility time
 date: '2011-10-04'
 category: News
 readTime: 2
-excerpt: UNISON, the UK’s largest union, said today that Eric Pickles had got it wrong on trade union facility time.
+description: UNISON, the UK’s largest union, said today that Eric Pickles had got it wrong on trade union facility time.
 image: /images/2011/10/256.png
 wpCategories:
   - UNISON News

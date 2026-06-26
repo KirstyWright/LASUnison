@@ -4,7 +4,7 @@ date: '2021-04-27'
 category: News
 topic: Pay
 readTime: 3
-excerpt: Key workers kept us safe during the pandemic. While many of us worked at home, NHS staff, carers, refuse collectors, teaching assistants and police staff put themselves at greater risk…
+description: Key workers kept us safe during the pandemic. While many of us worked at home, NHS staff, carers, refuse collectors, teaching assistants and police staff put themselves at greater risk…
 tags:
   - afc
   - government
@@ -71,4 +71,4 @@ UNISON says all key workers right across the economy deserve a pay rise.  For th
 
 **Shawn, hospital porter***
 
-Page reproduced from https://www.nogoingbacktonormal.org
+Page reproduced from https://www.nogoingbacktonormal.org [Link no longer available]{.link-unavailable}

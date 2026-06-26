@@ -4,7 +4,7 @@ date: '2023-02-17'
 category: News
 topic: Pay
 readTime: 3
-excerpt: Staff at further ambulance services and health trusts vote to strike The growing NHS dispute over pay and staffing will now cover ambulance services and other NHS organisations across most…
+description: Staff at further ambulance services and health trusts vote to strike The growing NHS dispute over pay and staffing will now cover ambulance services and other NHS organisations across most…
 tags:
   - afc
   - ballot

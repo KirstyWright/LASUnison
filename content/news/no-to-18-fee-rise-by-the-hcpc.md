@@ -3,7 +3,7 @@ title: NO to 18% Fee Rise by the HCPC
 date: '2019-02-15'
 category: News
 readTime: 1
-excerpt: In spite of overwhelming opposition, the HCPC are proceeding with the unjustified 18% increase in fees for Paramedics and others that they regulate.
+description: In spite of overwhelming opposition, the HCPC are proceeding with the unjustified 18% increase in fees for Paramedics and others that they regulate.
 wpCategories:
   - General
 image: /images/2020/03/ThursCouncil-1000x560-1.png

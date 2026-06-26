@@ -3,7 +3,7 @@ title: The Independent Safeguarding Authority Scheme
 date: '2009-04-10'
 category: News
 readTime: 4
-excerpt: What is the IndependentSafeguarding Authority? The Independent Safeguarding Authority (ISA) is a new public body which has been created to help prevent unsuitable people from working with children and vulnerable…
+description: What is the IndependentSafeguarding Authority? The Independent Safeguarding Authority (ISA) is a new public body which has been created to help prevent unsuitable people from working with children and vulnerable…
 wpCategories:
   - UNISON News
 wpId: 73
@@ -50,13 +50,13 @@ to cover the applicant for the duration of their career.
 Those involved only in unpaid voluntary activity will pay no application fee.
 UNISON strongly believes that the cost of the scheme should NOT be borne by individuals and we are campaigning for the fee to be paid for by employers.
 
-[To read the rest of this story click here to view the PDF version](/isa/ISA%20UNISON%20member%20briefing[1].pdf)
+To read the rest of this story click here to view the PDF version
 
 We have a range of documents related to this issue:
 
-[Policy Paper](/isa/ISA%20-%20UNISON%20policy%20paper[1].pdf)
-[Parliamentary Briefing](/isa/ISA%20parliamentary%20briefing[1].pdf)
-[Staff Side Principles](/isa/ISA%20staff%20side%20principles[1].pdf)
-[Branch Briefing](/isa/ISA%20UNISON%20branch%20briefing[1].pdf)
+Policy Paper
+Parliamentary Briefing
+Staff Side Principles
+Branch Briefing
 
 © [by LAS UNISON](/).

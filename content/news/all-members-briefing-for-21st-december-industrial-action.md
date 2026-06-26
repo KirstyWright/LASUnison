@@ -4,7 +4,7 @@ date: '2022-12-19'
 category: News
 topic: Pay
 readTime: 7
-excerpt: LAS UNISON Branch have achieved a successful ballot to take strike action against poor pay and conditions in the NHS.
+description: LAS UNISON Branch have achieved a successful ballot to take strike action against poor pay and conditions in the NHS.
 tags:
   - afc
   - branch

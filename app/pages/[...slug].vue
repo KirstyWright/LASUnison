@@ -18,6 +18,25 @@ if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
 }
 
+// Branch officer pages credit the officer responsible for the area as the page's
+// "author" via an `officer: <committee-slug>` frontmatter key (e.g. paul-ray).
+// Resolve it from the editable committee collection; an author card renders at
+// the foot of the article. Matches on the file slug, with a name fallback so a
+// mistyped "Paul Ray" still resolves.
+const { data: officer } = await useAsyncData('officer-' + route.path, async () => {
+  const ref = page.value?.officer
+  if (!ref) return null
+  const slugify = (s: string) =>
+    s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
+  const members = await queryCollection('committee').all()
+  return (
+    members.find((m: any) => {
+      const stemSlug = String(m.stem ?? m.id ?? '').split('/').pop()?.replace(/\.yml$/, '')
+      return stemSlug === ref || slugify(m.name) === slugify(ref)
+    }) ?? null
+  )
+})
+
 const title = computed(() => page.value?.title || 'Page')
 const isStub = computed(() => page.value?.stub === true)
 
@@ -58,12 +77,22 @@ const siblings = computed<SiteLink[]>(() =>
   siblingsForPath(route.path).map((i) => ({ label: i.label, url: i.path, note: i.note, icon: i.icon })),
 )
 
-useHead({ title: () => `${title.value} — LAS UNISON` })
-useSeoMeta({
-  description: () => page.value?.description ?? undefined,
-  ogTitle: () => `${title.value} — LAS UNISON`,
-  ogDescription: () => page.value?.description ?? undefined,
+useContentSeo({
+  title: () => title.value,
+  description: () => page.value?.description,
+  seo: () => page.value?.seo,
 })
+
+// Breadcrumb structured data: Home / [crumbs] / Title.
+useSchemaOrg(() => [
+  defineBreadcrumb({
+    itemListElement: [
+      { name: 'Home', item: '/' },
+      ...crumbs.value.map((c) => ({ name: c.label, item: c.to })),
+      { name: title.value },
+    ],
+  }),
+])
 </script>
 
 <template>
@@ -117,13 +146,27 @@ useSeoMeta({
         <!-- Real content -->
         <template v-else>
           <div class="max-w-[72ch]">
-            <ContentRenderer v-if="page" :value="page" class="las-prose" />
+            <UiLightbox>
+              <ContentRenderer v-if="page" :value="page" class="las-prose" />
+            </UiLightbox>
             <p
               v-if="page?.date"
               class="mt-12 pt-5 border-t border-[var(--border-subtle)] text-[length:var(--text-sm)] text-[var(--text-subtle)] m-0"
             >
               Last updated {{ formatNewsDate(page.date) }}
             </p>
+
+            <!-- Branch officer for this area, credited as the page's author -->
+            <CommitteeAuthorCard
+              v-if="officer"
+              :name="officer.name"
+              :role="officer.role"
+              :workplace="officer.workplace"
+              :phone="officer.phone"
+              :email="officer.email"
+              :photo="officer.photo"
+              class="mt-10"
+            />
           </div>
 
           <!-- In this section -->
@@ -138,12 +181,8 @@ useSeoMeta({
         </template>
       </div>
 
-      <!-- Help first, fast -->
-      <div class="las-container pb-[var(--section-y)]">
-        <UiEmergencyBar />
-      </div>
-
-      <HomeJoin />
+      <!-- Trailing join CTA — suppressed on pages that carry their own (e.g. /membership). -->
+      <HomeJoin v-if="!page?.hideJoinCta" />
     </main>
 
     <SiteFooter />

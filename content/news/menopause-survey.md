@@ -4,7 +4,7 @@ date: '2020-02-20'
 category: News
 topic: Equality
 readTime: 2
-excerpt: Please contribute your time to take part in this survey. It will be supporting evidence in the review of trust policy HR022 Managing Attendance and for the implementation of a…
+description: Please contribute your time to take part in this survey. It will be supporting evidence in the review of trust policy HR022 Managing Attendance and for the implementation of a…
 tags:
   - branch
   - consultation

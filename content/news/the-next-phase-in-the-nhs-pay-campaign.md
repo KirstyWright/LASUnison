@@ -4,7 +4,7 @@ date: '2022-10-06'
 category: News
 topic: Pay
 readTime: 5
-excerpt: We have entered the next stage of our campaign to improve NHS pay. We have entered a formal dispute with the government and employers in the NHS and are moving…
+description: We have entered the next stage of our campaign to improve NHS pay. We have entered a formal dispute with the government and employers in the NHS and are moving…
 tags:
   - afc
   - ballot

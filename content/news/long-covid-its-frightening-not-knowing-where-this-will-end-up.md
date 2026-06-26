@@ -3,7 +3,7 @@ title: 'Long COVID: ‘It’s frightening not knowing where this will end up’'
 date: '2021-04-12'
 category: News
 readTime: 6
-excerpt: Long COVID is having a devastating effect on the lives of many UNISON members. Assistant equality officer Haifa Rashed reports on how the union is responding Samantha Ellingham works on…
+description: Long COVID is having a devastating effect on the lives of many UNISON members. Assistant equality officer Haifa Rashed reports on how the union is responding Samantha Ellingham works on…
 tags:
   - branch
   - covid 19
@@ -90,9 +90,9 @@ In recognition of the unprecedented scale and severity of the COVID-19 pandemic,
 
 **Further information**
 
-[Coronavirus: your rights at work](https://www.unison.org.uk/coronavirus-rights-work/)
+[Coronavirus: your rights at work](https://www.unison.org.uk/coronavirus-rights-work/) [Link no longer available]{.link-unavailable}
 
-[COVID-19 guidance for disabled workers and workers with an underlying health condition](https://www.unison.org.uk/content/uploads/2020/06/26119_COVID-19_guidance_for_disabled_members-2.pdf).
+[COVID-19 guidance for disabled workers and workers with an underlying health condition](https://www.unison.org.uk/content/uploads/2020/06/26119_COVID-19_guidance_for_disabled_members-2.pdf) [Link no longer available]{.link-unavailable}.
 
 [COVID-19: long-term health effects (Gov UK)](https://www.gov.uk/government/publications/covid-19-long-term-health-effects)
 

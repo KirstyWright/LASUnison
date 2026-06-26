@@ -3,7 +3,7 @@ title: UNISON WARNING TO LONDON VOTERS AHEAD OF MAYORAL ELECTIONS
 date: '2012-04-30'
 category: News
 readTime: 3
-excerpt: Ahead of the London Mayoral elections, UNISON, the UK’s largest union, is warning voters that if they care about public services they should vote carefully on May 3.
+description: Ahead of the London Mayoral elections, UNISON, the UK’s largest union, is warning voters that if they care about public services they should vote carefully on May 3.
 tags:
   - unison
 image: /images/2012/04/UNISON-parliament_1.jpg

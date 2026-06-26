@@ -4,7 +4,7 @@ date: '2013-11-11'
 category: News
 topic: Pay
 readTime: 1
-excerpt: Today, employers and Trade Unions from the ambulance service met to discuss issues around changes to Annex E.
+description: Today, employers and Trade Unions from the ambulance service met to discuss issues around changes to Annex E.
 tags:
   - afc
   - ballot

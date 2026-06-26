@@ -4,7 +4,7 @@ date: '2020-07-03'
 category: News
 topic: Pay
 readTime: 2
-excerpt: A little over three weeks ago I wrote to all our members in the NHS. Tens of thousands of you responded.
+description: A little over three weeks ago I wrote to all our members in the NHS. Tens of thousands of you responded.
 tags:
   - afc
   - consultation
@@ -39,7 +39,7 @@ Along with the other NHS trade unions we are calling on the government to act by
 - Integrating an NHS pay deal into plans to boost local economies
 - Guaranteeing additional funding for employers
 
-**[Read our letter to the Prime Minister](https://www.unison.org.uk/content/uploads/2020/07/Joint-NHS-unions-letter-to-PM-.pdf)**
+**[Read our letter to the Prime Minister](https://www.unison.org.uk/content/uploads/2020/07/Joint-NHS-unions-letter-to-PM-.pdf) [Link no longer available]{.link-unavailable}**
 
 This is just the first step. You gave us a strong message to start this process as early as possible so when our lead health committee, made up of NHS staff just like you, met this week they decided to move quickly.
 

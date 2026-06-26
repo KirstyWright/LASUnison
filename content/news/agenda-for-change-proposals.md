@@ -4,7 +4,7 @@ date: '2012-11-15'
 category: News
 topic: Pay
 readTime: 2
-excerpt: At a recent meeting of the NHS Staff Council, all health unions, including UNISON, agreed to take modified proposals to amend the Agenda for Change Agreement in England to their…
+description: At a recent meeting of the NHS Staff Council, all health unions, including UNISON, agreed to take modified proposals to amend the Agenda for Change Agreement in England to their…
 tags:
   - afc
   - pay

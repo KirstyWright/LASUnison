@@ -3,7 +3,7 @@ title: A&E Support Staff Survey
 date: '2013-05-12'
 category: News
 readTime: 1
-excerpt: Two members of A&E Support staff based at Homerton Ambulance Station recently carried out a survey among A&E Support staff (AES) in the LAS.
+description: Two members of A&E Support staff based at Homerton Ambulance Station recently carried out a survey among A&E Support staff (AES) in the LAS.
 tags:
   - a&e support
 wpCategories:

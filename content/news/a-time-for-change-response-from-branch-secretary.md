@@ -3,7 +3,7 @@ title: A Time for Change - Response from Branch Secretary
 date: '2013-04-26'
 category: News
 readTime: 2
-excerpt: At a specially convened Joint Staff Council today (Friday 26 th April 2013) Unison was presented with the full set of documents called ‘A Time For Change’.
+description: At a specially convened Joint Staff Council today (Friday 26 th April 2013) Unison was presented with the full set of documents called ‘A Time For Change’.
 tags:
   - a time for change
   - las

@@ -3,7 +3,7 @@ title: Latest Briefing for NHS Pay 2025/2026
 date: '2025-01-16'
 category: News
 readTime: 1
-excerpt: A new briefing sets out the latest updates on NHS pay for 2025/26, the position of UNISON's Health Service Group Executive and the next stages of our pay campaign for…
+description: A new briefing sets out the latest updates on NHS pay for 2025/26, the position of UNISON's Health Service Group Executive and the next stages of our pay campaign for…
 tags:
   - government
   - pay

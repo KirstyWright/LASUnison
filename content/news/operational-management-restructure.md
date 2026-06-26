@@ -3,7 +3,7 @@ title: Operational Management Restructure
 date: '2018-03-14'
 category: News
 readTime: 1
-excerpt: Our Branch Chair has today attended the launch on the Operational Management Restructure. We will take some time to assess the accompanied consultation document and will respond in due course…
+description: Our Branch Chair has today attended the launch on the Operational Management Restructure. We will take some time to assess the accompanied consultation document and will respond in due course…
 tags:
   - branch chair
   - consultation

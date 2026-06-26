@@ -4,7 +4,7 @@ date: '2020-05-13'
 category: News
 topic: Pensions
 readTime: 1
-excerpt: The government is developing proposals to address the unlawful age discrimination identified by the Court of Appeal in the 2015 reforms to the Judicial and Firefighters’ pension schemes.
+description: The government is developing proposals to address the unlawful age discrimination identified by the Court of Appeal in the 2015 reforms to the Judicial and Firefighters’ pension schemes.
 tags:
   - afc
   - consultation

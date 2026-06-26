@@ -4,7 +4,7 @@ date: '2020-06-11'
 category: News
 topic: Equality
 readTime: 7
-excerpt: The murder of George Floyd and the disproportionate impact of COVID-19 on Black communities has focused attention on inequality and racism.
+description: The murder of George Floyd and the disproportionate impact of COVID-19 on Black communities has focused attention on inequality and racism.
 tags:
   - covid 19
   - government

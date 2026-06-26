@@ -4,7 +4,7 @@ date: '2019-01-14'
 category: News
 topic: Pay
 readTime: 3
-excerpt: The LAS management have written to us to propose a change in the annual leave arrangements for operational staff.
+description: The LAS management have written to us to propose a change in the annual leave arrangements for operational staff.
 tags:
   - consultation
   - las
@@ -43,4 +43,4 @@ It has today been agreed at a Staff Council meeting that the 30 days consultatio
 
 **Please contact your workplace rep or Senior Sector rep to discuss and feedback on this proposal and we will highlight the salient issues raised once we have collated feedback.**
 
-[Download the proposal here](/?mdocs-file=3545)
+[Download the proposal here](/docs/mdocs/2016-07-15%20Draft%20Annual%20Leave%20Arrangements%20v0%2032%20-January%202019.pdf)

@@ -4,6 +4,8 @@ description: I am pleased to announce that the branch has been able to offer a r
 date: '2023-08-22'
 wpId: 1679
 legacyUrl: https://lasunison.co.uk/book-grants
+seo:
+  description: We are now offering our members grants of up to £50 to purchase books in connection with Paramedic, Trade Union and Higher Education courses.
 ---
 
 I am pleased to announce that the branch has been able to offer a replacement to the book grant that used to be offered by UNISON.

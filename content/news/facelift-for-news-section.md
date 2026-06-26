@@ -3,7 +3,7 @@ title: Facelift for News Section
 date: '2010-06-03'
 category: News
 readTime: 2
-excerpt: If you are a regular on this site then you can't help but notice we have totally revamped our news pages.
+description: If you are a regular on this site then you can't help but notice we have totally revamped our news pages.
 wpCategories:
   - Website News
 wpId: 183

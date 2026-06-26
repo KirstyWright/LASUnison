@@ -4,7 +4,7 @@ date: '2020-05-08'
 category: News
 topic: Wellbeing
 readTime: 3
-excerpt: New fund will help members facing particular need because of the pandemic There for You is UNISON’s unique charity, set up to help members in difficulties – and this year…
+description: New fund will help members facing particular need because of the pandemic There for You is UNISON’s unique charity, set up to help members in difficulties – and this year…
 tags:
   - benefits
   - unison
@@ -31,7 +31,7 @@ There for You receives donations, but at present, branches are finding that more
 
 So a specific fund, administered centrally, can play an important role.
 
-![Portrait of Carol Sewell, NEC member](https://www.unison.org.uk/content/uploads/2020/05/Carol-Sewell.jpg)
+![Portrait of Carol Sewell, NEC member](https://www.unison.org.uk/content/uploads/2020/05/Carol-Sewell.jpg) [Link no longer available]{.link-unavailable}
 
 Carol Sewell
 
@@ -69,4 +69,4 @@ All of the following members were able to access grants of £250 from There for 
 
 **[There for You](http://www.unison.org.uk/get-help/services-support/there-for-you)**
 
-[**Coronavirus – all you need to know**](http://www.unison.org.uk/coronavirus-rights-work/)
+[**Coronavirus – all you need to know**](http://www.unison.org.uk/coronavirus-rights-work/) [Link no longer available]{.link-unavailable}

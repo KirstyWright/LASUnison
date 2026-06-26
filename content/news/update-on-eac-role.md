@@ -4,7 +4,7 @@ date: '2019-04-04'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Over the last year London Ambulance UNISON Branch have on numerous occasions raised the issue that our TEAC/EAC members have seen significant changes to the job role that was first…
+description: Over the last year London Ambulance UNISON Branch have on numerous occasions raised the issue that our TEAC/EAC members have seen significant changes to the job role that was first…
 tags:
   - a&e support
   - branch

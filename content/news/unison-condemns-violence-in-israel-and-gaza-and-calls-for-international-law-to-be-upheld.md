@@ -3,7 +3,7 @@ title: UNISON condemns violence in Israel and Gaza and calls for international l
 date: '2023-10-27'
 category: News
 readTime: 2
-excerpt: UNISON joins the international trade union movement, including the International Trade Union Confederation , in condemning the appalling violence against civilians in Israel and Gaza.
+description: UNISON joins the international trade union movement, including the International Trade Union Confederation , in condemning the appalling violence against civilians in Israel and Gaza.
 tags:
   - international
   - israel

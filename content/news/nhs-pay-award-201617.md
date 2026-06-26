@@ -4,7 +4,7 @@ date: '2016-03-18'
 category: News
 topic: Pay
 readTime: 2
-excerpt: The NHS Pay Review Body has recommended a 1% consolidated pay rise for all staff across the UK.
+description: The NHS Pay Review Body has recommended a 1% consolidated pay rise for all staff across the UK.
 tags:
   - afc
   - pay

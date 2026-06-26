@@ -4,7 +4,7 @@ date: '2013-08-28'
 category: News
 topic: Pay
 readTime: 3
-excerpt: UNISON, GMB and Unite members working in England’s ambulance services have voted to reject proposals to apply up to 25% deductions to sick pay.
+description: UNISON, GMB and Unite members working in England’s ambulance services have voted to reject proposals to apply up to 25% deductions to sick pay.
 tags:
   - afc
   - ballot

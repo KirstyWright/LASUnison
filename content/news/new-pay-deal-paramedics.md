@@ -4,7 +4,7 @@ date: '2016-12-09'
 category: News
 topic: Pay
 readTime: 3
-excerpt: The role of a paramedic will be re-banded nationally, giving paramedics the opportunity to earn more as they progress.
+description: The role of a paramedic will be re-banded nationally, giving paramedics the opportunity to earn more as they progress.
 tags:
   - afc
   - paramedic
@@ -18,6 +18,8 @@ wpCategories:
   - Agenda for Change
 wpId: 2538
 legacyUrl: https://lasunison.co.uk/new-pay-deal-paramedics
+seo:
+  description: The role of a paramedic will be re-banded nationally, giving paramedics the opportunity to earn more as they progress from band 5 to band 6.
 ---
 
 The role of a paramedic will be re-banded nationally, giving paramedics the opportunity to earn more as they progress.

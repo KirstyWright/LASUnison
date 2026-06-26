@@ -3,7 +3,7 @@ title: We love the NHS
 date: '2009-08-15'
 category: News
 readTime: 2
-excerpt: LAS UNISON is adding it's voice to the Twitter campaign to defend the National Health Service.
+description: LAS UNISON is adding it's voice to the Twitter campaign to defend the National Health Service.
 wpCategories:
   - Branch News
 wpId: 64
@@ -21,11 +21,11 @@ The Twitter campaign was originally sparked in response to right-wing criticism 
 The British backlash - defending the NHS with stories of successful NHS care - was enough to crash the Twitter website yesterday. Today, it is it is the top topic on the social networking site.
 
 UNISON is sending an NHS fact file to its sister unions in the States to counter the lies being peddled by right-wing groups about the NHS.
-[Press release: UNISON fact file counters US right wing lies over NHS](http://www.unison.org.uk/asppresspack/pressrelease_view.asp?id=1543)
+[Press release: UNISON fact file counters US right wing lies over NHS](http://www.unison.org.uk/asppresspack/pressrelease_view.asp?id=1543) [Link no longer available]{.link-unavailable}
 Tens of thousands of people, including Gordon and Sarah Brown, and Stephen Fry, have also added their support for the NHS on the micro-blogging site.
 
-If you want to keep the NHS public - add your voice to [UNISON's million voices campaign](http://www.unison.org.uk/million/index.asp)
+If you want to keep the NHS public - add your voice to [UNISON's million voices campaign](http://www.unison.org.uk/million/index.asp) [Link no longer available]{.link-unavailable}
 
-[UNISON in health](http://www.unison.org.uk/healthcare)
+[UNISON in health](http://www.unison.org.uk/healthcare) [Link no longer available]{.link-unavailable}
 
 © [by LAS UNISON](/).

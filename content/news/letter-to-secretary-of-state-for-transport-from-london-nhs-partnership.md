@@ -3,7 +3,7 @@ title: Letter to Secretary of State for Transport from London NHS Partnership
 date: '2020-10-29'
 category: News
 readTime: 3
-excerpt: Dear Secretary of State We are writing to you as representatives of 435,000 health and care staff that live and work in our capital regarding the proposed support package for…
+description: Dear Secretary of State We are writing to you as representatives of 435,000 health and care staff that live and work in our capital regarding the proposed support package for…
 tags:
   - consultation
   - government

@@ -3,7 +3,7 @@ title: General Secretary speech to TUC Congress
 date: '2010-09-13'
 category: News
 readTime: 5
-excerpt: Speaking on the public services motion at TUC conference, Dave Prentis, Unison General Secretary “Today we face our greatest test for a generation. Our economy still on life support.
+description: Speaking on the public services motion at TUC conference, Dave Prentis, Unison General Secretary “Today we face our greatest test for a generation. Our economy still on life support.
 wpCategories:
   - UNISON News
 wpId: 226

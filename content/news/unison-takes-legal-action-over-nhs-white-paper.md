@@ -3,7 +3,7 @@ title: UNISON takes legal action over NHS white paper
 date: '2010-08-24'
 category: News
 readTime: 3
-excerpt: UNISON, the UK's largest public service union, today started legal action against the Secretary of State for Health, challenging his refusal to consult the public on proposals in his White…
+description: UNISON, the UK's largest public service union, today started legal action against the Secretary of State for Health, challenging his refusal to consult the public on proposals in his White…
 wpCategories:
   - UNISON News
 wpId: 205

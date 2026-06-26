@@ -3,7 +3,7 @@ title: Chancellor has ignored public service workers, says UNISON
 date: '2021-03-04'
 category: News
 readTime: 2
-excerpt: 'Rescuing economy and public services should go hand in hand Commenting on the Chancellor’s Budget statement today (Wednesday), UNISON general secretary Christina McAnea said: “The chancellor had much to say…'
+description: 'Rescuing economy and public services should go hand in hand Commenting on the Chancellor’s Budget statement today (Wednesday), UNISON general secretary Christina McAnea said: “The chancellor had much to say…'
 tags:
   - afc
   - covid 19

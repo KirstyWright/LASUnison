@@ -3,7 +3,7 @@ title: Patient transport should be run by NHS
 date: '2008-12-02'
 category: News
 readTime: 2
-excerpt: UNISON is calling for urgent action to regulate private patient transport services in England following a BBC investigation into the service run by a private ambulance operator at Birmingham Children's…
+description: UNISON is calling for urgent action to regulate private patient transport services in England following a BBC investigation into the service run by a private ambulance operator at Birmingham Children's…
 wpCategories:
   - UNISON News
 wpId: 81

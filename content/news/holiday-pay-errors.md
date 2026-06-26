@@ -4,7 +4,7 @@ date: '2026-06-01'
 category: News
 author: Tim Stephens
 readTime: 3
-excerpt: We are contacting members because there are ongoing concerns that some staff employed by the London Ambulance Service may not be receiving the correct holiday pay when they take annual…
+description: We are contacting members because there are ongoing concerns that some staff employed by the London Ambulance Service may not be receiving the correct holiday pay when they take annual…
 wpCategories:
   - General
 wpId: 8390

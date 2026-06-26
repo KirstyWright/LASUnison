@@ -3,7 +3,7 @@ title: UNISON comments on half a year of missed A&E targets
 date: '2015-04-08'
 category: News
 readTime: 1
-excerpt: Commenting on the latest NHS England figures published today (Tuesday) showing that the A&E waiting time target hasn’t been met for 26 consecutive weeks, UNISON Head of Health Christina McAnea…
+description: Commenting on the latest NHS England figures published today (Tuesday) showing that the A&E waiting time target hasn’t been met for 26 consecutive weeks, UNISON Head of Health Christina McAnea…
 tags:
   - unison
   - vote

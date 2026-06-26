@@ -1,6 +1,6 @@
 ---
 title: Cookie Policy
-description: Information about the cookies used on lasunison.co.uk and how to control them.
+description: Information about the cookies used on lasunison.com and how to control them.
 lastUpdated: 2022-12-28
 ---
 

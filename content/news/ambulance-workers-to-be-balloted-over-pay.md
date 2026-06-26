@@ -4,7 +4,7 @@ date: '2016-04-26'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Ambulance staff, including paramedics, are to be balloted over whether they would be prepared to take industrial action over pay,UNISON General Secretary Dave Prentis announced today (Monday).
+description: Ambulance staff, including paramedics, are to be balloted over whether they would be prepared to take industrial action over pay,UNISON General Secretary Dave Prentis announced today (Monday).
 tags:
   - afc
   - ballot

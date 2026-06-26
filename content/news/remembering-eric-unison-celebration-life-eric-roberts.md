@@ -3,7 +3,7 @@ title: Remembering Eric - A UNISON celebration of the life of Eric Roberts
 date: '2017-01-25'
 category: News
 readTime: 1
-excerpt: The life of Eric Roberts, a lifelong servant of our union and of those in greatest need, will be celebrated at a UNISON event on Wednesday 8 February 2017.
+description: The life of Eric Roberts, a lifelong servant of our union and of those in greatest need, will be celebrated at a UNISON event on Wednesday 8 February 2017.
 tags:
   - branch secretary
   - eric

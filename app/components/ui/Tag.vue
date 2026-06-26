@@ -12,7 +12,7 @@ const tone = computed(() =>
     ? 'bg-[var(--brand-primary)] border-[var(--brand-primary)] text-white'
     : [
         'bg-[var(--surface-card)] border-[var(--border-default)] text-[var(--text-body)]',
-        props.href && 'hover:border-[var(--brand-primary)] hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary-strong)]',
+        props.href && 'hover:border-[var(--brand-primary)] hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary-strong)] focus-visible:border-[var(--brand-primary)] focus-visible:bg-[var(--brand-primary-soft)] focus-visible:text-[var(--brand-primary-strong)]',
       ],
 )
 </script>

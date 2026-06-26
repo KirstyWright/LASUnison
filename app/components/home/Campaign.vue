@@ -5,7 +5,7 @@
         <UiPhoto ratio="4/3" label="Campaign image" tone="ink" icon="megaphone" />
       </div>
       <div>
-        <UiBadge variant="emergency" dot>Campaign</UiBadge>
+        <UiBadge variant="secondary" dot>Campaign</UiBadge>
         <h2
           class="font-[family-name:var(--font-display)] font-black text-[length:var(--text-5xl)] leading-[1.02] tracking-[-0.02em] mt-4 mb-0 text-white"
         >

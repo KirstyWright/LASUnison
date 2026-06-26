@@ -4,7 +4,7 @@ date: '2021-02-24'
 category: News
 topic: Wellbeing
 readTime: 3
-excerpt: 'The draw took place on Wednesday 24 February 2021 at our branch meeting. The winners are: Croyde Bay £250 Voucher Winners: Name Station Role George Solomou Homerton EMT Renata Zanre…'
+description: 'The draw took place on Wednesday 24 February 2021 at our branch meeting. The winners are: Croyde Bay £250 Voucher Winners: Name Station Role George Solomou Homerton EMT Renata Zanre…'
 tags:
   - benefits
   - branch
@@ -58,7 +58,7 @@ Please still update us of any changes as soon as they happen. Especially your ne
 
 **Plus, 6 Surprise Goody bags.**
 
-[![](/images/2019/10/prize-draw-150x150.jpg)](/images/2019/10/prize-draw.jpg)It's really important we have your current details so please keep us updated. **[You can also complete the form online](/update-your-details)** or **[Download a form by clicking here](/?mdocs-file=5339)**. **Not a member?** - That's fine. Inside the update leaflet is an application form. Fill this in and you will also be entered in the prize draw if you return it before the 22 January 2021. Just make sure you get your forms sent in by the 23 February 2021. Names will be drawn at our branch meeting the next day. **[Click here for information on Croyde Bay](https://www.croydeunison.co.uk/)**   (Branch officers, branch representatives and their families are not eligible to enter the prize draw)
+[![](/images/2019/10/prize-draw-150x150.jpg)](/images/2019/10/prize-draw.jpg)It's really important we have your current details so please keep us updated. **[You can also complete the form online](/update-your-details)** or **[Download a form by clicking here](/docs/mdocs/update%20your%20details%20-%202020.pdf)**. **Not a member?** - That's fine. Inside the update leaflet is an application form. Fill this in and you will also be entered in the prize draw if you return it before the 22 January 2021. Just make sure you get your forms sent in by the 23 February 2021. Names will be drawn at our branch meeting the next day. **[Click here for information on Croyde Bay](https://www.croydeunison.co.uk/)**   (Branch officers, branch representatives and their families are not eligible to enter the prize draw)
 
 ![](/images/2020/03/croyde-bay.jpg)
 *Aerial View of Croyde Bay Resort*

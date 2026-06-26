@@ -3,7 +3,7 @@ title: SGE Elections
 date: '2022-06-10'
 category: News
 readTime: 1
-excerpt: Today we found out the results of UNISON’S Service Group Elections 2022-2024 We are proud to say that our very own Julie Cunnane has been elected to the London Region…
+description: Today we found out the results of UNISON’S Service Group Elections 2022-2024 We are proud to say that our very own Julie Cunnane has been elected to the London Region…
 tags:
   - branch
   - branch secretary

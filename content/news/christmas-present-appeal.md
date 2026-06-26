@@ -3,7 +3,7 @@ title: Christmas present appeal
 date: '2017-12-08'
 category: News
 readTime: 2
-excerpt: We would like to say a huge thanks to Unison member Nigel Flanagan who has worked for the London Ambulance Service NHS since 1992, he is a Paramedic currently based…
+description: We would like to say a huge thanks to Unison member Nigel Flanagan who has worked for the London Ambulance Service NHS since 1992, he is a Paramedic currently based…
 tags:
   - branch
   - las

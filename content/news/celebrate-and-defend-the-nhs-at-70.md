@@ -3,7 +3,7 @@ title: Celebrate and defend the NHS at 70
 date: '2018-06-15'
 category: News
 readTime: 1
-excerpt: This year the NHS is 70 years old and that’s something worth celebrating! UNISON is proud to represent and celebrate the whole team of staff who work in the NHS…
+description: This year the NHS is 70 years old and that’s something worth celebrating! UNISON is proud to represent and celebrate the whole team of staff who work in the NHS…
 tags:
   - government
   - las
@@ -24,6 +24,6 @@ UNISON is proud to represent and celebrate the whole team of staff who work in t
 
 That’s why we are asking members, their families and their friends to join us at **12pm on Saturday 30 June 2018** at Portland Place, London W1 (nearest tubes Oxford Circus/Great Portland St) for a demonstration in support of our NHS.
 
-Transport: http://www.thepeoplesassembly.org.uk/nhs70transport
+Transport: http://www.thepeoplesassembly.org.uk/nhs70transport [Link no longer available]{.link-unavailable}
 
 It’s our NHS, let’s march together to make sure that the next 70 years are worth celebrating too.

@@ -3,7 +3,7 @@ title: ERIC ROBERTS RE-ELECTED AS UNISON BRANCH SECRETARY
 date: '2009-03-19'
 category: News
 readTime: 1
-excerpt: Phil Thompson, the returning officer reported to the AGM on the 18 March that Eric Roberts had been re-elected as Branch Secretary of the LAS UNISON Branch.
+description: Phil Thompson, the returning officer reported to the AGM on the 18 March that Eric Roberts had been re-elected as Branch Secretary of the LAS UNISON Branch.
 wpCategories:
   - Branch News
 wpId: 75

@@ -4,7 +4,7 @@ date: '2018-10-30'
 category: News
 topic: Wellbeing
 readTime: 2
-excerpt: '*UPDATED and edited 14 December 2018 UNISON and the London Ambulance Branch want to make sure we have all our members details up to date.'
+description: '*UPDATED and edited 14 December 2018 UNISON and the London Ambulance Branch want to make sure we have all our members details up to date.'
 tags:
   - benefits
   - branch

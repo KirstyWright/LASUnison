@@ -3,7 +3,7 @@ title: IPSOS Mori want to hear your views on personal safety and security in you
 date: '2009-12-03'
 category: News
 readTime: 2
-excerpt: Ipsos MORI, an independent research agency, have been commissioned by the NHS Security Management Service (SMS) to gather the views of NHS ambulance staff on a number of issues concerning…
+description: Ipsos MORI, an independent research agency, have been commissioned by the NHS Security Management Service (SMS) to gather the views of NHS ambulance staff on a number of issues concerning…
 wpCategories:
   - Other
 wpId: 57
@@ -34,6 +34,6 @@ There will also be a £50 ‘thank you’ given to all participants.
 Ipsos MORI conforms to the 1998 Data Protection Act, is a member of the Market Research
 Society and is the only research agency to be awarded the ISO 9001 certification.
 
-[View PDF of this story](/temp/Ambulance%20worker%20%27opt-in%27%20ad%20_03_12_09.pdf)
+View PDF of this story
 
 © [by LAS UNISON](/).

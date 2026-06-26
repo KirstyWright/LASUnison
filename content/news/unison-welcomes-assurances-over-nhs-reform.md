@@ -3,7 +3,7 @@ title: UNISON welcomes assurances over NHS reform
 date: '2008-04-22'
 category: News
 readTime: 2
-excerpt: UNISON has welcomed the government’s assurances over future NHS reform as a helpful blueprint for handling change.
+description: UNISON has welcomed the government’s assurances over future NHS reform as a helpful blueprint for handling change.
 wpCategories:
   - UNISON News
 wpId: 92
@@ -26,8 +26,8 @@ Lord Darzi’s final report is due to be published in full next month, to coinci
 
 He said it would focus on how the government can enable local clinicians and patients to be the driving force of improvement and change, adding: "Empowered patients and empowered staff are the key to world-class standards."
 
-[UNISON in healthcare](http://www.unison.org.uk/healthcare/index.asp)
+[UNISON in healthcare](http://www.unison.org.uk/healthcare/index.asp) [Link no longer available]{.link-unavailable}
 
-[UNISON's Keep the NHS Working campaign](http://www.unison.org.uk/healthcare/keepNHSworking/)
+[UNISON's Keep the NHS Working campaign](http://www.unison.org.uk/healthcare/keepNHSworking/) [Link no longer available]{.link-unavailable}
 
 © [by LAS UNISON](/).

@@ -4,7 +4,7 @@ date: '2014-09-12'
 category: News
 topic: Pay
 readTime: 3
-excerpt: Government prevents Pay Review Body from recommending a pay rise for 2015-16 in another restricted remit which also heralds further changes to unsocial hours pay for next year.
+description: Government prevents Pay Review Body from recommending a pay rise for 2015-16 in another restricted remit which also heralds further changes to unsocial hours pay for next year.
 tags:
   - afc
   - ballot

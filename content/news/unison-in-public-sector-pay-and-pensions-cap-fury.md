@@ -3,7 +3,7 @@ title: UNISON IN PUBLIC SECTOR PAY AND PENSIONS CAP FURY
 date: '2009-12-09'
 category: News
 readTime: 2
-excerpt: Dave Prentis, General Secretary of UNISON, the UK’s largest public sector union, today reacted angrily to the 1%, two year pay cap and pensions cap on public sector workers, announced…
+description: Dave Prentis, General Secretary of UNISON, the UK’s largest public sector union, today reacted angrily to the 1%, two year pay cap and pensions cap on public sector workers, announced…
 wpCategories:
   - Other
 wpId: 55

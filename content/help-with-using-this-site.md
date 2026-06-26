@@ -4,6 +4,8 @@ description: How do I use this website? While the website has undergone a remake
 date: '2022-12-28'
 wpId: 1734
 legacyUrl: https://lasunison.co.uk/help-with-using-this-site
+seo:
+  description: How do I use this site? - Navigate the site using the menu bar at the top of each page. Clicking on 'Menu' at the far right of the navigation menu will.....
 ---
 
 ### How do I use this website?
@@ -44,7 +46,7 @@ This website has a resource page for your benefit called **[Stewards Zone](/stew
 
 #### Carry the Card
 
-Do you carry your UNISON membership card? Do you even know where it is? Well it might be worth digging it out as a host of new benefits becomes available when you show your membership card. If you have lost your card and need a new one, you can apply for a new card online by **[clicking here](http://www.unison.org.uk/help/membershipcard.asp)**.
+Do you carry your UNISON membership card? Do you even know where it is? Well it might be worth digging it out as a host of new benefits becomes available when you show your membership card. If you have lost your card and need a new one, you can apply for a new card online by **[clicking here](https://my.unison.org.uk/)**.
 
 #### Where are you?
 
@@ -52,7 +54,7 @@ Did you know that if you move station the service doesn't tell us? If you haven'
 
 #### Who is your local rep?
 
-Click on [Find a Rep](/find-a-rep) for a list of all the UNISON Reps in the service and find out how [you could become a steward](http://www.unison.org.uk/activists/sh1_rep.asp), Health & Safety Rep or one of the New Learning Reps.
+Click on [Find a Rep](/find-a-rep) for a list of all the UNISON Reps in the service and find out how [you could become a steward](https://www.unison.org.uk/get-involved/), Health & Safety Rep or one of the New Learning Reps.
 
 #### Changed your address?
 

@@ -4,7 +4,7 @@ date: '2016-07-23'
 category: News
 topic: Wellbeing
 readTime: 3
-excerpt: There’s something we don’t always make clear, here at UNISON. We’re always working on your rights at work and looking after you in the workplace, but what we don’t often…
+description: There’s something we don’t always make clear, here at UNISON. We’re always working on your rights at work and looking after you in the workplace, but what we don’t often…
 tags:
   - benefits
   - free stuff

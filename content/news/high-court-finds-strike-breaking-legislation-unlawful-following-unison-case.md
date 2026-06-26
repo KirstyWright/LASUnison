@@ -3,7 +3,7 @@ title: High Court finds strike-breaking legislation unlawful following UNISON ca
 date: '2023-07-13'
 category: Campaign
 readTime: 3
-excerpt: Mr Justice Linden has today upheld the claims of UNISON and other unions that the government acted unfairly, unlawfully and irrationally.
+description: Mr Justice Linden has today upheld the claims of UNISON and other unions that the government acted unfairly, unlawfully and irrationally.
 tags:
   - ambulance
   - government

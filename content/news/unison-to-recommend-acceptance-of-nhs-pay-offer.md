@@ -4,7 +4,7 @@ date: '2023-03-16'
 category: News
 topic: Pay
 readTime: 3
-excerpt: If accepted, the offer would boost pay significantly this year and mean a wage increase next year that’s more than the government had budgeted for.
+description: If accepted, the offer would boost pay significantly this year and mean a wage increase next year that’s more than the government had budgeted for.
 tags:
   - agm
   - ambulance

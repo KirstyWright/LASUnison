@@ -3,7 +3,7 @@ title: LAS UNISON Snoods
 date: '2020-10-07'
 category: News
 readTime: 1
-excerpt: LAS UNISON Snoods have arrived! If you would like one, then speak to your local rep.
+description: LAS UNISON Snoods have arrived! If you would like one, then speak to your local rep.
 wpCategories:
   - Branch News
 image: /images/2020/10/IMG-20201006-WA0007.jpg

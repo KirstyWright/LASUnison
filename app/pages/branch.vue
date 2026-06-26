@@ -69,16 +69,13 @@ useSeoMeta({
     <main id="main-content">
       <!-- ── Masthead ─────────────────────────────────────────────────────── -->
       <section class="bg-[var(--surface-brand)] text-white relative overflow-hidden">
+        <!-- Pulse, refined — live cardiac-monitor edge motif -->
         <div
           aria-hidden="true"
-          class="absolute inset-0 opacity-50"
-          :style="{
-            backgroundImage: 'url(/pattern-pulse.svg)',
-            backgroundSize: '320px auto',
-            backgroundRepeat: 'repeat-x',
-            backgroundPosition: 'left bottom',
-          }"
-        />
+          class="absolute inset-x-0 bottom-0 text-[var(--brand-highlight)] pointer-events-none"
+        >
+          <MotifPulse />
+        </div>
         <div class="las-container relative py-14 md:py-[4.5rem]">
           <nav aria-label="Breadcrumb" class="mb-5 text-[0.875rem] text-[var(--purple-200)]">
             <NuxtLink to="/" class="text-[var(--purple-200)] no-underline hover:text-white">Home</NuxtLink>
@@ -134,7 +131,7 @@ useSeoMeta({
             <article
               v-for="l in leads"
               :key="l.name"
-              class="grid grid-cols-[120px_1fr] sm:grid-cols-[150px_1fr] bg-[var(--surface-brand-soft)] border border-[var(--purple-100)] rounded-[var(--radius-xl)] overflow-hidden shadow-[var(--shadow-sm)]"
+              class="grid grid-cols-[120px_1fr] sm:grid-cols-[150px_1fr] bg-[var(--surface-brand-soft)] border border-[var(--brand-primary-soft)] rounded-[var(--radius-xl)] overflow-hidden shadow-[var(--shadow-sm)]"
             >
               <div class="relative min-h-[190px] overflow-hidden bg-[var(--surface-sunken)]">
                 <img
@@ -166,10 +163,15 @@ useSeoMeta({
                   <UiIcon name="mapPin" :size="15" :stroke="2" class="text-[var(--text-subtle)] flex-none" />
                   {{ l.workplace }}
                 </p>
-                <div class="flex flex-wrap gap-2 mt-4">
-                  <UiButton v-if="l.phone" :href="`tel:${l.phone.replace(/\s+/g, '')}`" variant="primary" size="sm" icon-left="phone">
+                <div class="flex flex-wrap items-center gap-x-4 gap-y-2 mt-4">
+                  <a
+                    v-if="l.phone"
+                    :href="`tel:${l.phone.replace(/\s+/g, '')}`"
+                    class="flex items-center gap-2 no-underline font-[family-name:var(--font-mono)] text-[0.8125rem] font-medium text-[var(--text-body)] hover:text-[var(--brand-primary)] group/link"
+                  >
+                    <UiIcon name="phone" :size="14" :stroke="2" class="text-[var(--text-subtle)] flex-none group-hover/link:text-[var(--brand-primary)]" />
                     {{ l.phone }}
-                  </UiButton>
+                  </a>
                   <UiButton v-if="l.email" :href="`mailto:${l.email}`" variant="outline" size="sm" icon-left="mail">
                     Email
                   </UiButton>
@@ -273,10 +275,6 @@ useSeoMeta({
         </div>
       </section>
 
-      <!-- ── Help + join ─────────────────────────────────────────────────── -->
-      <div class="las-container pb-[var(--section-y)] pt-[var(--section-y)]">
-        <UiEmergencyBar />
-      </div>
       <HomeJoin />
     </main>
 

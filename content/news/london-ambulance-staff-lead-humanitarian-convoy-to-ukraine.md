@@ -3,7 +3,7 @@ title: London ambulance staff lead humanitarian convoy to Ukraine
 date: '2022-03-28'
 category: News
 readTime: 6
-excerpt: Paramedics are driving 1,000 miles to deliver 10 ambulances to Ukraine health workers and relief goods to refugees Early this morning (Mon 28 March) a team of 26 London Ambulance…
+description: Paramedics are driving 1,000 miles to deliver 10 ambulances to Ukraine health workers and relief goods to refugees Early this morning (Mon 28 March) a team of 26 London Ambulance…
 tags:
   - ambulance
   - branch
@@ -32,7 +32,7 @@ Branch secretary Eddie Brand said: “This is such an important cause. Our membe
 
 Today’s journey is the result of two separate initiatives coming together, and three weeks of intense planning.
 
-![](https://www.unison.org.uk/content/uploads/2022/03/Eva.jpg)
+![](https://www.unison.org.uk/content/uploads/2022/03/Eva.jpg) [Link no longer available]{.link-unavailable}
 
 **Photos © Marcus Rose**
 
@@ -44,7 +44,7 @@ The next day she created a [JustGiving page](https://www.justgiving.com/crowdfun
 
 “The response from people here – my friends, my work colleagues, people that didn’t even know me – was so overwhelming, so huge, that this has quickly evolved into a much bigger project than I ever anticipated.”
 
-![](https://www.unison.org.uk/content/uploads/2022/03/LAS2.jpg)
+![](https://www.unison.org.uk/content/uploads/2022/03/LAS2.jpg) [Link no longer available]{.link-unavailable}
 
 Of her five HART colleagues and fellow UNISON members – Lee Quinlan, Alex Batty, Jennifer Doidge, Thomas Sainter and Ramone Augustus – Eva said: “They surprised me and they inspired me. Seeing how much people want to help is absolutely energising and it’s this energy that has driven me to get this organised, to make it happen.”
 
@@ -62,7 +62,7 @@ The team have researched online to identify the items most needed, including toi
 
 They’ve also ensured they will be entirely self-sufficient. “What we don’t want to do is drain any resources when we’re there, because they are so vital for the refugees. So we’ve got our own tent, our own sleeping bags, we’re bringing our own food and water.”
 
-![](https://www.unison.org.uk/content/uploads/2022/03/LAS3.jpg)
+![](https://www.unison.org.uk/content/uploads/2022/03/LAS3.jpg) [Link no longer available]{.link-unavailable}
 
 LAS chief executive Daniel Elkeles said this morning: “I would like to pay tribute to our staff who have helped us to restore the vehicles, source donations and pack the ambulances, as well as volunteering to drive them across the continent.
 

@@ -70,11 +70,6 @@ useSeoMeta({
         </div>
       </section>
 
-      <!-- Help first, fast -->
-      <div class="las-container pb-[var(--section-y)]">
-        <UiEmergencyBar />
-      </div>
-
       <HomeJoin />
     </main>
 

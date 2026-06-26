@@ -4,7 +4,7 @@ date: '2020-05-13'
 category: News
 topic: Wellbeing
 readTime: 2
-excerpt: We are so saddened to hear of members dying from COVID-19, including so many who have died in the line of duty, as they try to help others in this…
+description: We are so saddened to hear of members dying from COVID-19, including so many who have died in the line of duty, as they try to help others in this…
 tags:
   - benefits
   - branch
@@ -32,7 +32,7 @@ Due to the COVID-19 outbreak, and from 1st March 2020 to July 2020 (when it will
 
 You can claim this by filling in the form below and returning it to your local UNISON regional office by email or post.
 
-**[Their contact details can be found here.](https://www.unison.org.uk/get-help/knowledge/support-family-friends-deceased-members/regional-contacts/)**
+**[Their contact details can be found here.](https://www.unison.org.uk/get-help/knowledge/support-family-friends-deceased-members/regional-contacts/) [Link no longer available]{.link-unavailable}**
 
 ## Local government, NHS pensions and other
 
@@ -51,7 +51,7 @@ Our welfare charity, **[There for You](https://www.unison.org.uk/get-help/servic
 
 If you’re partner or dependent of the deceased member you can also take up any of the services they offer to members.
 
-Read their **[guide on funerals (PDF)](https://www.unison.org.uk/content/uploads/2019/09/25820.pdf)** to find out more
+Read their **[guide on funerals (PDF)](https://www.unison.org.uk/content/uploads/2019/09/25820.pdf) [Link no longer available]{.link-unavailable}** to find out more
 
 Or more about their **[general financial help and advice](https://www.unison.org.uk/get-help/services-support/there-for-you/financial-assistance/).**
 

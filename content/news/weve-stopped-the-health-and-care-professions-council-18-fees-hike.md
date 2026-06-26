@@ -4,7 +4,7 @@ date: '2019-03-21'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Our campaigning work has stopped the Health and Care Professions Council from imposing a massive 18% fee hike on health staff.
+description: Our campaigning work has stopped the Health and Care Professions Council from imposing a massive 18% fee hike on health staff.
 tags:
   - branch
   - consultation

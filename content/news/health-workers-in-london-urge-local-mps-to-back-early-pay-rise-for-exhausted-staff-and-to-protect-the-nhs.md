@@ -4,7 +4,7 @@ date: '2020-11-05'
 category: News
 topic: Pay
 readTime: 4
-excerpt: Hundreds of health staff across London – including nurses, paramedics, cleaners, domestics and porters – are writing to the region’s 73 MPs asking them to back UNISON’s call for NHS…
+description: Hundreds of health staff across London – including nurses, paramedics, cleaners, domestics and porters – are writing to the region’s 73 MPs asking them to back UNISON’s call for NHS…
 tags:
   - afc
   - ambulance

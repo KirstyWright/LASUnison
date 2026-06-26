@@ -4,7 +4,7 @@ date: '2022-11-03'
 category: News
 topic: Pay
 readTime: 1
-excerpt: Government has no grasp of real people’s lives Responding to reports that public sector pay awards could be capped at 2% in the coming months, UNISON general secretary Christina McAnea…
+description: Government has no grasp of real people’s lives Responding to reports that public sector pay awards could be capped at 2% in the coming months, UNISON general secretary Christina McAnea…
 tags:
   - afc
   - ballot

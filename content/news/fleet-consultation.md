@@ -3,7 +3,7 @@ title: Fleet Consultation
 date: '2018-12-17'
 category: News
 readTime: 2
-excerpt: It has recently come to our attention that there are plans to move to a single national fleet model.
+description: It has recently come to our attention that there are plans to move to a single national fleet model.
 tags:
   - ambulance
   - consultation

@@ -4,7 +4,7 @@ date: '2023-01-04'
 category: News
 topic: Pay
 readTime: 3
-excerpt: Members Briefing for Industrial Action Dear UNISON Member We hope you had a lovely Christmas & Happy New Year.
+description: Members Briefing for Industrial Action Dear UNISON Member We hope you had a lovely Christmas & Happy New Year.
 tags:
   - afc
   - branch

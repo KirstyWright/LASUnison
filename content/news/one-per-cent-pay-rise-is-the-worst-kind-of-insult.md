@@ -4,7 +4,7 @@ date: '2021-03-04'
 category: News
 topic: Pay
 readTime: 2
-excerpt: The public will be horrified. NHS staff will think it’s some kind of joke Commenting on the publication today (Thursday) of the Department of Health and Social Care paper on…
+description: The public will be horrified. NHS staff will think it’s some kind of joke Commenting on the publication today (Thursday) of the Department of Health and Social Care paper on…
 tags:
   - afc
   - covid 19

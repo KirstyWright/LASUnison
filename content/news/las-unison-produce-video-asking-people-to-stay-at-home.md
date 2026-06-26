@@ -3,7 +3,7 @@ title: LAS UNISON Produce Video asking people to stay at home
 date: '2020-04-17'
 category: News
 readTime: 1
-excerpt: The London Ambulance Service UNISON branch have produced this video featuring members explaining how the current situation is affecting them at work, how it affects them at home and asking…
+description: The London Ambulance Service UNISON branch have produced this video featuring members explaining how the current situation is affecting them at work, how it affects them at home and asking…
 tags:
   - branch
   - communications

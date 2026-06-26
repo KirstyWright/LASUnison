@@ -3,7 +3,7 @@ title: UNISON joins the fight over proper use of health data
 date: '2021-06-03'
 category: News
 readTime: 4
-excerpt: The union seeks government guarantees that health data will be used in an ethical manner, assigned its true value and used for the benefit of UK healthcare The government has…
+description: The union seeks government guarantees that health data will be used in an ethical manner, assigned its true value and used for the benefit of UK healthcare The government has…
 tags:
   - government
   - nhs
@@ -53,7 +53,7 @@ The union is asking the government to postpone the 1 July GP data grab, so that 
 In the meantime, patients themselves can act to keep their data in NHS hands only. Taking this action will not affect their medical care.
 
 - Patients can stop their data leaving a GP practice for purposes other than direct care by completing **[this form](http://medconfidential.org/wp-content/uploads/2021/05/Type_1_opt-out_letter.pdf)**. Details of children and dependants can be included. The deadline to get your form to a GP practice is 23 June 2021.
-- If patients want to stop non-GP data, such as hospital or clinic treatments, being used for purposes other than their direct care, they can use this form for [**individuals aged 13 or over**](http://www.nhs.uk/your-nhs-data-matters/manage-your-choice/), this one for **[children under 13](http://medconfidential.org/wp-content/uploads/2021/05/nhsd-both-postal-form.pdf)**, and this for an **[adult dependent](https://assets.nhs.uk/nhsuk-cms/documents/Make_and_manage_a_choice_for_someone_else_PDF_154kb.pdf)**. There is no deadline, but the sooner it is done, the sooner the opt-out takes effect.
+- If patients want to stop non-GP data, such as hospital or clinic treatments, being used for purposes other than their direct care, they can use this form for [**individuals aged 13 or over**](http://www.nhs.uk/your-nhs-data-matters/manage-your-choice/), this one for **[children under 13](http://medconfidential.org/wp-content/uploads/2021/05/nhsd-both-postal-form.pdf)**, and this for an **[adult dependent](https://assets.nhs.uk/nhsuk-cms/documents/Make_and_manage_a_choice_for_someone_else_PDF_154kb.pdf) [Link no longer available]{.link-unavailable}**. There is no deadline, but the sooner it is done, the sooner the opt-out takes effect.
 
 The government tried to force a similar data grab seven years ago, but was forced to back down by a huge public outcry.
 

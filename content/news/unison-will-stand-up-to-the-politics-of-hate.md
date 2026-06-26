@@ -3,7 +3,7 @@ title: UNISON will stand up to the politics of hate
 date: '2024-08-06'
 category: News
 readTime: 3
-excerpt: 'UNISON General Secretary Christina McAnea says: “We will work with other unions across the country to call for an end to violence, intimidation and discrimination.'
+description: 'UNISON General Secretary Christina McAnea says: “We will work with other unions across the country to call for an end to violence, intimidation and discrimination.'
 tags:
   - branch
   - unison

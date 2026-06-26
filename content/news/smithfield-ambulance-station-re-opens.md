@@ -3,7 +3,7 @@ title: Smithfield Ambulance Station re-opens
 date: '2009-08-16'
 category: News
 readTime: 2
-excerpt: Smithfield Ambulance Station was officially re-opened today following an extensive refurbishment that included taking over the other half of the building that was previously occupied by the City of London…
+description: Smithfield Ambulance Station was officially re-opened today following an extensive refurbishment that included taking over the other half of the building that was previously occupied by the City of London…
 wpCategories:
   - Branch News
   - Event

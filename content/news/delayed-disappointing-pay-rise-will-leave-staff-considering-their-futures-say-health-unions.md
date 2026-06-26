@@ -4,7 +4,7 @@ date: '2022-07-20'
 category: News
 topic: Pay
 readTime: 2
-excerpt: This is nowhere ​near what’s needed to save the NHS. Health unions representing more than a million NHS staff in England have ​reacted with dismay to the NHS pay rise…
+description: This is nowhere ​near what’s needed to save the NHS. Health unions representing more than a million NHS staff in England have ​reacted with dismay to the NHS pay rise…
 wpCategories:
   - Pay
   - UNISON News
@@ -25,7 +25,7 @@ Health unions representing more than a million NHS staff in England have ​reac
 
 “The government’s shown it’s prepared to sit by and watch waiting lists grow, ambulance call times ​lengthen and patient suffering increase.
 
-“Many will be seriously considering industrial action after this pitiful increase and a [majority of the public will be behind them](https://www.unison.org.uk/news/2022/07/public-wants-government-to-deliver-an-above-inflation-wage-rise-for-nhs-staff-poll-shows/).
+“Many will be seriously considering industrial action after this pitiful increase and a [majority of the public will be behind them](https://www.unison.org.uk/news/2022/07/public-wants-government-to-deliver-an-above-inflation-wage-rise-for-nhs-staff-poll-shows/) [Link no longer available]{.link-unavailable}.
 
 ​”Ministers can’t continue to allow wages to fall and expect staff still ​to be there. The simple formula for recruiting and retaining enough staff to tackle the treatment backlog ​and avoiding a damaging dispute is to ensure NHS workers have a decent pay rise. ​This isn’t it.”
 

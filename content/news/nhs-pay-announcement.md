@@ -4,7 +4,7 @@ date: '2022-07-21'
 category: News
 topic: Pay
 readTime: 3
-excerpt: The government has announced a £1,400 pay award for NHS staff. This announcement is over 3 months late and falls far short of inflation.
+description: The government has announced a £1,400 pay award for NHS staff. This announcement is over 3 months late and falls far short of inflation.
 tags:
   - afc
   - consultation

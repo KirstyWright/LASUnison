@@ -3,7 +3,7 @@ title: Remembering Eric
 date: '2016-12-20'
 category: News
 readTime: 8
-excerpt: Since the sad news that our branch secretary and current UNISON President had passed away, we have been inundated with tributes & photos.
+description: Since the sad news that our branch secretary and current UNISON President had passed away, we have been inundated with tributes & photos.
 tags:
   - branch secretary
   - eric
@@ -97,9 +97,9 @@ Ambulance today have written a tribute to Eric inside the latest edition of the 
 
 > Declan Heneghan, the Editor of Ambulance Today writes 'This edition of Ambulance Today is dedicated to the memory of our good friend Eric Roberts'
 
-This edition is available to download in full as a PDF here: [https://lasunison.co.uk/?mdocs-file=2578](/?mdocs-file=2578)
+This edition is available to download in full as a PDF here: [download the full edition (PDF)](/docs/mdocs/Winter2016.pdf)
 
-or you can download the tribute separately here: [https://lasunison.co.uk/?mdocs-file=2581](/?mdocs-file=2581)
+or you can download the tribute separately here: [download the tribute (PDF)](/docs/mdocs/AmbTodaytributetoEric.pdf)
 
 ---
 
@@ -109,7 +109,7 @@ There are many more tributes to Eric that can be viewed on the main UNISON websi
 
 ### Eric's Blog
 
-In July 2010 Eric launched his own [blog](http://ericsblog.lasunison.com) that in his own words was
+In July 2010 Eric launched his own blog that in his own words was
 
 > here to inform members about life within the LAS from the Union’s perspective.  As we enter a difficult political period for all of us, this Blog will help to keep members informed about what the Union is actually doing (as opposed to the half-truths and misrepresentations that are banded around). The Branch Secretary, as lead negotiator, along with the Branch Chair, Branch Officers and Senior Unison Sector Reps are all involved in day to day negotiations and consultations (as well as representing individual members) and this Blog will help to communicate and clarify that work.
 >

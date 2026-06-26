@@ -3,7 +3,7 @@ title: Rest Breaks & NQP Update
 date: '2017-05-24'
 category: News
 readTime: 2
-excerpt: News from your Branch Secretary and Chair to keep you posted on a couple of things.
+description: News from your Branch Secretary and Chair to keep you posted on a couple of things.
 tags:
   - branch secretary
   - consultation

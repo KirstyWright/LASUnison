@@ -3,7 +3,7 @@ title: LAS UNISON at TUC Rally
 date: '2010-10-24'
 category: News
 readTime: 2
-excerpt: On the 19th October, Eddie Brand, Branch Chair; led a delegation from LAS UNISON to the TUC Rally and lobby of Parliament.
+description: On the 19th October, Eddie Brand, Branch Chair; led a delegation from LAS UNISON to the TUC Rally and lobby of Parliament.
 wpCategories:
   - Branch News
   - Event
@@ -20,7 +20,7 @@ This rally was organised to protest at the cruel cuts being introduced by the co
 
 The first Speaker was Brendan Barber of the TUC and then we had our own General Secretary Dave Prentis who gave a rousing speech that made sure in no uncertain terms how UNISON members feel about Public Spending Cuts.
 
-The speech can be watched at: http://www.unison.org.uk/spendingreview/ and I would urge you to watch this.
+The speech can be watched at: http://www.unison.org.uk/spendingreview/ [Link no longer available]{.link-unavailable} and I would urge you to watch this.
 
 This Rally will be the first of many events to be organised by UNISON, and our Branch will play a significant part in any future activities that are organised by our Trade Union.
 

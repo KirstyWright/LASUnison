@@ -3,7 +3,7 @@ title: Ambulance Risk Flagging
 date: '2008-11-04'
 category: News
 readTime: 2
-excerpt: UNISON supports any measures that seek to reduce the hazards faced by our Ambulance members especially the unacceptably high level of aggression they have to deal with.
+description: UNISON supports any measures that seek to reduce the hazards faced by our Ambulance members especially the unacceptably high level of aggression they have to deal with.
 wpCategories:
   - UNISON News
 wpId: 84

@@ -3,7 +3,7 @@ title: 'NEC told: ‘We will hold government to account on COVID-19’'
 date: '2020-06-10'
 category: News
 readTime: 3
-excerpt: First remote national executive council hears tributes to UNISON members who have lost their lives during the coronavirus crisis Supporting our members during the coronavirus pandemic has been UNISON’s mission…
+description: First remote national executive council hears tributes to UNISON members who have lost their lives during the coronavirus crisis Supporting our members during the coronavirus pandemic has been UNISON’s mission…
 tags:
   - covid 19
   - government

@@ -3,7 +3,7 @@ title: Eric Roberts
 date: '2016-11-24'
 category: News
 readTime: 2
-excerpt: It is with great sadness to inform our members that Eric Roberts, our branch secretary and UNISON president, passed away suddenly and unexpectedly this afternoon (24 Nov 16) after being…
+description: It is with great sadness to inform our members that Eric Roberts, our branch secretary and UNISON president, passed away suddenly and unexpectedly this afternoon (24 Nov 16) after being…
 image: /images/2016/07/Eric_Roberts_web-745x420-1.jpg
 wpCategories:
   - Branch News
@@ -35,8 +35,6 @@ This is a very sad time for us all and a further statement will be published lat
 They will be published on the following page - [https://www.unison.org.uk/news/2016/11/remembering-eric-roberts/](https://www.unison.org.uk/news/2016/11/remembering-eric-roberts/)
 
 ---
-
-[http://www.ericsblog.lasunison.co.uk/](http://www.ericsblog.lasunison.co.uk/)
 
 [https://twitter.com/EggOnTheMoon](https://twitter.com/EggOnTheMoon)
 

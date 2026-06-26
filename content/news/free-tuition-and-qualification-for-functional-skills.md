@@ -4,7 +4,7 @@ date: '2021-10-05'
 category: News
 topic: Education
 readTime: 1
-excerpt: Level 2 in English and Mathematics This is available to any member who does not have a GCSE or equivalent in English and Mathematics and wants to enter a higher…
+description: Level 2 in English and Mathematics This is available to any member who does not have a GCSE or equivalent in English and Mathematics and wants to enter a higher…
 tags:
   - ambulance
   - benefits

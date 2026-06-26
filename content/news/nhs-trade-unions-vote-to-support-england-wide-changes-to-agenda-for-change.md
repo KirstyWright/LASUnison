@@ -4,7 +4,7 @@ date: '2013-02-28'
 category: News
 topic: Pay
 readTime: 3
-excerpt: 'Summary: The NHS Staff Council met yesterday and endorsed the proposals, which were accepted by UNISON in February (see HC-010-13 Consultation on Agenda for Change Proposals in England shows support…'
+description: 'Summary: The NHS Staff Council met yesterday and endorsed the proposals, which were accepted by UNISON in February (see HC-010-13 Consultation on Agenda for Change Proposals in England shows support…'
 tags:
   - afc
   - pay
@@ -22,7 +22,7 @@ The NHS Staff Council met yesterday and endorsed the proposals, which were accep
 
 **In full:**
 
-The changes to the national agreement include creating greater links between performance and incremental progression; removal of unsocial hours enhancements from sick pay and removal of the accelerated progression for new entrants to band 5; along with an additional set of principles to protect against the worst aspects of downbanding.  Details of the changes can be found in UNISON’s briefing available from: http://www.unison.org.uk/acrobat/UNISON\_Briefing\_AfC\_proposals.pdf. Other materials, including FAQs, can be found here: [http://www.unison.org.uk/healthcare/a4c/consultation.asp](http://www.unison.org.uk/healthcare/a4c/consultation.asp). There is significant work still to do before the changes are incorporated into the NHS Terms and Conditions of Service Handbook, including agreement of joint guidance for local JSCs on implementation and equality monitoring issues.
+The changes to the national agreement include creating greater links between performance and incremental progression; removal of unsocial hours enhancements from sick pay and removal of the accelerated progression for new entrants to band 5; along with an additional set of principles to protect against the worst aspects of downbanding.  Details of the changes can be found in UNISON’s briefing available from: http://www.unison.org.uk/acrobat/UNISON\_Briefing\_AfC\_proposals.pdf. Other materials, including FAQs, can be found here: [http://www.unison.org.uk/healthcare/a4c/consultation.asp](http://www.unison.org.uk/healthcare/a4c/consultation.asp) [Link no longer available]{.link-unavailable}. There is significant work still to do before the changes are incorporated into the NHS Terms and Conditions of Service Handbook, including agreement of joint guidance for local JSCs on implementation and equality monitoring issues.
 
 The changes had not been accepted by all NHS trade unions, with the Society of Radiographers, the Federation of Clinical Scientists, The Society of Chiropodists and Podiatrists, GMB and Unite voting to reject – citing concerns about the impact on staff in bands 8c,d,and 9 and disagreement with the strategy of agreeing changes to preserve national bargaining, and the fact that the changes were England-only as reasons for their opposition.  However, the 10 unions which accepted represent over 85% of NHS members which means that the official staff side position was to accept the changes.  It is clear that some unions do not accept collective responsibility for the democratic process and have since signalled their intention to campaign against the introduction of the changes.
 

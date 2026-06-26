@@ -4,7 +4,7 @@ date: '2016-04-28'
 category: News
 topic: Pay
 readTime: 3
-excerpt: “UNISON is holding an indicative ballot of ambulance staff over the failure of the government and employers to deliver on their promises made at the end of the 2014/15 strike…
+description: “UNISON is holding an indicative ballot of ambulance staff over the failure of the government and employers to deliver on their promises made at the end of the 2014/15 strike…
 tags:
   - afc
   - ballot
@@ -31,7 +31,7 @@ legacyUrl: https://lasunison.co.uk/ambulance-service-industrial-action-consultat
 
 This ballot is for ALL UNISON members working in an English NHS Ambulance Service.
 
-If you haven’t received the link then contact us on [enquiries@lasunison.co.uk](mailto:enquiries@lasunison.co.uk) and provide an up to date email address.
+If you haven’t received the link then contact us on [enquiries@lasunison.com](mailto:enquiries@lasunison.com) and provide an up to date email address.
 
 **In order to send a very strong message we need to get a high return rate so your vote is really important.**
 
@@ -70,4 +70,4 @@ Here is what we are asking for:
 - Healthier happier staff = healthier happier patients
 - Proper training, development and career progression for ambulance staff
 
-If you are not a member of UNISON and wish to join to vote, then either e-mail [enquiries@lasunison.co.uk](mailto:enquiries@lasunison.co.uk), speak to your local rep, go online to [joinunison.org](http://joinunison.org/) or call 0800 171 2193.
+If you are not a member of UNISON and wish to join to vote, then either e-mail [enquiries@lasunison.com](mailto:enquiries@lasunison.com), speak to your local rep, go online to [joinunison.org](https://join.unison.org.uk/) or call 0800 171 2193.

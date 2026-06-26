@@ -4,7 +4,7 @@ date: '2020-10-11'
 category: News
 topic: Pay
 readTime: 6
-excerpt: Health staff across the UK are entering a second day of campaigning, urging the government to give every NHS worker an early pay rise of at least £2,000 Health workers…
+description: Health staff across the UK are entering a second day of campaigning, urging the government to give every NHS worker an early pay rise of at least £2,000 Health workers…
 tags:
   - branch
   - government
@@ -35,7 +35,7 @@ Here’s some of what’s been happening across the regions.
 
 **North West**
 
-![](https://www.unison.org.uk/content/uploads/2020/09/Burnley-NHS-Pay-Protest--300x225.jpg)
+![](https://www.unison.org.uk/content/uploads/2020/09/Burnley-NHS-Pay-Protest--300x225.jpg) [Link no longer available]{.link-unavailable}
 
 Events taking place across the North West region include protests at hospitals in Blackburn, Prestwich, Burnley, Clitheroe and Pendle. UNISON North West also held a webinar, with speakers including Paula Barker, the Labour MP for Liverpool Wavertree.
 
@@ -49,7 +49,7 @@ Michelle Tymon is a domestic at Blackpool Victoria Hospital. She is employed by 
 
 **Eastern**
 
-![](https://www.unison.org.uk/content/uploads/2020/09/EiENEl7WAAwDyZa-300x200.jpeg)
+![](https://www.unison.org.uk/content/uploads/2020/09/EiENEl7WAAwDyZa-300x200.jpeg) [Link no longer available]{.link-unavailable}
 A number of events are taking place across the Eastern region including one involving ambulance workers in Bury St Edmunds, a lunchtime activity involving staff at the Basildon and Thurrock Hospital, and another at Southend Hospital.
 
 UNISON Eastern regional secretary Tim Roberts said: “Investing in the NHS and its incredible staff is a must for the government. It would help the health service tackle the mounting staff shortages that were already causing huge problems even before the virus hit.
@@ -62,7 +62,7 @@ In the East Midlands, UNISON members are writing to MPs, holding virtual meeting
 
 **London**
 
-![](https://www.unison.org.uk/content/uploads/2020/09/LAS-225x300.jpg)
+![](https://www.unison.org.uk/content/uploads/2020/09/LAS-225x300.jpg) [Link no longer available]{.link-unavailable}
 
 Events taking place across the London region include letters to MPs and information stalls at various hospitals.
 
@@ -76,7 +76,7 @@ Sam said: “We don’t do our jobs because we want to be clapped, we do it beca
 
 **South East**
 
-![](https://www.unison.org.uk/content/uploads/2020/09/EiGsXCxWoAAwBzT-300x225.jpeg)
+![](https://www.unison.org.uk/content/uploads/2020/09/EiGsXCxWoAAwBzT-300x225.jpeg) [Link no longer available]{.link-unavailable}
 
 Activities in the South East included UNISON members at Wexham Park Hospital holding a socially distanced protest (pictured).
 
@@ -96,7 +96,7 @@ UNISON member Ruth works working as a staff nurse at County Durham & Darlington 
 
 In Northern Ireland, UNISON members held photo stunts across Mater Hospital, Ulster Hospital, South West Acute Hospital, Omagh Hospital, Craigavon Hospital and Royal Hospital.
 
-![](https://www.unison.org.uk/content/uploads/2020/09/Orchard-Branch-Dolores-Doyle-Nurse-225x300.jpg)
+![](https://www.unison.org.uk/content/uploads/2020/09/Orchard-Branch-Dolores-Doyle-Nurse-225x300.jpg) [Link no longer available]{.link-unavailable}
 
 Elsewhere in the UK, UNISON members in Scotland and Wales will begin campaign activity next week.
 

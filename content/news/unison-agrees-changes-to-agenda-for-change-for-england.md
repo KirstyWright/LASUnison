@@ -4,7 +4,7 @@ date: '2013-02-08'
 category: News
 topic: Pay
 readTime: 2
-excerpt: UNISON has voted to accept the proposals to alter the Agenda for Change (AfC) agreement in England.
+description: UNISON has voted to accept the proposals to alter the Agenda for Change (AfC) agreement in England.
 tags:
   - afc
   - pay

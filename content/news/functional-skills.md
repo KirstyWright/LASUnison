@@ -4,7 +4,7 @@ date: '2020-03-03'
 category: News
 topic: Education
 readTime: 2
-excerpt: FREE tuition and qualification for Functional Skills Level 2 in English and Mathematics We are again offering FREE functional skills courses for members.
+description: FREE tuition and qualification for Functional Skills Level 2 in English and Mathematics We are again offering FREE functional skills courses for members.
 tags:
   - benefits
   - branch

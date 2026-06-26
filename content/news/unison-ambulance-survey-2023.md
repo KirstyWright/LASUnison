@@ -3,7 +3,7 @@ title: UNISON Ambulance Survey 2023
 date: '2023-06-16'
 category: News
 readTime: 2
-excerpt: UNISON is conducting a survey of all ambulance members to understand your views on issues we know are important to you such as early retirement, unsocial hours provisions and your…
+description: UNISON is conducting a survey of all ambulance members to understand your views on issues we know are important to you such as early retirement, unsocial hours provisions and your…
 tags:
   - ambulance
   - survey

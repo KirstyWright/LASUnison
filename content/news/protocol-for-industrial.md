@@ -4,7 +4,7 @@ date: '2011-11-21'
 category: News
 topic: Pensions
 readTime: 3
-excerpt: PROTOCOL FOR INDUSTRIAL ACTION 30 th NOVEMBER 2011 Partnership arrangements in London are long standing, strong and built on the principles of good formal and informal working relations.
+description: PROTOCOL FOR INDUSTRIAL ACTION 30 th NOVEMBER 2011 Partnership arrangements in London are long standing, strong and built on the principles of good formal and informal working relations.
 wpCategories:
   - Pensions
   - UNISON News

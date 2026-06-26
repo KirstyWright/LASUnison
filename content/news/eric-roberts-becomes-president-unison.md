@@ -3,7 +3,7 @@ title: Eric Roberts becomes president of UNISON
 date: '2016-06-25'
 category: News
 readTime: 1
-excerpt: On Friday 24 June 2016 at the UNISON national conference in Brighton, Eric Roberts, Branch Secretary of the London Ambulance Service UNISON branch became UNISON’s new president.
+description: On Friday 24 June 2016 at the UNISON national conference in Brighton, Eric Roberts, Branch Secretary of the London Ambulance Service UNISON branch became UNISON’s new president.
 tags:
   - branch
   - election
@@ -14,6 +14,8 @@ wpCategories:
   - UNISON News
 wpId: 2213
 legacyUrl: https://lasunison.co.uk/eric-roberts-becomes-president-unison
+seo:
+  description: On Friday 24 June 2016, Eric Roberts, Branch Secretary of the London Ambulance Service UNISON branch became UNISON’s new president.
 ---
 
 [![Resized_IMG_20160623_164358](/images/2016/06/Resized_IMG_20160623_164358-150x150.jpeg)](/images/2016/06/Resized_IMG_20160623_164358.jpeg)

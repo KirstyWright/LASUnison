@@ -3,7 +3,7 @@ title: Fee rise for stretched NHS workers is unfair and misjudged, says UNISON
 date: '2022-10-02'
 category: News
 readTime: 2
-excerpt: Compulsory annual registration fee could rise from £98.12 to £117.74. Paramedics, occupational therapists, operating department practitioners and many other health professionals could see the fee allowing them to practise rise…
+description: Compulsory annual registration fee could rise from £98.12 to £117.74. Paramedics, occupational therapists, operating department practitioners and many other health professionals could see the fee allowing them to practise rise…
 tags:
   - hcpc
   - paramedic

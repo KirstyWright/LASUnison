@@ -4,7 +4,7 @@ date: '2008-09-21'
 category: News
 topic: Pay
 readTime: 3
-excerpt: UNISON members working in the NHS have voted to accept a multi-year pay offer worth more than 8%.
+description: UNISON members working in the NHS have voted to accept a multi-year pay offer worth more than 8%.
 wpCategories:
   - Pay
   - UNISON News
@@ -44,6 +44,6 @@ The union warned the government that UNISON members will not tolerate a below-in
 
 Members can expect to see the money from this pay rise in their pay packets in July.
 
-[Health Pay Matters, including details of the pay package](http://www.unison.org.uk/paymatters/health.asp)
+[Health Pay Matters, including details of the pay package](http://www.unison.org.uk/paymatters/health.asp) [Link no longer available]{.link-unavailable}
 
 © [by LAS UNISON](/).

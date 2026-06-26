@@ -4,7 +4,7 @@ date: '2013-09-09'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Thank you for voting in the recent ballot on Annex E proposals. As you know, UNISON members in London Ambulance Service rejected the proposals and sent a very clear message…
+description: Thank you for voting in the recent ballot on Annex E proposals. As you know, UNISON members in London Ambulance Service rejected the proposals and sent a very clear message…
 tags:
   - afc
   - ballot

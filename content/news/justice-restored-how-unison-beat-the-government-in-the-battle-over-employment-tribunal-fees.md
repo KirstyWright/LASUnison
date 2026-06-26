@@ -3,7 +3,7 @@ title: Justice restored - How UNISON BEAT THE GOVERNMENT in the battle over empl
 date: '2018-08-11'
 category: News
 readTime: 4
-excerpt: In 2017 UNISON won a landmark legal case against the government. It's been hailed as one of the most significant in the history of employment law.
+description: In 2017 UNISON won a landmark legal case against the government. It's been hailed as one of the most significant in the history of employment law.
 tags:
   - dave
   - general secretary

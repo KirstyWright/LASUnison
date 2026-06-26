@@ -1,5 +1,6 @@
 ---
 title: Environment
+officer: sarah-hardy
 description: 'UNISON members climate change the green economy and just transition. Read the report here: https://www.unison.org.uk/content/uploads/2020/02/REPORT-UNISON-Climate-change-pdf.pdf ____________________________________________________________________________________________________ Green Environmental Ambulance Network The GrEAN (Green Environmental Ambulance Network) is a network of…'
 date: '2023-04-25'
 wpId: 5547
@@ -8,7 +9,7 @@ legacyUrl: https://lasunison.co.uk/environment
 
 ##### UNISON members climate change the green economy and just transition.
 
-Read the report here: **[https://www.unison.org.uk/content/uploads/2020/02/REPORT-UNISON-Climate-change-pdf.pdf](https://www.unison.org.uk/content/uploads/2020/02/REPORT-UNISON-Climate-change-pdf.pdf)**
+Read more about UNISON's climate and environment work on the **[Green UNISON](https://www.unison.org.uk/our-campaigns/green-unison)** pages.
 
 ##### \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -18,7 +19,7 @@ The GrEAN (Green Environmental Ambulance Network) is a network of all of the amb
 
 The network involves staff from Estates, IT, Procurement, Operations, Driver training and Fleet as well as paramedics, ensuring that everyone within the services are working together to reduce the emissions that we all emit at work.
 
-[Download the Green Passport here](/?mdocs-file=5545)
+[Download the Green Passport here](/docs/mdocs/GrEAN_passport_large.pdf)
 
 ---
 

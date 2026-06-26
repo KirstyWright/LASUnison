@@ -4,7 +4,7 @@ date: '2020-10-20'
 category: News
 topic: Wellbeing
 readTime: 1
-excerpt: We have taken delivery of a small quantity of unique T-Shirts that celebrate women in UNISON.
+description: We have taken delivery of a small quantity of unique T-Shirts that celebrate women in UNISON.
 tags:
   - branch
   - las

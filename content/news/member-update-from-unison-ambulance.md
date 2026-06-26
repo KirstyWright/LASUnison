@@ -4,7 +4,7 @@ date: '2020-04-28'
 category: News
 topic: Safety
 readTime: 3
-excerpt: 'Personal Protective Equipment (PPE) UNISON advice to ambulance members on PPE: Individual risk assessments should be the main factor in deciding your level of PPE.'
+description: 'Personal Protective Equipment (PPE) UNISON advice to ambulance members on PPE: Individual risk assessments should be the main factor in deciding your level of PPE.'
 tags:
   - covid 19
   - government
@@ -30,7 +30,7 @@ UNISON advice to ambulance members on PPE:
 
 ### Message from the General Secretary
 
-Our General Secretary, Dave Prentis, has recently written a blog on PPE stating very clearly that you should be safe from harm while at work and that UNISON will support members who enforce their rights to have the right level of protection at work. The full blog can be read **[here](https://www.unison.org.uk/news/general-secretary-blog/2020/04/blog-ppe/)**.
+Our General Secretary, Dave Prentis, has recently written a blog on PPE stating very clearly that you should be safe from harm while at work and that UNISON will support members who enforce their rights to have the right level of protection at work. The full blog can be read **[here](https://www.unison.org.uk/news/general-secretary-blog/2020/04/blog-ppe/) [Link no longer available]{.link-unavailable}**.
 
 ### PPE for Chest Compressions
 

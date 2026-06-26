@@ -4,7 +4,7 @@ date: '2012-02-03'
 category: News
 topic: Pensions
 readTime: 3
-excerpt: A message from Dave Prentis, UNISON general secretary Fighting for fair pensions UNISON's day of action on pensions on 30 November was a huge success - it got employers and…
+description: A message from Dave Prentis, UNISON general secretary Fighting for fair pensions UNISON's day of action on pensions on 30 November was a huge success - it got employers and…
 wpCategories:
   - Pensions
   - UNISON News
@@ -48,18 +48,18 @@ The proposed revaluation rate - how much your 'banked' earnings will be increase
 
 To help members make an informed decision on the proposals, UNISON will provide as much detail as possible on the final offer once negotiations are ended.
 
-In the meantime, full information on the 'heads of agreement' outline proposals, career average schemes in general and pensions jargon is available on the UNISON website at [unison.org.uk/pensions/protectour.asp](http://www.unison.org.uk/pensions/protectour.asp).
+In the meantime, full information on the 'heads of agreement' outline proposals, career average schemes in general and pensions jargon is available on the UNISON website at [unison.org.uk/pensions/protectour.asp](http://www.unison.org.uk/pensions/protectour.asp) [Link no longer available]{.link-unavailable}.
 
 Keep an eye on it to make sure you stay up to date and informed.
 
 More information:
 
-[Frequently asked questions on the NHS proposals (pdf document)](http://www.unison.org.uk/pensions/NHSFAQs.asp)
+[Frequently asked questions on the NHS proposals (pdf document)](http://www.unison.org.uk/pensions/NHSFAQs.asp) [Link no longer available]{.link-unavailable}
 
-[UNISON commentary on the heads of agreement (pdf documents)](http://www.unison.org.uk/pensions/pages_view.asp?did=13887)
+[UNISON commentary on the heads of agreement (pdf documents)](http://www.unison.org.uk/pensions/pages_view.asp?did=13887) [Link no longer available]{.link-unavailable}
 
-[Questions and answers on career average schemes](http://www.unison.org.uk/pensions/careschemes.asp)
+[Questions and answers on career average schemes](http://www.unison.org.uk/pensions/careschemes.asp) [Link no longer available]{.link-unavailable}
 
-[Pensions jargon buster](http://www.unison.org.uk/pensions/jargon.asp)
+[Pensions jargon buster](http://www.unison.org.uk/pensions/jargon.asp) [Link no longer available]{.link-unavailable}
 
 Dave Prentis UNISON general secretary

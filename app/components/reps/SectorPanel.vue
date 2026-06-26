@@ -41,7 +41,7 @@ const areaGroups = computed(() => {
     <!-- Sector header -->
     <button
       type="button"
-      class="w-full flex items-center gap-4 px-6 py-5 text-left bg-[var(--purple-mist)] hover:bg-[var(--purple-soft)] transition-colors duration-150 cursor-pointer border-none"
+      class="w-full flex items-center gap-4 px-6 py-5 text-left bg-[var(--surface-brand-soft)] hover:bg-[var(--brand-primary-soft)] transition-colors duration-150 cursor-pointer border-none"
       :aria-expanded="open"
       @click="open = !open"
     >

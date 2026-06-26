@@ -3,7 +3,7 @@ title: UNISON ambulance retirement age campaign launch!
 date: '2026-01-15'
 category: Campaign
 readTime: 3
-excerpt: We want you to be given the choice to retire earlier than you do! As the largest and strongest trade union for ambulance staff in the UK, UNISON is proud…
+description: We want you to be given the choice to retire earlier than you do! As the largest and strongest trade union for ambulance staff in the UK, UNISON is proud…
 tags:
   - ambulance
   - survey

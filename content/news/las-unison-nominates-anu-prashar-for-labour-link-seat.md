@@ -3,7 +3,7 @@ title: LAS UNISON nominates Anu Prashar for Labour Link Seat
 date: '2023-09-18'
 category: News
 readTime: 1
-excerpt: Earlier this year, London Ambulance Service UNISON branch made the decision at one of our Branch Meetings to nominate Anu Prashar for UNISON Labour Link seat.
+description: Earlier this year, London Ambulance Service UNISON branch made the decision at one of our Branch Meetings to nominate Anu Prashar for UNISON Labour Link seat.
 tags:
   - election
   - labour

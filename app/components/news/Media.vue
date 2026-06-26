@@ -27,10 +27,6 @@ const props = withDefaults(
 )
 
 const bannerBg = computed(() => newsBannerBg(props.tone))
-
-// White ECG pulse, tiled along the bottom edge — echoes the news masthead motif.
-const PULSE =
-  "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='80' viewBox='0 0 240 80' fill='none'%3E%3Cpath d='M0 48 H78 L92 48 L102 22 L116 64 L126 36 L138 48 H240' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E\")"
 </script>
 
 <template>
@@ -60,11 +56,10 @@ const PULSE =
       class="absolute -right-7 -bottom-8 text-white opacity-[0.09] pointer-events-none"
     />
 
-    <!-- ECG pulse along the bottom -->
-    <div
-      class="absolute inset-x-0 bottom-0 h-16 opacity-[0.18] pointer-events-none"
-      :style="{ background: `${PULSE} repeat-x left bottom`, backgroundSize: '200px auto' }"
-    />
+    <!-- Pulse, refined — echoes the masthead motif -->
+    <div class="absolute inset-x-0 bottom-0 text-white opacity-60 pointer-events-none">
+      <MotifPulse />
+    </div>
 
     <!-- wordmark + category -->
     <div class="relative flex flex-col items-center gap-2 px-4">

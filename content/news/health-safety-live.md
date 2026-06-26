@@ -4,7 +4,7 @@ date: '2021-02-16'
 category: News
 topic: Safety
 readTime: 2
-excerpt: 9 – 12 March 2021 Online A series of events, under the collective name of “Health & Safety Live”.
+description: 9 – 12 March 2021 Online A series of events, under the collective name of “Health & Safety Live”.
 tags:
   - health & safety
   - unison

@@ -3,7 +3,7 @@ title: Sign up for Text Alerts
 date: '2010-03-13'
 category: News
 readTime: 2
-excerpt: Just text the word MEMBERS Followed by Your Full Name to 07748875735 to get the latest news and information delivered straight to your mobile.
+description: Just text the word MEMBERS Followed by Your Full Name to 07748875735 to get the latest news and information delivered straight to your mobile.
 wpCategories:
   - Current
 wpId: 1505
@@ -14,7 +14,7 @@ Just text the word MEMBERS Followed by Your Full Name to 07748875735 to get the 
 
 As part of our continued efforts to improve communication with our members, the London Ambulance Service UNISON Branch has set up a Text Alert service.
 
-This is in addition to our website at www.lasunison.co.uk and our e-mail newsletter.
+This is in addition to our website at www.lasunison.com and our e-mail newsletter.
 
 We can now offer members an SMS text alert straight to their mobile.
 

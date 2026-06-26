@@ -4,7 +4,7 @@ date: '2020-03-09'
 category: News
 topic: Safety
 readTime: 4
-excerpt: Today we have written to the London Ambulance Service Chief Operating Officer Khadir Meer with concerns that our members continue to raise to our representatives and LAS UNISON Branch officers…
+description: Today we have written to the London Ambulance Service Chief Operating Officer Khadir Meer with concerns that our members continue to raise to our representatives and LAS UNISON Branch officers…
 tags:
   - branch
   - branch secretary
@@ -24,7 +24,7 @@ legacyUrl: https://lasunison.co.uk/letter-to-coo
 
 Today we have written to the London Ambulance Service Chief Operating Officer Khadir Meer with concerns that our members continue to raise to our representatives and LAS UNISON Branch officers.
 
-The text of the letter is shown below or you can [download a copy here](/?mdocs-file=3992)
+The text of the letter is shown below or you can [download a copy here](/docs/mdocs/4152_001%20%281%29.pdf)
 
 ---
 

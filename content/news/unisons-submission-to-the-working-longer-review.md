@@ -4,7 +4,7 @@ date: '2013-09-11'
 category: News
 topic: Pay
 readTime: 2
-excerpt: UNISON welcomes the opportunity to submit evidence to the NHS Working Longer Review. We are the major trade union in the National Health Service and the largest public service union…
+description: UNISON welcomes the opportunity to submit evidence to the NHS Working Longer Review. We are the major trade union in the National Health Service and the largest public service union…
 tags:
   - pay
   - pensions

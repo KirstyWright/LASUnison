@@ -3,7 +3,7 @@ title: Injuries at work – your rights explained
 date: '2023-01-31'
 category: News
 readTime: 4
-excerpt: Gerard Stilliard, head of personal injury claims at Thompsons Solicitors , outlines how you can access legal support if you have been injured at work.
+description: Gerard Stilliard, head of personal injury claims at Thompsons Solicitors , outlines how you can access legal support if you have been injured at work.
 tags:
   - benefits
   - branch

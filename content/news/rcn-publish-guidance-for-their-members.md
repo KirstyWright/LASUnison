@@ -4,7 +4,7 @@ date: '2015-01-23'
 category: News
 topic: Pay
 readTime: 2
-excerpt: 'The RCN has published advice for their members on their website. There is a specific mention of the London Ambulance Service and is copied below: Advice for London members affected…'
+description: 'The RCN has published advice for their members on their website. There is a specific mention of the London Ambulance Service and is copied below: Advice for London members affected…'
 tags:
   - afc
   - strike

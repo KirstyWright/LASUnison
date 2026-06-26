@@ -4,7 +4,7 @@ date: '2011-03-28'
 category: News
 topic: Pay
 readTime: 1
-excerpt: The latest pay circular that takes effect from 1 April 2011 has been published and can be viewed here.
+description: The latest pay circular that takes effect from 1 April 2011 has been published and can be viewed here.
 wpCategories:
   - Pay
   - Agenda for Change

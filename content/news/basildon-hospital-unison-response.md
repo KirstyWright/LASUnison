@@ -3,7 +3,7 @@ title: Basildon Hospital - UNISON response
 date: '2009-11-28'
 category: News
 readTime: 2
-excerpt: UNISON, the UK’s largest public sector trade union, today called for Basildon and Thurrock University Hospitals NHS foundation trust to be taken back under NHS control, and called for a…
+description: UNISON, the UK’s largest public sector trade union, today called for Basildon and Thurrock University Hospitals NHS foundation trust to be taken back under NHS control, and called for a…
 wpCategories:
   - UNISON News
 wpId: 58

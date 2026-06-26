@@ -3,7 +3,7 @@ title: NEC Election 2015
 date: '2015-04-16'
 category: News
 readTime: 1
-excerpt: While all the focus is currently on the General Election, There is another election taking place within UNISON for seats on the NEC.
+description: While all the focus is currently on the General Election, There is another election taking place within UNISON for seats on the NEC.
 wpCategories:
   - Branch News
   - UNISON News

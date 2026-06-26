@@ -4,7 +4,7 @@ date: '2010-10-07'
 category: News
 topic: Pensions
 readTime: 2
-excerpt: 'Dave Prentis, UNISON General Secretary, said: “Our key priority is to make sure that our members pension schemes, that they pay into all their working lives, remain sustainable and affordable…'
+description: 'Dave Prentis, UNISON General Secretary, said: “Our key priority is to make sure that our members pension schemes, that they pay into all their working lives, remain sustainable and affordable…'
 wpCategories:
   - Pensions
   - UNISON News

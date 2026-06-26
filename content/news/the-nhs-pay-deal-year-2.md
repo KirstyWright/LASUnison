@@ -4,7 +4,7 @@ date: '2019-03-30'
 category: News
 topic: Pay
 readTime: 8
-excerpt: Recap of the three-year deal in England In 2018 the NHS Staff Council agreed to reform the NHS pay structure over a three-year period covering April 2018 to March 2021…
+description: Recap of the three-year deal in England In 2018 the NHS Staff Council agreed to reform the NHS pay structure over a three-year period covering April 2018 to March 2021…
 tags:
   - afc
   - pay
@@ -52,7 +52,7 @@ pay progression early.
 
 Other staff will receive an annual pay uplift on 1 April and then receive their transitional pay progression on their pay step date (formerly known as their incremental date).
 
-[The NHS Staff Council pay journey tool](https://www.nhsemployers.org/your-workforce/2018-contract-refresh/pay-journey-tool) will show individual staff how their pay will change year on year
+[The NHS Staff Council pay journey tool](https://www.nhsemployers.org/your-workforce/2018-contract-refresh/pay-journey-tool) [Link no longer available]{.link-unavailable} will show individual staff how their pay will change year on year
 including annual pay uplifts and individual progression, if they are not at the top of their pay band. To
 use the tool staff will need to know their spine point on 31 March 2018 if they were employed on or
 before this point. Staff employed on or after 1 April 2018 will not need to know any spine point
@@ -138,7 +138,7 @@ promoted on or after this date will be subject to the new pay progression arrang
 considered to be moving to a higher banded role.
 
 **Further detail on pay progression**
-The NHS trade unions have [published joint guidance for staff side representatives](https://www.unison.org.uk/content/uploads/2019/03/New-pay-progression-system-for-England.pdf).
+The NHS trade unions have [published joint guidance for staff side representatives](https://www.unison.org.uk/content/uploads/2019/03/New-pay-progression-system-for-England.pdf) [Link no longer available]{.link-unavailable}.
 
 ### Reading the pay scales
 

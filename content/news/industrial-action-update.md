@@ -4,7 +4,7 @@ date: '2023-01-13'
 category: News
 topic: Pay
 readTime: 4
-excerpt: Now that we’ve all recovered from Strike Day on Wednesday we wanted to say a massive Thank You to everyone that took action.
+description: Now that we’ve all recovered from Strike Day on Wednesday we wanted to say a massive Thank You to everyone that took action.
 tags:
   - afc
   - branch

@@ -3,7 +3,7 @@ title: NEC ELECTIONS
 date: '2017-04-03'
 category: News
 readTime: 2
-excerpt: Dear London Ambulance UNISON Branch Members Ballot papers for this very important election should be sent to your homes address from Monday 3 rd April.
+description: Dear London Ambulance UNISON Branch Members Ballot papers for this very important election should be sent to your homes address from Monday 3 rd April.
 tags:
   - election
   - nec
@@ -84,4 +84,4 @@ Related Links:
 
 - [NEC 2017 election: notification of ballots - What you need to know](https://www.unison.org.uk/news/article/2017/03/nec-ballot-notification/)
 
-- [Branch Secretary Bulletin regarding elections](/?mdocs-file=2707)
+- [Branch Secretary Bulletin regarding elections](/docs/mdocs/BS%20April%2017.pdf)

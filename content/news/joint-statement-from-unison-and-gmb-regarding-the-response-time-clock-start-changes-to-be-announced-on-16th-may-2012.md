@@ -3,7 +3,7 @@ title: Joint statement from Unison and GMB regarding the Response Time  Clock St
 date: '2012-05-16'
 category: News
 readTime: 1
-excerpt: Both Unison and GMB welcome the changes to the clock start announced today. The changes will maintain and ultimately improve the response times for the most critically ill and injured…
+description: Both Unison and GMB welcome the changes to the clock start announced today. The changes will maintain and ultimately improve the response times for the most critically ill and injured…
 wpCategories:
   - Branch News
   - LAS News

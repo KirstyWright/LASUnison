@@ -4,7 +4,7 @@ date: '2021-02-10'
 category: News
 topic: Safety
 readTime: 5
-excerpt: 'We always knew unionised jobs were safer: statistically, workplaces with a recognised trade union report half as many injuries.'
+description: 'We always knew unionised jobs were safer: statistically, workplaces with a recognised trade union report half as many injuries.'
 tags:
   - health & safety
   - tuc

@@ -3,7 +3,7 @@ title: London Ambulance Estates Strategy & Consolidation
 date: '2021-09-11'
 category: News
 readTime: 6
-excerpt: The London Ambulance Service UNISON Branch have written to the new CEO of the London Ambulance Service regarding the service Estates Strategy and consolidation of ambulance station started at the…
+description: The London Ambulance Service UNISON Branch have written to the new CEO of the London Ambulance Service regarding the service Estates Strategy and consolidation of ambulance station started at the…
 tags:
   - ambulance
   - branch
@@ -25,7 +25,7 @@ legacyUrl: https://lasunison.co.uk/london-ambulance-estates-strategy-consolidati
 
 The London Ambulance Service UNISON Branch have written to the new CEO of the London Ambulance Service regarding the service Estates Strategy and consolidation of ambulance station started at the height of the pandemic in 2020.
 
-You can **[download the letter here](/?mdocs-file=5790),** it is also published below:
+You can **[download the letter here](/docs/mdocs/Consol.Estates%20DOC.pdf),** it is also published below:
 
 Dear Daniel,
 

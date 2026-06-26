@@ -10,11 +10,10 @@ if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
 }
 
-useHead({ title: page.value.title + ' — LAS UNISON' })
-useSeoMeta({
-  description: page.value.description ?? undefined,
-  ogTitle: page.value.title + ' — LAS UNISON',
-  ogDescription: page.value.description ?? undefined,
+useContentSeo({
+  title: () => page.value?.title,
+  description: () => page.value?.description,
+  seo: () => page.value?.seo,
 })
 
 const formattedDate = computed(() => {
@@ -31,14 +30,14 @@ const formattedDate = computed(() => {
   <div>
     <SiteHeader />
 
-    <main>
+    <main id="main-content">
       <!-- Page hero -->
       <div class="bg-[var(--surface-brand)] text-white">
         <div class="las-container py-12 md:py-16">
           <nav class="text-[0.8125rem] text-[var(--purple-200)] mb-4 flex items-center gap-1.5" aria-label="Breadcrumb">
             <NuxtLink to="/" class="hover:text-white transition-colors">Home</NuxtLink>
-            <span aria-hidden="true">/</span>
-            <span>{{ page!.title }}</span>
+            <span class="opacity-50" aria-hidden="true">/</span>
+            <span class="text-white font-semibold" aria-current="page">{{ page!.title }}</span>
           </nav>
           <h1 class="font-[family-name:var(--font-display)] text-[length:var(--text-5xl)] font-black leading-none tracking-[-0.02em] text-white m-0">
             {{ page!.title }}
@@ -52,11 +51,13 @@ const formattedDate = computed(() => {
       <!-- Content -->
       <div class="las-container py-12 md:py-16">
         <div class="max-w-[75ch]">
-          <ContentRenderer
-            v-if="page"
-            :value="page"
-            class="las-prose"
-          />
+          <UiLightbox>
+            <ContentRenderer
+              v-if="page"
+              :value="page"
+              class="las-prose"
+            />
+          </UiLightbox>
           <p v-if="formattedDate" class="mt-12 pt-6 border-t border-[var(--border-subtle)] text-[0.8125rem] text-[var(--text-muted)]">
             Last updated: {{ formattedDate }}
           </p>

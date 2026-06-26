@@ -3,7 +3,7 @@ title: NEC pays tribute to Eric Roberts
 date: '2016-12-07'
 category: News
 readTime: 3
-excerpt: ‘We should make Eric proud by continuing on in the union – let’s make and keep this the best union’ “Eric Roberts was our president – and he was someone…
+description: ‘We should make Eric proud by continuing on in the union – let’s make and keep this the best union’ “Eric Roberts was our president – and he was someone…
 tags:
   - prentis
   - president

@@ -4,7 +4,7 @@ date: '2021-06-23'
 category: News
 topic: Pay
 readTime: 3
-excerpt: No more delay tactics over deserved wage rise Thousands of health workers across England, Wales and Northern Ireland will be looking to the Prime Minister to announce his decision on…
+description: No more delay tactics over deserved wage rise Thousands of health workers across England, Wales and Northern Ireland will be looking to the Prime Minister to announce his decision on…
 tags:
   - afc
   - branch

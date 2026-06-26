@@ -4,7 +4,7 @@ date: '2024-01-15'
 category: News
 topic: Wellbeing
 readTime: 4
-excerpt: Worried about your winter fuel bill? There for You has a limited fund to offer one-off £200 grants to UNISON members on a low income.
+description: Worried about your winter fuel bill? There for You has a limited fund to offer one-off £200 grants to UNISON members on a low income.
 tags:
   - benefits
   - unison
@@ -23,7 +23,7 @@ legacyUrl: https://lasunison.co.uk/winter-fuel-grants
 
 **Worried about your winter fuel bill? There for You has a limited fund to offer one-off £200 grants to UNISON members on a low income.**
 
-Applications will open twice on **Wednesday 24 January, at 8.30am and 5pm.** The online form will appear on [**this page**](https://www.unison.org.uk/get-help/services-support/there-for-you/winter-fuel-grants/?utm_campaign=january%202024%20u%20digital&utm_content=check%20whether%20you%27re%20eligible%20and%20how%20to%20apply&utm_medium=email&utm_source=communications). Recent grant applications have been extremely popular and closed within a matter of minutes, so please do check the eligibility criteria below, ensure you have your UNISON membership number to hand and consider setting a reminder if you wish to apply.
+Applications will open twice on **Wednesday 24 January, at 8.30am and 5pm.** The online form will appear on [**this page**](https://www.unison.org.uk/get-help/services-support/there-for-you/winter-fuel-grants/?utm_campaign=january%202024%20u%20digital&utm_content=check%20whether%20you%27re%20eligible%20and%20how%20to%20apply&utm_medium=email&utm_source=communications) [Link no longer available]{.link-unavailable}. Recent grant applications have been extremely popular and closed within a matter of minutes, so please do check the eligibility criteria below, ensure you have your UNISON membership number to hand and consider setting a reminder if you wish to apply.
 
 ##### Applicants must:
 

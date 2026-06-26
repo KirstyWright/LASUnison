@@ -3,7 +3,7 @@ title: Join Us
 date: '2010-04-12'
 category: News
 readTime: 1
-excerpt: 'Membership of UNISON gives you essential cover, wherever you work. Every member receives our full range of member benefits which includes: advice, support and help when you need it at…'
+description: 'Membership of UNISON gives you essential cover, wherever you work. Every member receives our full range of member benefits which includes: advice, support and help when you need it at…'
 image: /images/2010/03/slide2.jpg
 wpCategories:
   - Current

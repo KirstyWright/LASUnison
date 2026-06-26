@@ -4,7 +4,7 @@ date: '2013-12-14'
 category: News
 topic: Pay
 readTime: 2
-excerpt: 'Employers and trade unions held further joint discussions on 13 December in order to: (1) agree that appropriate project infrastructure was in place.'
+description: 'Employers and trade unions held further joint discussions on 13 December in order to: (1) agree that appropriate project infrastructure was in place.'
 tags:
   - afc
   - pay

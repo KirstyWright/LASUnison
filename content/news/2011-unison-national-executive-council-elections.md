@@ -3,7 +3,7 @@ title: 2011 UNISON National Executive Council Elections
 date: '2011-04-10'
 category: News
 readTime: 1
-excerpt: The 2011 NEC election ballot opens on Monday 11th April and closes on 13th May. Ballot papers will be sent to members home address.
+description: The 2011 NEC election ballot opens on Monday 11th April and closes on 13th May. Ballot papers will be sent to members home address.
 wpCategories:
   - Branch News
   - UNISON News

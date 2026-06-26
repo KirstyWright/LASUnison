@@ -3,7 +3,7 @@ title: Eric Roberts – Plans for memorial tribute
 date: '2017-01-10'
 category: News
 readTime: 1
-excerpt: Following the sad and untimely death of UNISON's president and LAS UNISON Branch Secretary, Eric Roberts, the General Secretary and the Presidential Team have proposed that UNISON should host an…
+description: Following the sad and untimely death of UNISON's president and LAS UNISON Branch Secretary, Eric Roberts, the General Secretary and the Presidential Team have proposed that UNISON should host an…
 tags:
   - branch secretary
   - eric

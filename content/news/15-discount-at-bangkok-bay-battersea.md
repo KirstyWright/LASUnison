@@ -3,7 +3,7 @@ title: 15% Discount at Bangkok Bay Battersea
 date: '2011-05-03'
 category: News
 readTime: 1
-excerpt: 'LAS UNISON have arranged a 15% Discount on all food at the: Bangkok Bay Battersea 246 Battersea Park Road London SW11 3BP One of London''s oldest Thai restaurants, based in…'
+description: 'LAS UNISON have arranged a 15% Discount on all food at the: Bangkok Bay Battersea 246 Battersea Park Road London SW11 3BP One of London''s oldest Thai restaurants, based in…'
 wpCategories:
   - Other
 wpId: 366

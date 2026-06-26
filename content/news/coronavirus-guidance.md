@@ -4,7 +4,7 @@ date: '2020-03-18'
 category: News
 topic: Safety
 readTime: 5
-excerpt: LAS UNISON Branch members have experienced many issues over the past few weeks relating to Coronavirus Covid-19 and the effects it is having on the London Ambulance Service.
+description: LAS UNISON Branch members have experienced many issues over the past few weeks relating to Coronavirus Covid-19 and the effects it is having on the London Ambulance Service.
 tags:
   - branch
   - covid 19
@@ -58,6 +58,6 @@ Additionally see ThePulse Covid-19 web page for information from the LAS.
 
 Please contact your local rep if you have concerns and keep a look out here, the national UNISON website and on our social media pages for further updates.
 
-We also have a dedicated email address for Covid-19 related enquiries. [covid19@lasunison.co.uk](mailto:covid19@lasunison.co.uk).
+We also have a dedicated email address for Covid-19 related enquiries. [covid19@lasunison.com](mailto:covid19@lasunison.com).
 
 LAS UNISON

@@ -4,7 +4,7 @@ date: '2023-01-18'
 category: News
 topic: Pay
 readTime: 9
-excerpt: The next Strike Action for our Branch will take place on Monday the 23 rd of January from 1100 to 2300.
+description: The next Strike Action for our Branch will take place on Monday the 23 rd of January from 1100 to 2300.
 tags:
   - afc
   - branch

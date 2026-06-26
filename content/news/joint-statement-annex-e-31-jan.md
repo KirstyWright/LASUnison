@@ -4,7 +4,7 @@ date: '2014-02-04'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Joint Statement between NHS ambulance Trusts in England and UNISON, GMB and Unite Employers and trades unions met on 31 January 2014 and agreed to extend the pause for a…
+description: Joint Statement between NHS ambulance Trusts in England and UNISON, GMB and Unite Employers and trades unions met on 31 January 2014 and agreed to extend the pause for a…
 tags:
   - afc
   - ballot

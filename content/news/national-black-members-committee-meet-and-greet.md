@@ -4,7 +4,7 @@ date: '2021-04-29'
 category: News
 topic: Equality
 readTime: 1
-excerpt: The National Black Members’ Committee has arranged a Meet and Greet session for Black members' who want to learn more about the work of the National Black Members’ Committee (NBMC)…
+description: The National Black Members’ Committee has arranged a Meet and Greet session for Black members' who want to learn more about the work of the National Black Members’ Committee (NBMC)…
 tags:
   - unison
 wpCategories:
@@ -17,7 +17,7 @@ legacyUrl: https://lasunison.co.uk/national-black-members-committee-meet-and-gre
 
 The National Black Members’ Committee has arranged a Meet and Greet session for Black members' who want to learn more about the work of the National Black Members’ Committee (NBMC).
 
-The event will take place on **Friday 21<sup>st</sup>** **May 2021**and can be found on the UNISON webpage [**here**](https://www.unison.org.uk/events/national-black-members-committee-nbmc-meet-and-greet/).
+The event will take place on **Friday 21<sup>st</sup>** **May 2021**and can be found on the UNISON webpage [**here**](https://www.unison.org.uk/events/national-black-members-committee-nbmc-meet-and-greet/) [Link no longer available]{.link-unavailable}.
 
 If you have a question or would just like to meet your reps, come along to the relevant Meet and Greet session.
 

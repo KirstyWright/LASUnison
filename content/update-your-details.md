@@ -4,6 +4,8 @@ description: If you have changed your workplace, job title, moved house or got m
 date: '2022-08-02'
 wpId: 1402
 legacyUrl: https://lasunison.co.uk/update-your-details
+seo:
+  description: As well as using My UNISON you can also use our online form to update the details we hold on you such as when you change workplace or job within the LAS.
 ---
 
 If you have changed your workplace, job title, moved house or got married and changed your name, then you need to update your details with us. We are not currently informed by the service if you change any details and unless you tell us we have no way of knowing.

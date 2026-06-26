@@ -3,7 +3,7 @@ title: UNISON warning over police privatisation
 date: '2012-03-06'
 category: News
 readTime: 1
-excerpt: 'Commenting on the news that large swathes of police services could be outsourced to the private sector, Ben Priestley, UNISON National office for police and justice, said: “Bringing the private…'
+description: 'Commenting on the news that large swathes of police services could be outsourced to the private sector, Ben Priestley, UNISON National office for police and justice, said: “Bringing the private…'
 wpCategories:
   - UNISON News
 wpId: 556

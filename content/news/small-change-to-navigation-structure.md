@@ -3,7 +3,7 @@ title: Small change to navigation structure
 date: '2009-05-12'
 category: News
 readTime: 1
-excerpt: You may have noticed a small change in the navigation menu, if not then press F5 to refresh the page.
+description: You may have noticed a small change in the navigation menu, if not then press F5 to refresh the page.
 wpCategories:
   - Website News
 wpId: 71

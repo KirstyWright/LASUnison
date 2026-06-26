@@ -4,7 +4,7 @@ date: '2014-08-07'
 category: News
 topic: Pay
 readTime: 1
-excerpt: Because your pay matters to you, it matters to UNISON. You have told us you are angry about the insulting pay cuts and freezes being imposed on you.
+description: Because your pay matters to you, it matters to UNISON. You have told us you are angry about the insulting pay cuts and freezes being imposed on you.
 tags:
   - afc
   - ballot

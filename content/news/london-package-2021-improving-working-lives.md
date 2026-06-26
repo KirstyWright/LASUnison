@@ -4,7 +4,7 @@ date: '2021-03-24'
 category: News
 topic: Pay
 readTime: 6
-excerpt: At our branch meeting today (24 March 2021) we discussed and agreed to send the following letter to the London Ambulance Service CEO.
+description: At our branch meeting today (24 March 2021) we discussed and agreed to send the following letter to the London Ambulance Service CEO.
 tags:
   - ambulance
   - branch

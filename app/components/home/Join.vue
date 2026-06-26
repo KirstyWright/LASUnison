@@ -23,16 +23,13 @@ const JOIN_URL = 'https://join.unison.org.uk'
           aria-hidden="true"
           class="absolute -right-16 -top-8 w-[280px] h-[280px] rounded-full bg-white/[0.07] pointer-events-none"
         />
+        <!-- Pulse, refined — sits quietly behind the CTA along the bottom hem -->
         <div
           aria-hidden="true"
-          class="absolute inset-0 opacity-[0.12] pointer-events-none"
-          :style="{
-            backgroundImage: 'url(/pattern-pulse.svg)',
-            backgroundSize: '300px auto',
-            backgroundRepeat: 'repeat-x',
-            backgroundPosition: 'right bottom',
-          }"
-        />
+          class="absolute inset-x-0 bottom-0 text-white opacity-70 pointer-events-none"
+        >
+          <MotifPulse />
+        </div>
 
         <div class="relative p-8 md:p-12 flex items-center justify-between gap-8 flex-wrap">
           <div class="max-w-[560px]">
@@ -40,7 +37,7 @@ const JOIN_URL = 'https://join.unison.org.uk'
               class="font-[family-name:var(--font-display)] font-black text-[length:var(--text-4xl)] leading-[1.05] text-white m-0 tracking-[-0.02em]"
             >
               Add your voice. Join from
-              <span class="font-[family-name:var(--font-mono)] font-semibold whitespace-nowrap">£1.30</span>
+              <span class="whitespace-nowrap">£1.30</span>
               a month.
             </h2>
             <p class="text-[length:var(--text-md)] leading-[1.55] text-white mt-3 mb-0">

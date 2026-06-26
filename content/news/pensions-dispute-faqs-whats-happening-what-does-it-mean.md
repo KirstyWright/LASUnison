@@ -4,7 +4,7 @@ date: '2011-10-16'
 category: News
 topic: Pensions
 readTime: 32
-excerpt: What’s happening? What does it mean? Why are we striking? Why are we striking? What stage are negotiations at? The negotiations are still under way and we don’t know the…
+description: What’s happening? What does it mean? Why are we striking? Why are we striking? What stage are negotiations at? The negotiations are still under way and we don’t know the…
 wpCategories:
   - Pensions
   - UNISON News
@@ -551,7 +551,7 @@ Exemptions from strike action will be approved at regional level.
 
 - Employers should encourage staff to pre-plan their work and ensure that vulnerable adults are aware of the dispute and agreed emergency cover and have access to an emergency contact should they require assistance.
 
-- Where employers seek to use agency/bank/private providers to maintain services further information is available for branches in the UNISON Industrial Action Handbook http://www.unison.org.uk/acrobat/18193.pdf
+- Where employers seek to use agency/bank/private providers to maintain services further information is available for branches in the UNISON Industrial Action Handbook http://www.unison.org.uk/acrobat/18193.pdf [Link no longer available]{.link-unavailable}
 - It should be clear to members why we are taking this action - Branches should hold meetings with members and other staff and share with them employers’ plans and proposals on cover, and seek their views.
 - This may also be a good opportunity to recruit new members by letting them know that patient safety is a priority in any plan of action
 

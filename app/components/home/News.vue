@@ -18,10 +18,10 @@ const rest = computed(() => (posts.value ?? []).slice(1) as NewsItem[])
         <UiButton variant="ghost" href="/news" icon-right="arrowRight">All news</UiButton>
       </div>
 
-      <NewsCard v-if="lead" :post="lead" featured class="las-reveal mb-6" />
+      <NewsCard v-if="lead" :post="lead" featured class="mb-6" />
 
       <div v-if="rest.length" class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        <NewsCard v-for="p in rest" :key="p.path" :post="p" class="las-reveal" />
+        <NewsCard v-for="p in rest" :key="p.path" :post="p" />
       </div>
     </div>
   </section>

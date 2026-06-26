@@ -4,7 +4,7 @@ date: '2020-09-25'
 category: News
 topic: Pay
 readTime: 1
-excerpt: We are campaigning for an immediate pay rise of £2,000 for all NHS staff . We need your MP to ask the Prime Minister a simple question - why wait?…
+description: We are campaigning for an immediate pay rise of £2,000 for all NHS staff . We need your MP to ask the Prime Minister a simple question - why wait?…
 tags:
   - afc
   - government

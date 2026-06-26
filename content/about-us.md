@@ -1,68 +1,47 @@
 ---
 title: About Us
-description: Who we are Welcome to the website of the London Ambulance Service (LAS) Branch of UNISON.
-date: '2022-12-28'
+description: Welcome to the London Ambulance Service (LAS) branch of UNISON — who we are, what we campaign on, and how to get in touch.
+date: '2026-06-26'
 wpId: 1187
 legacyUrl: https://lasunison.co.uk/about-us
+seo:
+  description: The London Ambulance Service branch of UNISON — the biggest union in the LAS and part of Europe's largest public sector union, with over 1.3 million members.
 ---
 
-**Who we are**
-Welcome to the website of the London Ambulance Service (LAS) Branch of UNISON. We are the biggest union in the LAS and is Britain and Europe's biggest public sector union with more than 1.3 million members.
+## Who we are
 
-The site has been created to communicate with our members and stewards as much information as is possible and more than could ever be done by paper alone. An online newsletter and SMS text alert service has also been set up with this purpose, so that the latest breaking news can be sent out instantly to members inboxes. **[Read our Privacy Policy](/about-us/privacy-policy)**
+Welcome to the London Ambulance Service (LAS) branch of UNISON. We're the biggest union in the LAS — and part of the largest public sector union in Britain and Europe, with more than 1.3 million members.
 
-UNISON members are people working in the public services, for private contractors providing public services and the essential utilities. They include frontline staff and managers working full or part time in local authorities, the NHS, the police service, colleges and schools, the electricity, gas and water industries, transport and the voluntary sector.
+UNISON members work across the public services — in the NHS and ambulance trusts, local government, schools and colleges, the police service, the energy and water industries, transport and the voluntary sector. Our branch represents the people who keep London's ambulance service running, around the clock.
 
-**[Click here to view the UNISON About Us page](http://www.unison.org.uk/about/)** with more detail on how UNISON works at Regional level and nationally.
+We use this site to get news, advice and updates to members and stewards far faster than paper ever could. **[Read our privacy policy](/about-us/privacy-policy)** to see how we look after your data, or **[see how UNISON works regionally and nationally](https://www.unison.org.uk/about/)**.
 
----
+## Getting in touch
 
-**Navigating the site
-**The drop down menu at the top of this page is available on every page and will take you to the main pages of the site.
+Not sure who to speak to? Start here. For urgent help at work, call UNISON Direct — and have your membership number ready.
 
----
+::contact-direct
+::
 
-**Contacting Us**
-There are many ways of contacting us depending on what you wish to contact us about.
-Your first stop should be our **[contact us](/contact-us)** page which features an online e-mail form.
-If you wish to contact a branch officer then click on the **[Branch Officers](/branch-officers)** page for full contact details.
-Should you wish to contact us regarding this website then please send an e-mail to the **[webmaster@lasunison.com](mailto:webmaster@lasunison.com)**
-If you don't know who your local UNISON rep is or aren't sure who to contact, ring our hotline (have your membership number ready):
-UNISON Direct 0800 0857 857 (freephone)
-Freephone textphone 0800 0 967 968
-Lines are open 6am-midnight Monday-Friday and 9am-4pm Saturdays
-You can also submit a query online at: **[http://www.unison.org.uk/get-help/](http://www.unison.org.uk/get-help/)**
+::contact-grid
+::
 
----
+## What we campaign on
 
-**I have a comment about this website and want to email your webmaster.**
-Please email **[webmaster@lasunison.com](mailto:webmaster@lasunison.com)** with your query. Please restrict your emails to questions about this website such as navigation, documents, downloads etc. All other queries about UNISON, your workplace, your membership details etc should be directed through the channels listed on our contact us page.
+UNISON campaigns and lobbies on the issues that matter to members and to the public we serve. We work to protect and improve public services, win fair pay and equal treatment, make workplaces safer, and end discrimination and harassment at work.
 
----
+## How the branch is organised
 
-**I want to change some of my personal details - how do I do that?**
-Go to **[Update your details](/update-your-details)**. There you can fill in a short form to change your workplace or home address.
+Every UNISON member belongs to a local branch built around their employer. Ours is the London Ambulance Service branch, so we focus solely on **ambulance** issues.
 
-You can also sign up to My UNISON and create an account and view the details we hold about you and change them directly online.
+Local stewards represent you at work and help sort out problems when they arise. Health and safety reps work to keep your workplace safe and your job sustainable. They're volunteers, elected by the workforce, and they're central to recruiting members, keeping people safe and organising the branch.
 
-Just **[click here](https://my.unison.org.uk/)** to use this new feature.
+## Got a branch story to share?
 
----
+::callout{title="Send us your news" icon="megaphone" href="mailto:eddie.brand@lasunison.com" cta="Email the branch" tone="secondary"}
+Working on a pay claim, planning an event, or got a story from your station? Send it over with your contact details and we'll help get it onto the site.
+::
 
-**I work for the LAS or another service and want to get a news story about our recent pay claim/event on the website - who do I contact?**
-Email the [**webmaster@lasunison.com**](mailto:webmaster@lasunison.com) with your press release and contact information or contact [**eddie.brand@nhs.net**](mailto:eddie.brand@nhs.net)
+## What UNISON can do for you
 
----
-
-**What we campaign on**
-UNISON campaigns and lobbies on key issues affecting our members and the public at large. We're working to protect and improve the public services, win equal pay and employment rights for everyone, improve safety in the workplace and end discrimination and harassment at work.
-
----
-
-**Local organisation**
-Every member of UNISON belongs to a local branch, which is made up of people working for the same employer. Our branch is the London Ambulance Service Branch which means we are only involved in **AMBULANCE** issues. Local stewards are there to represent you at work and help find the answers to your problems. Local health & safety reps are there to help make sure your workplace is safe and your job is not too stressful. They are volunteers and play a vital role in recruiting new members, ensuring safety at work and organising your branch. Local branches are made up of ordinary members elected by the workforce.
-
----
-
-**What UNISON can do for you
-**Most people join a union because they want protection at work - help with pay and conditions of service, legal or health and safety advice or representation in case things go wrong at work. That's what we're here for. UNISON negotiates on pay and working conditions at every level - local, regional and national. But we also do a lot more. Being a UNISON member gives you a wide range of benefits and unbeatable deals. Why not **[Join](/membership)** us today?
+Most people join a union for protection at work — help with pay and conditions, legal and health and safety advice, and representation when things go wrong. That's exactly what we're here for. UNISON negotiates on pay and working conditions locally, regionally and nationally, and membership also opens up a wide range of benefits and member-only deals. **[Join us today](/membership)**.

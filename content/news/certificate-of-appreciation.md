@@ -4,7 +4,7 @@ date: '2020-06-25'
 category: News
 topic: Wellbeing
 readTime: 1
-excerpt: Today, we received a certificate of appreciation from 'There For You' the UNISON welfare charity for our exceptional donation to the Covid 19 response fund.
+description: Today, we received a certificate of appreciation from 'There For You' the UNISON welfare charity for our exceptional donation to the Covid 19 response fund.
 tags:
   - benefits
   - branch

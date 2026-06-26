@@ -3,7 +3,7 @@ title: LAS EMT4 Management Proposal Update
 date: '2019-02-15'
 category: News
 readTime: 1
-excerpt: LAS UNISON have today responded to the EMT4 management proposal. We have consulted through our workplace rep and senior sector rep network across the LAS and the attached letter (below)…
+description: LAS UNISON have today responded to the EMT4 management proposal. We have consulted through our workplace rep and senior sector rep network across the LAS and the attached letter (below)…
 tags:
   - afc
   - branch secretary
@@ -31,6 +31,6 @@ We have been able to achieve this because LAS UNISON is the strongest, largest, 
 
 We would like to thank our members and all our reps for their continued work and support of our branch throughout all that we do.
 
-[![](/images/2019/02/letter-206x300.png)](/?mdocs-file=3630)
+[![](/images/2019/02/letter-206x300.png)](/docs/mdocs/EMT4%20%28UNISON%20Response%29.pdf)
 
-**[Click here to download the letter in full](/?mdocs-file=3630)**
+**[Click here to download the letter in full](/docs/mdocs/EMT4%20%28UNISON%20Response%29.pdf)**

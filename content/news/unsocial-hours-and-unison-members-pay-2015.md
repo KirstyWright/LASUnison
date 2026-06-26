@@ -4,7 +4,7 @@ date: '2015-01-23'
 category: News
 topic: Pay
 readTime: 2
-excerpt: As UNISON members and branches prepare to take strike action on January 29th and February 25th the Department of Health and NHS Employers have given evidence to the Pay review…
+description: As UNISON members and branches prepare to take strike action on January 29th and February 25th the Department of Health and NHS Employers have given evidence to the Pay review…
 tags:
   - afc
   - pay

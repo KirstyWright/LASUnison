@@ -3,7 +3,7 @@ title: NHS staff survey shows nothing has been done to support workers
 date: '2015-03-07'
 category: News
 readTime: 2
-excerpt: 'Commenting on the latest NHS staff survey published last Tuesday by NHS England UNISON head of health Christina McAnea said: “It is clear that nothing has been done in the…'
+description: 'Commenting on the latest NHS staff survey published last Tuesday by NHS England UNISON head of health Christina McAnea said: “It is clear that nothing has been done in the…'
 tags:
   - survey
   - unison

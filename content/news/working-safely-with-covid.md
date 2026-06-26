@@ -4,7 +4,7 @@ date: '2020-05-23'
 category: News
 topic: Safety
 readTime: 2
-excerpt: At LAS UNISON we are fully aware of the concerns of our members, with regards to social distancing and the Governments advice with regards to this, especially following the consolidation…
+description: At LAS UNISON we are fully aware of the concerns of our members, with regards to social distancing and the Governments advice with regards to this, especially following the consolidation…
 tags:
   - branch
   - covid 19
@@ -39,4 +39,4 @@ In the meantime, please stay well and remain safe.
 
 **Health & Safety Officer**
 
-**[Click here to download this post as a bulletin](/?mdocs-file=4920)**
+**[Click here to download this post as a bulletin](/docs/mdocs/H%26amp%3BS%20-%20Covid%20-%2023%20May%202020.pdf)**

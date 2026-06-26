@@ -4,7 +4,7 @@ date: '2023-03-06'
 category: News
 topic: Pay
 readTime: 3
-excerpt: You will have seen in the press, on social media and possibly on your emails (if you have given us an up to date email address) that UNISON have suspended…
+description: You will have seen in the press, on social media and possibly on your emails (if you have given us an up to date email address) that UNISON have suspended…
 tags:
   - afc
   - government

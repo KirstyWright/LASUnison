@@ -4,7 +4,7 @@ date: '2019-07-17'
 category: News
 topic: Pay
 readTime: 2
-excerpt: LAS UNISON have been informed this morning (17 July 2019) that the LAS management have accepted the outcome of the pay band re-evaluation request that UNISON formally submitted on the…
+description: LAS UNISON have been informed this morning (17 July 2019) that the LAS management have accepted the outcome of the pay band re-evaluation request that UNISON formally submitted on the…
 tags:
   - a&e support
   - afc

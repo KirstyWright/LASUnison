@@ -53,14 +53,14 @@ const hasPrev = computed(() => props.currentPage > 1)
 const hasNext = computed(() => props.currentPage < props.totalPages)
 
 const STEP =
-  'inline-flex items-center gap-1.5 h-10 px-3.5 rounded-[var(--radius-pill)] font-bold text-[0.875rem] leading-none border-2 transition-colors duration-150 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]'
+  'inline-flex items-center gap-1.5 h-11 px-3.5 rounded-[var(--radius-pill)] font-bold text-[0.875rem] leading-none border-2 transition-colors duration-150 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]'
 const STEP_ON =
   'bg-[var(--surface-card)] border-[var(--border-default)] text-[var(--text-body)] no-underline hover:border-[var(--brand-primary)] hover:text-[var(--brand-primary)]'
 const STEP_OFF =
   'bg-transparent border-[var(--border-subtle)] text-[var(--text-subtle)] cursor-not-allowed'
 
 const NUM =
-  'inline-flex items-center justify-center min-w-10 h-10 px-2 rounded-[var(--radius-md)] font-bold text-[0.875rem] tabular-nums leading-none border-2 transition-colors duration-150 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]'
+  'inline-flex items-center justify-center min-w-11 h-11 px-2 rounded-[var(--radius-md)] font-bold text-[0.875rem] tabular-nums leading-none border-2 transition-colors duration-150 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]'
 const NUM_IDLE =
   'bg-[var(--surface-card)] border-[var(--border-default)] text-[var(--text-body)] no-underline hover:border-[var(--brand-primary)] hover:text-[var(--brand-primary)]'
 const NUM_ACTIVE =

@@ -26,6 +26,6 @@ Dates and venues for upcoming meetings are shared with members ahead of time. To
 
 - keep an eye on branch [News](/news) for announcements;
 - ask your [workplace rep](/find-a-rep), who will know what's coming up;
-- [contact the branch](/about-us/contact-us) if you'd like the date of the next meeting.
+- [contact the branch](/branch) if you'd like the date of the next meeting.
 
 Want to do more between meetings? See the ways to [get involved](/get-involved).

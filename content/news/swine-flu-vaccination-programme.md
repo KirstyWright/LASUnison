@@ -3,7 +3,7 @@ title: SWINE FLU VACCINATION PROGRAMME
 date: '2009-08-19'
 category: News
 readTime: 2
-excerpt: Following a special meeting of the Social Partnership Forum (SPF) on 6 August 2009 involving the Department of Health, NHS Trade Unions and NHS Employers, to discuss the implications of…
+description: Following a special meeting of the Social Partnership Forum (SPF) on 6 August 2009 involving the Department of Health, NHS Trade Unions and NHS Employers, to discuss the implications of…
 wpCategories:
   - UNISON News
 wpId: 62

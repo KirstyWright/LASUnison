@@ -4,7 +4,7 @@
 // dropdowns (desktop) / accordions (mobile); groups without children (News,
 // Resources) render as plain links. One source of truth shared with the hub
 // pages and the catch-all's "In this section" block.
-import { navGroups, socials as SOCIALS } from '~/data/nav'
+import { navGroups, navGroupForPath, socials as SOCIALS } from '~/data/nav'
 
 const menuOpen = ref(false)
 // Which mobile accordion sections are expanded (by group id).
@@ -16,6 +16,9 @@ function toggleMobile(id: string) {
 const { open: openSearch } = useSiteSearch()
 
 const route = useRoute()
+// The nav group the current route belongs to — drives the active-link state so
+// the menu always shows where you are (design: "the active item is purple").
+const activeGroupId = computed(() => navGroupForPath(route.path)?.id)
 // Close the mobile menu whenever navigation completes.
 watch(() => route.fullPath, () => { menuOpen.value = false })
 
@@ -37,7 +40,7 @@ function launchSearch() {
         <div class="flex items-center gap-4 flex-none">
           <a
             href="https://my.unison.org.uk"
-            class="text-[var(--purple-200)] no-underline font-semibold hover:text-white whitespace-nowrap"
+            class="text-[var(--purple-200)] no-underline font-semibold hover:text-white whitespace-nowrap transition-colors duration-150"
           >My UNISON</a>
           <span class="opacity-40" aria-hidden="true">|</span>
           <div class="hidden sm:flex gap-3">
@@ -48,7 +51,7 @@ function launchSearch() {
               target="_blank"
               rel="noopener noreferrer"
               :aria-label="`LAS UNISON on ${s.name}`"
-              class="text-[var(--purple-200)] inline-flex hover:text-white"
+              class="text-[var(--purple-200)] inline-flex hover:text-white transition-colors duration-150"
             >
               <UiIcon :name="s.name" :size="16" :stroke="1.8" />
             </a>
@@ -70,7 +73,9 @@ function launchSearch() {
             <NuxtLink
               v-else
               :to="group.hub"
-              class="inline-flex items-center px-3 py-2 rounded-[var(--radius-md)] font-bold text-[1rem] no-underline text-[var(--text-body)] hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)] transition-colors duration-150"
+              class="inline-flex items-center px-3 py-2 rounded-[var(--radius-md)] font-bold text-[1rem] no-underline hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)] transition-colors duration-150"
+              :class="activeGroupId === group.id ? 'text-[var(--brand-primary)]' : 'text-[var(--text-body)]'"
+              :aria-current="route.path === group.hub ? 'page' : (activeGroupId === group.id ? 'true' : undefined)"
             >
               {{ group.label }}
             </NuxtLink>
@@ -119,7 +124,7 @@ function launchSearch() {
           aria-label="Primary (mobile)"
         >
           <!-- Scrollable inner — caps at viewport height minus the two header bars -->
-          <div class="overflow-y-auto max-h-[calc(100dvh-118px)]">
+          <div class="overflow-y-auto max-h-[calc(100dvh-var(--header-h))]">
             <div class="las-container py-3 flex flex-col">
               <button
                 type="button"
@@ -135,7 +140,8 @@ function launchSearch() {
                 <div v-if="group.items.length" class="border-b border-[var(--border-subtle)] last:border-b-0">
                   <button
                     type="button"
-                    class="w-full flex items-center justify-between gap-2 py-2.5 px-3 -mx-3 rounded-[var(--radius-md)] border-none bg-transparent font-bold text-[length:var(--text-md)] text-[var(--text-body)] cursor-pointer text-left hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)]"
+                    class="w-full flex items-center justify-between gap-2 py-2.5 px-3 -mx-3 rounded-[var(--radius-md)] border-none bg-transparent font-bold text-[length:var(--text-md)] cursor-pointer text-left hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)]"
+                    :class="activeGroupId === group.id ? 'text-[var(--brand-primary)]' : 'text-[var(--text-body)]'"
                     :aria-expanded="!!openMobile[group.id]"
                     :aria-controls="`m-${group.id}`"
                     @click="toggleMobile(group.id)"
@@ -168,7 +174,9 @@ function launchSearch() {
                 <NuxtLink
                   v-else
                   :to="group.hub"
-                  class="py-2.5 px-3 -mx-3 rounded-[var(--radius-md)] font-bold text-[length:var(--text-md)] no-underline text-[var(--text-body)] border-b border-[var(--border-subtle)] last:border-b-0 hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)]"
+                  class="py-2.5 px-3 -mx-3 rounded-[var(--radius-md)] font-bold text-[length:var(--text-md)] no-underline border-b border-[var(--border-subtle)] last:border-b-0 hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)]"
+                  :class="activeGroupId === group.id ? 'text-[var(--brand-primary)]' : 'text-[var(--text-body)]'"
+                  :aria-current="route.path === group.hub ? 'page' : (activeGroupId === group.id ? 'true' : undefined)"
                 >
                   {{ group.label }}
                 </NuxtLink>
@@ -179,7 +187,7 @@ function launchSearch() {
                 class="mt-2 flex items-center gap-2.5 py-2.5 px-3 -mx-3 rounded-[var(--radius-md)] no-underline text-[var(--emergency)] font-bold hover:bg-[var(--emergency-soft)]"
               >
                 <UiIcon name="phone" :size="18" :stroke="2" />
-                UNISON Direct · 0800 0857 857
+                UNISON Direct · <span class="font-[family-name:var(--font-mono)]">0800 0857 857</span>
               </a>
               <UiButton variant="primary" href="/#join" full-width class="mt-3 mb-1">Join us</UiButton>
             </div>

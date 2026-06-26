@@ -7,34 +7,15 @@ const LEAD = {
   title: '999 Retirement Emergency',
   body:
     "The toll of the job is real — yet ambulance staff are expected to work to 68. We're campaigning for paramedics, ECAs, EMTs, PTS and control-room staff to be given the choice to retire earlier, with a pension they can live on.",
-  surveyHref: 'https://survey.alchemer.eu/s3/90989525/UNISON-Ambulance-Retirement-Age-Campaign-Survey-2026',
   articleHref: '/news/999-retirement-emergency',
 }
 
 const CAMPAIGNS = [
   {
-    icon: 'megaphone',
-    name: 'A Million Voices',
-    body: 'UNISON’s national push for fair pay and proper funding for public services.',
-    href: 'https://www.unison.org.uk',
-  },
-  {
-    icon: 'lifebuoy',
-    name: '999 — Answer the Call',
-    body: 'Defending the NHS and the staff who keep emergency care running.',
-    href: 'https://www.unison.org.uk',
-  },
-  {
     icon: 'ribbon',
     name: 'White Ribbon UK',
     body: 'A White Ribbon branch: ending men’s violence against women and girls.',
     href: 'https://www.whiteribbon.org.uk',
-  },
-  {
-    icon: 'heart',
-    name: 'Mind Blue Light',
-    body: 'Mental health support built for emergency responders.',
-    href: 'https://www.mind.org.uk',
   },
   {
     icon: 'users',
@@ -55,7 +36,7 @@ const CAMPAIGNS = [
           The fights we're picking on your behalf
         </h2>
         <p class="text-[length:var(--text-md)] leading-[1.6] text-[var(--purple-200)] mt-4 mb-0">
-          Real conviction, backed by evidence and almost 7,000 members. Here's what the branch is
+          Backed by evidence, with the whole branch behind them. Here's what we're
           pushing for right now.
         </p>
       </div>
@@ -77,12 +58,7 @@ const CAMPAIGNS = [
           class="absolute inset-0 bg-gradient-to-r from-[var(--purple-950)]/95 via-[var(--purple-900)]/85 to-[var(--purple-800)]/55"
         />
         <div class="relative p-7 md:p-12 flex flex-col justify-center max-w-[600px]">
-          <span
-            class="inline-flex items-center gap-[0.45em] self-start font-[family-name:var(--font-sans)] font-bold text-[0.75rem] tracking-[0.06em] uppercase leading-none px-[0.7em] py-[0.45em] rounded-[var(--radius-sm)] bg-[var(--brand-highlight)]/15 text-[var(--brand-highlight)]"
-          >
-            <span class="w-[0.5em] h-[0.5em] rounded-full bg-current" aria-hidden="true" />
-            {{ LEAD.badge }}
-          </span>
+          <UiBadge variant="highlight" dot class="self-start">{{ LEAD.badge }}</UiBadge>
           <h3
             class="font-[family-name:var(--font-display)] font-black text-[length:var(--text-5xl)] leading-[1.02] tracking-[-0.02em] text-white mt-4 mb-0"
           >
@@ -94,15 +70,9 @@ const CAMPAIGNS = [
           <div class="flex gap-3 flex-wrap">
             <UiButton
               variant="highlight"
-              :href="LEAD.surveyHref"
-              icon-right="arrowUpRight"
-            >Take the survey</UiButton>
-            <UiButton
-              variant="ghost"
               :href="LEAD.articleHref"
-              class="!text-white hover:!bg-white/10"
               icon-right="arrowRight"
-            >Read the evidence</UiButton>
+            >Read the evidence on 999 retirement</UiButton>
           </div>
         </div>
       </article>
@@ -113,7 +83,7 @@ const CAMPAIGNS = [
       >
         We also stand with
       </h3>
-      <ul class="list-none p-0 m-0 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <ul class="list-none p-0 m-0 grid gap-4 sm:grid-cols-2">
         <li v-for="c in CAMPAIGNS" :key="c.name">
           <a
             :href="c.href"
@@ -129,11 +99,12 @@ const CAMPAIGNS = [
             <span class="flex flex-col gap-1 min-w-0">
               <span class="font-[family-name:var(--font-display)] font-bold text-[length:var(--text-md)] text-white inline-flex items-center gap-1.5">
                 {{ c.name }}
+                <span class="sr-only"> (opens in new tab)</span>
                 <UiIcon
                   name="arrowUpRight"
                   :size="15"
                   :stroke="2.2"
-                  class="text-[var(--purple-200)] opacity-0 -translate-x-0.5 transition-all duration-200 ease-out group-hover:opacity-100 group-hover:translate-x-0"
+                  class="text-[var(--purple-200)] opacity-40 -translate-x-0.5 transition-all duration-200 ease-out group-hover:opacity-100 group-hover:translate-x-0"
                 />
               </span>
               <span class="text-[0.875rem] leading-[1.5] text-[var(--purple-200)]">{{ c.body }}</span>

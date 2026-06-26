@@ -4,7 +4,7 @@ date: '2022-12-13'
 category: News
 topic: Pay
 readTime: 4
-excerpt: Strike date announced for December 21 – but it’s not too late for ministers to talk Ambulance crews working for five services in England – London, Yorkshire, the North West…
+description: Strike date announced for December 21 – but it’s not too late for ministers to talk Ambulance crews working for five services in England – London, Yorkshire, the North West…
 tags:
   - afc
   - ballot

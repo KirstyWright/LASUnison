@@ -33,7 +33,7 @@ const TYPE_LABELS: Record<string, string> = {
   <div
     :id="`station-${station.slug}`"
     class="rounded-[var(--radius-lg)] transition-colors duration-200 scroll-mt-[var(--reps-row-scroll-mt,200px)]"
-    :class="highlighted ? 'bg-[var(--purple-mist)]' : ''"
+    :class="highlighted ? 'bg-[var(--surface-brand-soft)]' : ''"
   >
     <!-- Station header -->
     <div class="flex items-center gap-3 px-1 py-3">
@@ -41,7 +41,7 @@ const TYPE_LABELS: Record<string, string> = {
       <span class="font-[family-name:var(--font-display)] font-extrabold text-[1rem] tracking-[-0.01em] text-[var(--text-strong)]">
         {{ station.name }}
       </span>
-      <UiBadge variant="neutral" class="ml-auto flex-none text-[0.7rem]">
+      <UiBadge variant="neutral" class="ml-auto flex-none">
         {{ TYPE_LABELS[station.type ?? ''] ?? station.type }}
       </UiBadge>
     </div>
@@ -50,7 +50,7 @@ const TYPE_LABELS: Record<string, string> = {
     <div class="pl-7 pb-4 grid sm:grid-cols-2 gap-x-6 gap-y-5">
       <!-- Workplace rep(s) -->
       <div class="flex flex-col gap-3">
-        <p class="text-[0.7rem] font-bold tracking-[0.07em] uppercase text-[var(--text-subtle)] m-0">
+        <p class="text-[length:var(--text-xs)] font-bold tracking-[0.07em] uppercase text-[var(--text-subtle)] m-0">
           {{ (station.reps?.length ?? 0) > 1 ? 'Workplace reps' : 'Workplace rep' }}
         </p>
         <template v-if="station.reps?.length">
@@ -66,7 +66,7 @@ const TYPE_LABELS: Record<string, string> = {
 
       <!-- Health & safety rep(s) -->
       <div class="flex flex-col gap-3">
-        <p class="text-[0.7rem] font-bold tracking-[0.07em] uppercase text-[var(--text-subtle)] m-0">
+        <p class="text-[length:var(--text-xs)] font-bold tracking-[0.07em] uppercase text-[var(--text-subtle)] m-0">
           {{ (station.hsReps?.length ?? 0) > 1 ? 'Health &amp; safety reps' : 'Health &amp; safety rep' }}
         </p>
         <template v-if="station.hsReps?.length">

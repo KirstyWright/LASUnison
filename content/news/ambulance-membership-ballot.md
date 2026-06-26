@@ -4,7 +4,7 @@ date: '2011-12-10'
 category: News
 topic: Pensions
 readTime: 2
-excerpt: Download the advert for the pensions ballot to display in your workplace. FAQs for members Who is being balloted? Members who are directly employed in NHS Ambulance organisations will be…
+description: Download the advert for the pensions ballot to display in your workplace. FAQs for members Who is being balloted? Members who are directly employed in NHS Ambulance organisations will be…
 tags:
   - pension
   - pensions

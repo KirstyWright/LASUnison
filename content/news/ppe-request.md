@@ -4,7 +4,7 @@ date: '2020-03-28'
 category: News
 topic: Safety
 readTime: 2
-excerpt: Following on from our previous letter regarding appropriate PPE, Eddie Brand, LAS UNISON Branch Secretary has written a further e-mail regarding the suitability of the PPE ambulance crews are expected…
+description: Following on from our previous letter regarding appropriate PPE, Eddie Brand, LAS UNISON Branch Secretary has written a further e-mail regarding the suitability of the PPE ambulance crews are expected…
 tags:
   - branch secretary
   - covid 19

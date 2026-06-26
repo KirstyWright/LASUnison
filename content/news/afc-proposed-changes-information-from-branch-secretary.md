@@ -4,7 +4,7 @@ date: '2012-12-20'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Dear all, The Union is starting to consult Branches and Regions regarding the proposed changes to the Agenda for Change (AfC) national agreement.
+description: Dear all, The Union is starting to consult Branches and Regions regarding the proposed changes to the Agenda for Change (AfC) national agreement.
 tags:
   - afc
   - pay
@@ -29,7 +29,7 @@ Please find below all the information regarding the background, the proposals an
 
 The consultation period is very tight and we would like any views, comments or thoughts before our Branch Committee meeting on **18<sup>th</sup> January 2013**.
 
-We have set up a specific Branch Email address for members to send in any comments on whether these changes should be accepted (as being a better alternative to breakaways) or rejected. **[afc@lasunison.co.uk](mailto:afc@lasunison.co.uk)**
+We have set up a specific Branch Email address for members to send in any comments on whether these changes should be accepted (as being a better alternative to breakaways) or rejected. **[afc@lasunison.com](mailto:afc@lasunison.com)**
 
 This is a national agreement and not an LAS agreement so any decision reached by our Branch will be fed into the UNISON London Region. The Region will then formulate a London-wide response taking into account views from all London health branches.
 
@@ -45,13 +45,13 @@ Best wishes and thank you
 
 Eric
 
-[Important Information From Branch Secretary](/bulletins/secretary/Changes%20to%20AfC%20letter.pdf)
+Important Information From Branch Secretary
 
-[Consultation on proposals to amend Agenda for Change](/bulletins/general/LAS%20AfC%20Proposed%20change.pdf)
+Consultation on proposals to amend Agenda for Change
 
-http://www.unison.org.uk/acrobat/UNISON\_Briefing\_AfC\_proposals.pdf
+http://www.unison.org.uk/acrobat/UNISON\_Briefing\_AfC\_proposals.pdf [Link no longer available]{.link-unavailable}
 
-http://www.unison.org.uk/acrobat/AfC\_FAQs.pdf
+http://www.unison.org.uk/acrobat/AfC\_FAQs.pdf [Link no longer available]{.link-unavailable}
 
 Eric Roberts
 Branch Secretary

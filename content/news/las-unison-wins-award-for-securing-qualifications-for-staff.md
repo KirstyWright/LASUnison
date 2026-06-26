@@ -4,7 +4,7 @@ date: '2020-01-14'
 category: News
 topic: Education
 readTime: 3
-excerpt: London Ambulance Service UNISON has won an award at the College of Haringey, Enfield and North East London (CONEL) annual Excellence Awards for the work they have done on helping…
+description: London Ambulance Service UNISON has won an award at the College of Haringey, Enfield and North East London (CONEL) annual Excellence Awards for the work they have done on helping…
 tags:
   - benefits
   - branch

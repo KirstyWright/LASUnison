@@ -4,7 +4,7 @@ date: '2021-01-13'
 category: News
 topic: Pay
 readTime: 3
-excerpt: Celebrities back call for wage increase Football pundit Gary Lineker, comedian Jo Brand and Hollywood star David Oyelowo are among celebrities backing a fair pay campaign launched today (Monday) by…
+description: Celebrities back call for wage increase Football pundit Gary Lineker, comedian Jo Brand and Hollywood star David Oyelowo are among celebrities backing a fair pay campaign launched today (Monday) by…
 tags:
   - afc
   - ambulance

@@ -3,7 +3,7 @@ title: Divide and rule won’t help the economic recovery
 date: '2020-11-25'
 category: News
 readTime: 2
-excerpt: 'Chancellor’s plan is austerity plain and simple Commenting on the Chancellor’s comprehensive spending review today (Wednesday), UNISON general secretary Dave Prentis said: “This is austerity plain and simple.'
+description: 'Chancellor’s plan is austerity plain and simple Commenting on the Chancellor’s comprehensive spending review today (Wednesday), UNISON general secretary Dave Prentis said: “This is austerity plain and simple.'
 tags:
   - covid 19
   - government

@@ -4,7 +4,7 @@ date: '2018-10-15'
 category: News
 topic: Pay
 readTime: 1
-excerpt: Under the terms of the national NHS pay deal, ambulance staff employed prior to 1 September 2018 are subject to Annex 5 (previously Annex E) unsocial hours provisions.
+description: Under the terms of the national NHS pay deal, ambulance staff employed prior to 1 September 2018 are subject to Annex 5 (previously Annex E) unsocial hours provisions.
 tags:
   - afc
   - las
@@ -32,12 +32,12 @@ Further information for staff considering section 2 (England) has now been publi
 If you are considering this then please seek independent advice, read all the available information and utilise the following documents and tools that are available to review:
 
 The following documents and tools are available to review:
- **[Pay comparison tool](/?mdocs-file=3433)** (requires Excel)
- [**Unsocial hours fact sheet comparing Annex 5 and Section 2**](/?mdocs-file=3445)
- [**Information relating to the application process**](/?mdocs-file=3450)
+ **[Pay comparison tool](/docs/mdocs/Ambulance%20annex%205%20-%20Section%202%20tool.xlsx)** (requires Excel)
+ [**Unsocial hours fact sheet comparing Annex 5 and Section 2**](/docs/mdocs/annex%20e%20section%202%20comparison%20guidance.pdf)
+ [**Information relating to the application process**](/docs/mdocs/Section-2-application-process.pdf)
 
 [**Current Pay Rates**](/pay)
 
-**[NHS Employers Q&A page](http://www.nhsemployers.org/your-workforce/2018-contract-refresh/questions-and-answers)**
+**[NHS Employers Q&A page](http://www.nhsemployers.org/your-workforce/2018-contract-refresh/questions-and-answers) [Link no longer available]{.link-unavailable}**
 
 The LAS have said that an application form and internal change process is being developed as a priority and will be made available as soon as possible.

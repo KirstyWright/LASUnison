@@ -4,7 +4,7 @@ date: '2019-05-14'
 category: News
 topic: Pay
 readTime: 1
-excerpt: We have again today written to the LAS management to request progress on the resolution of the disparity between the EAC current pay band and the result of the Job…
+description: We have again today written to the LAS management to request progress on the resolution of the disparity between the EAC current pay band and the result of the Job…
 tags:
   - a&e support
   - afc

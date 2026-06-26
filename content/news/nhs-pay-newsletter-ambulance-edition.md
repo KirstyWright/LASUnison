@@ -4,7 +4,7 @@ date: '2014-09-16'
 category: News
 topic: Pay
 readTime: 5
-excerpt: Welcome to a special NHS Pay newsletter aimed at all UNISON members working in the ambulance service.
+description: Welcome to a special NHS Pay newsletter aimed at all UNISON members working in the ambulance service.
 tags:
   - afc
   - ballot
@@ -47,7 +47,7 @@ I’m voting yes in the ballot because the latest pay award is an insult to ambu
 
 **Gareth Ward – Paramedic**
 
-As [Welfare officer for LAS branch](/member%20services/welfare.htm) I am finding that more members are approaching me asking for assistance as they find it increasingly difficult to manage on their pay. Utility bills have increased, and petrol and food is becoming more expensive. Staff are working extra hours to boost their pay but extra hours equals extra fuel, extra child care and an unhealthy work/life balance. There is only so much extra work you can do, and so much you can cut back on, so its no wonder that staff are feeling demoralised. Despite this, we still do our best for our patients and are proud of the job that we do. I will be voting YES and encouraging my members to do the same.
+As [Welfare officer for LAS branch](/welfare) I am finding that more members are approaching me asking for assistance as they find it increasingly difficult to manage on their pay. Utility bills have increased, and petrol and food is becoming more expensive. Staff are working extra hours to boost their pay but extra hours equals extra fuel, extra child care and an unhealthy work/life balance. There is only so much extra work you can do, and so much you can cut back on, so its no wonder that staff are feeling demoralised. Despite this, we still do our best for our patients and are proud of the job that we do. I will be voting YES and encouraging my members to do the same.
 
 **Christine Tanner – Resource Co-Ordinator**
 
@@ -71,12 +71,12 @@ The ballot opened on **28 August 2014** and will close at 10am on **18 September
 
 Members have been sent a ballot paper with questions asking whether they are prepared to take strike action and/or action short of strike action. We are urging members to **vote YES for both** strike action and action short of strike. However, we are also urging all members, whatever your views, to **use YOUR vote** to ensure we have a high ballot turn out.
 
-**UNISON has produced a set of Frequently Answered Questions** https://www.unison.org.uk/upload/sharepoint/Toweb/NHS%20Pay%20Ballot%20FAQs.pdf
+**UNISON has produced a set of Frequently Answered Questions** https://www.unison.org.uk/upload/sharepoint/Toweb/NHS%20Pay%20Ballot%20FAQs.pdf [Link no longer available]{.link-unavailable}
 
-**UNISON news stories** http://www.unison.org.uk/at-work/health-care/key-issues/nhs-pay/news/
+**UNISON news stories** http://www.unison.org.uk/at-work/health-care/key-issues/nhs-pay/news/ [Link no longer available]{.link-unavailable}
 
 > How much have you lost? Find out now
 >
 > If you're not sure how you have been affected by the pay freeze in the last four years, and what is still to come, then **visit our pay calculator**, but be prepared for a shock!
 >
-> http://paycalculator.unison.org.uk
+> http://paycalculator.unison.org.uk [Link no longer available]{.link-unavailable}

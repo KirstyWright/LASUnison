@@ -22,6 +22,7 @@ const BASE =
 <template>
   <NuxtLink
     :to="post.path"
+    :aria-label="post.title"
     :class="[BASE, featured ? 'flex-col lg:flex-row' : 'flex-col']"
   >
     <!-- accent strip: top on default cards, left edge on the featured card -->
@@ -61,6 +62,7 @@ const BASE =
       <span
         class="font-[family-name:var(--font-sans)] text-[0.8125rem] font-bold tracking-[0.08em] uppercase leading-none"
         :style="{ color: meta.accent }"
+        aria-hidden="true"
       >{{ post.category }}</span>
 
       <h3
@@ -72,6 +74,7 @@ const BASE =
 
       <p
         class="flex items-center gap-2 font-[family-name:var(--font-mono)] text-[0.8125rem] text-[var(--text-muted)] m-0"
+        aria-hidden="true"
       >
         <time :datetime="isoDate(post.date)">{{ dateText }}</time>
         <template v-if="readText">
@@ -83,12 +86,13 @@ const BASE =
       <p
         class="text-[var(--text-muted)] m-0"
         :class="featured ? 'text-[length:var(--text-md)] leading-[1.6] max-w-[52ch]' : 'text-[0.9375rem] leading-[1.55]'"
-      >{{ post.excerpt }}</p>
+      >{{ post.description }}</p>
 
       <div class="mt-auto pt-3 flex items-center gap-3">
         <UiBadge v-if="post.topic" variant="neutral">{{ post.topic }}</UiBadge>
         <span
           class="ml-auto inline-flex items-center gap-1 font-bold text-[0.875rem] text-[var(--brand-primary)]"
+          aria-hidden="true"
         >
           Read {{ featured ? 'full story' : 'more' }}
           <UiIcon

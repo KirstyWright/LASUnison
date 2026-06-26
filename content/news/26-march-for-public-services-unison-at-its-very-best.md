@@ -3,7 +3,7 @@ title: 26 March for Public Services 'UNISON at its very best'
 date: '2011-03-29'
 category: News
 readTime: 1
-excerpt: On Saturday 26 March our branch joined hundreds of thousands of others as we marched in protest at the ideological cuts that the Tory led ConDem government are making.
+description: On Saturday 26 March our branch joined hundreds of thousands of others as we marched in protest at the ideological cuts that the Tory led ConDem government are making.
 wpCategories:
   - Branch News
   - Event
@@ -15,7 +15,7 @@ On Saturday 26 March our branch joined hundreds of thousands of others as we mar
 
 Here is a small selection of links to news stories that covered the event:
 
-['UNISON at its very best'](http://www.unison.org.uk/news/news_view.asp?did=6710)
+['UNISON at its very best'](http://www.unison.org.uk/news/news_view.asp?did=6710) [Link no longer available]{.link-unavailable}
 
 Marchers turn on troublemakers
 

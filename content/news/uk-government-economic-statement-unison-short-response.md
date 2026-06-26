@@ -4,7 +4,7 @@ date: '2011-11-29'
 category: News
 topic: Pay
 readTime: 4
-excerpt: Growth figures falling Plan A is not working (Growth 0.9% - 2011 and 0.7% - 2012).
+description: Growth figures falling Plan A is not working (Growth 0.9% - 2011 and 0.7% - 2012).
 tags:
   - pay
   - pension

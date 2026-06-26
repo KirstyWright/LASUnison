@@ -4,7 +4,7 @@ date: '2025-04-02'
 category: News
 topic: Pay
 readTime: 4
-excerpt: NHS staff have had their hopes of a prompt pay rise dashed once again. The government’s decision to stick with the ‘painfully slow’ NHS pay review body process means yet…
+description: NHS staff have had their hopes of a prompt pay rise dashed once again. The government’s decision to stick with the ‘painfully slow’ NHS pay review body process means yet…
 tags:
   - government
   - labour
@@ -60,4 +60,4 @@ This is still just 15p above the legal minimum and well short of the real living
 
 “A pay system that needs emergency action every year to correct illegal wages isn’t up to the job. This outdated process does nothing to aid morale nor make essential workers feel valued. It doesn’t help recruitment into the NHS either, especially when employers on the high street are paying substantially more.”
 
-Read this article on the UNISON website [here.](https://www.unison.org.uk/news/press-release/2025/04/delays-to-health-workers-pay-rise-causing-huge-problems-for-nhs/?utm_campaign=Activist%20020425&utm_content=Read%20more&utm_medium=email&utm_source=Communications)
+Read this article on the UNISON website [here.](https://www.unison.org.uk/news/press-release/2025/04/delays-to-health-workers-pay-rise-causing-huge-problems-for-nhs/?utm_campaign=Activist%20020425&utm_content=Read%20more&utm_medium=email&utm_source=Communications) [Link no longer available]{.link-unavailable}

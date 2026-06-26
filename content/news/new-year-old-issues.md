@@ -3,7 +3,7 @@ title: New Year, Old Issues
 date: '2019-01-02'
 category: News
 readTime: 2
-excerpt: Today, we have written to the LAS management to raise two issues ahead of the next Staff Council meeting where we hope to discuss them further.
+description: Today, we have written to the LAS management to raise two issues ahead of the next Staff Council meeting where we hope to discuss them further.
 tags:
   - branch
   - las

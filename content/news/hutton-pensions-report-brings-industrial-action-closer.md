@@ -3,7 +3,7 @@ title: Hutton pensions report brings industrial action closer
 date: '2011-03-10'
 category: News
 readTime: 3
-excerpt: UNISON, the UK largest union today warned that the Hutton report will bring the threat of industrial action closer, as the unions members reel from pay freezes and job cuts…
+description: UNISON, the UK largest union today warned that the Hutton report will bring the threat of industrial action closer, as the unions members reel from pay freezes and job cuts…
 wpCategories:
   - Branch News
 wpId: 294

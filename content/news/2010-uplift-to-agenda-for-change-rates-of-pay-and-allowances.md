@@ -4,7 +4,7 @@ date: '2010-03-10'
 category: News
 topic: Pay
 readTime: 2
-excerpt: The latest circular 'AfC 2/2010' from NHS Employers containing the 2010/11 rates of pay for staff on Agenda for Change terms and conditions is now available on the website at…
+description: The latest circular 'AfC 2/2010' from NHS Employers containing the 2010/11 rates of pay for staff on Agenda for Change terms and conditions is now available on the website at…
 wpCategories:
   - Pay
   - Unsocial Hours
@@ -13,7 +13,7 @@ wpId: 48
 legacyUrl: https://lasunison.co.uk/2010-uplift-to-agenda-for-change-rates-of-pay-and-allowances
 ---
 
-The latest circular 'AfC 2/2010' from NHS Employers containing the 2010/11 rates of pay for staff on Agenda for Change terms and conditions is now available on the website at [www.lasunison.co.uk/pay](/pay)
+The latest circular 'AfC 2/2010' from NHS Employers containing the 2010/11 rates of pay for staff on Agenda for Change terms and conditions is now available on the website at [our pay page](/pay)
 
 This circular has been issued to all NHS organisations in England, with similar circulars issued by the devolved administrations to employers in Cymru/Wales, Northern Ireland and Scotland.
 
@@ -29,6 +29,6 @@ The circular contains details of the following main changes:
 
 The circular identifies that the revised rates are payable from 1 April 2010.
 
-[Click here to download this as a bulletin for display](/bulletins/communications/2010%20Pay%20Rates.pdf)
+Click here to download this as a bulletin for display
 
 © [by LAS UNISON](/).

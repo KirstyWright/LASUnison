@@ -4,7 +4,7 @@ date: '2023-03-01'
 category: News
 topic: Pay
 readTime: 6
-excerpt: 10 ways in which the government is distorting the truth in the ongoing dispute over NHS pay As UNISON members prepare for a fifth day of strikes in England on…
+description: 10 ways in which the government is distorting the truth in the ongoing dispute over NHS pay As UNISON members prepare for a fifth day of strikes in England on…
 tags:
   - afc
   - government
@@ -67,7 +67,7 @@ Governments have also previously chosen to top up PRB recommendations when neces
 
 ###### **Myth: NHS staff have been protected from the worst of austerity in the past decade**
 
-**Fact**: Recent **[analysis from the TUC](https://www.tuc.org.uk/news/nhs-workers-have-have-lost-over-years-worth-salary-2010-new-tuc-analysis-reveals)** shows that hundreds of thousands of NHS workers have lost at least “a year’s worth of salary” because their pay has not kept pace with inflation since 2010. In addition to deteriorating living standards, health workers have worked through the worst pandemic for a century, and the most recent **[NHS staff survey](http://www.nhsstaffsurveys.com/static/1f3ea5c952df62a98b90afcf3daa29ac/ST21-National-briefing.pdf)** found that nearly half the workforce had felt unwell as a result of work-related stress at some point in the past year.
+**Fact**: Recent **[analysis from the TUC](https://www.tuc.org.uk/news/nhs-workers-have-have-lost-over-years-worth-salary-2010-new-tuc-analysis-reveals)** shows that hundreds of thousands of NHS workers have lost at least “a year’s worth of salary” because their pay has not kept pace with inflation since 2010. In addition to deteriorating living standards, health workers have worked through the worst pandemic for a century, and the most recent **[NHS staff survey](http://www.nhsstaffsurveys.com/static/1f3ea5c952df62a98b90afcf3daa29ac/ST21-National-briefing.pdf) [Link no longer available]{.link-unavailable}** found that nearly half the workforce had felt unwell as a result of work-related stress at some point in the past year.
 
 Little surprise, then, that the NHS in England is currently struggling with [**unprecedented** **staff vacancies**](http://www.health.org.uk/news-and-comment/news/nhs-vacancy-rates-point-to-deepening-workforce-crisis) of 133,000.
 

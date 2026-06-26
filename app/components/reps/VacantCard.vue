@@ -23,7 +23,7 @@ defineProps<{
       </p>
       <a
         href="mailto:branch@lasunison.com"
-        class="inline-flex items-center gap-1 text-[0.75rem] font-semibold text-[var(--brand-primary)] no-underline hover:underline leading-[1.3] mt-0.5"
+        class="min-h-[2.75rem] inline-flex items-center gap-1 text-[0.75rem] font-semibold text-[var(--brand-primary)] no-underline hover:underline leading-[1.3] mt-0.5"
       >
         Could this be you?
         <UiIcon name="arrowRight" :size="12" :stroke="2.2" class="flex-none" />

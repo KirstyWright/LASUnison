@@ -4,7 +4,7 @@ date: '2019-08-13'
 category: News
 topic: Pay
 readTime: 2
-excerpt: 'A partnership bulletin between the LAS & UNISON has been released on the EAC banding: As advised previously, an updated job description for Emergency Ambulance Crew was recently evaluated by…'
+description: 'A partnership bulletin between the LAS & UNISON has been released on the EAC banding: As advised previously, an updated job description for Emergency Ambulance Crew was recently evaluated by…'
 tags:
   - afc
   - branch

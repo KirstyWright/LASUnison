@@ -4,7 +4,7 @@ date: '2013-07-25'
 category: News
 topic: Pay
 readTime: 1
-excerpt: On the 5 July 2013 the London Ambulance Service formally responded by letter to concerns we had raised and on the 22 July we replied.
+description: On the 5 July 2013 the London Ambulance Service formally responded by letter to concerns we had raised and on the 22 July we replied.
 tags:
   - a time for change
   - a&e support

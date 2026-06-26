@@ -4,7 +4,7 @@ date: '2017-11-09'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Giving public service workers a pat on the back isn’t going to put food on their table https://www.youtube.com/watch?v=nvsonNNrMJc&feature=youtu.be A new UNISON film , featuring former Dynasty actor Stephanie Beacham, takes…
+description: Giving public service workers a pat on the back isn’t going to put food on their table https://www.youtube.com/watch?v=nvsonNNrMJc&feature=youtu.be A new UNISON film , featuring former Dynasty actor Stephanie Beacham, takes…
 tags:
   - afc
   - general secretary

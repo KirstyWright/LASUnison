@@ -3,7 +3,7 @@ title: BRANCH NOMINATIONS FOR NEC ANNOUNCED
 date: '2023-04-12'
 category: News
 readTime: 2
-excerpt: 'Why our Branch Secretary is standing for UNISON''s National Executive Council: This year’s elections are your chance to vote for a new leadership team that will get on with the…'
+description: 'Why our Branch Secretary is standing for UNISON''s National Executive Council: This year’s elections are your chance to vote for a new leadership team that will get on with the…'
 tags:
   - ambulance
   - branch secretary

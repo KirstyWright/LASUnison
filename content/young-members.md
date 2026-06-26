@@ -1,5 +1,6 @@
 ---
 title: Young Members
+officer: michael-carter
 description: Welcome to UNISON Young Members in the London Ambulance Service Welcome to the community of UNISON Young Members in the London Ambulance Service (LAS)! We are delighted to have you…
 date: '2024-06-18'
 wpId: 7571
@@ -35,7 +36,7 @@ As a young member of UNISON in the LAS, you have access to a wide range of benef
 
 1.  **Representation and Advocacy**: We provide robust representation on workplace issues, ensuring your rights are protected and your concerns are addressed. Our team of valued stewards/Reps is always here to support you through any workplace challenges you may encounter. As a recognised trade union, you have legal right to request our support and attendance during some workplace meetings.
 
-1.  **Training and Development**: We offer various training programs, workshops, and seminars aimed at enhancing your skills and knowledge. From leadership training to specialized courses, we are committed to helping you advance in your career both inside and outside of healthcare. LINK https://lasunison.com/education#:~:text=UNISON%20pays%20for%20the%20activist,Financial%20support.
+1.  **Training and Development**: We offer various training programs, workshops, and seminars aimed at enhancing your skills and knowledge. From leadership training to specialized courses, we are committed to helping you advance in your career both inside and outside of healthcare. [Find out more about UNISON education and the financial support available](/education).
 
 1.  **Networking Opportunities**: Connect with like-minded professionals and build valuable relationships through UNISON events and activities. Networking within our community can open doors to new opportunities and collaborations.
 

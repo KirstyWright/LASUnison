@@ -4,7 +4,7 @@ date: '2025-12-04'
 category: Campaign
 topic: Pay
 readTime: 10
-excerpt: This briefing sets out the latest updates on NHS pay for 2026/27, the position of the Health Service Group Executive (HSGE) and the next stages of our pay campaign including…
+description: This briefing sets out the latest updates on NHS pay for 2026/27, the position of the Health Service Group Executive (HSGE) and the next stages of our pay campaign including…
 tags:
   - government
   - pay
@@ -120,9 +120,9 @@ o Where possible, encourage members to add personal details to their email like 
 
 The cards are available for branches to order through the catalogue:
 
-o Hourly rates: [**https://shop.unison.site/product/nhs-hourly-pay-rates-for-england-card-2025-26/**](https://shop.unison.site/product/nhs-hourly-pay-rates-for-england-card-2025-26/)
+o Hourly rates: [**https://shop.unison.site/product/nhs-hourly-pay-rates-for-england-card-2025-26/**](https://shop.unison.site/product/nhs-hourly-pay-rates-for-england-card-2025-26/) [Link no longer available]{.link-unavailable}
 
-o Annual rates: [**https://shop.unison.site/product/nhs-annual-pay-scales-for-england-card-2025-26/**](https://shop.unison.site/product/nhs-annual-pay-scales-for-england-card-2025-26/)
+o Annual rates: [**https://shop.unison.site/product/nhs-annual-pay-scales-for-england-card-2025-26/**](https://shop.unison.site/product/nhs-annual-pay-scales-for-england-card-2025-26/) [Link no longer available]{.link-unavailable}
 
 3. Continue to encourage members to complete our latest survey on NHS pay.
 

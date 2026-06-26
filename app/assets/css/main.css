@@ -93,6 +93,9 @@
   --brand-accent-soft:    var(--blue-100);
   --brand-highlight:      var(--spark-500);
   --brand-highlight-soft: var(--spark-100);
+  --brand-secondary-strong: var(--green-700);
+  --brand-accent-strong:    var(--blue-700);
+  --brand-highlight-strong: var(--spark-600);
 
   --text-strong:  var(--ink-900);
   --text-body:    var(--ink-800);
@@ -215,7 +218,17 @@
 :focus-visible {
   outline: 3px solid var(--border-focus);
   outline-offset: 2px;
-  border-radius: 2px;
+  border-radius: var(--radius-xs);
+}
+
+/* The command-palette search field is auto-focused inside a focus-trapped modal,
+   so it opts out of the global ring — the panel itself and the highlighted active
+   row already show focus, and a ring floating around a borderless input reads as a
+   stray box. (The input's own `outline-none` utility can't win against the
+   unlayered rule above, hence this explicit, more-specific override.) */
+.search-panel input:focus-visible {
+  outline: none;
+  border-radius: 0;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -261,7 +274,7 @@ main:focus { outline: none; }
 }
 .skip-link:focus { transform: translateY(0); }
 
-html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 
 /* ============================================================
    Prose — rich text rendered by ContentRenderer (legal pages, etc.)
@@ -322,7 +335,60 @@ html { scroll-behavior: smooth; }
 }
 .las-prose a:hover { color: var(--text-link-hover); }
 
+/* Migration marker: a dead external link kept in source for manual review. The
+   original link is preserved; this renders a small muted "no longer available"
+   badge after it (added by the link audit, June 2026). Grep `link-unavailable`. */
+.las-prose .link-unavailable {
+  display: inline-block;
+  margin-left: 0.35em;
+  padding: 0.05em 0.45em;
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-sm);
+  font-size: 0.72em;
+  font-weight: 600;
+  color: var(--text-subtle);
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+/* @nuxt/content wraps every heading in an anchor link for deep-linking. Those
+   anchors must NOT pick up the purple link colour — headings stay ink-strong as
+   the type scale intends (otherwise every section head reads as a link). */
+.las-prose :is(h2, h3, h4) a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: inherit;
+}
+
+/* MDC content components embedded in Markdown (about-us, …) bring their own design.
+   Stop the prose link styling (`.las-prose a`, specificity 0-1-1) from recolouring
+   and underlining links inside them — each component roots itself in .las-embed and
+   paints its visible labels on child <span>s, so component utilities win. 0-2-1 wins. */
+.las-prose .las-embed a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .las-prose strong { font-weight: 700; color: var(--text-strong); }
+
+/* Prose images — keep them within the column and signal that they enlarge.
+   The cursor mirrors <UiLightbox>: bare images and image-file links zoom; an
+   image that links to a *page* keeps the link pointer (it navigates). Applies
+   to both content pages (.las-prose) and news articles (.article-prose). */
+.las-prose img,
+.article-prose img {
+  max-width: 100%;
+  height: auto;
+  cursor: zoom-in;
+}
+.las-prose a img,
+.article-prose a img { cursor: pointer; }
+.las-prose a[href$=".jpg"] img, .article-prose a[href$=".jpg"] img,
+.las-prose a[href$=".jpeg"] img, .article-prose a[href$=".jpeg"] img,
+.las-prose a[href$=".png"] img, .article-prose a[href$=".png"] img,
+.las-prose a[href$=".gif"] img, .article-prose a[href$=".gif"] img,
+.las-prose a[href$=".webp"] img, .article-prose a[href$=".webp"] img,
+.las-prose a[href$=".avif"] img, .article-prose a[href$=".avif"] img { cursor: zoom-in; }
 
 .las-prose ul,
 .las-prose ol {
@@ -343,12 +409,16 @@ html { scroll-behavior: smooth; }
 }
 
 .las-prose blockquote {
-  border-left: 2px solid var(--border-default);
-  margin-left: 0;
-  padding: 0.5em 1.25em;
-  color: var(--text-muted);
-  font-style: italic;
+  margin: 1.5em 0;
+  padding: 1.25rem 1.5rem;
+  background: var(--surface-brand-soft);
+  border: 1px solid var(--border-subtle);
+  border-left: 3px solid var(--brand-primary);
+  border-radius: var(--radius-lg);
+  color: var(--text-body);
 }
+.las-prose blockquote > :first-child { margin-top: 0; }
+.las-prose blockquote > :last-child { margin-bottom: 0; }
 
 .las-prose code {
   font-family: var(--font-mono);
@@ -370,7 +440,7 @@ html { scroll-behavior: smooth; }
   border-collapse: collapse;
   margin-top: 1.75em;
   margin-bottom: 1.75em;
-  font-size: 0.9375rem;
+  font-size: var(--text-sm);
 }
 .las-prose thead th {
   font-family: var(--font-sans);

@@ -4,7 +4,7 @@ date: '2017-07-28'
 category: News
 topic: Pay
 readTime: 1
-excerpt: LAS UNISON are pleased to confirm that colleagues in the LAS will now be receiving extra pay from July, following a successful legal fight that ended in victory for UNISON…
+description: LAS UNISON are pleased to confirm that colleagues in the LAS will now be receiving extra pay from July, following a successful legal fight that ended in victory for UNISON…
 tags:
   - government
   - las

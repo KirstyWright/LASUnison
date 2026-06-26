@@ -4,7 +4,7 @@ date: '2012-04-30'
 category: News
 topic: Pensions
 readTime: 1
-excerpt: UNISON¹s consultative ballot of its health members in England, Wales and Northern Ireland on changes to the NHS pension scheme, returned a low turnout of 14.8% of those eligible to…
+description: UNISON¹s consultative ballot of its health members in England, Wales and Northern Ireland on changes to the NHS pension scheme, returned a low turnout of 14.8% of those eligible to…
 tags:
   - pay
   - pension

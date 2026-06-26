@@ -4,7 +4,7 @@ date: '2012-03-27'
 category: News
 topic: Pensions
 readTime: 3
-excerpt: 'Commenting on the report into the events of 30 November, commissioned by the Strategic Health Authority for London, NHS London, UNISON’s Regional Organiser for the LAS, Phil Thompson, said: "UNISON…'
+description: 'Commenting on the report into the events of 30 November, commissioned by the Strategic Health Authority for London, NHS London, UNISON’s Regional Organiser for the LAS, Phil Thompson, said: "UNISON…'
 image: /images/2011/12/IMG_0455.jpg
 wpCategories:
   - Pensions

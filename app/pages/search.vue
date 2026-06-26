@@ -1,8 +1,7 @@
 <script setup lang="ts">
-// Site-wide search results — the linkable, SSR-rendered counterpart to the
-// header search overlay. Reads ?q= from the URL, fetches /api/search, and shows
-// grouped results (pages, news, documents, links). Sharing one URL shares the
-// exact search.
+// Site-wide search results — the linkable counterpart to the header search
+// overlay. Reads ?q= from the URL and shows grouped results (pages, news,
+// documents, links). Sharing one URL shares the exact search.
 import {
   EMPTY_RESULTS, highlightParts, searchHostLabel,
   type SearchResponse,
@@ -10,17 +9,22 @@ import {
 
 const route = useRoute()
 const router = useRouter()
+const { search: searchSite } = useSiteSearchEngine()
 
 const q = ref((route.query.q as string) || '')
 
+// Search runs in the browser against @nuxt/content's WASM SQLite DB (server: false),
+// so a Node-less static host serves results — and a direct /search?q=… load works,
+// since it executes on the client with the real query rather than the empty
+// prerendered payload.
 const { data: results, pending } = await useAsyncData<SearchResponse>(
   'site-search',
   () => {
     const query = ((route.query.q as string) || '').trim()
     if (!query) return Promise.resolve(EMPTY_RESULTS)
-    return $fetch<SearchResponse>('/api/search', { query: { q: query } })
+    return searchSite(query)
   },
-  { watch: [() => route.query.q], default: () => EMPTY_RESULTS },
+  { watch: [() => route.query.q], default: () => EMPTY_RESULTS, server: false },
 )
 
 const queryText = computed(() => ((route.query.q as string) || '').trim())
@@ -67,16 +71,13 @@ useSeoMeta({ robots: 'noindex', description: 'Search every page, news post, docu
     <main id="main-content">
       <!-- Masthead -->
       <section class="bg-[var(--surface-brand)] text-white relative overflow-hidden">
+        <!-- Pulse, refined — live cardiac-monitor edge motif -->
         <div
           aria-hidden="true"
-          class="absolute inset-0 opacity-50"
-          :style="{
-            backgroundImage: 'url(/pattern-pulse.svg)',
-            backgroundSize: '320px auto',
-            backgroundRepeat: 'repeat-x',
-            backgroundPosition: 'left bottom',
-          }"
-        />
+          class="absolute inset-x-0 bottom-0 text-[var(--brand-highlight)] pointer-events-none"
+        >
+          <MotifPulse />
+        </div>
         <div class="las-container relative py-14 md:py-[4.5rem]">
           <nav aria-label="Breadcrumb" class="mb-5 text-[0.875rem] text-[var(--purple-200)]">
             <NuxtLink to="/" class="text-[var(--purple-200)] no-underline hover:text-white">Home</NuxtLink>
@@ -110,7 +111,7 @@ useSeoMeta({ robots: 'noindex', description: 'Search every page, news post, docu
               enterkeyhint="search"
               autocomplete="off"
               placeholder="Search pages, news, documents and links…"
-              class="w-full h-[58px] pl-[3.25rem] pr-[3.25rem] bg-[var(--surface-card)] text-[var(--text-strong)] text-[length:var(--text-md)] rounded-[var(--radius-pill)] border-2 border-transparent shadow-[var(--shadow-lg)] placeholder:text-[var(--text-subtle)] focus:outline-none focus-visible:border-[var(--border-focus)] [&::-webkit-search-cancel-button]:appearance-none"
+              class="w-full h-[58px] pl-[3.25rem] pr-[3.25rem] bg-[var(--surface-card)] text-[var(--text-strong)] text-[length:var(--text-md)] rounded-[var(--radius-pill)] shadow-[var(--shadow-lg)] placeholder:text-[var(--text-subtle)] [&::-webkit-search-cancel-button]:appearance-none"
               @input="onInput"
             >
             <button
@@ -137,7 +138,15 @@ useSeoMeta({ robots: 'noindex', description: 'Search every page, news post, docu
             </p>
           </div>
 
-          <template v-else>
+          <!-- Search runs in the browser only (server: false), so there are no
+               results to render on the server. Gate the results on <ClientOnly>
+               to avoid a server/client hydration mismatch (the server would
+               otherwise render the empty state, the client the real results). -->
+          <ClientOnly v-else>
+            <template #fallback>
+              <p class="text-[0.875rem] text-[var(--text-muted)] m-0">Searching…</p>
+            </template>
+
             <div class="flex items-baseline justify-between gap-4 flex-wrap mb-8">
               <h2 class="font-[family-name:var(--font-display)] font-extrabold text-[length:var(--text-2xl)] text-[var(--text-strong)] m-0">
                 {{ results.total }} result{{ results.total === 1 ? '' : 's' }}
@@ -262,14 +271,9 @@ useSeoMeta({ robots: 'noindex', description: 'Search every page, news post, docu
                 </ul>
               </div>
             </div>
-          </template>
+          </ClientOnly>
         </div>
       </section>
-
-      <!-- Help first, fast -->
-      <div class="las-container pb-[var(--section-y)]">
-        <UiEmergencyBar />
-      </div>
 
       <HomeJoin />
     </main>

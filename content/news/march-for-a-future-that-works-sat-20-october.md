@@ -3,7 +3,7 @@ title: March for a future that works - Sat 20 October
 date: '2012-09-26'
 category: News
 readTime: 2
-excerpt: On 20 October hundreds of thousands of people will gather in central London to march for a future that works.
+description: On 20 October hundreds of thousands of people will gather in central London to march for a future that works.
 tags:
   - march
   - pay
@@ -30,4 +30,4 @@ Together we can send a strong message to ministers to insist they deliver an eco
 
 The London Ambulance UNISON Branch will be meeting at Waterloo HQ and then leaving together to join the front of the march. We want our members wearing our special T-Shirt on the march and if you get in touch with us with your t-shirt size we will ensure that one is waiting for you on the day.
 
-E-Mail or telephone Eddie Brand or Eric Roberts. [Full contact details can be found here](/branch/branch.htm).
+E-Mail or telephone Eddie Brand or Eric Roberts. [Full contact details can be found here](/branch).

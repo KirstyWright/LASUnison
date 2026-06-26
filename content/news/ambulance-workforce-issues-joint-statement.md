@@ -4,7 +4,7 @@ date: '2016-06-20'
 category: News
 topic: Pensions
 readTime: 2
-excerpt: Representatives of ambulance employers, trades unions and other national stakeholders met on 10 June to consider how to make further and more urgent progress on the workforce issues that have…
+description: Representatives of ambulance employers, trades unions and other national stakeholders met on 10 June to consider how to make further and more urgent progress on the workforce issues that have…
 tags:
   - afc
   - pay

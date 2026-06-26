@@ -3,7 +3,7 @@ title: Decent NHS pay rise is crucial if both the workforce and the economy are 
 date: '2024-02-13'
 category: News
 readTime: 4
-excerpt: Proper investment in NHS staff is essential for both the UK’s economic success and if there's to be any hope of filling record staff vacancies, health unions say today (Friday)…
+description: Proper investment in NHS staff is essential for both the UK’s economic success and if there's to be any hope of filling record staff vacancies, health unions say today (Friday)…
 tags:
   - government
   - nhs

@@ -3,7 +3,7 @@ title: Family Fun Day
 date: '2018-09-13'
 category: News
 readTime: 1
-excerpt: LAS UNISON is proud to support the LAS Family Fun Day on Saturday 20 October 2018, 12 – 5pm. We will be in attendance on the day.
+description: LAS UNISON is proud to support the LAS Family Fun Day on Saturday 20 October 2018, 12 – 5pm. We will be in attendance on the day.
 tags:
   - benefits
   - branch
@@ -34,4 +34,4 @@ There is lots to see and do for kids and adults including:
 
 DJ • Bubble show • Health checks • Magic show • Massages • Balloon modeller • Reflexology • Face painting • Smoothie bikes • Giant Operation • Giant Jenga • Giant Scaletrix • Reflexology • Tug - of - war • Pottery painting and a whole lot more.
 
-[Download a poster to display](/?mdocs-file=3421)
+[Download a poster to display](/docs/mdocs/LAS%20Unison%20Funday%20Email%20%281%29.pdf)

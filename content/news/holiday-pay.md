@@ -4,7 +4,7 @@ date: '2017-11-30'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Today LAS Unison has written to the LAS management regarding an issue we raised at the Staff Council meeting on 14 th November 2017 which will result in an increase…
+description: Today LAS Unison has written to the LAS management regarding an issue we raised at the Staff Council meeting on 14 th November 2017 which will result in an increase…
 tags:
   - afc
   - pay

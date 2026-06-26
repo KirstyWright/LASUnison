@@ -4,7 +4,7 @@ date: '2020-03-29'
 category: News
 topic: Safety
 readTime: 2
-excerpt: Dear Khadir, I am again writing on behalf of LAS UNISON Branch with regards to the grave concerns our Branch Committee and members now have over the PPE guidance and…
+description: Dear Khadir, I am again writing on behalf of LAS UNISON Branch with regards to the grave concerns our Branch Committee and members now have over the PPE guidance and…
 tags:
   - branch secretary
   - covid 19

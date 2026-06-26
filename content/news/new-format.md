@@ -3,7 +3,7 @@ title: New Format
 date: '2008-11-28'
 category: News
 readTime: 2
-excerpt: Welcome to a new format for the news stories displayed on the LAS UNISON Website.
+description: Welcome to a new format for the news stories displayed on the LAS UNISON Website.
 wpCategories:
   - Website News
 wpId: 82

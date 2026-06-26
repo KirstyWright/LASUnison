@@ -3,7 +3,7 @@ title: UNISON Greater London Region Celebrating Black History Month
 date: '2021-09-27'
 category: News
 readTime: 1
-excerpt: 'This year the Regional Black Members Committee will be hosting a virtual event to celebrate Black History Month. The theme will be: Breaking the Glass Ceiling.'
+description: 'This year the Regional Black Members Committee will be hosting a virtual event to celebrate Black History Month. The theme will be: Breaking the Glass Ceiling.'
 tags:
   - unison
   - equalities

@@ -3,7 +3,7 @@ title: UNISON welcomes appointment of London Ambulance Service interim CEO
 date: '2015-01-21'
 category: News
 readTime: 2
-excerpt: Responding to the announcement that the chief executive of the London Ambulance Service (LAS), Ann Radmore, has resigned after two years in post, UNISON Regional Organiser in London Phil Thompson…
+description: Responding to the announcement that the chief executive of the London Ambulance Service (LAS), Ann Radmore, has resigned after two years in post, UNISON Regional Organiser in London Phil Thompson…
 tags:
   - chief executive
   - unison

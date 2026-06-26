@@ -1,5 +1,6 @@
 ---
 title: Education
+officer: mark-belkin
 description: UNISON provides Education Services for Members and Activists that includes Stewards, Health & Safety Reps and Lifelong Learning Reps.
 date: '2025-02-16'
 wpId: 1129
@@ -7,7 +8,7 @@ legacyUrl: https://lasunison.co.uk/education
 ---
 
 UNISON provides Education Services for Members and Activists that includes Stewards, Health & Safety Reps and Lifelong Learning Reps.
-If you are an Activist (Steward or Health & Safety Rep) and looking for a Union course, email the Branch Education Officer at [markbelkin@lasunison.co.uk](mailto:markbelkin@lasunison.co.uk) with your name and brief details. Your details are checked against course dates and availability before you hear back, so please allow up to 14 days for a reply — shifts and annual leave can slow this down. If you have heard nothing after 14 days, do send a follow-up email. If you wish to find out more about what UNISON Education services can offer you as a member then please visit [the Education pages on the UNISON website](http://www.unison.org.uk/for-members/unison-learning).
+If you are an Activist (Steward or Health & Safety Rep) and looking for a Union course, email the Branch Education Officer at [markbelkin@lasunison.com](mailto:markbelkin@lasunison.com) with your name and brief details. Your details are checked against course dates and availability before you hear back, so please allow up to 14 days for a reply — shifts and annual leave can slow this down. If you have heard nothing after 14 days, do send a follow-up email. If you wish to find out more about what UNISON Education services can offer you as a member then please visit [the Education pages on the UNISON website](https://www.unison.org.uk/learning/).
 
 ---
 
@@ -86,7 +87,7 @@ Where there is a charge, it is to branches, not to you.
 
 Some member education is also free to learners, and in other cases you can apply for a bursary or book grant to help with costs.
 
-[Financial support](http://www.unison.org.uk/for-members/unison-learning/financial-support/).
+[Financial support](https://www.unison.org.uk/learning/).
 
 If you are interested in finding out more, talk to your branch education co-ordinator or branch secretary.
 

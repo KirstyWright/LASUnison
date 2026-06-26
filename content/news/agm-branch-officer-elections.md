@@ -3,7 +3,7 @@ title: AGM & Branch Officer Elections
 date: '2009-01-12'
 category: News
 readTime: 3
-excerpt: I am writing to you as the Regional Officer responsible for UNISON members employed in the London Ambulance Service, and acting as the Returning Officer for the UNISON Branch elections…
+description: I am writing to you as the Regional Officer responsible for UNISON members employed in the London Ambulance Service, and acting as the Returning Officer for the UNISON Branch elections…
 wpCategories:
   - Branch News
 wpId: 77

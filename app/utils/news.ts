@@ -10,7 +10,7 @@ export interface NewsItem {
   date: string
   category: string
   topic?: string
-  excerpt: string
+  description: string
   author?: string
   readTime?: number
   urgent?: boolean

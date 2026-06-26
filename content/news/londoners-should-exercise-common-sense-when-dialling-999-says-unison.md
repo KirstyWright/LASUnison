@@ -3,7 +3,7 @@ title: Londoners should exercise ‘common sense’ when dialling 999, says UNIS
 date: '2021-01-08'
 category: News
 readTime: 3
-excerpt: London ambulance workers are concerned the service faces breaking point amid increasing 999 calls and numbers of staff hit by ​Covid, says UNISON today (​Friday).
+description: London ambulance workers are concerned the service faces breaking point amid increasing 999 calls and numbers of staff hit by ​Covid, says UNISON today (​Friday).
 tags:
   - ambulance
   - branch

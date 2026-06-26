@@ -4,7 +4,7 @@ date: '2020-07-28'
 category: News
 topic: Pensions
 readTime: 2
-excerpt: Ambulance update The government has now issued their consultation on correcting the unlawful age discrimination that was identified by the Court of Appeal in the 2015 reforms to the Judicial…
+description: Ambulance update The government has now issued their consultation on correcting the unlawful age discrimination that was identified by the Court of Appeal in the 2015 reforms to the Judicial…
 tags:
   - consultation
   - government
@@ -30,7 +30,7 @@ The consultation sets out two possible mechanisms for correcting the discriminat
 
 Each remedy will allow members to be put back in their pre 2015 final salary scheme that will have a lower normal retirement age.
 
-The consultation will close on October 11th and more information can be found **[here](https://www.unison.org.uk/get-help/knowledge/pensions/?utm_medium=email&utm_campaign=Health%20News%20-%2023%20July%202020&utm_source=Health%20Care&utm_content=Read%20UNISON%E2%80%99s%20summary%20paper)**.
+The consultation will close on October 11th and more information can be found **[here](https://www.unison.org.uk/get-help/knowledge/pensions/?utm_medium=email&utm_campaign=Health%20News%20-%2023%20July%202020&utm_source=Health%20Care&utm_content=Read%20UNISON%E2%80%99s%20summary%20paper) [Link no longer available]{.link-unavailable}**.
 
 #### Next steps
 

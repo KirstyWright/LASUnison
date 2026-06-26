@@ -4,7 +4,7 @@ date: '2013-07-04'
 category: News
 topic: Pay
 readTime: 3
-excerpt: Dear All, The Union cannot do anything without your help and support. I am writing to ask you for both.
+description: Dear All, The Union cannot do anything without your help and support. I am writing to ask you for both.
 tags:
   - a time for change
   - a&e support

@@ -3,7 +3,7 @@ title: VCOD next steps FAQs and Consultation
 date: '2022-02-13'
 category: News
 readTime: 2
-excerpt: Given the changes in clinical evidence the government is revisiting the balance of risks and benefits that guided its original decisions to make coronavirus (COVID-19) vaccination a condition of deployment…
+description: Given the changes in clinical evidence the government is revisiting the balance of risks and benefits that guided its original decisions to make coronavirus (COVID-19) vaccination a condition of deployment…
 tags:
   - consultation
   - covid 19
@@ -32,6 +32,6 @@ While vaccination remains the very best line of defence against COVID-19, and al
 
 They have launched a consultation to seek views on the intention to revoke the policy.
 
-The easiest way to participate is by completing the **[public survey](https://consultations.dhsc.gov.uk/61fd3b71f0d963706f2a7193)**.
+The easiest way to participate is by completing the **[public survey](https://consultations.dhsc.gov.uk/61fd3b71f0d963706f2a7193) [Link no longer available]{.link-unavailable}**.
 
 ## [Revoking vaccination as a condition of deployment across all health and social care](https://www.gov.uk/government/consultations/revoking-vaccination-as-a-condition-of-deployment-across-all-health-and-social-care/revoking-vaccination-as-a-condition-of-deployment-across-all-health-and-social-care)

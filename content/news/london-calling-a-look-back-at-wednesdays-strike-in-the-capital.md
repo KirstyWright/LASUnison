@@ -4,7 +4,7 @@ date: '2022-12-23'
 category: News
 topic: Pay
 readTime: 2
-excerpt: UNISON members across the country were out in force for yesterday’s NHS strikes. We take a photographic look back at events in the capital Yesterday’s moments strikes across England will…
+description: UNISON members across the country were out in force for yesterday’s NHS strikes. We take a photographic look back at events in the capital Yesterday’s moments strikes across England will…
 tags:
   - afc
   - branch
@@ -30,7 +30,7 @@ legacyUrl: https://lasunison.co.uk/london-calling-a-look-back-at-wednesdays-stri
 
 Yesterday’s moments strikes across England will be reverberating for weeks to come.
 
-The extraordinary response from UNISON members – and support from the public – was clear, and you can look back at that on the [**rolling report we ran throughout the day**](https://www.unison.org.uk/news/article/2022/12/rolling-report-putnhspayright/).
+The extraordinary response from UNISON members – and support from the public – was clear, and you can look back at that on the [**rolling report we ran throughout the day**](https://www.unison.org.uk/news/article/2022/12/rolling-report-putnhspayright/) [Link no longer available]{.link-unavailable}.
 
 But today, let’s have a further look at action across London, as photographer [**Marcus Rose**](https://marcusrose.photoshelter.com/index) followed UNISON’s general secretary Christina McAnea to three pickets.
 
@@ -38,50 +38,50 @@ It began at Waterloo, with vast media interest, before continuing to Deptford, w
 
 It might have been the shortest day of the year, but in many ways it was the longest.
 
-![Christina McAnea addressing the massed ranks of media at the Waterloo picket](https://www.unison.org.uk/content/uploads/2022/12/Christina-Waterloo-1.jpg)
+![Christina McAnea addressing the massed ranks of media at the Waterloo picket](https://www.unison.org.uk/content/uploads/2022/12/Christina-Waterloo-1.jpg) [Link no longer available]{.link-unavailable}
 
 **Christina addressing the media at Waterloo**
 
-![Christina McAnea addressing the massed ranks of media at the Waterloo picket](https://www.unison.org.uk/content/uploads/2022/12/Christina-Waterloo-2.jpg)
+![Christina McAnea addressing the massed ranks of media at the Waterloo picket](https://www.unison.org.uk/content/uploads/2022/12/Christina-Waterloo-2.jpg) [Link no longer available]{.link-unavailable}
 
-![Christina McAnea at the Waterloo picket](https://www.unison.org.uk/content/uploads/2022/12/Christina-Waterloo-pickets-and-banner.jpg)
+![Christina McAnea at the Waterloo picket](https://www.unison.org.uk/content/uploads/2022/12/Christina-Waterloo-pickets-and-banner.jpg) [Link no longer available]{.link-unavailable}
 
 **Christina with striking members at Waterloo**
 
-![Christina McAnea with striking members at Waterloo and an ambulance](https://www.unison.org.uk/content/uploads/2022/12/Christina-ambulance.jpg)
+![Christina McAnea with striking members at Waterloo and an ambulance](https://www.unison.org.uk/content/uploads/2022/12/Christina-ambulance.jpg) [Link no longer available]{.link-unavailable}
 
 **With striking members at Waterloo**
 
-![Christina McAnea, smiling and have a cuppa =as she chats with members at Deptford](https://www.unison.org.uk/content/uploads/2022/12/Christina-tea.jpg)
+![Christina McAnea, smiling and have a cuppa =as she chats with members at Deptford](https://www.unison.org.uk/content/uploads/2022/12/Christina-tea.jpg) [Link no longer available]{.link-unavailable}
 
 **Time for quick cuppa, as Christina chats with members at Deptford**
 
-![Christina McAnea chatting with a member at Deptford](https://www.unison.org.uk/content/uploads/2022/12/Christina-Deptford-man-with-gloves.jpg)
+![Christina McAnea chatting with a member at Deptford](https://www.unison.org.uk/content/uploads/2022/12/Christina-Deptford-man-with-gloves.jpg) [Link no longer available]{.link-unavailable}
 
-![Christina McAnea with the pickets at Deptford](https://www.unison.org.uk/content/uploads/2022/12/Deptford-gate.jpg)
+![Christina McAnea with the pickets at Deptford](https://www.unison.org.uk/content/uploads/2022/12/Deptford-gate.jpg) [Link no longer available]{.link-unavailable}
 
-![Pickets at Deptford holding handwritten signs calling on passing drivers to honk their support](https://www.unison.org.uk/content/uploads/2022/12/Deptford-Honk-signs.jpg)
+![Pickets at Deptford holding handwritten signs calling on passing drivers to honk their support](https://www.unison.org.uk/content/uploads/2022/12/Deptford-Honk-signs.jpg) [Link no longer available]{.link-unavailable}
 
 **Honk for the NHS!**
 
-![Picket link at Deptford, from above, with Christina McAnea](https://www.unison.org.uk/content/uploads/2022/12/Deptford-from-above.jpg)
+![Picket link at Deptford, from above, with Christina McAnea](https://www.unison.org.uk/content/uploads/2022/12/Deptford-from-above.jpg) [Link no longer available]{.link-unavailable}
 
-![Pickets at Deptford with placard and flaming brazier](https://www.unison.org.uk/content/uploads/2022/12/Deptford-brazier.jpg)
+![Pickets at Deptford with placard and flaming brazier](https://www.unison.org.uk/content/uploads/2022/12/Deptford-brazier.jpg) [Link no longer available]{.link-unavailable}
 
 **It’s not a picket without a brazier – especially not in December!**
 
-![Christina McAnea and striking members around a brazier in Edmonton](https://www.unison.org.uk/content/uploads/2022/12/Around-the-brazier.jpg)
+![Christina McAnea and striking members around a brazier in Edmonton](https://www.unison.org.uk/content/uploads/2022/12/Around-the-brazier.jpg) [Link no longer available]{.link-unavailable}
 
 **From on brazier to another – this time in Edmonton**
 
-![pickets with UNISON flags and a 'honk for the NHS' placard](https://www.unison.org.uk/content/uploads/2022/12/Honk-for-the-NHS.jpg)
+![pickets with UNISON flags and a 'honk for the NHS' placard](https://www.unison.org.uk/content/uploads/2022/12/Honk-for-the-NHS.jpg) [Link no longer available]{.link-unavailable}
 
 **[General secretary thanks strikers](https://www.unison.org.uk/news/2022/12/general-secretary-thanks-strikers/)**
 
-**[Check out our rolling report from the strike](https://www.unison.org.uk/news/article/2022/12/rolling-report-putnhspayright/)**
+**[Check out our rolling report from the strike](https://www.unison.org.uk/news/article/2022/12/rolling-report-putnhspayright/) [Link no longer available]{.link-unavailable}**
 
-**[In my Liverpool home – on the picket lines in Merseyside](https://www.unison.org.uk/news/2022/12/in-my-liverpool-home-on-the-picket-lines-in-merseyside/)**
+**[In my Liverpool home – on the picket lines in Merseyside](https://www.unison.org.uk/news/2022/12/in-my-liverpool-home-on-the-picket-lines-in-merseyside/) [Link no longer available]{.link-unavailable}**
 
-[**Christina McAnea – a message to strikers on a difficult**](https://www.unison.org.uk/news/general-secretary-blog/2022/12/blog-a-message-to-ambulance-strikers-on-a-difficult-day/) **[day](https://www.unison.org.uk/news/general-secretary-blog/2022/12/blog-a-message-to-ambulance-strikers-on-a-difficult-day/)**
+[**Christina McAnea – a message to strikers on a difficult**](https://www.unison.org.uk/news/general-secretary-blog/2022/12/blog-a-message-to-ambulance-strikers-on-a-difficult-day/) [Link no longer available]{.link-unavailable} **[day](https://www.unison.org.uk/news/general-secretary-blog/2022/12/blog-a-message-to-ambulance-strikers-on-a-difficult-day/) [Link no longer available]{.link-unavailable}**
 
-Story reproduced from main UNISON site - https://www.unison.org.uk/news/2022/12/london-calling-a-look-back-at-yesterdays-strike-in-the-capital/
+Story reproduced from main UNISON site - https://www.unison.org.uk/news/2022/12/london-calling-a-look-back-at-yesterdays-strike-in-the-capital/ [Link no longer available]{.link-unavailable}

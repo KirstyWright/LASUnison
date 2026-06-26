@@ -3,7 +3,7 @@ title: Octopus monthly prize draw
 date: '2016-05-22'
 category: News
 readTime: 2
-excerpt: The monthly Octopus lottery is a great way of supporting the vital work of There for You.
+description: The monthly Octopus lottery is a great way of supporting the vital work of There for You.
 image: /images/2016/05/octopus.png
 wpCategories:
   - Uncategorized
@@ -34,7 +34,7 @@ London Road
 Stevenage
 SG1 2TP
 
-**[Download the application form](http://www.unison.org.uk/documents/1750)**
+**[Download the application form](http://www.unison.org.uk/documents/1750) [Link no longer available]{.link-unavailable}**
 
 Or, we can send you an application form – just call 020 7121 5620.
 
@@ -42,4 +42,4 @@ Once entered, you will receive confirmation of your unique lottery number(s) in 
 
 #### To find out more
 
-You can find out more about the Octopus lottery by emailing **[thereforyou@unison.co.uk](mailto:thereforyou@unison.co.uk)**. Please also read our **[terms and conditions](http://www.unison.org.uk/get-help/rules-of-octopus-lottery)**
+You can find out more about the Octopus lottery by emailing **[thereforyou@unison.co.uk](mailto:thereforyou@unison.co.uk)**. Please also read our **[terms and conditions](http://www.unison.org.uk/get-help/rules-of-octopus-lottery) [Link no longer available]{.link-unavailable}**

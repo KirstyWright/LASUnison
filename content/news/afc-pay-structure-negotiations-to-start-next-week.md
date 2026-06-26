@@ -4,7 +4,7 @@ date: '2026-04-24'
 category: News
 topic: Pay
 readTime: 1
-excerpt: The co-chairs of NHS Staff Council have confirmed that NHS Staff Council has received a mandate to proceed with Agenda for Change (AfC) pay structure reform negotiations in England, Wales…
+description: The co-chairs of NHS Staff Council have confirmed that NHS Staff Council has received a mandate to proceed with Agenda for Change (AfC) pay structure reform negotiations in England, Wales…
 tags:
   - afc
   - ambulance

@@ -4,7 +4,7 @@ date: '2025-01-28'
 category: Campaign
 topic: Pay
 readTime: 2
-excerpt: Union seeks to increase pressure on the government for urgent reform to NHS pay structure.
+description: Union seeks to increase pressure on the government for urgent reform to NHS pay structure.
 tags:
   - government
   - pay

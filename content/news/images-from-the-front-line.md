@@ -4,7 +4,7 @@ date: '2011-12-02'
 category: News
 topic: Pensions
 readTime: 1
-excerpt: The Industrial action on the 30 November was well supported right across the service. Many staff offered emergency cover to the people of London responding to emergency calls from the…
+description: The Industrial action on the 30 November was well supported right across the service. Many staff offered emergency cover to the people of London responding to emergency calls from the…
 tags:
   - pensions
   - strike

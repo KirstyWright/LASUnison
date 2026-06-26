@@ -4,7 +4,7 @@ date: '2020-08-28'
 category: News
 topic: Pay
 readTime: 3
-excerpt: Staff deserve immediate wage lift from government A pay claim submitted by UNISON to the government today (Friday 28 Aug) would see every NHS employee receive an increase of at…
+description: Staff deserve immediate wage lift from government A pay claim submitted by UNISON to the government today (Friday 28 Aug) would see every NHS employee receive an increase of at…
 tags:
   - afc
   - government
@@ -50,6 +50,6 @@ A survey of NHS staff who belong to UNISON found four fifths (84%) said the £2,
 
 “There’s a tough winter ahead and a pandemic that shows little sign of disappearing. Giving health staff a morale boost now is much-needed ahead of any good news about a vaccine.”
 
-– Click [**here**](https://www.unison.org.uk/content/uploads/2020/08/2k-claim-Prime-Minister-letter.pdf) for a copy of the letter.
+– Click [**here**](https://www.unison.org.uk/content/uploads/2020/08/2k-claim-Prime-Minister-letter.pdf) [Link no longer available]{.link-unavailable} for a copy of the letter.
 
 ![](/images/2020/08/OneTeam2K-16x9-745x420-1.png)

@@ -3,7 +3,7 @@ title: UNISON National Executive Council Elections – Your Voice Your Vote
 date: '2019-04-04'
 category: News
 readTime: 2
-excerpt: It’s time to choose who speaks for you on UNISON’s national executive council. You’re hard at work keeping our vital public services running, and leading busy lives with your family…
+description: It’s time to choose who speaks for you on UNISON’s national executive council. You’re hard at work keeping our vital public services running, and leading busy lives with your family…
 tags:
   - ballot
   - branch

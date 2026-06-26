@@ -4,7 +4,7 @@ date: '2014-01-07'
 category: News
 topic: Pay
 readTime: 2
-excerpt: 'Joint Statement between NHS ambulance Trusts in England and UNISON, GMB and Unite On 3 January 2014 employers and trade unions met and discussed: Data comparing illustrative payments under Annex…'
+description: 'Joint Statement between NHS ambulance Trusts in England and UNISON, GMB and Unite On 3 January 2014 employers and trade unions met and discussed: Data comparing illustrative payments under Annex…'
 tags:
   - afc
   - pay

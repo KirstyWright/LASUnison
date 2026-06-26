@@ -4,7 +4,7 @@ date: '2018-09-13'
 category: News
 topic: Pay
 readTime: 5
-excerpt: A lot has been written about the NHS pay deal in England and what it will mean to individuals’ pay packets.
+description: A lot has been written about the NHS pay deal in England and what it will mean to individuals’ pay packets.
 tags:
   - afc
   - pay

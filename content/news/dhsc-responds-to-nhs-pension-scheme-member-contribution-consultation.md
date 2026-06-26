@@ -4,7 +4,7 @@ date: '2022-02-17'
 category: News
 topic: Pensions
 readTime: 2
-excerpt: The Department of Health and Social Care has responded to the consultation on proposed changes to the member contribution structure for the England and Wales NHS Pension Scheme.
+description: The Department of Health and Social Care has responded to the consultation on proposed changes to the member contribution structure for the England and Wales NHS Pension Scheme.
 tags:
   - afc
   - government

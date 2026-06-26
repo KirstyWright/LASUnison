@@ -11,10 +11,10 @@ const props = withDefaults(
 )
 
 const TONES: Record<Tone, { bg: string; fg: string }> = {
-  purple: { bg: 'var(--purple-100)', fg: 'var(--purple-400)' },
-  green: { bg: 'var(--green-100)', fg: 'var(--green-500)' },
-  blue: { bg: 'var(--blue-100)', fg: 'var(--blue-500)' },
-  ink: { bg: 'var(--ink-100)', fg: 'var(--ink-400)' },
+  purple: { bg: 'var(--brand-primary-soft)', fg: 'var(--purple-400)' },
+  green: { bg: 'var(--brand-secondary-soft)', fg: 'var(--green-500)' },
+  blue: { bg: 'var(--brand-accent-soft)', fg: 'var(--blue-500)' },
+  ink: { bg: 'var(--surface-sunken)', fg: 'var(--ink-400)' },
 }
 
 const t = computed(() => TONES[props.tone])
@@ -34,7 +34,7 @@ const wrapStyle = computed(() => ({
       <UiIcon :name="icon" :size="30" :stroke="1.6" />
       <span
         v-if="label"
-        class="font-[family-name:var(--font-sans)] text-[12px] font-bold tracking-[0.06em] uppercase"
+        class="font-[family-name:var(--font-sans)] text-[length:var(--text-xs)] font-bold tracking-[0.06em] uppercase"
       >{{ label }}</span>
     </slot>
   </div>

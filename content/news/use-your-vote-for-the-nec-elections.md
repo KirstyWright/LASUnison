@@ -3,7 +3,7 @@ title: Use your vote for the NEC Elections
 date: '2013-05-03'
 category: News
 readTime: 1
-excerpt: Members should by now have received ballot papers for the NEC elections. Members who have not yet received their ballot pack should call 0845 355 0845.
+description: Members should by now have received ballot papers for the NEC elections. Members who have not yet received their ballot pack should call 0845 355 0845.
 tags:
   - ballot
   - unison

@@ -3,7 +3,7 @@ title: Annual Leave Guidance during the COVID-19 Pandemic
 date: '2020-05-10'
 category: News
 readTime: 1
-excerpt: LAS members will have seen the publication on Friday 8th May, by our People and Culture (P&C) colleagues, of the attached document answering some frequently asked questions on the subject…
+description: LAS members will have seen the publication on Friday 8th May, by our People and Culture (P&C) colleagues, of the attached document answering some frequently asked questions on the subject…
 tags:
   - annual leave
   - branch
@@ -22,7 +22,7 @@ wpId: 4889
 legacyUrl: https://lasunison.co.uk/annual-leave-guidance-during-the-covid-19-pandemic
 ---
 
-LAS members will have seen the publication on Friday 8th May, by our People and Culture (P&C) colleagues, of the **[attached document](/?mdocs-file=4891)** answering some frequently asked questions on the subject of annual leave.
+LAS members will have seen the publication on Friday 8th May, by our People and Culture (P&C) colleagues, of the **[attached document](/docs/mdocs/People%20%26amp%3B%20Culture%20Annual%20Leave%20guidance%2008%20May%20%28002%29%20%281%29.pdf)** answering some frequently asked questions on the subject of annual leave.
 
 Our Branch officers had some discussions with our management prior to the publication of this document, on certain areas of the text however have been unable to reach agreement on the section related to the entitlement of LAS employees to carry over annual leave above the normal amounts and up to 20 days as described in The Working Time (Coronavirus) (Amendment) Regulations 2020.
 

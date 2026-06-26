@@ -3,7 +3,7 @@ title: LONDON AMBULANCE SERVICE AT RISK
 date: '2011-04-12'
 category: News
 readTime: 3
-excerpt: Remember what Cameron said before the election? He said that the NHS would not be cut in real terms, that no ‘front line’ staff would go.
+description: Remember what Cameron said before the election? He said that the NHS would not be cut in real terms, that no ‘front line’ staff would go.
 wpCategories:
   - Branch News
   - UNISON News

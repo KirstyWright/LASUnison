@@ -4,7 +4,7 @@ date: '2020-01-09'
 category: News
 topic: Pensions
 readTime: 2
-excerpt: Recent declarations at Employment Tribunals, following a court ruling that found the public sector pension protections to be discriminatory, are set to have implications across the public sector including the…
+description: Recent declarations at Employment Tribunals, following a court ruling that found the public sector pension protections to be discriminatory, are set to have implications across the public sector including the…
 tags:
   - government
   - pay

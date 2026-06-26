@@ -1,12 +1,12 @@
 <script setup lang="ts">
 // LAS UNISON — homepage. A branch hub composed from reusable kit components:
-// help first, then news, current campaigns, why-join, the branch, and join.
+// help first, then news, current campaigns, why-join (the join CTA), and the branch.
 useHead({
   title: 'LAS UNISON — London Ambulance Service UNISON Branch',
 })
 useSeoMeta({
   description:
-    'The UK’s biggest ambulance branch. We represent, protect and stand up for London Ambulance Service staff — almost 7,000 members strong. Get help, read branch news and join UNISON.',
+    'The UK’s biggest ambulance branch. We represent, protect and stand up for London Ambulance Service staff. Get help, read branch news and join UNISON.',
   ogTitle: 'LAS UNISON — London Ambulance Service UNISON Branch',
   ogDescription:
     'Stronger together for London’s ambulance staff. Representation, campaigns, member benefits and the UNISON Direct help line.',
@@ -31,7 +31,6 @@ useSeoMeta({
       <HomeCampaigns />
       <HomeBenefits />
       <HomeBranch />
-      <HomeJoin />
     </main>
 
     <SiteFooter />

@@ -4,7 +4,7 @@ date: '2011-11-08'
 category: News
 topic: Pensions
 readTime: 2
-excerpt: Day of Action, 30 th November 2011 UNISON members will be taking action on 30th November to defend their pensions after they voted overwhelmingly to join the TUC co-ordinated day…
+description: Day of Action, 30 th November 2011 UNISON members will be taking action on 30th November to defend their pensions after they voted overwhelmingly to join the TUC co-ordinated day…
 wpCategories:
   - Branch News
   - Event

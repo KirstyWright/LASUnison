@@ -3,7 +3,7 @@ title: Re-design for home page of website
 date: '2009-06-13'
 category: News
 readTime: 3
-excerpt: We have re-designed the home page again. Having listened to feedback from the recent change we have replaced and updated various features on the home page.
+description: We have re-designed the home page again. Having listened to feedback from the recent change we have replaced and updated various features on the home page.
 wpCategories:
   - Website News
 wpId: 68
@@ -26,6 +26,6 @@ We have also added a twitter feed allowing updates to the web site 'on the fly' 
 The whole page has been given a fresh new colour scheme which we hope you like.
 
 The site has been tested on Internet Explorer, Firefox and Chrome with no untoward problems. The only issue we did find was the newsletter sign up box. This should open downwards which it does in IE while Firefox and Chrome both displayed it to the right which shrinks the other elements. The box still functions though, so this was not seen as a major fault.
-If you do discover any problems with the site then please notify [webmaster@lasunison.co.uk](http://londonambulanceservice.infomailto:webmaster@lasunison.co.uk) as soon as possible with a brief description of the problem along with the browser and operating system you are using.
+If you do discover any problems with the site then please notify [webmaster@lasunison.com](mailto:webmaster@lasunison.com) as soon as possible with a brief description of the problem along with the browser and operating system you are using.
 
 © [by LAS UNISON](/).

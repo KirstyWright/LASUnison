@@ -4,7 +4,7 @@ date: '2019-01-21'
 category: News
 topic: Pay
 readTime: 3
-excerpt: The NHS Staff Council has finalised a package to support implementation of the new system for pay progression, in line with the provisions in the England Framework Agreement on pay…
+description: The NHS Staff Council has finalised a package to support implementation of the new system for pay progression, in line with the provisions in the England Framework Agreement on pay…
 tags:
   - agenda 4 change
   - pay

@@ -4,7 +4,7 @@ date: '2019-12-15'
 category: News
 topic: Wellbeing
 readTime: 2
-excerpt: 'The draw took place on Friday 13th December 2019 at our branch meeting. The winners are: Samantha Canning - Paramedic - Hanwell David Morphew - ECH - Bow EOC Andrew…'
+description: 'The draw took place on Friday 13th December 2019 at our branch meeting. The winners are: Samantha Canning - Paramedic - Hanwell David Morphew - ECH - Bow EOC Andrew…'
 tags:
   - benefits
   - branch
@@ -45,7 +45,7 @@ We have printed thousands of forms and sent them to every workplace and have dec
 
 **We have 4 prizes of £250 gift cards to be spent at Croyde Bay Resort in Devon.**
 
-[![](/images/2019/10/prize-draw-150x150.jpg)](/images/2019/10/prize-draw.jpg)It's really important we have your current details so please keep us updated. [You can also complete the form online](/update-your-details) or [Download a form by clicking here](/?mdocs-file=3475).
+[![](/images/2019/10/prize-draw-150x150.jpg)](/images/2019/10/prize-draw.jpg)It's really important we have your current details so please keep us updated. [You can also complete the form online](/update-your-details) or [Download a form by clicking here](/docs/mdocs/Update%20your%20details%202019.pdf).
 
 Not a member? - That's fine. Inside the update leaflet is an application form. Fill this in and you will also be entered in the prize draw.
 

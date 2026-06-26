@@ -9,8 +9,13 @@ if (!article.value) {
   throw createError({ statusCode: 404, statusMessage: 'Article not found', fatal: true })
 }
 
+// Only the scalar fields the related-articles cards (NewsCard) read — never the
+// body AST, which would bloat every article's static payload by ~MBs each.
 const { data: all } = await useAsyncData('news-all', () =>
-  queryCollection('news').order('date', 'DESC').all(),
+  queryCollection('news')
+    .order('date', 'DESC')
+    .select('path', 'title', 'date', 'category', 'topic', 'description', 'image', 'readTime', 'urgent')
+    .all(),
 )
 
 // Related: same topic first, then most recent, never the current article.
@@ -26,20 +31,51 @@ const meta = computed(() => newsCategoryMeta(article.value!.category, article.va
 const dateText = computed(() => formatNewsDate(article.value!.date))
 const readText = computed(() => readTimeLabel(article.value!.readTime))
 
-useHead({ title: () => `${article.value?.title} — LAS UNISON` })
-useSeoMeta({
-  description: () => article.value?.excerpt ?? '',
-  ogTitle: () => article.value?.title ?? '',
-  ogDescription: () => article.value?.excerpt ?? '',
-  ogType: 'article',
+const site = useSiteConfig()
+const absImage = computed(() =>
+  article.value?.image ? new URL(article.value.image, site.url).toString() : undefined,
+)
+
+useContentSeo({
+  title: () => article.value?.title,
+  description: () => article.value?.description,
+  seo: () => article.value?.seo,
+  image: () => article.value?.image,
+  type: 'article',
 })
+
+// Article publication metadata for social/news crawlers.
+useSeoMeta({
+  articlePublishedTime: () => article.value?.date,
+  articleAuthor: () => (article.value?.author ? [article.value.author] : undefined),
+})
+
+// NewsArticle + breadcrumb structured data. Wrapped in a function so the schema-org
+// defines receive resolved values (they don't resolve getter functions per-field).
+useSchemaOrg(() => [
+  defineArticle({
+    '@type': 'NewsArticle',
+    headline: article.value?.title,
+    description: article.value?.seo?.description || article.value?.description,
+    datePublished: article.value?.date,
+    image: absImage.value,
+    author: article.value?.author ? { name: article.value.author } : { name: 'LAS UNISON' },
+  }),
+  defineBreadcrumb({
+    itemListElement: [
+      { name: 'Home', item: '/' },
+      { name: 'News', item: '/news' },
+      { name: article.value?.title },
+    ],
+  }),
+])
 </script>
 
 <template>
   <div>
     <SiteHeader />
 
-    <main v-if="article">
+    <main v-if="article" id="main-content">
       <article>
         <!-- Masthead -->
         <header class="border-b border-[var(--border-subtle)] bg-[var(--surface-card)]">
@@ -95,7 +131,7 @@ useSeoMeta({
           <div class="las-container py-8 md:py-10">
             <img
               :src="article.image"
-              :alt="article.title"
+              alt=""
               loading="eager"
               fetchpriority="high"
               decoding="async"
@@ -121,15 +157,16 @@ useSeoMeta({
                   Action needed
                 </p>
                 <p class="text-[0.9375rem] leading-[1.55] text-[var(--text-body)] m-0">
-                  If you think you may be affected, check your payslips and contact your local UNISON rep —
-                  the sector contacts are listed below.
+                  If this affects you, contact your local UNISON rep or UNISON Direct without delay.
                 </p>
               </div>
             </div>
 
-            <div class="article-prose">
-              <ContentRenderer :value="article" />
-            </div>
+            <UiLightbox>
+              <div class="article-prose">
+                <ContentRenderer :value="article" />
+              </div>
+            </UiLightbox>
 
             <!-- Off-site source -->
             <a
@@ -169,11 +206,6 @@ useSeoMeta({
           </div>
         </div>
       </section>
-
-      <!-- Help first, fast -->
-      <div class="las-container py-[var(--section-y)]">
-        <UiEmergencyBar />
-      </div>
 
       <HomeJoin />
     </main>
@@ -234,6 +266,14 @@ useSeoMeta({
 }
 .article-prose :deep(a:hover) {
   color: var(--text-link-hover);
+}
+
+/* Heading deep-link anchors (added by @nuxt/content) must not inherit the link
+   colour/underline/weight — section heads stay Archivo-bold and ink-strong. */
+.article-prose :deep(:is(h2, h3) a) {
+  color: inherit;
+  text-decoration: none;
+  font-weight: inherit;
 }
 
 .article-prose :deep(ul),

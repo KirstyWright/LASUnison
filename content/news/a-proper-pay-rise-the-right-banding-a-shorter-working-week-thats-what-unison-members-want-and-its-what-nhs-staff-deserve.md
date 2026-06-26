@@ -4,7 +4,7 @@ date: '2024-02-15'
 category: News
 topic: Pay
 readTime: 3
-excerpt: Your next pay rise should be due on 1 April 2024 and if we don’t see action from the government in time, we must stand ready to respond.
+description: Your next pay rise should be due on 1 April 2024 and if we don’t see action from the government in time, we must stand ready to respond.
 tags:
   - government
   - nhs
@@ -51,4 +51,4 @@ Let’s start the conversation now!
 
 Talk to your colleagues about your pay and conditions, and encourage them along to any meetings your branch is holding. Whether it’s sharing leaflets, signing petitions, speaking to the public or explaining UNISON’s position to staff who haven’t joined yet, your union is only as strong as its members. There’ll be lots of campaign activity happening over the next few months so please keep an eye out and get involved as much as you can!
 
-Click [**here**](https://www.unison.org.uk/content/uploads/2024/02/237_NHS_pay_position_Feb24_England.pdf) to read more about the pay position.
+Click [**here**](https://www.unison.org.uk/content/uploads/2024/02/237_NHS_pay_position_Feb24_England.pdf) [Link no longer available]{.link-unavailable} to read more about the pay position.

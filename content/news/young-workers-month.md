@@ -3,7 +3,7 @@ title: Young Workers Month
 date: '2016-11-01'
 category: News
 readTime: 2
-excerpt: November is young workers’ month! We will be aiming to raise the profile of young workers and young UNISON members by recruiting and organising them to help us win better…
+description: November is young workers’ month! We will be aiming to raise the profile of young workers and young UNISON members by recruiting and organising them to help us win better…
 tags:
   - survey
   - unison
@@ -36,4 +36,4 @@ You can complete our survey anonymously if you wish. There is an option to provi
 
 However, UNISON would like to stress that if you are a UNISON member there is advice and support available,  information is given at the end of the survey about getting assistance.
 
-More information on young workers month is available on the main UNISON website at [https://www.unison.org.uk/our-campaigns/young-workers-month/](https://www.unison.org.uk/our-campaigns/young-workers-month/)
+More information on young workers month is available on the main UNISON website at [https://www.unison.org.uk/our-campaigns/young-workers-month/](https://www.unison.org.uk/our-campaigns/young-workers-month/) [Link no longer available]{.link-unavailable}

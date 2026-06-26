@@ -3,7 +3,7 @@ title: NHS Trade Unions’ Blueprint for Return
 date: '2020-05-15'
 category: News
 readTime: 3
-excerpt: As we enter what could be the start of a gradual easing of lockdown restrictions, discussion has turned to how the NHS restarts those services that were stepped down during…
+description: As we enter what could be the start of a gradual easing of lockdown restrictions, discussion has turned to how the NHS restarts those services that were stepped down during…
 tags:
   - afc
   - communications
@@ -48,4 +48,4 @@ Keeping staff and patients safe and ensuring that the NHS is properly resourced 
 
 ![](/images/2020/05/JTU-Logo.gif)
 
-**[Click here to download this as a poster for your workplace](/?mdocs-file=4904)**
+**[Click here to download this as a poster for your workplace](/docs/mdocs/Blueprint%20%281%29.pdf)**

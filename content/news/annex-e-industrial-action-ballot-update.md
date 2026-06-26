@@ -4,7 +4,7 @@ date: '2013-11-07'
 category: News
 topic: Pay
 readTime: 1
-excerpt: The Industrial Action Ballot due this week has been postponed to allow more talks between the Union and the National Ambulance Employers. More information will be available next week.
+description: The Industrial Action Ballot due this week has been postponed to allow more talks between the Union and the National Ambulance Employers. More information will be available next week.
 tags:
   - afc
   - ballot

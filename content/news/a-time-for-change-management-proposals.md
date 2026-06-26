@@ -3,7 +3,7 @@ title: A Time For Change - Management Proposals
 date: '2013-04-26'
 category: News
 readTime: 1
-excerpt: Listed below is the management document titled 'A Time For Change' along with 3 of the draft policies.
+description: Listed below is the management document titled 'A Time For Change' along with 3 of the draft policies.
 tags:
   - a time for change
   - las

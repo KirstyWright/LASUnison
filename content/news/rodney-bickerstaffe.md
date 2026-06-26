@@ -3,7 +3,7 @@ title: Rodney Bickerstaffe
 date: '2017-10-03'
 category: News
 readTime: 3
-excerpt: Rodney Bickerstaffe A personal message from Dave Prentis Sadly, Rodney Bickerstaffe – former General Secretary of both UNISON and NUPE – died today, Tuesday 3 October 2017.
+description: Rodney Bickerstaffe A personal message from Dave Prentis Sadly, Rodney Bickerstaffe – former General Secretary of both UNISON and NUPE – died today, Tuesday 3 October 2017.
 tags:
   - general secretary
   - unison
@@ -40,6 +40,6 @@ Rodney was the very best of us, a true giant of our movement and we will all mis
 Donations to commemorate Rodney can be made to two charities he held particularly dear:
 
 - Marie Curie, which provides care and support through terminal illness, at [mariecurie.org.uk/donate](http://www.mariecurie.org.uk/donate);
-- The International Brigade Memorial Trust at [international-brigades.org.uk/product/donations-ibmt](http://www.international-brigades.org.uk/product/donations-ibmt).
+- The International Brigade Memorial Trust at [international-brigades.org.uk/product/donations-ibmt](http://www.international-brigades.org.uk/product/donations-ibmt) [Link no longer available]{.link-unavailable}.
 
-[Embedded media](https://storify.com/LASUNISON/rodney-bickerstaffe/embed?border=false)
+[Embedded media](https://storify.com/LASUNISON/rodney-bickerstaffe/embed?border=false) [Link no longer available]{.link-unavailable}

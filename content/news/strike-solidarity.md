@@ -4,7 +4,7 @@ date: '2023-01-06'
 category: News
 topic: Pay
 readTime: 5
-excerpt: NHS staff are striking for the future of the NHS and its patients as much as they are for themselves - decent pay is essential to prevent more staff leaving…
+description: NHS staff are striking for the future of the NHS and its patients as much as they are for themselves - decent pay is essential to prevent more staff leaving…
 tags:
   - afc
   - government
@@ -99,11 +99,11 @@ UNISON members without a mandate for strike action are encouraged to support the
 
 Solidarity with industrial action by other unions in the NHS
 
-[**Order a UNISON placard**](https://shop.unison.site/product/put-nhs-pay-right-a2-placard/)
+[**Order a UNISON placard**](https://shop.unison.site/product/put-nhs-pay-right-a2-placard/) [Link no longer available]{.link-unavailable}
 
 **[Download social media graphics](https://medialibrary.unison.org.uk/pages/search.php?k=4f0e1b4832&search=%21collection499)**
 
-**[Order solidarity stickers](https://shop.unison.site/product/nhs-pay-i-back-the-strikes-stickers/)**
+**[Order solidarity stickers](https://shop.unison.site/product/nhs-pay-i-back-the-strikes-stickers/) [Link no longer available]{.link-unavailable}**
 
 **Employer behaviour**
 
@@ -111,7 +111,7 @@ UNISON branches will be advising employers/managers in advance that UNISON membe
 
 **Keeping our members safe**
 
-It is important to provide solidarity with other unions while protecting yourself at work. You can assure those picketing that you will not undertake work that those on strike would normally have carried out – and you can **[wear our sticker](https://shop.unison.site/product/nhs-pay-i-back-the-strikes-stickers/)** to demonstrate this.
+It is important to provide solidarity with other unions while protecting yourself at work. You can assure those picketing that you will not undertake work that those on strike would normally have carried out – and you can **[wear our sticker](https://shop.unison.site/product/nhs-pay-i-back-the-strikes-stickers/) [Link no longer available]{.link-unavailable}** to demonstrate this.
 
 UNISON balloted our members separately to other unions and so UNISON members should not take part in any industrial action organised by the other unions. If you do make an individual decision to refuse to work or cross picket lines when your colleagues from other unions are taking action you may find yourself at risk of dismissal. However, UNISON members are free to support legal protests and rallies that take place outside their contracted hours of work.
 

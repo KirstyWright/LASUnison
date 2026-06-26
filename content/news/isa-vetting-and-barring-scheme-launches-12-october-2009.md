@@ -3,7 +3,7 @@ title: ISA VETTING AND BARRING SCHEME LAUNCHES  12 OCTOBER 2009
 date: '2009-09-08'
 category: News
 readTime: 4
-excerpt: The Independent Safeguarding Authority (ISA) is a non-departmental public body, sponsored by the Home Office.
+description: The Independent Safeguarding Authority (ISA) is a non-departmental public body, sponsored by the Home Office.
 wpCategories:
   - Other
 wpId: 61
@@ -44,7 +44,7 @@ It is very unlikely that information revealed in an Enhanced CRB check will have
 In the lead up to November 2010, UNISON will continue to actively lobby government, MPs, the Home Office and the ISA and campaign strongly to address a number of serious concerns on behalf of members, including the cost to the individual of registering with the ISA, the ‘doubling-up’ of regulation for those already on a professional register and the right to a fair hearing.
 
 UNISON guidance on the ISA Vetting and Barring Scheme is available at:
-[www.unison.org.uk/professionalservices/isa](http://www.unison.org.uk/professionalservices/isa)
+[www.unison.org.uk/professionalservices/isa](http://www.unison.org.uk/professionalservices/isa) [Link no longer available]{.link-unavailable}
 
 Further information is available from the ISA website at: www.isa-gov.org.uk
 

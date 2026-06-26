@@ -16,6 +16,7 @@ const props = withDefaults(
 
 const initials = computed(() =>
   props.name
+    .replace(/\([^)]*\)/g, ' ')
     .split(/\s+/)
     .map(n => n[0])
     .filter(Boolean)
@@ -38,7 +39,7 @@ const fallbackBg = computed(() =>
 
 <template>
   <article
-    class="group/card flex flex-col bg-[var(--surface-card)] border border-[var(--border-subtle)] rounded-[var(--radius-lg)] overflow-hidden shadow-[var(--shadow-sm)] transition-[box-shadow,transform,border-color] duration-200 ease-out hover:shadow-[var(--shadow-md)] hover:-translate-y-0.5 hover:border-[var(--border-default)]"
+    class="group/card flex flex-col bg-[var(--surface-card)] border border-[var(--border-subtle)] rounded-[var(--radius-lg)] overflow-hidden shadow-[var(--shadow-sm)] transition-[box-shadow,transform,border-color] duration-200 ease-out hover:shadow-[var(--shadow-lg)] hover:-translate-y-[3px] hover:border-[var(--border-default)]"
   >
     <!-- Portrait -->
     <div class="relative aspect-[4/5] overflow-hidden bg-[var(--surface-sunken)]">
@@ -50,7 +51,7 @@ const fallbackBg = computed(() =>
         height="700"
         loading="lazy"
         decoding="async"
-        class="w-full h-full object-cover object-[center_top] transition-transform duration-500 ease-out group-hover/card:scale-[1.03]"
+        class="w-full h-full object-cover object-[center_top] transition-transform duration-150 ease-out group-hover/card:scale-[1.03]"
       >
       <div
         v-else
@@ -105,7 +106,7 @@ const fallbackBg = computed(() =>
           class="flex items-center gap-2 no-underline text-[0.8125rem] text-[var(--text-body)] hover:text-[var(--brand-primary)] group/link min-w-0"
         >
           <UiIcon name="mail" :size="14" :stroke="2" class="text-[var(--text-subtle)] flex-none group-hover/link:text-[var(--brand-primary)]" />
-          <span class="truncate">{{ email }}</span>
+          <span class="truncate" :title="email">{{ email }}</span>
         </a>
       </div>
     </div>

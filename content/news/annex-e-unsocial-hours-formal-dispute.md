@@ -4,7 +4,7 @@ date: '2013-09-01'
 category: News
 topic: Pay
 readTime: 1
-excerpt: On the 1 September the LAS along with other ambulance services across the country advised they would now be deducting unsocial hours payments from staff who were off sick unless…
+description: On the 1 September the LAS along with other ambulance services across the country advised they would now be deducting unsocial hours payments from staff who were off sick unless…
 tags:
   - afc
   - ballot
@@ -24,7 +24,7 @@ On the 1 September the LAS along with other ambulance services across the countr
 
 Please see below correspondence relating to this matter along with the service HR bulletin.
 
-UNISON have lodged a formal dispute in this matter and are taking legal advice on challenging this decision. We will keep you updated on developments on this site and through our e-mail list. [Sign up today](/about/mailinglist.htm).
+UNISON have lodged a formal dispute in this matter and are taking legal advice on challenging this decision. We will keep you updated on developments on this site and through our e-mail list.
 
 [Annex E Letter to Tony Crabtree](/docs/2013/09/Annex-E-Letter-to-Tony-Crabtree.pdf) sent on 28 Aug
 

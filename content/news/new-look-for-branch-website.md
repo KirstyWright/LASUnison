@@ -3,7 +3,7 @@ title: New Look for Branch Website
 date: '2013-08-01'
 category: News
 readTime: 5
-excerpt: The London Ambulance UNISON Branch is pleased to launch a brand new look for our website.
+description: The London Ambulance UNISON Branch is pleased to launch a brand new look for our website.
 tags:
   - unison
   - website
@@ -81,7 +81,7 @@ The campaigns dropdown is simply a list of current cmpaigns while next along is 
 
 The last section is 'Social Media' which is a new section we have added to contain all the social media links and UNISON TV. We have placed this here as it cannot be viewed on a service computer and alters the format of the page.
 
-We hope these changes will enhance your experience at [www.lasunison.co.uk](/) making it easier to find what you are looking for and improve usability on alternative devices such as tablets. Don't forget if you are browsing on your mobile phone we have our own pho[![](/images/2012/09/d32438bd-71e7-476e-8be7-affebf83c0bd.png)](/images/2012/09/d32438bd-71e7-476e-8be7-affebf83c0bd.png)ne app. This is different from the website but allows you to read all the latest news & tweets. Why not take a look now. Point your phone at this QR code or go to [http://lasunison.mobapp.at/](http://lasunison.mobapp.at/)
+We hope these changes will enhance your experience at [www.lasunison.com](/) making it easier to find what you are looking for and improve usability on alternative devices such as tablets. Don't forget if you are browsing on your mobile phone we have our own pho[![](/images/2012/09/d32438bd-71e7-476e-8be7-affebf83c0bd.png)](/images/2012/09/d32438bd-71e7-476e-8be7-affebf83c0bd.png)ne app. This is different from the website but allows you to read all the latest news & tweets. Why not take a look now. Point your phone at this QR code or go to [http://lasunison.mobapp.at/](http://lasunison.mobapp.at/) [Link no longer available]{.link-unavailable}
 
 **What is My UNISON?**
 
@@ -89,7 +89,7 @@ You may have noticed a new link at the top of each page that takes you to 'My UN
 
 This feature enables you to update your own details online. So if you change your address you can just login and change it yourself. Additionally, UNISON have just launched a brand new website with many parts of it restricted to members only.
 
-If you have any comments on the new home page or menu or thoughts on how to improve the site further perhaps by adding new features then please get in touch via our [Contact page](/about/contact.htm).
+If you have any comments on the new home page or menu or thoughts on how to improve the site further perhaps by adding new features then please get in touch via our [branch officers](/branch).
 
 Finally, if you notice any pages do not appear to be loading correctly then please press the F5 button to refresh the webpage. If this still doesn't work then try clearing your cache. On Internet Explorer Click “Safety” and select "Delete Browsing History"
 Check "Temporary Internet Files" and "History"

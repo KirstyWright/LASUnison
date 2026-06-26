@@ -3,7 +3,7 @@ title: Eric Roberts re-elected to NEC
 date: '2011-06-07'
 category: News
 readTime: 1
-excerpt: Eric Roberts has been re-elected to the National Executive Council (NEC) and will take office immediately following the end of the National Delegate Conference 2011.
+description: Eric Roberts has been re-elected to the National Executive Council (NEC) and will take office immediately following the end of the National Delegate Conference 2011.
 wpCategories:
   - Branch News
   - UNISON News

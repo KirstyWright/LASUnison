@@ -3,7 +3,7 @@ title: Dear UNISON colleagues,
 date: '2011-12-02'
 category: News
 readTime: 2
-excerpt: On behalf of London Ambulance UNISON I would like to thank all our members for the support shown during the 30th November 2011 Day of Action in defence of our…
+description: On behalf of London Ambulance UNISON I would like to thank all our members for the support shown during the 30th November 2011 Day of Action in defence of our…
 tags:
   - pension
   - pensions
@@ -31,14 +31,14 @@ Thank you
 
 Eric
 
-[Letter from Branch Secretary](/upload/pensions2011/30%20Nov%20day%20of%20action.pdf)
+Letter from Branch Secretary
 
- [Joint agreement between LAS, UNISON & GMB](/upload/pensions2011/Joint%20Unison%20and%20GMB%20agreement_28%20Nov%2011_final.pdf)
+ Joint agreement between LAS, UNISON & GMB
 
- [Essential Guide for Pickets](/upload/pensions2011/Essential%20Guide%20for%20Picketes.pdf)
+ Essential Guide for Pickets
 
-[Adverts regarding the 30 Nov Strike](/upload/pensions2011/UNISON%2030%20Nov%20ads.pdf)
+Adverts regarding the 30 Nov Strike
 
- [Protocol for Industrial Action](/upload/pensions2011/Protocol%20for%20IA%2030%20Nov%202011.pdf)
+ Protocol for Industrial Action
 
-[Pensions Dispute FAQ's](/upload/pensions2011/Pensions%20Dispute%20FAQ's.pdf)
+Pensions Dispute FAQ's

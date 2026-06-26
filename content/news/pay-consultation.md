@@ -4,7 +4,7 @@ date: '2017-05-17'
 category: News
 topic: Pay
 readTime: 1
-excerpt: The SGE’s Agenda for Change group has considered the results of the pay consultation. Across the UK, most branches and regions responding were in favour of Option A – the…
+description: The SGE’s Agenda for Change group has considered the results of the pay consultation. Across the UK, most branches and regions responding were in favour of Option A – the…
 tags:
   - afc
   - ballot
@@ -34,4 +34,4 @@ Given the results, UNISON will be working with regions and branches to pursue th
 
 This campaign will be focussed on improving members’ earnings and building support to break the government’s pay cap in the NHS. We will be producing information and campaign materials for branches.
 
-[Read the Outcome of the UNISON branch consultation in full](/?mdocs-file=2763)
+[Read the Outcome of the UNISON branch consultation in full](/docs/mdocs/HC-047-17%20NHS%20Pay%20consultation%20-%20attachment.pdf)

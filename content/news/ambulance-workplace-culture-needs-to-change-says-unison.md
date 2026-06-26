@@ -4,7 +4,7 @@ date: '2024-02-20'
 category: News
 topic: Safety
 readTime: 2
-excerpt: 'Commenting on the findings of the independent review of the culture in ambulance services published on February 15th, UNISON acting head of health Helga Pile said: “All too often ambulance…'
+description: 'Commenting on the findings of the independent review of the culture in ambulance services published on February 15th, UNISON acting head of health Helga Pile said: “All too often ambulance…'
 tags:
   - ambulance
   - unison

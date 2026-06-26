@@ -3,7 +3,7 @@ title: Your branch - working for you
 date: '2023-09-27'
 category: News
 readTime: 1
-excerpt: At the LAS Branch committee meeting this week, we heard how LAS UNISON has now obtained in excess of £4million compensation for our members.
+description: At the LAS Branch committee meeting this week, we heard how LAS UNISON has now obtained in excess of £4million compensation for our members.
 tags:
   - a&e support
   - benefits

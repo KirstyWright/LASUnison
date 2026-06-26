@@ -4,7 +4,7 @@ date: '2014-04-12'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Dear UNISON healthcare member Since Jeremy Hunt’s announcement last month that he plans to ignore the NHS Pay Review Body and give you no pay increase for the next two…
+description: Dear UNISON healthcare member Since Jeremy Hunt’s announcement last month that he plans to ignore the NHS Pay Review Body and give you no pay increase for the next two…
 tags:
   - afc
   - pay

@@ -3,7 +3,7 @@ title: HARD FOUGHT UNISON CAMPAIGN AGAINST NEEDLESTICK AGONY WINS THROUGH
 date: '2009-06-09'
 category: News
 readTime: 2
-excerpt: UNISON’s long running campaign to introduce safer needles and prevent sharps injuries in the NHS paid dividends today (9 June), with the announcement of strict European Union guidelines to protect…
+description: UNISON’s long running campaign to introduce safer needles and prevent sharps injuries in the NHS paid dividends today (9 June), with the announcement of strict European Union guidelines to protect…
 wpCategories:
   - UNISON News
 wpId: 70

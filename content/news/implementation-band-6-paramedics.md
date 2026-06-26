@@ -4,7 +4,7 @@ date: '2017-03-06'
 category: News
 topic: Pay
 readTime: 2
-excerpt: A Joint Partnership Working bulletin was published today detailing how Band 6 will be implemented for Paramedics in the LAS.
+description: A Joint Partnership Working bulletin was published today detailing how Band 6 will be implemented for Paramedics in the LAS.
 tags:
   - afc
   - las
@@ -29,7 +29,7 @@ All qualifying band 5 paramedics\* will assimilate to the recently agreed job de
 
 Variations to pay will commence in paramedics’ pay in March 2017, back dated to 31 December 2016 with any arrears payable (where applicable).
 
-If you have any queries or concerns, your questions may be answered in the frequently asked questions found on the pulse (internal/[external](https://thepulseweb.londonambulance.nhs.uk/about-me/agenda-for-change/paramedic-band-6-national-agreement/)), alternatively you can raise these with your local union representative or line manager.
+If you have any queries or concerns, your questions may be answered in the frequently asked questions found on the pulse (internal/[external](https://thepulseweb.londonambulance.nhs.uk/about-me/agenda-for-change/paramedic-band-6-national-agreement/) [Link no longer available]{.link-unavailable}), alternatively you can raise these with your local union representative or line manager.
 
 Managers and Staff Side are committed to working together in partnership to implement the national band 6 agreement, including the implementation of a Newly Qualified Paramedic band 5 role.
 

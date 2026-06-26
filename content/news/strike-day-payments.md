@@ -4,7 +4,7 @@ date: '2023-04-27'
 category: News
 topic: Pay
 readTime: 2
-excerpt: As you will know, pay for strike action will start to be deducted from payroll over the coming months.
+description: As you will know, pay for strike action will start to be deducted from payroll over the coming months.
 tags:
   - ambulance
   - pay

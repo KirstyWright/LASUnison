@@ -4,7 +4,7 @@ date: '2020-03-25'
 category: News
 topic: Safety
 readTime: 2
-excerpt: Good afternoon Khadir, I hope this message finds you well? I am writing on behalf of LAS UNISON with regards to the ongoing concerns from our members about the LAS…
+description: Good afternoon Khadir, I hope this message finds you well? I am writing on behalf of LAS UNISON with regards to the ongoing concerns from our members about the LAS…
 tags:
   - branch secretary
   - covid 19

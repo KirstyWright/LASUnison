@@ -3,7 +3,7 @@ title: 'Get ready for action: update your details online'
 date: '2011-06-08'
 category: News
 readTime: 1
-excerpt: UNISON has launched a new online service to allow you to check your membership details are correct and to update them if necessary.
+description: UNISON has launched a new online service to allow you to check your membership details are correct and to update them if necessary.
 wpCategories:
   - Branch News
   - UNISON News

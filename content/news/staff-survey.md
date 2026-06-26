@@ -3,7 +3,7 @@ title: Staff Survey
 date: '2014-02-27'
 category: News
 readTime: 1
-excerpt: The National NHS staff survey has been published. This report presents the findings of the 2013 national NHS staff survey conducted in London Ambulance Service NHS Trust.
+description: The National NHS staff survey has been published. This report presents the findings of the 2013 national NHS staff survey conducted in London Ambulance Service NHS Trust.
 wpCategories:
   - LAS News
 wpId: 870

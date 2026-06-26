@@ -4,7 +4,7 @@ date: '2011-03-16'
 category: News
 topic: Pensions
 readTime: 2
-excerpt: The long awaited report by Lord Hutton on public service pension schemes was published on Thursday March 10th.
+description: The long awaited report by Lord Hutton on public service pension schemes was published on Thursday March 10th.
 wpCategories:
   - Pensions
   - UNISON News
@@ -46,6 +46,6 @@ Rally in Hyde Park in LondonRoute is flat and ok for wheelchairs.
 
 Make sure everyone joins the TUC march to defend public services, jobs and pensions
 
-http://www.unison.org.uk/26march
+http://www.unison.org.uk/26march [Link no longer available]{.link-unavailable}
 
 On

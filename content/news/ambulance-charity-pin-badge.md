@@ -4,7 +4,7 @@ date: '2020-06-12'
 category: News
 topic: Wellbeing
 readTime: 1
-excerpt: The London Ambulance UNISON Branch are proud to support the sale of an Ambulance Service pin badge to remember those ambulance staff past and present that have fallen.
+description: The London Ambulance UNISON Branch are proud to support the sale of an Ambulance Service pin badge to remember those ambulance staff past and present that have fallen.
 tags:
   - ambulance
   - branch

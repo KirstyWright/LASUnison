@@ -4,7 +4,7 @@ date: '2023-02-09'
 category: News
 topic: Pay
 readTime: 11
-excerpt: The next Strike Action for our Branch will take place tomorrow, Friday 10th February from 1100 to 2300.
+description: The next Strike Action for our Branch will take place tomorrow, Friday 10th February from 1100 to 2300.
 tags:
   - afc
   - branch

@@ -3,7 +3,7 @@ title: Rest Break Policy - End of Shift Arrangements
 date: '2018-02-16'
 category: News
 readTime: 2
-excerpt: As you are well aware the LAS bulletin on the 18 th December 2017 announced the new rest break policy.
+description: As you are well aware the LAS bulletin on the 18 th December 2017 announced the new rest break policy.
 tags:
   - branch
   - consultation
@@ -38,8 +38,8 @@ If you have any questions please contact the Senior Sector Trade Union rep for y
 
 From the initial discussion we are confident we can achieve a considerable reduction in the impact of late finishes after having a rest break during a shift.
 
-[Download this as a bulletin to display in your workplace](/?mdocs-file=3054)
+[Download this as a bulletin to display in your workplace](/docs/mdocs/BC%20-%2016%20Feb%2018.pdf)
 
 ---
 
-Related - [https://lasunison.co.uk/proposed-new-rest-break-policy](/proposed-new-rest-break-policy)
+Related - [Proposed new rest break policy](/news/proposed-new-rest-break-policy)

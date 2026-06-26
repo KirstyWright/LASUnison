@@ -3,7 +3,7 @@ title: Annual General Meeting 2025
 date: '2024-12-23'
 category: News
 readTime: 1
-excerpt: This year's AGM will be held at UNISON Centre, 130 Euston Road, London, NW1 2AY. It starts at 6pm on Wednesday 19th and there will be a buffet provided afterwards…
+description: This year's AGM will be held at UNISON Centre, 130 Euston Road, London, NW1 2AY. It starts at 6pm on Wednesday 19th and there will be a buffet provided afterwards…
 tags:
   - agm
   - election

@@ -14,7 +14,13 @@ import {
 } from '~/utils/search'
 
 const { isOpen, open, close } = useSiteSearch()
+const { search: searchSite, ensureLoaded } = useSiteSearchEngine()
 const router = useRouter()
+
+// Resolve the real component — binding :is to the string 'NuxtLink' renders an
+// (inert) <nuxtlink> element that never navigates, so result rows only worked
+// via the keyboard (which calls navigateTo directly).
+const NuxtLink = resolveComponent('NuxtLink')
 
 const query = ref('')
 const results = ref<SearchResponse>(EMPTY_RESULTS)
@@ -103,7 +109,7 @@ watch(query, () => {
 async function runSearch(q: string) {
   const mine = ++token
   try {
-    const data = await $fetch<SearchResponse>('/api/search', { query: { q } })
+    const data = await searchSite(q)
     if (mine !== token) return // a newer keystroke won
     results.value = data
   } catch {
@@ -188,6 +194,8 @@ function onPanelKeydown(e: KeyboardEvent) {
 watch(isOpen, (val) => {
   if (val) {
     document.body.style.overflow = 'hidden'
+    // Warm the in-browser index now so the first keystroke ranks instantly.
+    ensureLoaded()
     nextTick(() => {
       inputEl.value?.focus()
       inputEl.value?.select()
@@ -261,7 +269,7 @@ onBeforeUnmount(() => {
                   v-model="query"
                   type="text"
                   role="combobox"
-                  aria-expanded="true"
+                  :aria-expanded="items.length > 0 ? 'true' : 'false'"
                   aria-controls="site-search-list"
                   :aria-activedescendant="activeIndex >= 0 ? `site-search-opt-${activeIndex}` : undefined"
                   autocomplete="off"
@@ -282,7 +290,7 @@ onBeforeUnmount(() => {
                 <button
                   type="button"
                   aria-label="Close search"
-                  class="flex-none inline-flex items-center justify-center w-8 h-8 rounded-[var(--radius-md)] border-none bg-[var(--surface-sunken)] text-[var(--text-muted)] cursor-pointer hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
+                  class="flex-none inline-flex items-center justify-center w-11 h-11 rounded-[var(--radius-md)] border-none bg-[var(--surface-sunken)] text-[var(--text-muted)] cursor-pointer hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
                   @click="close"
                 >
                   <UiIcon name="x" :size="18" :stroke="2.2" />
@@ -345,7 +353,7 @@ onBeforeUnmount(() => {
                       </h2>
 
                       <component
-                        :is="item.to ? 'NuxtLink' : 'a'"
+                        :is="item.to ? NuxtLink : 'a'"
                         v-for="item in groupItems(g.key)"
                         :id="`site-search-opt-${item.index}`"
                         :key="item.to || item.href"
@@ -385,7 +393,7 @@ onBeforeUnmount(() => {
                   <div v-if="showSeeAll" class="px-5 pt-2 pb-1">
                     <button
                       type="button"
-                      class="w-full inline-flex items-center justify-center gap-2 h-10 rounded-[var(--radius-md)] border border-[var(--border-default)] bg-[var(--surface-card)] text-[0.875rem] font-bold text-[var(--brand-primary)] cursor-pointer hover:bg-[var(--brand-primary-soft)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
+                      class="w-full inline-flex items-center justify-center gap-2 h-11 rounded-[var(--radius-md)] border border-[var(--border-default)] bg-[var(--surface-card)] text-[0.875rem] font-bold text-[var(--brand-primary)] cursor-pointer hover:bg-[var(--brand-primary-soft)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
                       @click="seeAll"
                     >
                       See all {{ results.total }} results

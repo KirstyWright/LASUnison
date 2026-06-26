@@ -16,4 +16,4 @@ We have set this page up to give you information and advice on who to contact wi
 
 If there is anything you feel should be on this page then please let us know.
 
-We have provided links to some of the private ambulance companies with UNISON members. If yours is not listed then please let us know and we will make sure we add it. You can let us know via the [contact form](/about-us/contact-us).
+We have provided links to some of the private ambulance companies with UNISON members. If yours is not listed then please let us know and we will make sure we add it. You can let us know by [contacting the branch](/branch).

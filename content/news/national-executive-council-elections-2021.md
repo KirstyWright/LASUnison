@@ -3,7 +3,7 @@ title: National Executive Council elections 2021
 date: '2021-04-29'
 category: News
 readTime: 4
-excerpt: https://youtu.be/0m_aivSWlbQ On this page you can find out everything you need to know about the vote to elect UNISON’s new National Executive Council (NEC).
+description: https://youtu.be/0m_aivSWlbQ On this page you can find out everything you need to know about the vote to elect UNISON’s new National Executive Council (NEC).
 tags:
   - ballot
   - branch secretary
@@ -33,15 +33,15 @@ The ballot opens on 4 May 2021 and runs until 27 May 2021. The results will be a
 
 The union’s NEC, at a meeting on 10 December 2020, agreed a timetable for the election.
 
-**[Full details and procedures are available: NEC election – Procedures](https://www.unison.org.uk/content/uploads/2020/12/NEC-2021-Election-procedures.pdf)**
+**[Full details and procedures are available: NEC election – Procedures](https://www.unison.org.uk/content/uploads/2020/12/NEC-2021-Election-procedures.pdf) [Link no longer available]{.link-unavailable}**
 
 **Contested seats**
 
-The list of candidates in contested seats is available to **[download here](https://www.unison.org.uk/content/uploads/2021/04/NEC-2021-Contests.pdf).**
+The list of candidates in contested seats is available to **[download here](https://www.unison.org.uk/content/uploads/2021/04/NEC-2021-Contests.pdf) [Link no longer available]{.link-unavailable}.**
 
 **Unopposed seats**
 
-The list of candidates in unopposed seats is available to **[download here](https://www.unison.org.uk/content/uploads/2021/04/NEC-2021-Uncontested-Seats.pdf)**.
+The list of candidates in unopposed seats is available to **[download here](https://www.unison.org.uk/content/uploads/2021/04/NEC-2021-Uncontested-Seats.pdf) [Link no longer available]{.link-unavailable}**.
 
 **NB unopposed candidates are not confirmed until the election results have been declared by the Returning Officer on 11 June 2021.**
 

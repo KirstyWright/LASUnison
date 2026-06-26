@@ -3,7 +3,7 @@ title: ANNUAL GENERAL MEETING - UPDATE
 date: '2023-03-07'
 category: News
 readTime: 2
-excerpt: Due to the planned ASLEF and RMT industrial action affecting the London Underground on the 15th, we have extended the AGM meeting to be held both in person if members…
+description: Due to the planned ASLEF and RMT industrial action affecting the London Underground on the 15th, we have extended the AGM meeting to be held both in person if members…
 tags:
   - agm
   - ambulance

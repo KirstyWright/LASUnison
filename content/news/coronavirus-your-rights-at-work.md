@@ -3,7 +3,7 @@ title: 'Coronavirus: your rights at work'
 date: '2022-01-26'
 category: News
 readTime: 21
-excerpt: Since the beginning of the pandemic, we’ve been fighting to protect UNISON members who are at the forefront of the COVID-19 response.
+description: Since the beginning of the pandemic, we’ve been fighting to protect UNISON members who are at the forefront of the COVID-19 response.
 tags:
   - covid 19
   - government
@@ -34,43 +34,43 @@ Details of the latest advice from all 4 nations can be found here:
 For sector-specific advice see:
 
 - [**Education workers**](https://www.unison.org.uk/at-work/education-services/)
-- **[Healthcare workers](https://www.unison.org.uk/at-work/health-care/big-issues/covid-19-advice-health-workers/)**
-- **[Social care workers](https://www.unison.org.uk/care-workers-your-rights/coronavirus-advice-social-care-workers/)**
-- **[Local government workers](https://www.unison.org.uk/at-work/local-government/coronavirus-guidance-local-government-workers/)**
-- **[Police staff](https://www.unison.org.uk/at-work/police-and-justice-staff/key-issues/coronavirus-guidance-police-staff/)**
-- **[Energy workers](https://www.unison.org.uk/at-work/energy/covid-19-advice-energy-workers/)**
-- **[Water Environment and Transport workers](https://www.unison.org.uk/advice-workers-water-environment-transport-w-e-t-sectors-covid-19/)**
+- **[Healthcare workers](https://www.unison.org.uk/at-work/health-care/big-issues/covid-19-advice-health-workers/) [Link no longer available]{.link-unavailable}**
+- **[Social care workers](https://www.unison.org.uk/care-workers-your-rights/coronavirus-advice-social-care-workers/) [Link no longer available]{.link-unavailable}**
+- **[Local government workers](https://www.unison.org.uk/at-work/local-government/coronavirus-guidance-local-government-workers/) [Link no longer available]{.link-unavailable}**
+- **[Police staff](https://www.unison.org.uk/at-work/police-and-justice-staff/key-issues/coronavirus-guidance-police-staff/) [Link no longer available]{.link-unavailable}**
+- **[Energy workers](https://www.unison.org.uk/at-work/energy/covid-19-advice-energy-workers/) [Link no longer available]{.link-unavailable}**
+- **[Water Environment and Transport workers](https://www.unison.org.uk/advice-workers-water-environment-transport-w-e-t-sectors-covid-19/) [Link no longer available]{.link-unavailable}**
 
-**[Advice for our UNISON reps including model policies on COVID-19, homeworking and more.](https://www.unison.org.uk/coronavirus-rights-work/covid-19-advice-reps/)**
+**[Advice for our UNISON reps including model policies on COVID-19, homeworking and more.](https://www.unison.org.uk/coronavirus-rights-work/covid-19-advice-reps/) [Link no longer available]{.link-unavailable}**
 
-- **[If you think you or someone you live with has coronavirus](https://www.unison.org.uk/coronavirus-rights-work/#heading-1)**
-- **[What should my employer do if any staff test positive for COVID-19?](https://www.unison.org.uk/coronavirus-rights-work/#heading-2)**
-- **[If I have to self-isolate, will I be paid?](https://www.unison.org.uk/coronavirus-rights-work/#heading-3)**
-- **[Do I need to have the COVID-19 vaccine?](https://www.unison.org.uk/coronavirus-rights-work/#heading-4)**
-- **[Is my employer allowed to ask and record whether I’ve had the vaccine?](https://www.unison.org.uk/coronavirus-rights-work/#heading-5)**
-- **[How can I get tested for COVID-19?](https://www.unison.org.uk/coronavirus-rights-work/#heading-6)**
-- **[If you are disabled, over 70 or have an underlying health condition or were previously told to shield](https://www.unison.org.uk/coronavirus-rights-work/#heading-7)**
-- **[Should I be working from home?](https://www.unison.org.uk/coronavirus-rights-work/#heading-8)**
-- **[What if I have to go to my regular workplace?](https://www.unison.org.uk/coronavirus-rights-work/#heading-9)**
-- **[What if I don’t feel my workplace is safe?](https://www.unison.org.uk/coronavirus-rights-work/#heading-10)**
-- **[Social distancing in the workplace](https://www.unison.org.uk/coronavirus-rights-work/#heading-11)**
-- **[Do I need to cover my face in the workplace?](https://www.unison.org.uk/coronavirus-rights-work/#heading-12)**
-- **[Ventilation](https://www.unison.org.uk/coronavirus-rights-work/#heading-13)**
-- **[Do I need Personal Protective Equipment (PPE)?](https://www.unison.org.uk/coronavirus-rights-work/#heading-14)**
-- **[Has the Job Retention Scheme (furlough) ended?](https://www.unison.org.uk/coronavirus-rights-work/#heading-15)**
-- **[What help is available if I am struggling financially?](https://www.unison.org.uk/coronavirus-rights-work/#heading-16)**
-- **[What if childcare is a problem?](https://www.unison.org.uk/coronavirus-rights-work/#heading-17)**
-- **[Are Black workers more at risk from COVID-19?](https://www.unison.org.uk/coronavirus-rights-work/#heading-18)**
-- **[If you are pregnant](https://www.unison.org.uk/coronavirus-rights-work/#heading-19)**
-- **[Is coronavirus affecting your mental health?](https://www.unison.org.uk/coronavirus-rights-work/#heading-20)**
-- **[Are you experiencing ongoing symptoms of long COVID?](https://www.unison.org.uk/coronavirus-rights-work/#heading-21)**
-- **[How does coronavirus affect my entitlement to carry over leave to next year?](https://www.unison.org.uk/coronavirus-rights-work/#heading-22)**
-- **[What if I need to travel abroad?](https://www.unison.org.uk/coronavirus-rights-work/#heading-23)**
-- **[How is my pension affected by COVID-19?](https://www.unison.org.uk/coronavirus-rights-work/#heading-24)**
+- **[If you think you or someone you live with has coronavirus](https://www.unison.org.uk/coronavirus-rights-work/#heading-1) [Link no longer available]{.link-unavailable}**
+- **[What should my employer do if any staff test positive for COVID-19?](https://www.unison.org.uk/coronavirus-rights-work/#heading-2) [Link no longer available]{.link-unavailable}**
+- **[If I have to self-isolate, will I be paid?](https://www.unison.org.uk/coronavirus-rights-work/#heading-3) [Link no longer available]{.link-unavailable}**
+- **[Do I need to have the COVID-19 vaccine?](https://www.unison.org.uk/coronavirus-rights-work/#heading-4) [Link no longer available]{.link-unavailable}**
+- **[Is my employer allowed to ask and record whether I’ve had the vaccine?](https://www.unison.org.uk/coronavirus-rights-work/#heading-5) [Link no longer available]{.link-unavailable}**
+- **[How can I get tested for COVID-19?](https://www.unison.org.uk/coronavirus-rights-work/#heading-6) [Link no longer available]{.link-unavailable}**
+- **[If you are disabled, over 70 or have an underlying health condition or were previously told to shield](https://www.unison.org.uk/coronavirus-rights-work/#heading-7) [Link no longer available]{.link-unavailable}**
+- **[Should I be working from home?](https://www.unison.org.uk/coronavirus-rights-work/#heading-8) [Link no longer available]{.link-unavailable}**
+- **[What if I have to go to my regular workplace?](https://www.unison.org.uk/coronavirus-rights-work/#heading-9) [Link no longer available]{.link-unavailable}**
+- **[What if I don’t feel my workplace is safe?](https://www.unison.org.uk/coronavirus-rights-work/#heading-10) [Link no longer available]{.link-unavailable}**
+- **[Social distancing in the workplace](https://www.unison.org.uk/coronavirus-rights-work/#heading-11) [Link no longer available]{.link-unavailable}**
+- **[Do I need to cover my face in the workplace?](https://www.unison.org.uk/coronavirus-rights-work/#heading-12) [Link no longer available]{.link-unavailable}**
+- **[Ventilation](https://www.unison.org.uk/coronavirus-rights-work/#heading-13) [Link no longer available]{.link-unavailable}**
+- **[Do I need Personal Protective Equipment (PPE)?](https://www.unison.org.uk/coronavirus-rights-work/#heading-14) [Link no longer available]{.link-unavailable}**
+- **[Has the Job Retention Scheme (furlough) ended?](https://www.unison.org.uk/coronavirus-rights-work/#heading-15) [Link no longer available]{.link-unavailable}**
+- **[What help is available if I am struggling financially?](https://www.unison.org.uk/coronavirus-rights-work/#heading-16) [Link no longer available]{.link-unavailable}**
+- **[What if childcare is a problem?](https://www.unison.org.uk/coronavirus-rights-work/#heading-17) [Link no longer available]{.link-unavailable}**
+- **[Are Black workers more at risk from COVID-19?](https://www.unison.org.uk/coronavirus-rights-work/#heading-18) [Link no longer available]{.link-unavailable}**
+- **[If you are pregnant](https://www.unison.org.uk/coronavirus-rights-work/#heading-19) [Link no longer available]{.link-unavailable}**
+- **[Is coronavirus affecting your mental health?](https://www.unison.org.uk/coronavirus-rights-work/#heading-20) [Link no longer available]{.link-unavailable}**
+- **[Are you experiencing ongoing symptoms of long COVID?](https://www.unison.org.uk/coronavirus-rights-work/#heading-21) [Link no longer available]{.link-unavailable}**
+- **[How does coronavirus affect my entitlement to carry over leave to next year?](https://www.unison.org.uk/coronavirus-rights-work/#heading-22) [Link no longer available]{.link-unavailable}**
+- **[What if I need to travel abroad?](https://www.unison.org.uk/coronavirus-rights-work/#heading-23) [Link no longer available]{.link-unavailable}**
+- **[How is my pension affected by COVID-19?](https://www.unison.org.uk/coronavirus-rights-work/#heading-24) [Link no longer available]{.link-unavailable}**
 
 ## If you think you or someone you live with has coronavirus
 
-People who test positive or show symptoms will still be legally required to self-isolate for 10 days. ln **[England](https://www.gov.uk/government/publications/covid-19-stay-at-home-guidance/stay-at-home-guidance-for-households-with-possible-coronavirus-covid-19-infection)**, this may be reduced to 5 days by providing negative lateral flow results taken 24 hours apart. The first lateral flow test should not be taken before the fifth day. In [Scotland](https://www.nhsinform.scot/illnesses-and-conditions/infections-and-poisoning/coronavirus-covid-19/test-and-protect/coronavirus-covid-19-guidance-for-households-with-possible-coronavirus-infection), [Wales](https://gov.wales/self-isolation) and [Northern Ireland](https://www.nidirect.gov.uk/articles/coronavirus-covid-19-self-isolating-and-close-contacts) this may be reduced to 7 days by providing negative lateral flow results taken 24 hours apart, with the first test taken on the sixth day.
+People who test positive or show symptoms will still be legally required to self-isolate for 10 days. ln **[England](https://www.gov.uk/government/publications/covid-19-stay-at-home-guidance/stay-at-home-guidance-for-households-with-possible-coronavirus-covid-19-infection)**, this may be reduced to 5 days by providing negative lateral flow results taken 24 hours apart. The first lateral flow test should not be taken before the fifth day. In [Scotland](https://www.nhsinform.scot/illnesses-and-conditions/infections-and-poisoning/coronavirus-covid-19/test-and-protect/coronavirus-covid-19-guidance-for-households-with-possible-coronavirus-infection) [Link no longer available]{.link-unavailable}, [Wales](https://gov.wales/self-isolation) and [Northern Ireland](https://www.nidirect.gov.uk/articles/coronavirus-covid-19-self-isolating-and-close-contacts) this may be reduced to 7 days by providing negative lateral flow results taken 24 hours apart, with the first test taken on the sixth day.
 
 There are additional isolation and testing arrangements in place for close contacts of people who test positive for COVID-19.  If you have been advised to isolate by a contact tracing authority in your nation, then you must follow their requirements to isolate.
 
@@ -101,7 +101,7 @@ Further advice on what employers should do, including the support they should pr
 
 ## If I have to self-isolate, will I be paid?
 
-If you can’t work while you are self-isolating because  you are ill with COVID-19, **[statutory sick pay (SSP)](https://www.unison.org.uk/get-help/knowledge/leave/sick-leave/)** is available from the first day you are off sick.
+If you can’t work while you are self-isolating because  you are ill with COVID-19, **[statutory sick pay (SSP)](https://www.unison.org.uk/get-help/knowledge/leave/sick-leave/) [Link no longer available]{.link-unavailable}** is available from the first day you are off sick.
 
 The UK government has made a **[temporary change to the provision of ‘fit notes’](http://www.gov.uk/government/collections/fit-note)** until 27 January 2022. If you go off sick on or after 10 December 2021, employers can only ask employees for proof of sickness (such as a fit note) after 28 days of sickness (including non-working days).
 
@@ -137,7 +137,7 @@ National information on the vaccination programmes in:
 
 - [**England**](https://www.england.nhs.uk/coronavirus/covid-19-vaccination-programme)
 - **[Wales](https://phw.nhs.wales/topics/immunisation-and-vaccines/covid-19-vaccination-information/)**
-- **[Scotland](https://publichealthscotland.scot/our-areas-of-work/covid-19/covid-19-vaccinations/)**
+- **[Scotland](https://publichealthscotland.scot/our-areas-of-work/covid-19/covid-19-vaccinations/) [Link no longer available]{.link-unavailable}**
 - **[Northern Ireland](https://www.publichealth.hscni.net/covid-19-coronavirus/northern-ireland-covid-19-vaccination-programme)**
 
 ## Is my employer allowed to ask and record whether I’ve had the vaccine?
@@ -157,7 +157,7 @@ There may be additional legal requirements for employers to collect information 
 
 Vaccination is just one measure to reduce the risk of exposure to COVID in the workplace and your employer’s health and safety risk assessment should identify what other measures need to be put in place to protect staff.
 
-For more information on what employers should do to keep their workplaces safe, please read our **[How to work safely leaflet (PDF](https://www.unison.org.uk/26475_july21/)).**
+For more information on what employers should do to keep their workplaces safe, please read our **[How to work safely leaflet (PDF](https://www.unison.org.uk/26475_july21/) [Link no longer available]{.link-unavailable}).**
 
 ### Our statement on the Vaccination Programme
 
@@ -175,7 +175,7 @@ Testing is voluntary and your employer should not insist you request a test.
 
 Information for the devolved nations:
 
-- [Wales](https://gov.wales/key-critical-workers-testing-policy-coronavirus-covid-19)
+- [Wales](https://gov.wales/key-critical-workers-testing-policy-coronavirus-covid-19) [Link no longer available]{.link-unavailable}
 - [Northern Ireland](https://www.publichealth.hscni.net/covid-19-coronavirus/coronavirus-national-testing-programme-essential-or-key-workers)
 - [Scotland](https://www.gov.scot/publications/coronavirus-covid-19-testing-for-key-workers-in-Scotland/)
 
@@ -183,7 +183,7 @@ Information for the devolved nations:
 
 Since 19th July 2021, people who are disabled, pregnant, over 70 or have an underlying health condition who may have previously been told to ‘shield’, have been advised to follow the same guidance as everyone else, whilst also being advised to think about taking extra precautions to stay safe during the coronavirus pandemic.
 
-Read our **[updated advice for people who are vulnerable, were previously shielding, or have family members who were previously shielding](https://www.unison.org.uk/coronavirus-rights-work/covid-19-and-shielding/)**.
+Read our **[updated advice for people who are vulnerable, were previously shielding, or have family members who were previously shielding](https://www.unison.org.uk/coronavirus-rights-work/covid-19-and-shielding/) [Link no longer available]{.link-unavailable}**.
 
 ## Should I be working from home?
 
@@ -195,17 +195,17 @@ If the risks cannot be significantly reduced to enable a safe return to the work
 
 All other risk assessments should also be reviewed to take account of new information and guidance.
 
-For more information on what employers should do to keep you safe when working from home or hybrid working, please read our guidance **[Homeworking or hybrid working safely.](https://www.unison.org.uk/homeworking-and-hybrid-working-safely/)**
+For more information on what employers should do to keep you safe when working from home or hybrid working, please read our guidance **[Homeworking or hybrid working safely.](https://www.unison.org.uk/homeworking-and-hybrid-working-safely/) [Link no longer available]{.link-unavailable}**
 
-**[Read our working from home and hybrid working bargaining guidance](https://www.unison.org.uk/working-from-home-and-hybrid-working-bargaining-guide-and-model-policy/)**
+**[Read our working from home and hybrid working bargaining guidance](https://www.unison.org.uk/working-from-home-and-hybrid-working-bargaining-guide-and-model-policy/) [Link no longer available]{.link-unavailable}**
 
 ## What if I have to go to my regular workplace?
 
-In England the Government is no longer asking people to work from home. In Wales, Scotland and Northern Ireland you are required to work from home where you can. Where working from home is not possible your employer must carry out a risk assessment to ensure that your workplace meets government and **[Health and Safety Executive guidelines](https://www.hse.gov.uk/coronavirus/working-safely/index.htm)** and do everything they reasonably can to reduce and control the risks of transmission within the workplace.
+In England the Government is no longer asking people to work from home. In Wales, Scotland and Northern Ireland you are required to work from home where you can. Where working from home is not possible your employer must carry out a risk assessment to ensure that your workplace meets government and **[Health and Safety Executive guidelines](https://www.hse.gov.uk/coronavirus/working-safely/index.htm) [Link no longer available]{.link-unavailable}** and do everything they reasonably can to reduce and control the risks of transmission within the workplace.
 
 **[Read Gov.uk’s up to date guidance on what employers need to do to make workplaces ‘COVID-secure](https://www.gov.uk/guidance/working-safely-during-coronavirus-covid-19)’.**
 
-For more information on what employers should do to keep their workplaces safe, please read our **[How to work safely leaflet (PDF](https://www.unison.org.uk/26475_july21/)**).
+For more information on what employers should do to keep their workplaces safe, please read our **[How to work safely leaflet (PDF](https://www.unison.org.uk/26475_july21/) [Link no longer available]{.link-unavailable}**).
 
 Sector Specific Guidance or an employer’s risk assessment may identify a need for employees to undertake regular lateral flow testing (LFT’s) prior to attending a work location. This must not be used as a replacement for other workplace preventative measures such as ventilation, regular cleaning, the use of face coverings and PPE.
 
@@ -261,7 +261,7 @@ However, alongside effective ventilation and increased cleaning regimes, maintai
 
 Where social distancing cannot be maintained, then additional control measures should also be considered.
 
-Our **[How to work safely guide (PDF)](https://www.unison.org.uk/26475_july21/)** explains more.
+Our **[How to work safely guide (PDF)](https://www.unison.org.uk/26475_july21/) [Link no longer available]{.link-unavailable}** explains more.
 
 ## Do I need to cover my face in the workplace?
 
@@ -272,11 +272,11 @@ For the latest government guidance on face coverings see:
 - [**England**](https://www.gov.uk/government/publications/face-coverings-when-to-wear-one-and-how-to-make-your-own)
 - **[Northern Ireland](https://www.nidirect.gov.uk/articles/coronavirus-covid-19-face-coverings)**
 - **[Scotland](https://www.gov.scot/publications/coronavirus-covid-19-phase-3-staying-safe-and-protecting-others/pages/face-coverings/)**
-- **[Wales](https://gov.wales/face-coverings-frequently-asked-questions)**
+- **[Wales](https://gov.wales/face-coverings-frequently-asked-questions) [Link no longer available]{.link-unavailable}**
 
 Your employer may also decide to introduce wearing of face coverings as part of a workplace risk assessment and there may be additional requirements on face coverings and Personal Protective Equipment if you work in health and social care.
 
-**[Also read our guidance on PPE for more information.](https://www.unison.org.uk/coronavirus-rights-work/personal-protective-equipment-coronavirus/)**
+**[Also read our guidance on PPE for more information.](https://www.unison.org.uk/coronavirus-rights-work/personal-protective-equipment-coronavirus/) [Link no longer available]{.link-unavailable}**
 
 ## Ventilation
 
@@ -286,7 +286,7 @@ Employers are legally required to ensure that workplaces have an adequate supply
 
 We expect employers to assess the effectiveness of workplace ventilation and take steps to make improvements such as not recirculating air or reducing room capacity.  Assessments should also include the risks to staff who drive workplace vehicles and those whose work involves visiting people in their own homes.
 
-**[Read our more in-depth guidance on ventilation (PDF)](https://www.unison.org.uk/26474_v2/)**
+**[Read our more in-depth guidance on ventilation (PDF)](https://www.unison.org.uk/26474_v2/) [Link no longer available]{.link-unavailable}**
 
 **[Gov.uk advice on ventilation](https://www.gov.uk/government/publications/covid-19-ventilation-of-indoor-spaces-to-stop-the-spread-of-coronavirus/ventilation-of-indoor-spaces-to-stop-the-spread-of-coronavirus-covid-19)**
 
@@ -294,19 +294,19 @@ We expect employers to assess the effectiveness of workplace ventilation and tak
 
 This depends on what you do, where, and with whom you work. You are more likely to require PPE if you are providing direct care to service users, or cleaning premises contaminated by COVID-19.
 
-The best protection against COVID-19 is, if possible, to remove yourself and others from any sources of infection. In some jobs, this is not easy or practical. Our [PPE guide](https://www.unison.org.uk/coronavirus-rights-work/personal-protective-equipment-coronavirus/) provides further advice on this.
+The best protection against COVID-19 is, if possible, to remove yourself and others from any sources of infection. In some jobs, this is not easy or practical. Our [PPE guide](https://www.unison.org.uk/coronavirus-rights-work/personal-protective-equipment-coronavirus/) [Link no longer available]{.link-unavailable} provides further advice on this.
 
-**[Read more on our PPE page](https://www.unison.org.uk/coronavirus-rights-work/personal-protective-equipment-coronavirus/)**
+**[Read more on our PPE page](https://www.unison.org.uk/coronavirus-rights-work/personal-protective-equipment-coronavirus/) [Link no longer available]{.link-unavailable}**
 
 ## Has the Job Retention Scheme (furlough) ended?
 
 The Job Retention Scheme, also known as furlough, came to an end on 30 September 2021. If you have concerns about how your pay or annual leave were calculated while you were furloughed, [contact your branch](https://branches.unison.org.uk/).
 
-**[UNISON’s legal guidance on the JRS, furlough and redundancies](https://www.unison.org.uk/get-help/services-support/legal-services/attachment/furlough-al-sickness-redundancies/)**
+**[UNISON’s legal guidance on the JRS, furlough and redundancies](https://www.unison.org.uk/get-help/services-support/legal-services/attachment/furlough-al-sickness-redundancies/) [Link no longer available]{.link-unavailable}**
 
 ## What help is available if I am struggling financially?
 
-Our charity for members, There for You, has reopened its COVID-19 response fund, offering grants of up to £500 to help those whose household incomes have been affected by coronavirus. You can check if you’re eligible and **[apply here](https://icarislogin3.com/unison/newapp.a5w)**.
+Our charity for members, There for You, has reopened its COVID-19 response fund, offering grants of up to £500 to help those whose household incomes have been affected by coronavirus. You can check if you’re eligible and **[apply here](https://icarislogin3.com/unison/newapp.a5w) [Link no longer available]{.link-unavailable}**.
 
 If you are on a low income you may be entitled to **[Universal Credit](https://www.gov.uk/universal-credit).**
 
@@ -330,7 +330,7 @@ If you need to stay at home to look after your children, you are legally entitle
 
 We advise that you explain your situation to your employer, and we would expect your employer to be reasonable in accommodating your circumstances. Some employers have specific arrangements to support parents during the current pandemic.
 
-**[Read our guide for people with caring responsibilities](https://www.unison.org.uk/coronavirus-rights-work/covid-19-coping-unplanned-caring-responsibilities/).**
+**[Read our guide for people with caring responsibilities](https://www.unison.org.uk/coronavirus-rights-work/covid-19-coping-unplanned-caring-responsibilities/) [Link no longer available]{.link-unavailable}.**
 
 ## Are Black workers more at risk from COVID-19?
 
@@ -352,7 +352,7 @@ If you are pregnant your employer is required to undertake a workplace risk asse
 
 Your risk assessment should be regularly reviewed and updated as appropriate.
 
-**[Read our detailed advice for pregnant workers](https://www.unison.org.uk/about/what-we-do/fairness-equality/women/key-issues/pregnant-workers-covid-19/)**
+**[Read our detailed advice for pregnant workers](https://www.unison.org.uk/about/what-we-do/fairness-equality/women/key-issues/pregnant-workers-covid-19/) [Link no longer available]{.link-unavailable}**
 
 ### Should I get the vaccine if I’m pregnant?
 
@@ -360,7 +360,7 @@ Your risk assessment should be regularly reviewed and updated as appropriate.
 
 ## Is coronavirus affecting your mental health?
 
-Workers in the NHS and health care can find advice on **[our health workers page](https://www.unison.org.uk/at-work/health-care/big-issues/covid-19-advice-health-workers/).**
+Workers in the NHS and health care can find advice on **[our health workers page](https://www.unison.org.uk/at-work/health-care/big-issues/covid-19-advice-health-workers/) [Link no longer available]{.link-unavailable}.**
 
 The **[Mental Health Foundation have produced a guide](https://www.mentalhealth.org.uk/publications/looking-after-your-mental-health-during-coronavirus-outbreak)** to protecting your mental health during the coronavirus crisis and **MIND has produced a helpful guide** which will be useful to anyone who has to practice social isolation.
 
@@ -374,7 +374,7 @@ While ‘Long Covid’ is not yet a formal diagnosis, it is likely that as more 
 
 We recommend that employers conduct individual risk assessments with any staff who are experiencing ‘Long Covid’ and to make reasonable adjustments for these staff.
 
-Employers should follow our **[guidance for disabled workers and workers with an underlying health condition](https://www.unison.org.uk/content/uploads/2021/04/26353.pdf).**
+Employers should follow our **[guidance for disabled workers and workers with an underlying health condition](https://www.unison.org.uk/content/uploads/2021/04/26353.pdf) [Link no longer available]{.link-unavailable}.**
 
 ## How does coronavirus affect my entitlement to carry over leave to next year?
 
@@ -382,7 +382,7 @@ The **[government has provided guidance](https://www.gov.uk/guidance/holiday-ent
 
 [Northern Ireland government](https://www.nibusinessinfo.co.uk/content/know-how-much-holiday-give-your-staff) has also published advice.
 
-See also the **[specific advice for NJC staff](https://www.unison.org.uk/at-work/local-government/coronavirus-guidance-local-government-workers/)** on local annual leave schemes or the new statutory government scheme.
+See also the **[specific advice for NJC staff](https://www.unison.org.uk/at-work/local-government/coronavirus-guidance-local-government-workers/) [Link no longer available]{.link-unavailable}** on local annual leave schemes or the new statutory government scheme.
 
 ## What if I need to travel abroad?
 
@@ -396,8 +396,8 @@ No-one should suffer hardship for a decision they had no control over and we are
 
 We’ve put together a Q&A on coronavirus and pensions.
 
-**[Pensions Q&A](https://www.unison.org.uk/get-help/knowledge/pensions/will-coronavirus-affect-pension/)**
+**[Pensions Q&A](https://www.unison.org.uk/get-help/knowledge/pensions/will-coronavirus-affect-pension/) [Link no longer available]{.link-unavailable}**
 
 ## Resources
 
-- ### [COVID-19 vaccination status requirements in the workplace](https://www.unison.org.uk/content/uploads/2021/12/COVID-19-vaccination-status-requirements-in-the-workplace-v6.pdf)
+- ### [COVID-19 vaccination status requirements in the workplace](https://www.unison.org.uk/content/uploads/2021/12/COVID-19-vaccination-status-requirements-in-the-workplace-v6.pdf) [Link no longer available]{.link-unavailable}

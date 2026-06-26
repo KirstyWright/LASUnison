@@ -4,7 +4,7 @@ date: '2020-05-07'
 category: News
 topic: Equality
 readTime: 4
-excerpt: The disproportionate impact of Covid-19, and the response to it, is a matter of concern for the whole union.
+description: The disproportionate impact of Covid-19, and the response to it, is a matter of concern for the whole union.
 tags:
   - branch
   - consultation
@@ -33,9 +33,9 @@ UNISON will continue to press for this Review to be made available to the public
 
 In the meanwhile, NHS England has set up a work programme aimed at supporting Black staff in the NHS with five areas: protection of Black staff; engagement with staff; representation in decision-making;
 rehabilitation and recovery for Black staff; communications and media.
-**[www.england.nhs.uk/blog/note-for-all-bame-colleagues-working-in-thenhs/](https://www.england.nhs.uk/blog/note-for-all-bame-colleagues-working-in-the-nhs/)**
+**[www.england.nhs.uk/blog/note-for-all-bame-colleagues-working-in-thenhs/](https://www.england.nhs.uk/blog/note-for-all-bame-colleagues-working-in-the-nhs/) [Link no longer available]{.link-unavailable}**
 
-On protection for Black staff, NHS Employers has issued guidance to NHS managers for England. This advises them to have conversations with Black staff and to undertake additional risk assessments to inform how Black staff and other groups at higher risk of infection can be protected. **[www.nhsemployers.org/covid19/health-safety-andwellbeing/risk-assessments-for-staff](https://www.nhsemployers.org/covid19/health-safety-and-wellbeing/risk-assessments-for-staff)**
+On protection for Black staff, NHS Employers has issued guidance to NHS managers for England. This advises them to have conversations with Black staff and to undertake additional risk assessments to inform how Black staff and other groups at higher risk of infection can be protected. **[www.nhsemployers.org/covid19/health-safety-andwellbeing/risk-assessments-for-staff](https://www.nhsemployers.org/covid19/health-safety-and-wellbeing/risk-assessments-for-staff) [Link no longer available]{.link-unavailable}**
 
 The Welsh Government, Employers and unions have issued a joint statement committing employers to adopting a precautionary approach including conducting risk assessments for Black staff **[https://gov.wales/written-statement-covid-and-bame-measures-protecthealth-and-social-care-workforce](https://gov.wales/written-statement-covid-and-bame-measures-protect-health-and-social-care-workforce)**
 

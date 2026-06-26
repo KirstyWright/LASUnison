@@ -3,7 +3,7 @@ title: ‘Now is the time!’ Dave Prentis tells conference
 date: '2017-06-20'
 category: News
 readTime: 3
-excerpt: General secretary tells delegates that the tide is turning and that, as the prime minister wobbles, there is hope “Now is the time to rise up – now is the…
+description: General secretary tells delegates that the tide is turning and that, as the prime minister wobbles, there is hope “Now is the time to rise up – now is the…
 tags:
   - branch
   - eric

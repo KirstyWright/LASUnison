@@ -4,7 +4,7 @@ date: '2022-12-09'
 category: News
 topic: Pay
 readTime: 5
-excerpt: UNISON members working as part of A&E road crews in five Ambulance Trusts in England at London , Yorkshire, North West, North East and South West will take part in…
+description: UNISON members working as part of A&E road crews in five Ambulance Trusts in England at London , Yorkshire, North West, North East and South West will take part in…
 tags:
   - ambulance
   - ballot

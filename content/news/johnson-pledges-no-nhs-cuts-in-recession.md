@@ -3,7 +3,7 @@ title: Johnson pledges no NHS cuts in recession
 date: '2009-04-21'
 category: News
 readTime: 2
-excerpt: '"Better healthcare cannot be seen as expendable today because of the global economic downturn, when in yesterday''s world of relative prosperity, it was essential," health secretary Alan Johnson told UNISON''s…'
+description: '"Better healthcare cannot be seen as expendable today because of the global economic downturn, when in yesterday''s world of relative prosperity, it was essential," health secretary Alan Johnson told UNISON''s…'
 wpCategories:
   - UNISON News
 wpId: 72

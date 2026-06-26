@@ -4,7 +4,7 @@ date: '2018-03-29'
 category: News
 topic: Pay
 readTime: 11
-excerpt: The NHS Staff Council framework agreement proposal was released last week and we have all had time to understand it’s complexities now, so we wanted to produce this overview from…
+description: The NHS Staff Council framework agreement proposal was released last week and we have all had time to understand it’s complexities now, so we wanted to produce this overview from…
 tags:
   - afc
   - ballot
@@ -62,4 +62,4 @@ If you have any questions please contact the Senior Sector rep for your area who
 
 *“We are stronger together”*
 
-[Download this story as a bulletin to display and share in your workplace](/?mdocs-file=3122)
+[Download this story as a bulletin to display and share in your workplace](/docs/mdocs/General%20-%20Pay%20proposal%20-%20March%202018.pdf)

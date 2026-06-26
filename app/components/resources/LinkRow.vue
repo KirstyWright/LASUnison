@@ -13,7 +13,7 @@ defineProps<{ link: SiteLink }>()
     :href="link.url"
     target="_blank"
     rel="noopener noreferrer"
-    class="group flex items-center justify-between gap-3 px-3 py-2.5 -mx-3 rounded-[var(--radius-md)] no-underline transition-colors duration-150 hover:bg-[var(--surface-sunken)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
+    class="group flex items-center justify-between gap-3 px-3 py-3 -mx-3 rounded-[var(--radius-md)] no-underline transition-colors duration-150 hover:bg-[var(--surface-sunken)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
   >
     <span class="min-w-0">
       <span class="flex items-center gap-1.5 font-semibold text-[length:var(--text-sm)] text-[var(--text-body)] group-hover:text-[var(--brand-primary)]">

@@ -3,7 +3,7 @@ title: World Menopause Day
 date: '2020-10-15'
 category: News
 readTime: 1
-excerpt: This Sunday, 18 October, is World Menopause Day. This day is to raise awareness of the health issues women face when approaching, during and beyond the menopause.
+description: This Sunday, 18 October, is World Menopause Day. This day is to raise awareness of the health issues women face when approaching, during and beyond the menopause.
 tags:
   - las
   - unison

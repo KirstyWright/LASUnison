@@ -4,7 +4,7 @@ date: '2011-01-10'
 category: News
 topic: Pay
 readTime: 1
-excerpt: Members of UNISONs Health Service Group Executive have today rejected a two-year freeze on pay increments, on top of the pay freeze imposed by the Government.
+description: Members of UNISONs Health Service Group Executive have today rejected a two-year freeze on pay increments, on top of the pay freeze imposed by the Government.
 wpCategories:
   - Pay
   - UNISON News

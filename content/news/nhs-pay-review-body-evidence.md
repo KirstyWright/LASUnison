@@ -4,7 +4,7 @@ date: '2015-11-24'
 category: News
 topic: Pay
 readTime: 4
-excerpt: Recruitment and retention of ambulance staff Recruitment-and-retention-of-ambulance-staff-PRB-November-2015-FINAL (Download document in full) Introduction Following the 2014/15 NHS pay dispute, the majority of NHS staff accepted a pay settlement for 2015/16.
+description: Recruitment and retention of ambulance staff Recruitment-and-retention-of-ambulance-staff-PRB-November-2015-FINAL (Download document in full) Introduction Following the 2014/15 NHS pay dispute, the majority of NHS staff accepted a pay settlement for 2015/16.
 tags:
   - afc
   - hcpc

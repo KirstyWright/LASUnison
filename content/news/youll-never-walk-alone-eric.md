@@ -3,7 +3,7 @@ title: You’ll never walk alone with Eric
 date: '2016-07-07'
 category: News
 readTime: 5
-excerpt: Eric Roberts looks forward to a year as the president of ‘the best union in the country’ It’s been a long and winding road, but for new UNISON president Eric…
+description: Eric Roberts looks forward to a year as the president of ‘the best union in the country’ It’s been a long and winding road, but for new UNISON president Eric…
 tags:
   - president
   - unison
@@ -14,6 +14,9 @@ wpCategories:
   - UNISON News
 wpId: 2285
 legacyUrl: https://lasunison.co.uk/youll-never-walk-alone-eric
+seo:
+  description: It’s been a long and winding road, but for new UNISON president Eric Roberts, the journey from mending the Beatles’ drums to being the leading lay member of
+  title: You'll never walk alone with Eric — LAS UNISON
 ---
 
 ##### Eric Roberts looks forward to a year as the president of ‘the best union in the country’

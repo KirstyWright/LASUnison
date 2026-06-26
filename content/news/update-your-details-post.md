@@ -3,7 +3,7 @@ title: UPDATE YOUR DETAILS
 date: '2022-07-05'
 category: News
 readTime: 1
-excerpt: UNISON and the London Ambulance Branch want to make sure we have all our members details up to date.
+description: UNISON and the London Ambulance Branch want to make sure we have all our members details up to date.
 tags:
   - ambulance
   - branch

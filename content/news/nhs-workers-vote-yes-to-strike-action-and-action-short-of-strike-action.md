@@ -3,7 +3,7 @@ title: NHS WORKERS VOTE YES TO STRIKE ACTION AND ACTION SHORT OF STRIKE ACTION
 date: '2014-09-18'
 category: News
 readTime: 3
-excerpt: UNISON’s NHS workers, including nurses, occupational therapists, porters, paramedics, medical secretaries, cooks and healthcare assistants have voted yes to industrial action in a dispute over pay in England NHS staff…
+description: UNISON’s NHS workers, including nurses, occupational therapists, porters, paramedics, medical secretaries, cooks and healthcare assistants have voted yes to industrial action in a dispute over pay in England NHS staff…
 image: /images/2011/12/deptford.jpg
 wpCategories:
   - General

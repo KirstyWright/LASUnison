@@ -4,7 +4,7 @@ date: '2023-03-17'
 category: News
 topic: Pay
 readTime: 3
-excerpt: Industrial action by UNISON members has been suspended as we have now secured an offer from the government on pay.
+description: Industrial action by UNISON members has been suspended as we have now secured an offer from the government on pay.
 tags:
   - ambulance
   - branch

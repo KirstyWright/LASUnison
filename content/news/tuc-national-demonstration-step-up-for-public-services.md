@@ -3,7 +3,7 @@ title: 'TUC national demonstration: Step Up for Public Services'
 date: '2018-04-20'
 category: News
 readTime: 2
-excerpt: The TUC has called a national demonstration on Saturday 12 May in London. This is going to be a key moment in the fight for public services.
+description: The TUC has called a national demonstration on Saturday 12 May in London. This is going to be a key moment in the fight for public services.
 tags:
   - branch
   - demonstration
@@ -46,6 +46,6 @@ Find out more on the TUC’s webpage
 
 ## Attending? Let us know and share
 
-[![](/images/2018/04/step-up-poster-226x300.jpg)](/?mdocs-file=3178)
+[![](/images/2018/04/step-up-poster-226x300.jpg)](/docs/mdocs/24896_posteredit4.pdf)
 
-[**Click here to download this poster as a PDF to display in your workplace**](/?mdocs-file=3178)
+[**Click here to download this poster as a PDF to display in your workplace**](/docs/mdocs/24896_posteredit4.pdf)

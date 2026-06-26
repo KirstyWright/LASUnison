@@ -4,7 +4,7 @@ date: '2025-04-04'
 category: Campaign
 topic: Pay
 readTime: 1
-excerpt: Months after promising us negotiations at the end of the 2024 pay round, the government choose to stick with the discredited PRB process for this year.
+description: Months after promising us negotiations at the end of the 2024 pay round, the government choose to stick with the discredited PRB process for this year.
 tags:
   - ballot
   - government

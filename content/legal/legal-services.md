@@ -23,7 +23,7 @@ UNISON provides quality legal services for employment-related and non-work issue
 
 ## Essential legal services from UNISON
 
-[Essential legal services from UNISON](https://www.unison.org.uk/get-help/services-support/legal-services/essential-legal-services-from-unison/)
+[Essential legal services from UNISON](https://www.unison.org.uk/get-help/legal-services/)
 
 UNISON works in partnership with leading specialist personal injury lawyers **Thompsons Solicitors** to provide essential legal cover for members and their families. If you or a loved one has been injured you can claim with confidence using the UNISON legal service. Your case will be handled by an expert lawyer — and thanks to your UNISON membership, you access this at no extra cost.
 
@@ -31,7 +31,7 @@ UNISON works in partnership with leading specialist personal injury lawyers **Th
 
 ## Legal support on work-related issues
 
-[Legal support on work-related issues](https://www.unison.org.uk/get-help/services-support/legal-services/at-work/)
+[Legal support on work-related issues](https://www.unison.org.uk/get-help/legal-services/)
 
 UNISON members can get free legal advice and assistance with work-related issues through our legal assistance scheme.
 
@@ -39,7 +39,7 @@ UNISON members can get free legal advice and assistance with work-related issues
 
 ## Legal helpline for reps
 
-[Legal helpline for reps](https://www.unison.org.uk/get-help/services-support/legal-services/helpline-reps/)
+[Legal helpline for reps](https://www.unison.org.uk/get-help/legal-services/)
 
 A legal helpline is available for accredited UNISON stewards and lay officers who need urgent preliminary legal advice on employment matters. If the matter is not urgent, contact your regional office as normal to get a referral for legal advice.
 
@@ -47,7 +47,7 @@ A legal helpline is available for accredited UNISON stewards and lay officers wh
 
 ## Legal services for you and your family
 
-[Legal services for you and your family](https://www.unison.org.uk/get-help/services-support/legal-services/for-you-and-your-family/)
+[Legal services for you and your family](https://www.unison.org.uk/get-help/legal-services/)
 
 UNISON members can access free initial legal advice on non-work related issues, along with support for personal injury cases outside work, a free wills service, low-cost conveyancing and help with immigration issues.
 
@@ -55,7 +55,7 @@ UNISON members can access free initial legal advice on non-work related issues, 
 
 ## Access to legal services
 
-[Access to legal services](https://www.unison.org.uk/get-help/services-support/legal-services/access/)
+[Access to legal services](https://www.unison.org.uk/get-help/legal-services/)
 
 Although Thompsons Solicitors are UNISON's approved legal firm for certain services, you must contact UNISON directly to get free access to these services.
 

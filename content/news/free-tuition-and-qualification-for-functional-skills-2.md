@@ -4,7 +4,7 @@ date: '2023-01-01'
 category: News
 topic: Education
 readTime: 2
-excerpt: The LAS UNISON Branch is once again offering FREE tuition and qualification for Functional Skills Level 2 in English and Mathematics This is available to any member who does not…
+description: The LAS UNISON Branch is once again offering FREE tuition and qualification for Functional Skills Level 2 in English and Mathematics This is available to any member who does not…
 tags:
   - ambulance
   - benefits
@@ -51,7 +51,7 @@ E-Mail: Mark.belkin@nhs.net
 
 ### Only available for a limited time, so please apply now!
 
-[**Click here to download a poster to display in your workplace**](/?mdocs-file=6196)
+[**Click here to download a poster to display in your workplace**](/docs/mdocs/functional%20skills%202022.pdf)
 
  **Location:**
 

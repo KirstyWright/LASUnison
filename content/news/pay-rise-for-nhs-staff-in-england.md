@@ -4,7 +4,7 @@ date: '2018-06-08'
 category: News
 topic: Pay
 readTime: 3
-excerpt: Members vote overwhelmingly in favour of three year deal UNISON members working for the NHS in England have voted overwhelmingly to accept a three year pay deal and changes to…
+description: Members vote overwhelmingly in favour of three year deal UNISON members working for the NHS in England have voted overwhelmingly to accept a three year pay deal and changes to…
 tags:
   - afc
   - ballot

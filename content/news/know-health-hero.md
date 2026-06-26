@@ -3,18 +3,20 @@ title: Do you know a health hero?
 date: '2016-07-08'
 category: News
 readTime: 2
-excerpt: Our Health Heroes awards launched during One Team for Patient Care week of action Do you know a support worker in the NHS who deserves national recognition for their dedication?…
+description: Our Health Heroes awards launched during One Team for Patient Care week of action Do you know a support worker in the NHS who deserves national recognition for their dedication?…
 wpCategories:
   - UNISON News
 wpId: 2288
 legacyUrl: https://lasunison.co.uk/know-health-hero
+seo:
+  description: Do you know a support worker in the NHS who deserves national recognition for their dedication? Perhaps you’re one yourself?
 ---
 
 ##### Our Health Heroes awards launched during One Team for Patient Care week of action
 
 Do you know a support worker in the NHS who deserves national recognition for their dedication? Perhaps you’re one yourself?
 
-Then the Our Health Heroes awards, launched this week by UNISON, in partnership with [Skills for Health](http://www.skillsforhealth.org.uk/) and the [National Skills Academy for Health](http://www.nsahealth.org.uk/) could be just the thing for you.
+Then the Our Health Heroes awards, launched this week by UNISON, in partnership with [Skills for Health](http://www.skillsforhealth.org.uk/) and the [National Skills Academy for Health](http://www.nsahealth.org.uk/) [Link no longer available]{.link-unavailable} could be just the thing for you.
 
 They recognise and promote the significant contribution support workers make in delivering patient care. and celebrate those who take special pride in their roles.
 

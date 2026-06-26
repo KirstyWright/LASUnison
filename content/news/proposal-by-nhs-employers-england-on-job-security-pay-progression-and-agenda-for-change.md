@@ -4,7 +4,7 @@ date: '2010-12-11'
 category: News
 topic: Pay
 readTime: 5
-excerpt: Dear Colleague, This Branch Circular is to provide you with a copy of a proposal made by NHS Employers at the NHS Staff Council Executive Meeting on 10 th December…
+description: Dear Colleague, This Branch Circular is to provide you with a copy of a proposal made by NHS Employers at the NHS Staff Council Executive Meeting on 10 th December…
 wpCategories:
   - Pay
   - UNISON News
@@ -65,7 +65,7 @@ In terms of press lines we agreed
 
 - That the NHSE and TUs will be discussing the next steps with their governing bodies.
 
-The press release is attached but also on our web site http://www.unison.org.uk/asppresspack/pressrelease\_view.asp?id=2084
+The press release is attached but also on our web site http://www.unison.org.uk/asppresspack/pressrelease\_view.asp?id=2084 [Link no longer available]{.link-unavailable}
 
 National Officers are in urgent discussions with the Health Service Group Executive Chairing Team on arrangements for a special meeting of the HSGE to discuss this.
 

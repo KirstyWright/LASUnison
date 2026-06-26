@@ -4,7 +4,7 @@ date: '2023-05-09'
 category: News
 topic: Pay
 readTime: 1
-excerpt: Click here to read the latest briefing on how the pay deal will work.
+description: Click here to read the latest briefing on how the pay deal will work.
 tags:
   - ambulance
   - pay

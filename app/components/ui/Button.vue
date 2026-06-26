@@ -1,5 +1,5 @@
 <script setup lang="ts">
-type Variant = 'primary' | 'secondary' | 'accent' | 'emergency' | 'highlight' | 'outline' | 'ghost'
+type Variant = 'primary' | 'secondary' | 'accent' | 'emergency' | 'highlight' | 'outline' | 'outline-invert' | 'ghost'
 type Size = 'sm' | 'md' | 'lg'
 
 const props = withDefaults(
@@ -26,11 +26,12 @@ const SIZES: Record<Size, string> = {
 
 const VARIANTS: Record<Variant, string> = {
   primary: 'bg-[var(--brand-primary)] text-white border-transparent hover:bg-[var(--brand-primary-strong)]',
-  secondary: 'bg-[var(--brand-secondary)] text-white border-transparent hover:bg-[var(--green-700)]',
-  accent: 'bg-[var(--brand-accent)] text-white border-transparent hover:bg-[var(--blue-700)]',
+  secondary: 'bg-[var(--brand-secondary)] text-white border-transparent hover:bg-[var(--brand-secondary-strong)]',
+  accent: 'bg-[var(--brand-accent)] text-white border-transparent hover:bg-[var(--brand-accent-strong)]',
   emergency: 'bg-[var(--emergency)] text-white border-transparent hover:bg-[var(--red-700)]',
-  highlight: 'bg-[var(--brand-highlight)] text-[var(--ink-900)] border-transparent hover:bg-[var(--spark-600)]',
+  highlight: 'bg-[var(--brand-highlight)] text-[var(--text-strong)] border-transparent hover:bg-[var(--brand-highlight-strong)]',
   outline: 'bg-transparent text-[var(--brand-primary)] border-[var(--brand-primary)] hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary-strong)]',
+  'outline-invert': 'bg-transparent text-white border-white/40 hover:bg-white/10',
   ghost: 'bg-transparent text-[var(--brand-primary)] border-transparent hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary-strong)]',
 }
 

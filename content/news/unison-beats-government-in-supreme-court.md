@@ -3,7 +3,7 @@ title: UNISON beats government in Supreme Court
 date: '2024-04-17'
 category: Campaign
 readTime: 3
-excerpt: Judges have told employers they’ll no longer be able to discipline their staff for taking part in legal strike action in a UK Supreme Court ruling today (Wednesday), says UNISON…
+description: Judges have told employers they’ll no longer be able to discipline their staff for taking part in legal strike action in a UK Supreme Court ruling today (Wednesday), says UNISON…
 tags:
   - government
   - strike

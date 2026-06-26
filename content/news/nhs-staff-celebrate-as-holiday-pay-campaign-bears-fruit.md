@@ -4,7 +4,7 @@ date: '2021-10-05'
 category: News
 topic: Pay
 readTime: 7
-excerpt: The story behind UNISON’s efforts to remedy a payroll error that was costing its health members money every time they went on holiday The NHS pay dispute is, sadly, still…
+description: The story behind UNISON’s efforts to remedy a payroll error that was costing its health members money every time they went on holiday The NHS pay dispute is, sadly, still…
 wpCategories:
   - Pay
   - UNISON News
@@ -89,4 +89,4 @@ This enabled me to clear my credit cards! ? Let the saving for a deposit commenc
 
 Staff in my department who work on call and overtime have received substantial back pay, giving some of them double their monthly wage. I know of some who got over five or six grand in their pay packets. And people know it was UNISON that did it. Good stuff!
 
-Posted on [October 4, 2021](https://magazine.unison.org.uk/2021/10/04/nhs-staff-celebrate-as-holiday-pay-campaign-bears-fruit/)by [Demetrios Matheou](https://magazine.unison.org.uk/author/matheoud/)
+Posted on [October 4, 2021](https://magazine.unison.org.uk/2021/10/04/nhs-staff-celebrate-as-holiday-pay-campaign-bears-fruit/) [Link no longer available]{.link-unavailable}by [Demetrios Matheou](https://magazine.unison.org.uk/author/matheoud/) [Link no longer available]{.link-unavailable}

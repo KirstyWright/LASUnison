@@ -4,7 +4,7 @@ date: '2011-10-08'
 category: News
 topic: Pensions
 readTime: 5
-excerpt: UNISON will be sending ballot papers out to all members on Tuesday 11 October. The ballot will close on the 3 November and the day of action has been planned…
+description: UNISON will be sending ballot papers out to all members on Tuesday 11 October. The ballot will close on the 3 November and the day of action has been planned…
 image: /images/2011/10/pension-sticker.jpg
 wpCategories:
   - Branch News
@@ -19,7 +19,7 @@ UNISON will be sending ballot papers out to all members on Tuesday 11 October.
 The ballot will close on the 3 November and the day of action has been planned for the 30 November 2011.
 
 **Take action now**
-We need everyone to [take action](http://www.unison.org.uk/pensions/action.asp) in the campaign to protect our pensions - whatever time you have, whether it's five minutes, ten minutes, half an hour or more. It all helps.
+We need everyone to [take action](http://www.unison.org.uk/pensions/action.asp) [Link no longer available]{.link-unavailable} in the campaign to protect our pensions - whatever time you have, whether it's five minutes, ten minutes, half an hour or more. It all helps.
 
 Encourage your colleagues to [join](/membership) UNISON if they are not yet a member so they can protect their pension.
 

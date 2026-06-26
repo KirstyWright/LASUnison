@@ -3,7 +3,7 @@ title: No Review for Health Pay
 date: '2008-12-20'
 category: News
 readTime: 2
-excerpt: The NHS Pay Review Body has announced it will not be asking the government to look again at the three-year pay deal for health workers.
+description: The NHS Pay Review Body has announced it will not be asking the government to look again at the three-year pay deal for health workers.
 wpCategories:
   - UNISON News
 wpId: 78

@@ -3,7 +3,7 @@ title: £30m ambulance contract as effective as sticking plaster on wound, says 
 date: '2022-08-02'
 category: News
 readTime: 1
-excerpt: The money ​would have been far better spent investing in pay, staffing, services and social care.
+description: The money ​would have been far better spent investing in pay, staffing, services and social care.
 wpCategories:
   - UNISON News
 image: /images/2022/08/20220505_143933-scaled.jpg

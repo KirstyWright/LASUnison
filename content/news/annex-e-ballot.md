@@ -4,7 +4,7 @@ date: '2013-08-06'
 category: News
 topic: Pay
 readTime: 1
-excerpt: The Annex E Ballot paper and information has been sent out to members contact addresses that we hold.
+description: The Annex E Ballot paper and information has been sent out to members contact addresses that we hold.
 tags:
   - afc
   - ballot

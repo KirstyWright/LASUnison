@@ -3,7 +3,7 @@ title: National Uniform
 date: '2021-04-23'
 category: News
 readTime: 1
-excerpt: 'The National Healthcare Uniform Project is a proposal put forward by NHS Supply Chain: Hotel Services to introduce a nationally standardised uniform across the NHS in England.'
+description: 'The National Healthcare Uniform Project is a proposal put forward by NHS Supply Chain: Hotel Services to introduce a nationally standardised uniform across the NHS in England.'
 tags:
   - ambulance
   - consultation

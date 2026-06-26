@@ -4,7 +4,7 @@ date: '2021-03-17'
 category: News
 topic: Pensions
 readTime: 3
-excerpt: The Government has published its response after seeking views on the proposed remedy option for correcting the unlawful discrimination determined in the Court of Appeal’s McCloud judgment.
+description: The Government has published its response after seeking views on the proposed remedy option for correcting the unlawful discrimination determined in the Court of Appeal’s McCloud judgment.
 tags:
   - afc
   - ambulance
@@ -42,7 +42,7 @@ For anyone that has already retired or will be retiring before October 2023, all
 
 **[You can view the Government’s consultation response here.](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/900766/Public_Service_Pensions_Consultation.pdf)**
 
-UNISON has also produced a series of frequently asked questions to help members understand what this means for them. **[These can be found here.](https://www.unison.org.uk/content/uploads/2021/03/McCloud-FAQs-1.docx)**
+UNISON has also produced a series of frequently asked questions to help members understand what this means for them. **[These can be found here.](https://www.unison.org.uk/content/uploads/2021/03/McCloud-FAQs-1.docx) [Link no longer available]{.link-unavailable}**
 
 ## Ambulance pension age survey
 

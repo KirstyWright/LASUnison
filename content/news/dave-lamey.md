@@ -3,7 +3,7 @@ title: Dave Lamey
 date: '2017-07-24'
 category: News
 readTime: 1
-excerpt: It is with great sadness that we have to inform you of the death of Dave Lamey, a much loved former colleague based at Croydon and a proud Senior UNISON…
+description: It is with great sadness that we have to inform you of the death of Dave Lamey, a much loved former colleague based at Croydon and a proud Senior UNISON…
 wpCategories:
   - General
 wpId: 2830

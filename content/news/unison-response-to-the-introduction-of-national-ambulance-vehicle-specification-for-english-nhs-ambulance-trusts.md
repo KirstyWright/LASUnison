@@ -3,7 +3,7 @@ title: UNISON response to the introduction of National ambulance vehicle specifi
 date: '2019-04-19'
 category: News
 readTime: 2
-excerpt: On 1 April 2019, NHS Improvement introduced new national ambulance vehicle specifications and all new ambulances purchased need to be in line with these.
+description: On 1 April 2019, NHS Improvement introduced new national ambulance vehicle specifications and all new ambulances purchased need to be in line with these.
 tags:
   - consultation
   - nhs

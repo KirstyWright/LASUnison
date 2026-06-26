@@ -3,7 +3,7 @@ title: UNISON survey reveals scale of secret stress among ambulance workers
 date: '2015-04-10'
 category: News
 readTime: 5
-excerpt: Long hours, staff shortages and the mental demands of the job are placing an enormous burden on ambulance workers as nine in ten (91 per cent) say they are suffering…
+description: Long hours, staff shortages and the mental demands of the job are placing an enormous burden on ambulance workers as nine in ten (91 per cent) say they are suffering…
 tags:
   - survey
   - unison

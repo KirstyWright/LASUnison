@@ -4,7 +4,7 @@ date: '2013-11-29'
 category: News
 topic: Pay
 readTime: 2
-excerpt: In their joint statement on 11 November 2013 employers and trades unions from the ambulance service confirmed their agreement to hold "genuine and constructive talks on what unsocial hours arrangements…
+description: In their joint statement on 11 November 2013 employers and trades unions from the ambulance service confirmed their agreement to hold "genuine and constructive talks on what unsocial hours arrangements…
 tags:
   - afc
   - pay

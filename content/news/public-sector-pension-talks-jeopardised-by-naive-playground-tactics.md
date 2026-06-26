@@ -4,7 +4,7 @@ date: '2011-07-28'
 category: News
 topic: Pensions
 readTime: 2
-excerpt: UNISON General Secretary, Dave Prentis, today rounded on Government ministers for putting public sector pension talks in “jeopardy” by their ”naïve tactics” and apparent lack of negotiating skills.
+description: UNISON General Secretary, Dave Prentis, today rounded on Government ministers for putting public sector pension talks in “jeopardy” by their ”naïve tactics” and apparent lack of negotiating skills.
 tags:
   - pension
   - talks

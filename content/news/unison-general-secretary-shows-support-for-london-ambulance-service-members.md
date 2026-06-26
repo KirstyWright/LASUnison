@@ -3,7 +3,7 @@ title: UNISON general secretary shows support for London Ambulance Service membe
 date: '2015-11-10'
 category: News
 readTime: 2
-excerpt: UNISON general secretary Dave Prentis today (Tuesday) showed his support for London Ambulance Service (LAS) UNISON members as they face unprecedented pressures caused by cuts and performance targets.
+description: UNISON general secretary Dave Prentis today (Tuesday) showed his support for London Ambulance Service (LAS) UNISON members as they face unprecedented pressures caused by cuts and performance targets.
 tags:
   - dave
   - election

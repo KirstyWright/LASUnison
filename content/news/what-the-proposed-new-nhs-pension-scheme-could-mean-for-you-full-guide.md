@@ -4,7 +4,7 @@ date: '2012-04-04'
 category: News
 topic: Pensions
 readTime: 1
-excerpt: UNISON have now published a full guide to the proposed new NHS Pension Scheme for England and Wales.
+description: UNISON have now published a full guide to the proposed new NHS Pension Scheme for England and Wales.
 wpCategories:
   - Branch News
   - Pensions
@@ -19,7 +19,7 @@ UNISON have now published a full guide to the proposed new NHS Pension Scheme fo
 
 The guide offers at a glance comparisons between the new scheme and the 1995 and 2008 schemes. Information on CARE scheme, protection, member contribution increases, survivor benefits as well as case studies and lots more.
 
-There is also a 'pensions knowledge centre' on the main website that can be found by clicking this link. [http://www.unison.org.uk/pensions/](http://www.unison.org.uk/pensions/)
+There is also a 'pensions knowledge centre' on the main website that can be found by clicking this link. [http://www.unison.org.uk/pensions/](http://www.unison.org.uk/pensions/) [Link no longer available]{.link-unavailable}
 
 New NHS Pension Scheme calculator: Agenda for Change staff
 

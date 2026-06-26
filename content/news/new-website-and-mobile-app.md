@@ -3,7 +3,7 @@ title: New Website and Mobile App
 date: '2012-06-24'
 category: News
 readTime: 2
-excerpt: This week at the UNISON National Delegate Conference we were given a sneak preview of the brand new UNISON website and mobile phone app.
+description: This week at the UNISON National Delegate Conference we were given a sneak preview of the brand new UNISON website and mobile phone app.
 tags:
   - apps
   - mobile
@@ -22,6 +22,6 @@ The website is still in very early development but the areas we were able to see
 
 A new mobile app is also being developed and looked almost ready when we saw it. It will  be available for the i-phone & Android and should be launched soon. It will prove useful in workplaces where internet access is restricted on in our case when we are out on the road.
 
-Don't forget that your branch has already launched a mobile phone app! If you didn't already know its available by [clicking here](http://lasunison.mobapp.at/). The LAS is also planning to launch several apps soon as reported in our previous story so I hope you have plenty of room on your smartphones.
+Don't forget that your branch has already launched a mobile phone app! If you didn't already know its available by [clicking here](http://lasunison.mobapp.at/) [Link no longer available]{.link-unavailable}. The LAS is also planning to launch several apps soon as reported in our previous story so I hope you have plenty of room on your smartphones.
 
 We will be reviewing the branch website this year to ensure that we integrate with the new UNISON website and all the mobile phone apps coming out this year. If you have any suggestions or would like to see any features introduced then please get in touch as we always welcome your feedback. You can also use the comments section on this page.

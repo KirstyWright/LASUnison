@@ -3,7 +3,7 @@ title: EL Presidente T-Shirt
 date: '2017-04-23'
 category: News
 readTime: 2
-excerpt: Last year after Eric Roberts became president of UNISON, the London Ambulance Service Branch of UNISON had an idea of making a t-shirt with Eric’s picture on with El Presidente…
+description: Last year after Eric Roberts became president of UNISON, the London Ambulance Service Branch of UNISON had an idea of making a t-shirt with Eric’s picture on with El Presidente…
 tags:
   - communications
   - mind
@@ -23,7 +23,7 @@ This was going to be a complete surprise to Eric! Sadly, this will now never hap
 
 So we have produced these T-Shirts to honour our late President and Branch Secretary of the London Ambulance Service Branch, Eric Roberts and the Mind charity.
 
-Eric chose the [Mind Blue Light Programme](http://mind.org.uk/news-campaigns/campaigns/bluelight/) as his [Presidential charity](/?mdocs-file=2730) because it is about the welfare of the men and women who work in our emergency services, including the Ambulance Service where Eric worked for 42 years.
+Eric chose the [Mind Blue Light Programme](http://mind.org.uk/news-campaigns/campaigns/bluelight/) as his [Presidential charity](/docs/mdocs/mind%20leaflet.pdf) because it is about the welfare of the men and women who work in our emergency services, including the Ambulance Service where Eric worked for 42 years.
 
 Those who work in our emergency services are more at risk of experiencing a mental health problem than the general population but are less likely to access support. Mind are experts in mental health and the Blue Light Programme works in partnership with the ambulance, police, search & rescue and fire services to provide practical and positive ways for staff to stay well for work.
 

@@ -3,7 +3,7 @@ title: TITANIC HEALTH BILL, THREATENS TO SINK OUR NHS
 date: '2011-01-19'
 category: News
 readTime: 3
-excerpt: Lansleys Health Bill is a disaster of Titanic proportions warned UNISON, the UKs largest union, today (19 January).
+description: Lansleys Health Bill is a disaster of Titanic proportions warned UNISON, the UKs largest union, today (19 January).
 wpCategories:
   - UNISON News
 wpId: 270

@@ -4,7 +4,7 @@ date: '2021-03-17'
 category: News
 topic: Pay
 readTime: 4
-excerpt: Over recent months, UNISON has led negotiations to secure a framework for NHS staff working under NHS terms and conditions (Agenda for Change) in England to ensure that they receive…
+description: Over recent months, UNISON has led negotiations to secure a framework for NHS staff working under NHS terms and conditions (Agenda for Change) in England to ensure that they receive…
 tags:
   - afc
   - government
@@ -38,7 +38,7 @@ The agreement means that employers will go back 2 full financial years (1 April 
 
 UNISON members with existing legal claims will be approached by their employer with a settlement offer and should speak to their Thompsons’ legal advisor before proceeding.
 
-To find out if you are eligible, please check the **[joint union and employer communications materials](https://www.nhsemployers.org/pay-pensions-and-reward/nhs-terms-and-conditions-of-service---agenda-for-change/nhs-terms-and-conditions-of-service-handbook/overtime-payments-and-pay-during-annual-leave)**, which includes a set of FAQs. You can read more about the framework in our **[branch guide](https://www.unison.org.uk/content/uploads/2021/03/Holiday-Pay-Branch-briefing-getting-it-right.pdf)**.
+To find out if you are eligible, please check the **[joint union and employer communications materials](https://www.nhsemployers.org/pay-pensions-and-reward/nhs-terms-and-conditions-of-service---agenda-for-change/nhs-terms-and-conditions-of-service-handbook/overtime-payments-and-pay-during-annual-leave)**, which includes a set of FAQs. You can read more about the framework in our **[branch guide](https://www.unison.org.uk/content/uploads/2021/03/Holiday-Pay-Branch-briefing-getting-it-right.pdf) [Link no longer available]{.link-unavailable}**.
 
 This agreement covers England only. An agreement has already been reached in **[Scotland](https://www.stac.scot.nhs.uk/circulars)**. Employers in Cymru Wales and Northern Ireland have indicated they will enter discussions with trade unions to resolve this issue in their respective administrations.
 

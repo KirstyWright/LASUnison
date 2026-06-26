@@ -4,7 +4,7 @@ date: '2022-11-29'
 category: News
 topic: Pay
 readTime: 3
-excerpt: Ambulance workers in England to strike Ambulance workers across England are likely to strike before Christmas, says ​UNISON today (Tuesday 29 Nov), as it announces the results of its month-long…
+description: Ambulance workers in England to strike Ambulance workers across England are likely to strike before Christmas, says ​UNISON today (Tuesday 29 Nov), as it announces the results of its month-long…
 tags:
   - afc
   - ballot

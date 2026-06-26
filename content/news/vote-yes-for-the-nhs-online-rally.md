@@ -3,7 +3,7 @@ title: Vote yes for the NHS online rally
 date: '2022-10-20'
 category: News
 readTime: 1
-excerpt: 26 October 2022 6:00pm–6:30pm A short online rally is taking place for UNISON members and activists ahead of the NHS pay industrial action ballot, which opens on 27 October.
+description: 26 October 2022 6:00pm–6:30pm A short online rally is taking place for UNISON members and activists ahead of the NHS pay industrial action ballot, which opens on 27 October.
 tags:
   - afc
   - ballot

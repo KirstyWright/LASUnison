@@ -4,7 +4,7 @@ date: '2020-09-24'
 category: News
 topic: Pay
 readTime: 1
-excerpt: You may recall back in January 2019 the LAS management agreed to pay a 1% lump sum to all EMTs in compensation for EMTs belatedly moving to the top of…
+description: You may recall back in January 2019 the LAS management agreed to pay a 1% lump sum to all EMTs in compensation for EMTs belatedly moving to the top of…
 tags:
   - afc
   - branch

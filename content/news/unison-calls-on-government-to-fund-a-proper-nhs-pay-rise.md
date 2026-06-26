@@ -4,7 +4,7 @@ date: '2017-09-19'
 category: News
 topic: Pay
 readTime: 2
-excerpt: ‘NHS staff and their families need a pay award that stops the rot’ UNISON is breaking with tradition and submitting a pay claim directly to the government on behalf of…
+description: ‘NHS staff and their families need a pay award that stops the rot’ UNISON is breaking with tradition and submitting a pay claim directly to the government on behalf of…
 tags:
   - afc
   - government

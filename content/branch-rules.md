@@ -191,4 +191,4 @@ The result of the election will be published on the date given in the published 
 
 The rules are published in the UNISON rulebook. A new edition is produced after every national delegate conference, which incorporates the latest updates and rule changes (agreed by a two-thirds majority of delegates to the conference).
 
-[Download the UNISON rule book (PDF)](/?mdocs-file=2381)
+[Download the UNISON rule book (PDF)](/docs/mdocs/2016rulebook1.pdf)

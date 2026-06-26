@@ -4,7 +4,7 @@ date: '2016-12-23'
 category: News
 topic: Pay
 readTime: 3
-excerpt: UNISON meets NHS Pay Review Body to give evidence on behalf of NHS staff We call for decent pay rise for all staff, including a return to UK pay and…
+description: UNISON meets NHS Pay Review Body to give evidence on behalf of NHS staff We call for decent pay rise for all staff, including a return to UK pay and…
 image: /images/2016/12/talkaboutpay17-18.png
 wpCategories:
   - Pay

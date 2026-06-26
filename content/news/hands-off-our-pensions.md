@@ -3,7 +3,7 @@ title: '''Hands off our pensions!'''
 date: '2011-09-14'
 category: News
 readTime: 3
-excerpt: '"Today, as general secretary of UNISON, I give formal notice to 9,000 employers that we are balloting for action," declared Dave Prentis when he opened the TUC debate on pensions…'
+description: '"Today, as general secretary of UNISON, I give formal notice to 9,000 employers that we are balloting for action," declared Dave Prentis when he opened the TUC debate on pensions…'
 tags:
   - dave
   - pensions
@@ -55,6 +55,6 @@ And union after union in the public sector announced plans to ballot members for
 
 After an unprecedented standing ovation, congress backed the motion unanimously.
 
-[The full text of the general secretary's speech](http://www.unison.org.uk/asppresspack/pressrelease_view.asp?id=2440)
+[The full text of the general secretary's speech](http://www.unison.org.uk/asppresspack/pressrelease_view.asp?id=2440) [Link no longer available]{.link-unavailable}
 
-[Protect our pensions](http://www.unison.org.uk/pensions/protectour.asp)
+[Protect our pensions](http://www.unison.org.uk/pensions/protectour.asp) [Link no longer available]{.link-unavailable}

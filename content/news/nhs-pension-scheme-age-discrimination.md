@@ -4,7 +4,7 @@ date: '2019-09-14'
 category: News
 topic: Pensions
 readTime: 13
-excerpt: NHS Pension Scheme – Age discrimination judgement A legal case taken by the firefighters and judges has found that the transitional protections introduced as part of the 2015 changes to…
+description: NHS Pension Scheme – Age discrimination judgement A legal case taken by the firefighters and judges has found that the transitional protections introduced as part of the 2015 changes to…
 tags:
   - afc
   - government
@@ -204,13 +204,13 @@ Please note that the value of your investment into an AVC can go down as well as
 
 ## Resources
 
-### [The NHS Pension Scheme Presentation](https://www.unison.org.uk/content/uploads/2017/06/The-NHS-Pension-Scheme-Presentation.pptx)
+### [The NHS Pension Scheme Presentation](https://www.unison.org.uk/content/uploads/2017/06/The-NHS-Pension-Scheme-Presentation.pptx) [Link no longer available]{.link-unavailable}
 
 9 June 2017
 
 A UNISON presentation outlining the key features of the NHS Pension Scheme
 
-### [Could you be a Champion](https://www.unison.org.uk/content/uploads/2017/06/Could-you-be-a-Champion.pdf)
+### [Could you be a Champion](https://www.unison.org.uk/content/uploads/2017/06/Could-you-be-a-Champion.pdf) [Link no longer available]{.link-unavailable}
 
 6 June 2017
 

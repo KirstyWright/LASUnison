@@ -4,7 +4,7 @@ date: '2018-03-22'
 category: News
 topic: Pay
 readTime: 5
-excerpt: UNISON today unveiled a proposal for a far-reaching modernisation of the NHS pay structure in England over the next three years, which would result in significant pay rises for every…
+description: UNISON today unveiled a proposal for a far-reaching modernisation of the NHS pay structure in England over the next three years, which would result in significant pay rises for every…
 tags:
   - afc
   - ballot
@@ -48,7 +48,7 @@ UNISON head of health Sara Gorton, who was the lead pay negotiator for the NHS u
 
 The union will be emailing NHS members today with details of the proposals.
 
-And UNISON has produced an activists’ briefing that will assist them when speaking with members about what the proposal would mean to them, available at [www.unison.org.uk/nhspay18](http://www.unison.org.uk/nhspay18).
+And UNISON has produced an activists’ briefing that will assist them when speaking with members about what the proposal would mean to them, available at [www.unison.org.uk/nhspay18](http://www.unison.org.uk/nhspay18) [Link no longer available]{.link-unavailable}.
 
 **What will it mean for you?** See the NHS joint unions’ pay calculator
 
@@ -78,6 +78,6 @@ The proposed agreement will only apply to England, at least for now. If the prop
 
 That will mean UNISON can enter talks in each country about whether and how to implement the agreement in a way that could work for them.
 
-In England, the consultation of members opens in mid-April. Full details will be available, by that time, on the UNISON website at: [www.unison.org.uk/nhspay18](http://www.unison.org.uk/nhspay18).
+In England, the consultation of members opens in mid-April. Full details will be available, by that time, on the UNISON website at: [www.unison.org.uk/nhspay18](http://www.unison.org.uk/nhspay18) [Link no longer available]{.link-unavailable}.
 
 Details of the proposal, including the pay calculator, are available on a new, dedicated website: [www.nhspay.org](http://www.nhspay.org/).

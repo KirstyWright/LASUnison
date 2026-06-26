@@ -3,7 +3,7 @@ title: Government declares war on public services
 date: '2010-06-22'
 category: News
 readTime: 4
-excerpt: UNISON General Secretary, Dave Prentis, today accused the Government of declaring war on public services and public service workers with the most draconian budget in decades.
+description: UNISON General Secretary, Dave Prentis, today accused the Government of declaring war on public services and public service workers with the most draconian budget in decades.
 wpCategories:
   - Branch News
 wpId: 189

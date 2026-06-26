@@ -4,7 +4,7 @@ date: '2019-01-14'
 category: News
 topic: Pay
 readTime: 2
-excerpt: LAS UNISON first wrote to the LAS management on 22 nd March 2017 to request EMT4’s pay, at that time being capped to spine point 20 on band 5, have…
+description: LAS UNISON first wrote to the LAS management on 22 nd March 2017 to request EMT4’s pay, at that time being capped to spine point 20 on band 5, have…
 tags:
   - consultation
   - las
@@ -32,4 +32,4 @@ Please contact your workplace rep or Senior Sector rep to discuss and feedback o
 
 We will publish our formal response once agreed.
 
-[Download the proposal in full here](/?mdocs-file=3547)
+[Download the proposal in full here](/docs/mdocs/EMT%204%20Transition%20-%20110119.pdf)

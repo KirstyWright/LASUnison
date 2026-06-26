@@ -4,7 +4,7 @@ date: '2013-05-13'
 category: News
 topic: Pay
 readTime: 8
-excerpt: Click here to download a PDF of the letter written to chief executive Ann Radmore regarding the 'A Time for Change' proposals. Please display in your workplace.
+description: Click here to download a PDF of the letter written to chief executive Ann Radmore regarding the 'A Time for Change' proposals. Please display in your workplace.
 tags:
   - a time for change
   - chief executive

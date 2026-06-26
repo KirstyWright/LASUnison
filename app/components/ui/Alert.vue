@@ -50,7 +50,7 @@ const bodyColor = computed(() => (isEmerg.value ? 'text-white' : 'text-[var(--te
     <div class="min-w-0">
       <p
         v-if="title"
-        class="font-[family-name:var(--font-display)] font-bold text-[1.125rem] tracking-[-0.015em] m-0 mb-0.5"
+        class="font-[family-name:var(--font-display)] font-extrabold text-[1.125rem] tracking-[-0.015em] m-0 mb-0.5"
         :class="titleColor"
       >{{ title }}</p>
       <div class="text-[0.9375rem] leading-[1.55] m-0" :class="bodyColor"><slot /></div>

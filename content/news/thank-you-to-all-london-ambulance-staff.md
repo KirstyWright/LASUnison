@@ -3,7 +3,7 @@ title: THANK YOU TO ALL LONDON AMBULANCE STAFF
 date: '2020-04-28'
 category: News
 readTime: 1
-excerpt: THANK YOU TO ALL LONDON AMBULANCE STAFF
+description: THANK YOU TO ALL LONDON AMBULANCE STAFF
 tags:
   - a&e support
   - branch

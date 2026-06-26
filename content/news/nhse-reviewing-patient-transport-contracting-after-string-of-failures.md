@@ -3,7 +3,7 @@ title: NHSE reviewing patient transport contracting after string of failures
 date: '2019-10-08'
 category: News
 readTime: 3
-excerpt: NHS England has ordered a review into the cost of patient transport services and the way they are commissioned, following a string of market failures.
+description: NHS England has ordered a review into the cost of patient transport services and the way they are commissioned, following a string of market failures.
 tags:
   - nhs
   - pts

@@ -1,7 +1,7 @@
 /**
- * Client-side types + helpers for site search. The response shape mirrors what
- * server/api/search.get.ts returns; the helpers are shared by the search
- * overlay and the /search page.
+ * Shared types + helpers for site search. The response shape is produced by the
+ * client search engine (useSiteSearchEngine); these helpers are shared by the
+ * search overlay and the /search page.
  */
 
 export interface PageHit { path: string; title: string; snippet: string }

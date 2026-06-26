@@ -3,7 +3,7 @@ title: March for Public Services
 date: '2011-03-04'
 category: News
 readTime: 1
-excerpt: Join our branch on Saturday 26th March 2011 where thousands of people will join the TUC march in London to tell the ConDem government that savage spending cuts are unnecessary…
+description: Join our branch on Saturday 26th March 2011 where thousands of people will join the TUC march in London to tell the ConDem government that savage spending cuts are unnecessary…
 wpCategories:
   - Branch News
   - Event

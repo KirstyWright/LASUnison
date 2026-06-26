@@ -3,7 +3,7 @@ title: LAS UNISON Rainbow Badges
 date: '2020-06-03'
 category: News
 readTime: 1
-excerpt: In the coming weeks your UNISON representatives will be distributing our new “Protect the NHS” badges, as a thank you, and also sending a message for our beloved NHS which…
+description: In the coming weeks your UNISON representatives will be distributing our new “Protect the NHS” badges, as a thank you, and also sending a message for our beloved NHS which…
 wpCategories:
   - Branch News
 image: /images/2020/05/LA-Rainbow-Unison-V3-scaled.jpg

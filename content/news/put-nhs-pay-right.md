@@ -4,7 +4,7 @@ date: '2022-05-25'
 category: News
 topic: Pay
 readTime: 3
-excerpt: The LAS UNISON Branch has sent the letter below today (25/05/2022) to Daniel Elkeles, London Ambulance Service Chief Executive and Damian McGuinness, Director of People & Culture.
+description: The LAS UNISON Branch has sent the letter below today (25/05/2022) to Daniel Elkeles, London Ambulance Service Chief Executive and Damian McGuinness, Director of People & Culture.
 tags:
   - afc
   - branch secretary

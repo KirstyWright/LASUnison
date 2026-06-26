@@ -3,7 +3,7 @@ title: Thank you from LAS UNISON
 date: '2020-03-20'
 category: News
 readTime: 1
-excerpt: Dear Member, We are in a time of National Emergency, a time that has not been seen in our lifetime.
+description: Dear Member, We are in a time of National Emergency, a time that has not been seen in our lifetime.
 tags:
   - branch
   - branch secretary

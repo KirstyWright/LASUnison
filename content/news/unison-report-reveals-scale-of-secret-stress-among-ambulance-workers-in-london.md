@@ -3,7 +3,7 @@ title: UNISON report reveals scale of secret stress among ambulance workers in L
 date: '2015-04-11'
 category: News
 readTime: 5
-excerpt: Staff shortages, long hours and the mental demands of the job are placing an enormous burden on ambulance workers in London as nine in ten (94 per cent) report suffering…
+description: Staff shortages, long hours and the mental demands of the job are placing an enormous burden on ambulance workers in London as nine in ten (94 per cent) report suffering…
 tags:
   - las
   - survey

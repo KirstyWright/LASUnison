@@ -3,7 +3,7 @@ title: LAS UNISON has nominated Christina McAnea to lead our 1.3 million members
 date: '2020-11-02'
 category: News
 readTime: 1
-excerpt: Christina has worked for UNISON for over 25 years. She is one of the UK’s most senior women trade unionists - a no non-sense negotiator and a champion for women’s…
+description: Christina has worked for UNISON for over 25 years. She is one of the UK’s most senior women trade unionists - a no non-sense negotiator and a champion for women’s…
 tags:
   - branch
   - branch secretary

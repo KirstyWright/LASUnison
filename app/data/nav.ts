@@ -56,7 +56,6 @@ export const navGroups: NavGroup[] = [
       { label: 'About the branch', path: '/about-us', note: 'Who we are and what we do', icon: 'flag' },
       { label: 'Branch rules', path: '/branch-rules', note: 'How the branch is constituted and run', icon: 'scale' },
       { label: 'Calendar & meetings', path: '/calendar', note: 'Branch meetings, AGM and key dates', icon: 'calendar' },
-      { label: 'Contact the branch', path: '/about-us/contact-us', note: 'Get in touch with the branch office', icon: 'mail' },
     ],
   },
   {
@@ -65,8 +64,7 @@ export const navGroups: NavGroup[] = [
     hub: '/membership',
     intro: 'Joining, your subscription, keeping your details current — and the pay and pension that come with the job.',
     items: [
-      { label: 'Join UNISON', path: '/membership', note: 'Why join, and how — in a few minutes', icon: 'userPlus' },
-      { label: 'Subscription rates', path: '/subscription-rates', note: 'What membership costs, by salary band', icon: 'banknote' },
+      { label: 'Join UNISON', path: '/membership', note: 'Why join, what it costs, and how — in minutes', icon: 'userPlus' },
       { label: 'Update your details', path: '/update-your-details', note: 'Tell us if your job or address changes', icon: 'users' },
       { label: 'Pay & Agenda for Change', path: '/pay', note: 'NHS pay rates and the AfC bands', icon: 'banknote' },
       { label: 'NHS pension scheme', path: '/nhs-pension-scheme', note: 'Your NHS pension, explained', icon: 'clock' },

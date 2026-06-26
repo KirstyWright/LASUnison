@@ -3,7 +3,7 @@ title: Branch Secretary To Publish Union Blog
 date: '2010-07-03'
 category: News
 readTime: 1
-excerpt: Branch Secretary Eric Roberts is to publish a regular Union Blog. This is in response to constructive suggestions made at the AGM in March and members emails.
+description: Branch Secretary Eric Roberts is to publish a regular Union Blog. This is in response to constructive suggestions made at the AGM in March and members emails.
 wpCategories:
   - Branch News
   - Branch Secretary

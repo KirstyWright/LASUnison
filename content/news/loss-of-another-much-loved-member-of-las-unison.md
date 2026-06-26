@@ -3,7 +3,7 @@ title: Loss of another Much Loved Member Of LAS UNISON
 date: '2020-12-17'
 category: News
 readTime: 2
-excerpt: On Wednesday 16th December 2020 we lost another Romford and North East legend, Emergency Medical Technician and UNISON Member 'Robbie Muir' after a short illness in hospital.
+description: On Wednesday 16th December 2020 we lost another Romford and North East legend, Emergency Medical Technician and UNISON Member 'Robbie Muir' after a short illness in hospital.
 tags:
   - ambulance
   - branch

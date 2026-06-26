@@ -3,7 +3,7 @@ title: UNISON General Secretary Nomination
 date: '2020-08-20'
 category: News
 readTime: 1
-excerpt: This afternoon (20 th August 2020) the London Ambulance UNISON Branch Committee met and have decided to nominate Christina McAnea for General Secretary to our great union.
+description: This afternoon (20 th August 2020) the London Ambulance UNISON Branch Committee met and have decided to nominate Christina McAnea for General Secretary to our great union.
 tags:
   - branch
   - election

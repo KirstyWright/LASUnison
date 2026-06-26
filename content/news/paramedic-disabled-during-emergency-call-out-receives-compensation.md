@@ -3,7 +3,7 @@ title: Paramedic disabled during emergency call-out receives compensation
 date: '2009-11-27'
 category: News
 readTime: 3
-excerpt: “I have gone from a strong person, who could do anything, to someone who struggles to pick up a small box from the floor.” These are the words of a…
+description: “I have gone from a strong person, who could do anything, to someone who struggles to pick up a small box from the floor.” These are the words of a…
 wpCategories:
   - UNISON News
 wpId: 59

@@ -4,7 +4,7 @@ date: '2014-01-29'
 category: News
 topic: Pay
 readTime: 2
-excerpt: A meeting of UNISON ambulance branch representatives took place on 28 January 2014 to discuss the progress of the national negotiations on unsocial hours and sickness pay arrangements for ambulance…
+description: A meeting of UNISON ambulance branch representatives took place on 28 January 2014 to discuss the progress of the national negotiations on unsocial hours and sickness pay arrangements for ambulance…
 tags:
   - afc
   - ballot

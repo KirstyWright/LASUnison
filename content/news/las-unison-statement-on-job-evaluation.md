@@ -4,7 +4,7 @@ date: '2024-05-31'
 category: News
 topic: Pay
 readTime: 3
-excerpt: We have been made aware of some misinformation that has been distributed by management regarding the SSM role in the LAS.
+description: We have been made aware of some misinformation that has been distributed by management regarding the SSM role in the LAS.
 tags:
   - pay
   - banding

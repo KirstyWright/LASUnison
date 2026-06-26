@@ -3,7 +3,7 @@ title: UNISON launches its campaign for a National Care Service in England
 date: '2023-10-13'
 category: News
 readTime: 2
-excerpt: '"Social care now needs to be moved to the front of the queue" UNISON today launched its campaign for a National Care Service in England, a nationally recognised institution that…'
+description: '"Social care now needs to be moved to the front of the queue" UNISON today launched its campaign for a National Care Service in England, a nationally recognised institution that…'
 tags:
   - eac
   - campaign

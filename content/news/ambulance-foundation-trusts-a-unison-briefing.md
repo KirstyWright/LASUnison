@@ -3,7 +3,7 @@ title: Ambulance Foundation Trusts – a UNISON briefing
 date: '2008-12-03'
 category: News
 readTime: 5
-excerpt: 1 Foundation Trusts (FT’s) – Background . A detailed guide to NHS Foundation Trusts and UNISON’s position on the issue can be found on our website at http://www.unison.org.uk/foundation/index.asp .
+description: 1 Foundation Trusts (FT’s) – Background . A detailed guide to NHS Foundation Trusts and UNISON’s position on the issue can be found on our website at http://www.unison.org.uk/foundation/index.asp .
 wpCategories:
   - UNISON News
 wpId: 80
@@ -11,14 +11,14 @@ legacyUrl: https://lasunison.co.uk/ambulance-foundation-trusts-a-unison-briefing
 ---
 
 1 **Foundation Trusts (FT’s) – Background**.
-A detailed guide to NHS Foundation Trusts and UNISON’s position on the issue can be found on our website at [http://www.unison.org.uk/foundation/index.asp](http://www.unison.org.uk/foundation/index.asp) . Some knowledge of the steps that need to be taken by trusts to achieve foundation status is essential for UNISON representatives to maximise their influence and involvement.
+A detailed guide to NHS Foundation Trusts and UNISON’s position on the issue can be found on our website at [http://www.unison.org.uk/foundation/index.asp](http://www.unison.org.uk/foundation/index.asp) [Link no longer available]{.link-unavailable} . Some knowledge of the steps that need to be taken by trusts to achieve foundation status is essential for UNISON representatives to maximise their influence and involvement.
 
-[You can download and read this story in full as a PDF by clicking here](/news/documents/UNISONAmbulanceFTguide0808[1].pdf)
+You can download and read this story in full as a PDF by clicking here
 
 2 **The FT process and timescales**.
 In brief, trusts have to satisfy their Strategic Health Authority (SHA), The Department of Health (DH) and ultimately Monitor, the FT regulator that they are suitable to become a foundation trust. Along the way a number of standards have to be met relating to quality, finances, governance and business planning.
 The first stage entails a ***diagnostic assessment*** of the Trust by their Strategic Health Authority (SHA) on the likelihood of their application for FT status being successful. This has the effect of producing an action plan that identifies areas that need improvement and an estimated timescale for readiness for an application to progress to the next stage (scrutiny by the DH). This is not likely to be much less than a year in the “best case” scenario.
-The DH scrutiny stage is referred to as phase 1 in the Monitor / DH guidance for FT applicants (available at http://www.dh.gov.uk/en/Publicationsandstatistics/Publications/PublicationsPolicyAndGuidance/DH\_073630 ). This envisages a further period of 43 weeks elapsing between phase 1 and the Monitor board final decision on the FT application (end of phase 4). In effect the process will take the best part of two years to complete providing all the requirements have been met.
+The DH scrutiny stage is referred to as phase 1 in the Monitor / DH guidance for FT applicants (available at https://www.gov.uk/government/organisations/department-of-health-and-social-care ). This envisages a further period of 43 weeks elapsing between phase 1 and the Monitor board final decision on the FT application (end of phase 4). In effect the process will take the best part of two years to complete providing all the requirements have been met.
 
 Stage / Phase Time Scale (weeks) Aggregated (weeks)
 SHA diagnostic 52 52
@@ -49,6 +49,6 @@ It is a stated aim of all English Ambulance Services to achieve FT status. The e
 The NHS Confederation also has a Foundation Trust network. This will also be providing assistance to Ambulance Trusts in achieving FT status. There are currently two trusts, North East and London that are working on producing a “diagnostic tool” to assist in the initial SHA assessment that can be used by other Ambulance trusts. On the basis that these are the two most advanced trusts in the process it is unlikely the first Ambulance Foundation trust will be with us until beyond April 2009.
 As stated above local trade union representatives should be involved at the outset of the process. In North East Ambulance Joel Byers, the UNISON representative attends FT board meetings as an observer.
 
-[You can download and read this story in full as a PDF by clicking here](/news/documents/UNISONAmbulanceFTguide0808[1].pdf)
+You can download and read this story in full as a PDF by clicking here
 
 © [by LAS UNISON](/).

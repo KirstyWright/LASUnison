@@ -4,7 +4,7 @@ date: '2020-06-04'
 category: News
 topic: Wellbeing
 readTime: 1
-excerpt: LAS UNISON WE ARE ALL FRONTLINE T-SHIRTS The LAS UNISON Branch Committee took the decision to have some branch t-shirts made for our hard working members across our Service.
+description: LAS UNISON WE ARE ALL FRONTLINE T-SHIRTS The LAS UNISON Branch Committee took the decision to have some branch t-shirts made for our hard working members across our Service.
 tags:
   - benefits
   - branch

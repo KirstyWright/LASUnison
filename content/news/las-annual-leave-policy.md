@@ -3,7 +3,7 @@ title: LAS Annual Leave Policy
 date: '2022-09-22'
 category: News
 readTime: 1
-excerpt: Please download and read the draft annual leave policy and feedback to your local UNISON representative or direct to your Area representative.
+description: Please download and read the draft annual leave policy and feedback to your local UNISON representative or direct to your Area representative.
 tags:
   - afc
   - ambulance
@@ -20,10 +20,10 @@ wpId: 6446
 legacyUrl: https://lasunison.co.uk/las-annual-leave-policy
 ---
 
-Please **[download](/?mdocs-file=6445)** and read the draft annual leave policy and feedback to your local UNISON representative or direct to your Area representative.
+Please **[download](/docs/mdocs/DRAFT.%20LAS%20Annual%20Leave%20Policy.pdf)** and read the draft annual leave policy and feedback to your local UNISON representative or direct to your Area representative.
 
-You can also feedback via our **[contact form](/about-us/contact-us)**.
+You can also feedback by [contacting the branch](/branch).
 
-[**Click here to download the DRAFT annual leave policy to your device**](/?mdocs-file=6445)
+[**Click here to download the DRAFT annual leave policy to your device**](/docs/mdocs/DRAFT.%20LAS%20Annual%20Leave%20Policy.pdf)
 
 **If you are using Safari on an apple device then click here - [DRAFT. LAS Annual Leave Policy](/docs/2022/09/DRAFT.-LAS-Annual-Leave-Policy.pdf)**

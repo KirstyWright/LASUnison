@@ -3,7 +3,7 @@ title: PTS UNISON Members
 date: '2010-02-23'
 category: News
 readTime: 2
-excerpt: Dear Colleague, 2010 could be a difficult year for Patient Transport Services contracts due to a potential change of Government, hospitals forced to cut budgets, the on-going financial crisis and…
+description: Dear Colleague, 2010 could be a difficult year for Patient Transport Services contracts due to a potential change of Government, hospitals forced to cut budgets, the on-going financial crisis and…
 wpCategories:
   - Branch News
 wpId: 49

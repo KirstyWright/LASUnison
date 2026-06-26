@@ -3,7 +3,7 @@ title: Statement on the Manchester synagogue attack
 date: '2025-10-06'
 category: News
 readTime: 1
-excerpt: UNISON is horrified at the terrorist attack on the Heaton Park Hebrew Congregation Synagogue yesterday, which left two people dead and many more injured.
+description: UNISON is horrified at the terrorist attack on the Heaton Park Hebrew Congregation Synagogue yesterday, which left two people dead and many more injured.
 tags:
   - solidarity
   - attacks

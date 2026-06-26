@@ -1,5 +1,5 @@
 <script setup lang="ts">
-type Variant = 'default' | 'solid' | 'secondary' | 'accent' | 'success' | 'warning' | 'danger' | 'emergency' | 'neutral'
+type Variant = 'default' | 'solid' | 'secondary' | 'accent' | 'highlight' | 'success' | 'warning' | 'danger' | 'emergency' | 'neutral'
 
 const props = withDefaults(
   defineProps<{ variant?: Variant; dot?: boolean }>(),
@@ -12,9 +12,10 @@ const BASE =
 const V: Record<Variant, string> = {
   default: 'bg-[var(--brand-primary-soft)] text-[var(--brand-primary-strong)]',
   solid: 'bg-[var(--brand-primary)] text-white',
-  secondary: 'bg-[var(--brand-secondary-soft)] text-[var(--green-700)]',
-  accent: 'bg-[var(--brand-accent-soft)] text-[var(--blue-700)]',
-  success: 'bg-[var(--success-soft)] text-[var(--green-700)]',
+  secondary: 'bg-[var(--brand-secondary-soft)] text-[var(--brand-secondary-strong)]',
+  accent: 'bg-[var(--brand-accent-soft)] text-[var(--brand-accent-strong)]',
+  highlight: 'bg-[var(--brand-highlight)]/15 text-[var(--brand-highlight)]',
+  success: 'bg-[var(--success-soft)] text-[var(--brand-secondary-strong)]',
   warning: 'bg-[var(--warning-soft)] text-[var(--amber-600)]',
   danger: 'bg-[var(--danger-soft)] text-[var(--red-700)]',
   emergency: 'bg-[var(--emergency)] text-white',

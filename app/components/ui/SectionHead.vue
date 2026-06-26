@@ -26,7 +26,7 @@ const introStyle = computed(() => ({
     <div v-if="eyebrow" class="mb-2.5">
       <UiEyebrow :color="eyebrowColor">{{ eyebrow }}</UiEyebrow>
     </div>
-    <h2 class="font-[family-name:var(--font-display)] font-extrabold text-[length:var(--text-4xl)] tracking-[-0.015em] text-[var(--text-strong)] leading-[1.1] m-0">
+    <h2 class="font-[family-name:var(--font-display)] font-extrabold text-[length:var(--text-4xl)] tracking-[-0.015em] text-[var(--text-strong)] leading-[1.12] m-0">
       {{ title }}
     </h2>
     <p v-if="intro" class="text-[length:var(--text-md)] text-[var(--text-muted)] mt-3.5 mb-0" :style="introStyle">

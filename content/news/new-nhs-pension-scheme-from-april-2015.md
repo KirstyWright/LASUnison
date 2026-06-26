@@ -4,7 +4,7 @@ date: '2014-04-12'
 category: News
 topic: Pensions
 readTime: 3
-excerpt: What’s happening? • The current NHS pension scheme will be replaced by a new scheme from 1 April 2015.
+description: What’s happening? • The current NHS pension scheme will be replaced by a new scheme from 1 April 2015.
 tags:
   - pension
   - pensions

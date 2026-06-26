@@ -1,12 +1,16 @@
 ---
 title: Labour Link
+officer: peter-hannell
 description: If you would like to find out more information on the role of Labour Link then please visit the Labour Link section of the main UNISON web site.
 date: '2022-03-08'
 wpId: 1332
 legacyUrl: https://lasunison.co.uk/labour-link
+seo:
+  description: When you join UNISON you are given the opportunity to opt in to UNISON Labour Link (formerly known as the Affiliated Political Fund or APF).
+  title: UNISON Labour Link page — LAS UNISON
 ---
 
-If you would like to find out more information on the role of Labour Link then please visit the [Labour Link](http://www.unison.org.uk/about/our-organisation/political-affiliations-and-support/) section of the main UNISON web site.
+If you would like to find out more information on the role of Labour Link then please visit the [Labour Link](http://www.unison.org.uk/about/our-organisation/political-affiliations-and-support/) [Link no longer available]{.link-unavailable} section of the main UNISON web site.
 
 ---
 
@@ -43,4 +47,4 @@ The political situation changes hour by hour it seems. However, the Labour Party
 
 #### Joining the Labour Party at the reduced TU rate
 
-UNISON members can join the Labour Party at a reduced rate (£22.50 per yr/£1.88 per month) either by completing an application form or joining on-line.  Alternatively members can be directed to http://www.labour.org.uk/trade\_union\_join
+UNISON members can join the Labour Party at a reduced rate (£22.50 per yr/£1.88 per month) either by completing an application form or joining on-line.  Alternatively members can be directed to https://join.labour.org.uk/

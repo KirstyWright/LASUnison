@@ -3,7 +3,7 @@ title: HCPC Fees increase consultation
 date: '2019-02-07'
 category: News
 readTime: 2
-excerpt: HCPC registrants may be interested in this public meeting on the 14th of February where the outcome of the recent consultation on an increase in fees will be discussed and…
+description: HCPC registrants may be interested in this public meeting on the 14th of February where the outcome of the recent consultation on an increase in fees will be discussed and…
 tags:
   - consultation
   - hcpc
@@ -21,7 +21,7 @@ HCPC registrants may be interested in this public meeting on the 14th of Februar
 
 UNISON has responded to this and, along with 90% of the other respondents, disagree with this increase.
 
-Details in: HCPC Outcomes of Consultation - **[Download this document here](/?mdocs-file=3600)**
+Details in: HCPC Outcomes of Consultation - **[Download this document here](/docs/mdocs/HCPC%20outcome%20of%20consultation.pdf)**
 
 **[Further info here](https://www.hcpc-uk.org/news-and-events/meetings/2019/february/council-meeting---14-february-2019/?fbclid=IwAR0nsN7GMz4Vv0A49BvDYaKA4cCtLO5pvBH-hR2s-FtGAfqrvWuG-snqLRs)**
 

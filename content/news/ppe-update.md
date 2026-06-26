@@ -4,7 +4,7 @@ date: '2020-04-01'
 category: News
 topic: Safety
 readTime: 4
-excerpt: In response to the continued issues raised from our members, LAS UNISON Branch have worked with our management in the last few days to secure the following agreed guidance to…
+description: In response to the continued issues raised from our members, LAS UNISON Branch have worked with our management in the last few days to secure the following agreed guidance to…
 tags:
   - branch secretary
   - covid 19
@@ -65,4 +65,4 @@ Please contact your local UNISON representative should you have questions or fur
 Eddie Brand
 Branch Secretary
 
-[Click here to download the original letter](/?mdocs-file=4764)
+[Click here to download the original letter](/docs/mdocs/PPE%20Update%201st%20April%202020%20FINAL.pdf)

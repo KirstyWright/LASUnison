@@ -3,7 +3,7 @@ title: National Labour Link Committee
 date: '2019-08-11'
 category: News
 readTime: 3
-excerpt: 'Election of Greater London Regional Seat Why we nominated our branch rep Pete Hannell in UNISON London Labour Link elections: Pete is a longstanding trade union activist and defender of…'
+description: 'Election of Greater London Regional Seat Why we nominated our branch rep Pete Hannell in UNISON London Labour Link elections: Pete is a longstanding trade union activist and defender of…'
 tags:
   - ballot
   - branch

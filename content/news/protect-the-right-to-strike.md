@@ -3,7 +3,7 @@ title: Protect the right to strike
 date: '2023-05-24'
 category: News
 readTime: 1
-excerpt: Branch Secretary addressed the TUC emergency protest in Parliament Square on Monday 22nd of May. Watch his rousing speech in defence of the right to strike here
+description: Branch Secretary addressed the TUC emergency protest in Parliament Square on Monday 22nd of May. Watch his rousing speech in defence of the right to strike here
 tags:
   - branch secretary
   - government

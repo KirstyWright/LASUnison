@@ -4,7 +4,7 @@ date: '2025-10-23'
 category: News
 topic: Education
 readTime: 1
-excerpt: This is available to any UNISON member who does not have a GCSE or equivalent in English and Mathematics and wants to enter any higher/degree education course, including Cumbria University…
+description: This is available to any UNISON member who does not have a GCSE or equivalent in English and Mathematics and wants to enter any higher/degree education course, including Cumbria University…
 tags:
   - education
   - functional skills

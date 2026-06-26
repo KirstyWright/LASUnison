@@ -3,7 +3,7 @@ title: Survey on workplace bullying and harassment to identify the scale of the 
 date: '2009-06-11'
 category: News
 readTime: 2
-excerpt: You are invited to participate in a survey that UNISON is conducting on the scale and extent of workplace bullying and harassment.
+description: You are invited to participate in a survey that UNISON is conducting on the scale and extent of workplace bullying and harassment.
 wpCategories:
   - UNISON News
 wpId: 69

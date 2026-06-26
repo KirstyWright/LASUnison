@@ -3,7 +3,7 @@ title: Branch noticeboard competition winners announced!
 date: '2019-01-16'
 category: News
 readTime: 2
-excerpt: Congratulations to London Ambulance Service branch’s Battersea station who are the overall winners of our Grovember branch noticeboards competition.
+description: Congratulations to London Ambulance Service branch’s Battersea station who are the overall winners of our Grovember branch noticeboards competition.
 tags:
   - branch
   - communications

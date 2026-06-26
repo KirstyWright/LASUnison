@@ -4,7 +4,7 @@ date: '2026-01-20'
 category: Campaign
 topic: Pensions
 readTime: 3
-excerpt: Pressures at work impact hugely on the health and wellbeing of ambulance staff, yet their retirement age has continued to rise.
+description: Pressures at work impact hugely on the health and wellbeing of ambulance staff, yet their retirement age has continued to rise.
 tags:
   - ambulance
   - pension

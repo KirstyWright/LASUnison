@@ -3,7 +3,7 @@ title: Updating Your Details
 date: '2010-04-24'
 category: News
 readTime: 3
-excerpt: We regularly ask our members to keep us updated with their current workplace, home address and name.
+description: We regularly ask our members to keep us updated with their current workplace, home address and name.
 wpCategories:
   - Branch News
   - General
@@ -11,7 +11,7 @@ wpId: 44
 legacyUrl: https://lasunison.co.uk/updating-your-details
 ---
 
-We regularly ask our members to keep us updated with their current workplace, home address and name. We established a quick and easy way of doing this via the web site on our [update](/member%20services/update.htm) page.
+We regularly ask our members to keep us updated with their current workplace, home address and name. We established a quick and easy way of doing this via the web site on our [update](/update-your-details) page.
 
 There is a prominent link to this on the top menu bar as well as a link further down the home page. You can of course also update your details by ringing UNISON Direct on 0845 355 0845.
 
@@ -33,6 +33,6 @@ Shadow transport secretary Theresa Villiers said "While Gordon Brown and his wea
 
 It is important to learn lessons and be prepared. If we did need to hold a ballot of members, we must ensure that our records are correct and the time to do that is now.
 
-Update your details online right now at [https://www.lasunison.co.uk/member%20services/update.htm](/member%20services/update.htm) or phone UNISON Direct on 0845 355 0845 or alternatively speak to your station rep.
+Update your details online right now on our [update your details](/update-your-details) page or phone UNISON Direct on 0845 355 0845 or alternatively speak to your station rep.
 
 © [by LAS UNISON](/).

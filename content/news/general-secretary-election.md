@@ -3,7 +3,7 @@ title: General Secretary Election
 date: '2010-05-18'
 category: News
 readTime: 3
-excerpt: http://www.unison.org.uk/elections/gselections.asp The LAS UNISON Branch has nominated Dave Prentis for General Secretary.
+description: http://www.unison.org.uk/elections/gselections.asp The LAS UNISON Branch has nominated Dave Prentis for General Secretary.
 wpCategories:
   - Branch News
   - UNISON News
@@ -11,7 +11,7 @@ wpId: 43
 legacyUrl: https://lasunison.co.uk/general-secretary-election
 ---
 
-[http://www.unison.org.uk/elections/gselections.asp](http://www.unison.org.uk/elections/gselections.asp)
+[http://www.unison.org.uk/elections/gselections.asp](http://www.unison.org.uk/elections/gselections.asp) [Link no longer available]{.link-unavailable}
 
 The LAS UNISON Branch has nominated Dave Prentis for General Secretary.
 

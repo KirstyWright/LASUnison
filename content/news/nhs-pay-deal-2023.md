@@ -4,7 +4,7 @@ date: '2023-05-04'
 category: News
 topic: Pay
 readTime: 3
-excerpt: The NHS Staff Council met on 2 May to make a decision on NHS pay. The majority of NHS workers and their unions, including UNISON, voted to accept the pay…
+description: The NHS Staff Council met on 2 May to make a decision on NHS pay. The majority of NHS workers and their unions, including UNISON, voted to accept the pay…
 tags:
   - ambulance
   - government

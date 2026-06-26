@@ -3,7 +3,7 @@ title: New CASE form and Employment Tribunal Fees
 date: '2013-07-16'
 category: News
 readTime: 5
-excerpt: The UNISON CASE management form that should be completed when members seek help from their representative has been updated this month.
+description: The UNISON CASE management form that should be completed when members seek help from their representative has been updated this month.
 wpCategories:
   - UNISON News
 wpId: 761
@@ -12,7 +12,7 @@ legacyUrl: https://lasunison.co.uk/new-case-form-and-employment-tribunal-fees
 
 The UNISON CASE management form that should be completed when members seek help from their representative has been updated this month. This is due to a new section being added regarding employment tribunals.
 
-[Click here to download the new Case management form](/?mdocs-file=2662)
+The new Case management form is available from your branch representative.
 
 **Employment tribunal fees**
 
@@ -42,7 +42,7 @@ In particular, it is recognised that branches are under pressure and that this i
 
 This email contains a new set of procedures drafted by the union's lawyers together with regional staff. Further guidance will be prepared for branches.
 
-[Download the employment tribunal representation scheme protocol](http://www.unison.org.uk/documents/1945).
+[Download the employment tribunal representation scheme protocol](http://www.unison.org.uk/documents/1945) [Link no longer available]{.link-unavailable}.
 
 There are two major points for branches.
 
@@ -56,7 +56,7 @@ It is very important to bear in mind that, once an application outside of the 28
 
 Please note that paragraphs 12 to 16 relate to the ACAS early conciliation scheme that is not coming into force until 2014.
 
-[Download the Case management form](/?mdocs-file=2662).
+The Case management form is available from your branch representative.
 
 There are changes to the Case management form because the union will need members to apply for "remission".
 

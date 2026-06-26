@@ -4,7 +4,7 @@ date: '2015-01-07'
 category: News
 topic: Pay
 readTime: 3
-excerpt: UNISON members working in the NHS in England will walkout for 12 hours between 9am – 9pm on Thursday 29th January.
+description: UNISON members working in the NHS in England will walkout for 12 hours between 9am – 9pm on Thursday 29th January.
 tags:
   - afc
   - ballot
@@ -51,4 +51,4 @@ UNISON is the largest union in the NHS representing over 450,000 workers across 
 
 We will keep you updated on this site, on Twitter or by our e-mail/text message service.
 
-If you haven't already signed up for [text alerts](/downloads/text%20alert%20letter.pdf) or e-mails then do so now.
+If you haven't already signed up for text alerts or e-mails then do so now.

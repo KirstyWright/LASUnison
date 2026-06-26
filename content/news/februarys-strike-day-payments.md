@@ -4,7 +4,7 @@ date: '2023-06-27'
 category: News
 topic: Pay
 readTime: 1
-excerpt: Pay for strike action taken in February will be deducted from payroll this month.
+description: Pay for strike action taken in February will be deducted from payroll this month.
 tags:
   - pay
   - strike

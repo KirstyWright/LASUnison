@@ -3,7 +3,7 @@ title: Remember COVID-19 dead this International Workers’ Memorial Day
 date: '2020-04-24'
 category: News
 readTime: 3
-excerpt: IWMD will give us the chance to remember the workers who have died because of COVID-19 Tuesday 28 April is International Workers’ Memorial Day, when we remember all those who…
+description: IWMD will give us the chance to remember the workers who have died because of COVID-19 Tuesday 28 April is International Workers’ Memorial Day, when we remember all those who…
 tags:
   - covid 19
   - nhs
@@ -51,4 +51,4 @@ if you are having a problem getting the PPE you need to keep you safe, let us kn
 
 email any other COVID-19 safety related issues to [healthandsafety@unison.co.uk](mailto:healthandsafety@unison.co.uk).
 
-[Coronavirus: what you need to know](https://www.unison.org.uk/coronavirus-rights-work/)
+[Coronavirus: what you need to know](https://www.unison.org.uk/coronavirus-rights-work/) [Link no longer available]{.link-unavailable}

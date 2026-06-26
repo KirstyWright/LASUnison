@@ -3,7 +3,7 @@ title: Ambulance stress survey 2015
 date: '2015-03-19'
 category: News
 readTime: 1
-excerpt: UNISON is now conducting its annual stress survey for staff working in the ambulance service.
+description: UNISON is now conducting its annual stress survey for staff working in the ambulance service.
 tags:
   - survey
   - unison

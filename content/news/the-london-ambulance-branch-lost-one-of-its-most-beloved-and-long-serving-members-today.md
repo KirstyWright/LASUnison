@@ -3,7 +3,7 @@ title: The London Ambulance Branch lost one of its most beloved and long-serving
 date: '2020-04-21'
 category: News
 readTime: 2
-excerpt: Ian Reynolds was a Paramedic at New Addington, where he also served as a committed, active UNISON rep.
+description: Ian Reynolds was a Paramedic at New Addington, where he also served as a committed, active UNISON rep.
 tags:
   - covid 19
   - las

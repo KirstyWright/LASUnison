@@ -4,7 +4,7 @@ date: '2008-11-01'
 category: News
 topic: Pay
 readTime: 2
-excerpt: The soaring cost of living has led to a vote by senior health activists of UNISON, the UK's largest health union, to trigger a re-opener clause on a multi-year pay…
+description: The soaring cost of living has led to a vote by senior health activists of UNISON, the UK's largest health union, to trigger a re-opener clause on a multi-year pay…
 wpCategories:
   - Pay
   - UNISON News

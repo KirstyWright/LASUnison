@@ -3,7 +3,7 @@ title: National ambulance vehicle specification for English NHS ambulance trusts
 date: '2019-03-30'
 category: News
 readTime: 1
-excerpt: The consultation for the new National ambulance vehicle specification for English NHS ambulance trusts has now concluded.
+description: The consultation for the new National ambulance vehicle specification for English NHS ambulance trusts has now concluded.
 tags:
   - consultation
   - government
@@ -18,6 +18,6 @@ legacyUrl: https://lasunison.co.uk/national-ambulance-vehicle-specification-for-
 
 The consultation for the new National ambulance vehicle specification for English NHS ambulance trusts has now concluded.
 
-NHS Improvement have published the **[consultation response document that you can download here](/?mdocs-file=3682).**
+NHS Improvement have published the **[consultation response document that you can download here](/docs/mdocs/20190327_NHSI_Feedback_on_Consultation.pdf).**
 
-They have also published the new **[national specification that you can download here](/?mdocs-file=3684)**.
+They have also published the new **[national specification that you can download here](/docs/mdocs/20190327_National_Ambulance_Vehicle_Specification_final.pdf)**.

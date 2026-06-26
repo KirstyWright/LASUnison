@@ -4,7 +4,7 @@ date: '2019-08-02'
 category: News
 topic: Pay
 readTime: 1
-excerpt: LAS UNISON met with Senior Management on Wednesday 31st July 2019 at the LAS Staff Council.
+description: LAS UNISON met with Senior Management on Wednesday 31st July 2019 at the LAS Staff Council.
 tags:
   - afc
   - branch
@@ -35,4 +35,4 @@ If after this date we do not reach a satisfactory outcome we will initiate the d
 
 We are waiting for further information on this issue and will keep you updated ASAP.
 
-[Download this as a bulletin to display in your workplace by clicking here](/?mdocs-file=3783)
+[Download this as a bulletin to display in your workplace by clicking here](/docs/mdocs/BS%20-%20EACS%20-%202%20Aug%2019.pdf)

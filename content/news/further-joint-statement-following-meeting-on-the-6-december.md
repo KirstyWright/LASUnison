@@ -4,7 +4,7 @@ date: '2013-12-12'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Joint Statement between NHS ambulance Trusts in England and UNISON, GMB and Unite Employers and trade unions met on 6 December.
+description: Joint Statement between NHS ambulance Trusts in England and UNISON, GMB and Unite Employers and trade unions met on 6 December.
 tags:
   - afc
   - pay

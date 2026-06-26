@@ -4,7 +4,7 @@ date: '2011-11-28'
 category: News
 topic: Pensions
 readTime: 3
-excerpt: London Ambulance UNISON Day of Action 30 th November 2011 28 th November 2011 To all UNISON members, This is the final instructions concerning plans for the Day of Action…
+description: London Ambulance UNISON Day of Action 30 th November 2011 28 th November 2011 To all UNISON members, This is the final instructions concerning plans for the Day of Action…
 tags:
   - pension
   - pensions

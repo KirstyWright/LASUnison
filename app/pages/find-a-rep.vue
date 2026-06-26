@@ -163,16 +163,13 @@ useSeoMeta({
     <main id="main-content">
       <!-- ── Masthead ─────────────────────────────────────────────────────── -->
       <section class="bg-[var(--surface-brand)] text-white relative overflow-hidden">
+        <!-- Pulse, refined — live cardiac-monitor edge motif -->
         <div
           aria-hidden="true"
-          class="absolute inset-0 opacity-50"
-          :style="{
-            backgroundImage: 'url(/pattern-pulse.svg)',
-            backgroundSize: '320px auto',
-            backgroundRepeat: 'repeat-x',
-            backgroundPosition: 'left bottom',
-          }"
-        />
+          class="absolute inset-x-0 bottom-0 text-[var(--brand-highlight)] pointer-events-none"
+        >
+          <MotifPulse />
+        </div>
         <div class="las-container relative py-14 md:py-[4.5rem]">
           <nav aria-label="Breadcrumb" class="mb-5 text-[0.875rem] text-[var(--purple-200)]">
             <NuxtLink to="/" class="text-[var(--purple-200)] no-underline hover:text-white">Home</NuxtLink>
@@ -209,7 +206,7 @@ useSeoMeta({
               v-model="search"
               type="search"
               placeholder="Search by station or workplace…"
-              class="w-full h-11 pl-10 pr-4 bg-[var(--surface-card)] border border-[var(--border-default)] rounded-[var(--radius-md)] text-[var(--text-body)] text-[1rem] placeholder:text-[var(--text-subtle)] focus:outline-none focus:border-transparent focus:ring-[3px] focus:ring-[var(--border-focus)] transition-shadow duration-150"
+              class="w-full h-11 pl-10 pr-4 bg-[var(--surface-card)] border border-[var(--border-default)] rounded-[var(--radius-md)] text-[var(--text-body)] text-[1rem] placeholder:text-[var(--text-subtle)] focus-visible:outline-none focus:border-transparent focus:ring-[3px] focus:ring-[var(--border-focus)] transition-shadow duration-150"
               aria-label="Search stations and workplaces"
               autocomplete="off"
             />
@@ -223,6 +220,7 @@ useSeoMeta({
           >
             <button
               type="button"
+              :aria-pressed="mobileView === 'list'"
               class="px-4 h-11 text-[0.875rem] font-bold transition-colors duration-150 border-none cursor-pointer"
               :class="mobileView === 'list'
                 ? 'bg-[var(--brand-primary)] text-white'
@@ -233,6 +231,7 @@ useSeoMeta({
             </button>
             <button
               type="button"
+              :aria-pressed="mobileView === 'map'"
               class="px-4 h-11 text-[0.875rem] font-bold transition-colors duration-150 border-none border-l border-[var(--border-default)] cursor-pointer"
               :class="mobileView === 'map'
                 ? 'bg-[var(--brand-primary)] text-white'
@@ -254,20 +253,6 @@ useSeoMeta({
         >
           {{ resultLabel }}
         </p>
-
-        <!-- How to reach a rep. Cards show a rep's email where we hold one; this is the
-             route for the rest (and a safety net if a member isn't sure who to ask). -->
-        <div class="flex items-start gap-3 rounded-[var(--radius-lg)] border border-[var(--border-subtle)] bg-[var(--surface-sunken)] px-4 py-3 mb-6 text-[0.8125rem] text-[var(--text-muted)]">
-          <UiIcon name="mail" :size="16" :stroke="2" class="text-[var(--text-subtle)] flex-none mt-0.5" />
-          <p class="m-0 leading-[1.5]">
-            Not sure who to ask, or can’t see a rep’s contact details? Email the branch at
-            <a
-              href="mailto:branch@lasunison.com"
-              class="font-semibold text-[var(--brand-primary)] no-underline hover:underline"
-            >branch@lasunison.com</a>
-            and we’ll point you to the right person.
-          </p>
-        </div>
 
         <div class="lg:grid lg:grid-cols-[minmax(0,1fr)_400px] lg:gap-8 xl:gap-10">
           <!-- ── Left: sector panels ─────────────────────────────────────── -->
@@ -342,14 +327,13 @@ useSeoMeta({
             <p class="text-[0.75rem] text-[var(--text-subtle)] text-center mt-2">
               Click a pin to jump to that station
             </p>
+            <p class="text-[length:var(--text-sm)] text-[var(--text-muted)] text-center mt-2">
+              Map pins aren't keyboard-accessible — use the search and list to find your station.
+            </p>
           </aside>
         </div>
       </div>
 
-      <!-- ── Footer CTAs ────────────────────────────────────────────────── -->
-      <div class="las-container pb-[var(--section-y)]">
-        <UiEmergencyBar />
-      </div>
       <HomeJoin />
     </main>
 

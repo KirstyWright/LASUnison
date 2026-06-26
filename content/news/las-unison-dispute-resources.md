@@ -4,7 +4,7 @@ date: '2022-12-21'
 category: News
 topic: Pay
 readTime: 1
-excerpt: On this page we are collecting together resources you can print out and display to show your support for Ambulance Service Workers during our current dispute with the government.
+description: On this page we are collecting together resources you can print out and display to show your support for Ambulance Service Workers during our current dispute with the government.
 tags:
   - ambulance
   - government

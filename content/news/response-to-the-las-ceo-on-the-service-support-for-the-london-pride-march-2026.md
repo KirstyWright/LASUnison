@@ -4,7 +4,7 @@ date: '2026-06-12'
 category: News
 author: Tim Stephens
 readTime: 4
-excerpt: Today we wrote to the LAS CEO, Jason Killens, in response to his letter this week partially withdrawing some support for our staff that are part of the LAS contingent…
+description: Today we wrote to the LAS CEO, Jason Killens, in response to his letter this week partially withdrawing some support for our staff that are part of the LAS contingent…
 wpCategories:
   - Branch News
   - General

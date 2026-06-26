@@ -4,7 +4,7 @@ date: '2023-03-03'
 category: News
 topic: Pay
 readTime: 3
-excerpt: The government has finally promised extra investment in pay for both this and next year. The strike planned for next Wednesday involving thousands of ambulance staff and other NHS workers…
+description: The government has finally promised extra investment in pay for both this and next year. The strike planned for next Wednesday involving thousands of ambulance staff and other NHS workers…
 tags:
   - afc
   - ambulance

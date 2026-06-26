@@ -3,7 +3,7 @@ title: Wellbeing Day
 date: '2021-05-06'
 category: News
 readTime: 1
-excerpt: LAS UNISON are pleased to see that the London Ambulance Service are to give ALL staff an extra days annual leave (to be called a wellbeing day), as a thank…
+description: LAS UNISON are pleased to see that the London Ambulance Service are to give ALL staff an extra days annual leave (to be called a wellbeing day), as a thank…
 tags:
   - annual leave
   - branch

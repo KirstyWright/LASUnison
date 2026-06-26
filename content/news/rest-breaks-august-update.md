@@ -4,7 +4,7 @@ date: '2017-08-11'
 category: News
 topic: Pay
 readTime: 3
-excerpt: Dear UNISON Member, As you may be aware over the last year we have met with London Ambulance Senior Management about the ongoing issue of Rest Breaks.
+description: Dear UNISON Member, As you may be aware over the last year we have met with London Ambulance Senior Management about the ongoing issue of Rest Breaks.
 tags:
   - benefits
   - branch secretary
@@ -51,4 +51,4 @@ In solidarity,
 Eddie Brand
 LAS UNISON Branch Secretary
 
-[Download this as a bulletin to display in your workplace](/?mdocs-file=2846)
+[Download this as a bulletin to display in your workplace](/docs/mdocs/BS%20-%20LAS%20UNISON%20Bulletin%20Rest%20Breaks%20-%20Aug%2017.pdf)

@@ -4,7 +4,7 @@ date: '2016-05-25'
 category: News
 topic: Wellbeing
 readTime: 2
-excerpt: In addition to claiming tax relief for laundering your uniform and for HCPC fees, you are also entitled to 70% tax relief on your UNISON Subscriptions.
+description: In addition to claiming tax relief for laundering your uniform and for HCPC fees, you are also entitled to 70% tax relief on your UNISON Subscriptions.
 wpCategories:
   - Benefits
   - Sections
@@ -13,7 +13,7 @@ wpId: 1726
 legacyUrl: https://lasunison.co.uk/tax-relief-on-unison-subsciptions
 ---
 
-In addition to claiming tax relief for laundering your uniform and for [HCPC](http://www.hpc-uk.org/registrants/fees/tax/) fees, you are also entitled to 70% tax relief on your UNISON Subscriptions.
+In addition to claiming tax relief for laundering your uniform and for [HCPC](https://www.hcpc-uk.org/registration/) fees, you are also entitled to 70% tax relief on your UNISON Subscriptions.
 
 This is because UNISON was successful in securing this benefit after extensive negotiations with Her Majesty’s Revenue and Customs (HMRC). We were able to demonstrate that the activities of our organisation are mainly directed at helping members of a profession to do their jobs better, in the same way as other professional bodies.
 

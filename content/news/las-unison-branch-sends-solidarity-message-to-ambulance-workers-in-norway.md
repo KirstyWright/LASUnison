@@ -3,7 +3,7 @@ title: LAS UNISON Branch sends solidarity message to Ambulance Workers in Norway
 date: '2011-08-13'
 category: News
 readTime: 3
-excerpt: Following the terrible events in Norway on the 22 July, Eric Roberts (LAS UNISON Branch Secretary) sent a message of solidarity and support to the Ambulance staff in Norway.
+description: Following the terrible events in Norway on the 22 July, Eric Roberts (LAS UNISON Branch Secretary) sent a message of solidarity and support to the Ambulance staff in Norway.
 wpCategories:
   - Branch News
   - Branch Secretary

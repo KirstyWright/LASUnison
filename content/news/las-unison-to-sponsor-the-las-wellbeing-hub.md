@@ -4,7 +4,7 @@ date: '2020-04-01'
 category: News
 topic: Wellbeing
 readTime: 1
-excerpt: Today, the LAS UNISON Branch Committee have agreed to sponsor the LAS Wellbeing Hub. It has been agreed that our Branch will donate £10,000 towards wellbeing hampers for staff that…
+description: Today, the LAS UNISON Branch Committee have agreed to sponsor the LAS Wellbeing Hub. It has been agreed that our Branch will donate £10,000 towards wellbeing hampers for staff that…
 tags:
   - branch
   - covid 19

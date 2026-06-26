@@ -3,7 +3,7 @@ title: UNISON comments on Andy Burnham’s speech at its health conference
 date: '2015-04-15'
 category: News
 readTime: 2
-excerpt: Speaking at UNISON’s annual health conference in Liverpool today (Wednesday) Andy Burnham shared Labour’s vision for the NHS and said the National Health Service couldn’t survive another five years of…
+description: Speaking at UNISON’s annual health conference in Liverpool today (Wednesday) Andy Burnham shared Labour’s vision for the NHS and said the National Health Service couldn’t survive another five years of…
 tags:
   - election
   - government

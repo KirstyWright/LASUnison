@@ -3,7 +3,7 @@ title: Foundation Trust
 date: '2009-12-23'
 category: News
 readTime: 3
-excerpt: ‘UNISON understands the concerns and worries of members regarding Foundation Trust Status. Our opposition to Foundation Trust Status is on record.
+description: ‘UNISON understands the concerns and worries of members regarding Foundation Trust Status. Our opposition to Foundation Trust Status is on record.
 wpCategories:
   - Branch News
 wpId: 53
@@ -26,6 +26,6 @@ Eric Roberts
 Branch Secretary
 LAS UNISON
 
-[Click here to download a bulletin to display in your workplace](/bulletins/general/FT%20Update%201.pdf)
+Click here to download a bulletin to display in your workplace
 
 © [by LAS UNISON](/).

@@ -4,7 +4,7 @@ date: '2016-09-19'
 category: News
 topic: Pay
 readTime: 3
-excerpt: Joint Ambulance Trade Union Statement 19 September 2016 Paramedic banding update For the last 18 months, UNISON, GMB and Unite, 3 of the trade unions representing the majority of ambulance…
+description: Joint Ambulance Trade Union Statement 19 September 2016 Paramedic banding update For the last 18 months, UNISON, GMB and Unite, 3 of the trade unions representing the majority of ambulance…
 tags:
   - afc
   - pay
@@ -45,4 +45,4 @@ These developments have only been possible thanks to the level of support you ha
 
 [![joint-trade-unions](/images/2016/09/joint-trade-unions-300x89.jpg)](/images/2016/09/joint-trade-unions.jpg)
 
-[Download this statement as a PDF](/?mdocs-file=2400&mdocs-url=false)
+[Download this statement as a PDF](/docs/mdocs/jointunionambulanceparamedicbandingupdatesept2016.pdf)

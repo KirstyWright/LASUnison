@@ -3,7 +3,7 @@ title: Letter to CE Ann Radmore from LAS UNISON Branch Secretary
 date: '2014-11-16'
 category: News
 readTime: 4
-excerpt: Dear Ann, I am writing to you on behalf of London Ambulance UNISON, but also making a personal plea for our Service to act, take the initiative, and force through…
+description: Dear Ann, I am writing to you on behalf of London Ambulance UNISON, but also making a personal plea for our Service to act, take the initiative, and force through…
 tags:
   - afc
   - chief executive
@@ -76,4 +76,4 @@ LAS UNISON
 
 Staff Side Secretary
 
-[www.lasunison.co.uk](/)
+[www.lasunison.com](/)

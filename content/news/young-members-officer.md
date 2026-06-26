@@ -3,7 +3,7 @@ title: Young Members Officer
 date: '2019-07-27'
 category: News
 readTime: 1
-excerpt: Your young members’ officer is there to work with other branch officers, and to act as an organiser, recruiting and encouraging participation by young workers.
+description: Your young members’ officer is there to work with other branch officers, and to act as an organiser, recruiting and encouraging participation by young workers.
 tags:
   - branch
   - unison

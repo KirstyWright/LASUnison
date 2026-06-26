@@ -4,7 +4,7 @@ date: '2021-09-20'
 category: News
 topic: Pay
 readTime: 4
-excerpt: Health workers in England – angry that rising costs have already wiped out their recent pay rise – have voted to oppose the government over the 3% increase, says UNISON…
+description: Health workers in England – angry that rising costs have already wiped out their recent pay rise – have voted to oppose the government over the 3% increase, says UNISON…
 tags:
   - afc
   - ballot

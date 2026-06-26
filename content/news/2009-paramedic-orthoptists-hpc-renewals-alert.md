@@ -3,7 +3,7 @@ title: 2009 PARAMEDIC & ORTHOPTISTS HPC RENEWALS ALERT
 date: '2009-08-15'
 category: News
 readTime: 1
-excerpt: Individual members are required to re-register with the Health Professions Council (HPC) every two years.
+description: Individual members are required to re-register with the Health Professions Council (HPC) every two years.
 wpCategories:
   - UNISON News
 wpId: 65
@@ -30,7 +30,7 @@ by the HPC is up to date.
 
 Full details of the process and how you can obtain a
 renewal form are on the HPC website at
-[http://www.hpc-uk.org/registrants/renew](http://www.hpc-uk.org/registrants/renew)/.
+[http://www.hpc-uk.org/registrants/renew](https://www.hcpc-uk.org/registration/)/.
 
 ***UNISON Healthcare 11 August 2009***
 

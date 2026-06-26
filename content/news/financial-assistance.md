@@ -4,7 +4,7 @@ date: '2022-06-22'
 category: News
 topic: Wellbeing
 readTime: 5
-excerpt: If you are a member and you are experiencing financial difficulties, whether due to coronavirus or other circumstances, There for You can offer you support, including one-off grants.
+description: If you are a member and you are experiencing financial difficulties, whether due to coronavirus or other circumstances, There for You can offer you support, including one-off grants.
 tags:
   - benefits
   - covid 19
@@ -128,7 +128,7 @@ To be eligible to apply for financial assistance, you must have been a member of
 
 To apply, please download an application form, fill it out and return it to us along with scans, screenshots or photos of your supporting paperwork.
 
-[Download application form](https://www.unison.org.uk/content/uploads/2020/11/TFY_application_for_assistance.docx)
+[Download application form](https://www.unison.org.uk/content/uploads/2020/11/TFY_application_for_assistance.docx) [Link no longer available]{.link-unavailable}
 
 If you have difficulty completing the form, email us at [thereforyou@unison.co.uk](mailto:thereforyou@unison.co.uk) or call 020 7121 5620 and leave a message with your contact details. We will be in touch as soon as possible to help you through the process.
 
@@ -142,7 +142,7 @@ See what help is available from benefits if you’re affected by coronavirus, an
 
 The first vital step in taking control of your finances is to create your own personal budget plan. Our user friendly budget planner is free to use and should only take minutes to complete if you have all your financial information to hand.
 
-[Try the budget planner](https://www.unison.org.uk/get-help/services-support/there-for-you/budget-planner/)
+[Try the budget planner](https://www.unison.org.uk/get-help/services-support/there-for-you/budget-planner/) [Link no longer available]{.link-unavailable}
 
 ## Help with debt
 

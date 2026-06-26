@@ -3,7 +3,7 @@ title: A4C Bandings Review Requested
 date: '2009-01-16'
 category: News
 readTime: 1
-excerpt: Eric Roberts today wrote to Caron Hitchen formally requesting a joint review of Agenda for Change Bandings within the LAS.
+description: Eric Roberts today wrote to Caron Hitchen formally requesting a joint review of Agenda for Change Bandings within the LAS.
 wpCategories:
   - Branch News
 wpId: 76

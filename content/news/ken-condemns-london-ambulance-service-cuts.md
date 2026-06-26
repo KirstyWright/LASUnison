@@ -3,7 +3,7 @@ title: Ken condemns London Ambulance Service cuts
 date: '2011-04-12'
 category: News
 readTime: 2
-excerpt: 'Today the London Ambulance Service confirmed 890 jobs are being cut, including 560 front-line posts. Ken Livingstone said: “One year ago David Cameron promised Londoners, ‘I will protect front-line services’…'
+description: 'Today the London Ambulance Service confirmed 890 jobs are being cut, including 560 front-line posts. Ken Livingstone said: “One year ago David Cameron promised Londoners, ‘I will protect front-line services’…'
 wpCategories:
   - UNISON News
 wpId: 359

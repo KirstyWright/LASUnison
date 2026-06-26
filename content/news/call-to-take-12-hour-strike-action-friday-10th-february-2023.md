@@ -4,7 +4,7 @@ date: '2023-02-02'
 category: News
 topic: Pay
 readTime: 1
-excerpt: Dear UNISON Member, I am writing, as Branch Secretary, to call on you to take strike action again in line with our national NHS pay & Staffing dispute.
+description: Dear UNISON Member, I am writing, as Branch Secretary, to call on you to take strike action again in line with our national NHS pay & Staffing dispute.
 tags:
   - afc
   - branch

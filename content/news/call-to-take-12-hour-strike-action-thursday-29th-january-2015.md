@@ -4,7 +4,7 @@ date: '2015-01-23'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Dear UNISON Member, I am writing, as Branch Secretary, to call on you to take strike action again in line with our national NHS pay dispute strategy.
+description: Dear UNISON Member, I am writing, as Branch Secretary, to call on you to take strike action again in line with our national NHS pay dispute strategy.
 tags:
   - afc
   - ballot

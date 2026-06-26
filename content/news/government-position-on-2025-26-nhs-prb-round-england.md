@@ -4,7 +4,7 @@ date: '2024-12-20'
 category: News
 topic: Pay
 readTime: 1
-excerpt: Last week the Westminster government published their position for the 2025/26 pay round. The key points are that 2.8% is set aside to cover pay spending, that an interim minimum…
+description: Last week the Westminster government published their position for the 2025/26 pay round. The key points are that 2.8% is set aside to cover pay spending, that an interim minimum…
 tags:
   - ambulance
   - government

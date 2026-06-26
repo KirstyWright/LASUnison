@@ -4,7 +4,7 @@ date: '2023-03-02'
 category: News
 topic: Pay
 readTime: 2
-excerpt: We are in an ongoing dispute with the government on NHS pay in England. You may have seen press coverage today that the government has written to us with a…
+description: We are in an ongoing dispute with the government on NHS pay in England. You may have seen press coverage today that the government has written to us with a…
 tags:
   - afc
   - consultation

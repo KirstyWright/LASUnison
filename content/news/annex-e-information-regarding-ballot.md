@@ -4,7 +4,7 @@ date: '2013-07-25'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Changes have been proposed to the way pay is calculated if you are off sick. Ambulance staff receive payments for unsocial hours under Annex E of the Agenda for Change…
+description: Changes have been proposed to the way pay is calculated if you are off sick. Ambulance staff receive payments for unsocial hours under Annex E of the Agenda for Change…
 tags:
   - afc
   - pay

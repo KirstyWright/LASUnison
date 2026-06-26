@@ -3,7 +3,7 @@ title: New Website
 date: '2016-06-18'
 category: News
 readTime: 3
-excerpt: We are pleased to be launching a brand new website for the London Ambulance UNISON Branch.
+description: We are pleased to be launching a brand new website for the London Ambulance UNISON Branch.
 tags:
   - communications
   - website
@@ -13,6 +13,8 @@ wpCategories:
 image: /images/2020/05/20200525_010822-scaled.jpg
 wpId: 1647
 legacyUrl: https://lasunison.co.uk/new-website
+seo:
+  description: We are pleased to be launching a brand new website for the London Ambulance UNISON Branch. We first launched our website in July 2003
 ---
 
 We are pleased to be launching a brand new website for the London Ambulance UNISON Branch.

@@ -4,7 +4,7 @@ date: '2017-09-01'
 category: News
 topic: Pay
 readTime: 6
-excerpt: 1 September 2017 Newly Qualified Paramedic Update In December 2016, employers and trade unions signed up to a new national agreement to move paramedics into Agenda for Change band 6…
+description: 1 September 2017 Newly Qualified Paramedic Update In December 2016, employers and trade unions signed up to a new national agreement to move paramedics into Agenda for Change band 6…
 tags:
   - afc
   - paramedic
@@ -71,4 +71,4 @@ Our collective voice is strong. Working together we make a difference
 
 #### GMB - UNISON - Unite
 
-[Download the original document here](/?mdocs-file=2852)
+[Download the original document here](/docs/mdocs/Joint%20Union%20Notice%20Fast%20Track%20Position%20Sept%202017.pdf)

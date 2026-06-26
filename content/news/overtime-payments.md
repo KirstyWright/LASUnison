@@ -4,7 +4,7 @@ date: '2020-11-25'
 category: News
 topic: Pay
 readTime: 1
-excerpt: Some staff should be receiving additional overtime payments this month for COVID related absences.
+description: Some staff should be receiving additional overtime payments this month for COVID related absences.
 tags:
   - afc
   - branch

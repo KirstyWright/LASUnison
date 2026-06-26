@@ -4,7 +4,7 @@ date: '2012-04-30'
 category: News
 topic: Pay
 readTime: 1
-excerpt: The HR bulletin issued on the 28 March 2012 advised staff of the need to put annual leave requests ‘on hold’ in order to assess the overall resourcing needs over…
+description: The HR bulletin issued on the 28 March 2012 advised staff of the need to put annual leave requests ‘on hold’ in order to assess the overall resourcing needs over…
 tags:
   - afc
   - pay

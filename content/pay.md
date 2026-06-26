@@ -4,6 +4,8 @@ description: Agenda for Change Pay Rates View the NHS Terms and Conditions of Se
 date: '2022-12-28'
 wpId: 1820
 legacyUrl: https://lasunison.co.uk/pay
+seo:
+  description: Read the latest Pay Circular detailing the Agenda for Change pay rates that are currently effective. AfC staff should be paid these pay scales.
 ---
 
 #### Agenda for Change Pay Rates
@@ -14,7 +16,7 @@ View the [NHS Terms and Conditions of Service Handbook](http://www.nhsemployers.
 
 ### Emergency Medical Technicians
 
-[Click here to read more on the Pay Journey Update for an EMT previously capped in Band 5](/?mdocs-file=4846)
+[Click here to read more on the Pay Journey Update for an EMT previously capped in Band 5](/docs/mdocs/EMT%20full.pdf)
 
 ---
 

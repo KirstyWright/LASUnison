@@ -3,7 +3,7 @@ title: TORY ATTACK ON NURSES PAY A DISGRACE
 date: '2009-04-07'
 category: News
 readTime: 1
-excerpt: UNISON, the UK’s largest public sector union today castigated Shadow Chancellor George Osborne’s comments on public sector pay as a disgrace.
+description: UNISON, the UK’s largest public sector union today castigated Shadow Chancellor George Osborne’s comments on public sector pay as a disgrace.
 wpCategories:
   - UNISON News
 wpId: 74

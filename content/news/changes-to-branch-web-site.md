@@ -3,7 +3,7 @@ title: Changes to branch web site *Updated
 date: '2011-08-17'
 category: News
 readTime: 2
-excerpt: The LAS UNISON Branch web site was originally launched in 2003. Since then the site has undergone several face lifts and cosmetic enhancements and had various bits bolted on over…
+description: The LAS UNISON Branch web site was originally launched in 2003. Since then the site has undergone several face lifts and cosmetic enhancements and had various bits bolted on over…
 wpCategories:
   - Branch News
   - Website News
@@ -14,7 +14,7 @@ legacyUrl: https://lasunison.co.uk/changes-to-branch-web-site
 
 The LAS UNISON Branch web site was originally launched in 2003. Since then the site has undergone several face lifts and cosmetic enhancements and had various bits bolted on over the years. As a result it has become necessary to make some changes to the structure of the site.
 
-These changes and enhancements will be carried out over the next few weeks. Hopefully you will not notice anything while these works are carried out, but on occasion this may result in minor interruptions in service. We would like to apologise for any inconvenience this may cause. However, we would like to remind you that although the main domain name is 'lasunison.co.uk' you can also access the site using 'lasunison.co.uk' and you may find one working when the other is not, so it is worth trying both.
+These changes and enhancements will be carried out over the next few weeks. Hopefully you will not notice anything while these works are carried out, but on occasion this may result in minor interruptions in service. We would like to apologise for any inconvenience this may cause. However, we would like to remind you that the main domain name for the site is now 'lasunison.com'.
 
 UNISON Direct is also available as well as our many branch officers and stewards across the service.
 

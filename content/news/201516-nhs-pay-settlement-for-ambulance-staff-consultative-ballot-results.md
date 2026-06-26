@@ -4,7 +4,7 @@ date: '2016-06-03'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Joint Ambulance Trade Union Statement 03 June 2016 2015/16 NHS Pay Settlement for Ambulance Staff – consultative ballot results UNISON, GMB and Unite, 3 of the trade unions representing the…
+description: Joint Ambulance Trade Union Statement 03 June 2016 2015/16 NHS Pay Settlement for Ambulance Staff – consultative ballot results UNISON, GMB and Unite, 3 of the trade unions representing the…
 tags:
   - afc
   - ballot

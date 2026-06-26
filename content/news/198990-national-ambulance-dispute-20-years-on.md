@@ -3,7 +3,7 @@ title: 1989/90 National Ambulance Dispute,  20 years on
 date: '2009-12-19'
 category: News
 readTime: 2
-excerpt: LAS UNISON has put together an exhibition (with very special thanks to Anna Lowman, Communications Department, and Sarah Joy, Finance & Business Planning Department and others who have gave their…
+description: LAS UNISON has put together an exhibition (with very special thanks to Anna Lowman, Communications Department, and Sarah Joy, Finance & Business Planning Department and others who have gave their…
 wpCategories:
   - Branch News
 wpId: 54
@@ -29,6 +29,6 @@ LAS UNISON
 (Trade Union Secretary)
 07881810430
 
-[Click here to download a bulletin to display at your workplace](/bulletins/secretary/BS%20-%20Amb%20Dispute%20-%20Dec%2009.pdf)
+Click here to download a bulletin to display at your workplace
 
 © [by LAS UNISON](/).

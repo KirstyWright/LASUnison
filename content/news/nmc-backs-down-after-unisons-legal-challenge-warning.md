@@ -4,7 +4,7 @@ date: '2011-10-10'
 category: News
 topic: Pensions
 readTime: 2
-excerpt: UNISON today welcomed the Nursing and Midwifery Council (NMC) statement backing down from its previous threat to Nurses and Midwives, warning them against taking industrial action.
+description: UNISON today welcomed the Nursing and Midwifery Council (NMC) statement backing down from its previous threat to Nurses and Midwives, warning them against taking industrial action.
 wpCategories:
   - Pensions
   - UNISON News

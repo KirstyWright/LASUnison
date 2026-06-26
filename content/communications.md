@@ -1,5 +1,6 @@
 ---
 title: Communications
+officer: matt-searles
 description: Thanks for visiting the communications officer page. If you want to contact me then click here to open an online form.
 date: '2023-03-07'
 wpId: 1349
@@ -10,7 +11,7 @@ Thanks for visiting the communications officer page.
 
 The Communications Officer helps keep members informed — through branch [news](/news) and bulletins, the branch's social media, and this website — and works to make sure the information you need is easy to find.
 
-If you want to get in touch, you can reach the branch through the **[contact page](/about-us/contact-us)**.
+If you want to get in touch, you can reach the branch through our **[branch officers](/branch)**.
 
 ---
 

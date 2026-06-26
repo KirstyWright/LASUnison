@@ -4,7 +4,7 @@ date: '2012-03-09'
 category: News
 topic: Pensions
 readTime: 1
-excerpt: The final pensions proposals from the government were received today. They have to go to the UNISON Service Group Executive on 21 st March 2012 to get agreement regarding a…
+description: The final pensions proposals from the government were received today. They have to go to the UNISON Service Group Executive on 21 st March 2012 to get agreement regarding a…
 wpCategories:
   - Pensions
 wpId: 559

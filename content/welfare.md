@@ -1,5 +1,6 @@
 ---
 title: Welfare
+officer: julie-cunane
 description: There for You Welcome to UNISON's registered charity. We are a unique confidential service offering advice and support just for UNISON members and their families.
 date: '2020-03-25'
 wpId: 1345
@@ -25,10 +26,10 @@ That is why this branch has it's own Welfare Officer who you can contact directl
 
 Exclusively for UNISON members and their dependents at times of special need.
 
-- **[Services](http://www.unison.org.uk/get-help/help-with-problems-at-home/there-for-you/octopus-monthly-prize-draw)**
-- [**Financial Assistance**](http://www.unison.org.uk/get-help/help-with-problems-at-home/there-for-you/financial-assistance/)
-- [**General advice**](http://www.unison.org.uk/get-help/help-with-problems-at-home/there-for-you/general-advice/)
-- **[Wellbeing Breaks](http://www.unison.org.uk/get-help/help-with-problems-at-home/there-for-you/wellbeing-breaks/)**
+- **[Services](https://www.unison.org.uk/get-help/services-support/there-for-you/)**
+- [**Financial Assistance**](https://www.unison.org.uk/get-help/services-support/there-for-you/financial-assistance/)
+- [**General advice**](https://www.unison.org.uk/get-help/services-support/there-for-you/)
+- **[Wellbeing Breaks](https://www.unison.org.uk/get-help/services-support/there-for-you/wellbeing-breaks/)**
 
 ---
 
@@ -51,7 +52,7 @@ For more information contact us on 020 7121 5620 or email [thereforyou@unison.co
 ---
 
 **UNISON Debtline: confidential debt advice**
-There for you provides a free, impartial and confidential debt advice service over the phone in partnership with Payplan, experts in helping people in financial difficulty.  [Debtline](http://www.unison.org.uk/get-help/help-with-problems-at-home/debtline-support/) will help you find the best solution to suit your circumstances. The service is completely free to UNISON members. We also have an online version of our debt advice service called [Debt Clinic](http://www.debtclinic.co.uk/unison) which provides advice and debt information and outlines key problems. The site also provides tools to help you set up a recovery plan.
+There for you provides a free, impartial and confidential debt advice service over the phone in partnership with Payplan, experts in helping people in financial difficulty.  [Debtline](https://www.unison.org.uk/get-help/services-support/there-for-you/debtline-support/) will help you find the best solution to suit your circumstances. The service is completely free to UNISON members. We also have an online version of our debt advice service called [Debt Clinic](https://www.unison.org.uk/get-help/services-support/there-for-you/debtline-support/) which provides advice and debt information and outlines key problems. The site also provides tools to help you set up a recovery plan.
 
 ---
 

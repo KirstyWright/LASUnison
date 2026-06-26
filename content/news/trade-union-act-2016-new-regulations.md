@@ -3,7 +3,7 @@ title: Trade Union Act 2016 - New regulations
 date: '2017-05-17'
 category: News
 readTime: 4
-excerpt: New regulations on facility time and 'check-off' were introduced to the Westminster Parliament in March 2017.
+description: New regulations on facility time and 'check-off' were introduced to the Westminster Parliament in March 2017.
 tags:
   - government
 wpCategories:

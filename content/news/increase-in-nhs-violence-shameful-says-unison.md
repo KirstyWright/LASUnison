@@ -3,7 +3,7 @@ title: INCREASE IN NHS VIOLENCE SHAMEFUL, SAYS UNISON
 date: '2008-11-05'
 category: News
 readTime: 2
-excerpt: “I’ve been punched, kicked and spat at – just last month one of the crew had a knife pulled on him”.
+description: “I’ve been punched, kicked and spat at – just last month one of the crew had a knife pulled on him”.
 wpCategories:
   - UNISON News
 wpId: 83

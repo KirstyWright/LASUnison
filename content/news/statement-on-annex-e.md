@@ -4,7 +4,7 @@ date: '2013-07-01'
 category: News
 topic: Pay
 readTime: 2
-excerpt: The following is a statement sent from the Union. We have been having meetings on a National level within the Joint National Staff Council.
+description: The following is a statement sent from the Union. We have been having meetings on a National level within the Joint National Staff Council.
 tags:
   - afc
   - ballot

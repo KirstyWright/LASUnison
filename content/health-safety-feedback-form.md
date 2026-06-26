@@ -28,6 +28,6 @@ This does not replace the Trust's own incident reporting — if something needs 
 ## How to send it
 
 - Speak to your local UNISON Health & Safety Rep — [find your rep](/find-a-rep).
-- Or [contact the branch](/about-us/contact-us) and we'll pass it to the Health & Safety Officer.
+- Or [contact the branch](/branch) and we'll pass it to the Health & Safety Officer.
 
 You can read more about the branch's health & safety work on the [Health & Safety](/health-safety) page.

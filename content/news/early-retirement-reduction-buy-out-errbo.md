@@ -4,7 +4,7 @@ date: '2016-05-25'
 category: News
 topic: Pensions
 readTime: 2
-excerpt: What’s On Offer? All NHS staff who are members of the 2015 NHS Pension Scheme are able to elect to pay extra contributions to reduce or remove the early retirement…
+description: What’s On Offer? All NHS staff who are members of the 2015 NHS Pension Scheme are able to elect to pay extra contributions to reduce or remove the early retirement…
 wpCategories:
   - Pay
   - Pensions

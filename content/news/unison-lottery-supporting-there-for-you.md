@@ -4,7 +4,7 @@ date: '2018-03-03'
 category: News
 topic: Wellbeing
 readTime: 1
-excerpt: Join the UNISON lottery for as little as £1 a month and you could win cash prizes of up to £1,000.
+description: Join the UNISON lottery for as little as £1 a month and you could win cash prizes of up to £1,000.
 tags:
   - benefits
   - unison
@@ -34,6 +34,6 @@ Whether its debt, emergency financial help, coping with ill health or losing a l
 
 ---
 
-[Download a poster to display in your workplace](/?mdocs-file=3085)
+[Download a poster to display in your workplace](/docs/mdocs/lottery%20poster.pdf)
 
-[Download a leaflet](/?mdocs-file=3083)
+[Download a leaflet](/docs/mdocs/lottery%20leaflet.pdf)

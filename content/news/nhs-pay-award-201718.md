@@ -4,7 +4,7 @@ date: '2017-04-04'
 category: News
 topic: Pay
 readTime: 3
-excerpt: Consultation and response to Health Service Group Dear LAS UNISON branch member, The NHS Pay Review Body (PRB) has recommended a 1% consolidated pay increase for all NHS Staff on…
+description: Consultation and response to Health Service Group Dear LAS UNISON branch member, The NHS Pay Review Body (PRB) has recommended a 1% consolidated pay increase for all NHS Staff on…
 tags:
   - afc
   - ballot
@@ -52,4 +52,4 @@ Kind regards
 
 **Branch Secretary**
 
-[This bulletin is available to download and display in your workplace by clicking here](/?mdocs-file=2719)
+[This bulletin is available to download and display in your workplace by clicking here](/docs/mdocs/BS%20-%203%20April%2017.pdf)

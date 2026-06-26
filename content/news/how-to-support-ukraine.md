@@ -3,7 +3,7 @@ title: How to support Ukraine
 date: '2022-03-03'
 category: News
 readTime: 3
-excerpt: UNISON is working with the international trade union movement to mobilise support for those affected by the war in Ukraine – and branches and members can help too No one…
+description: UNISON is working with the international trade union movement to mobilise support for those affected by the war in Ukraine – and branches and members can help too No one…
 tags:
   - government
   - unison

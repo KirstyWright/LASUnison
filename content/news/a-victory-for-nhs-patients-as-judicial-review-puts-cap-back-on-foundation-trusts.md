@@ -3,7 +3,7 @@ title: A VICTORY FOR NHS PATIENTS AS JUDICIAL REVIEW PUTS CAP BACK ON FOUNDATION
 date: '2009-12-09'
 category: News
 readTime: 2
-excerpt: “A victory for NHS patients” is how UNISON described today’s decision by the High Court, to uphold the limit on the amount of income Foundation Trusts can get from treating…
+description: “A victory for NHS patients” is how UNISON described today’s decision by the High Court, to uphold the limit on the amount of income Foundation Trusts can get from treating…
 wpCategories:
   - Other
 wpId: 56

@@ -4,7 +4,7 @@ date: '2014-04-30'
 category: News
 topic: Pay
 readTime: 1
-excerpt: Joint Statement between NHS ambulance Trusts in England and UNISON, GMB and Unite Ambulance employers and trade unions have been in negotiations to resolve differences in the application of unsocial…
+description: Joint Statement between NHS ambulance Trusts in England and UNISON, GMB and Unite Ambulance employers and trade unions have been in negotiations to resolve differences in the application of unsocial…
 tags:
   - afc
   - pay

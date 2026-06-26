@@ -4,7 +4,7 @@ date: '2015-01-27'
 category: News
 topic: Pay
 readTime: 1
-excerpt: Please note that the Industrial Action planned for this Thursday 29th January 2015 and 25th February 2015 is SUSPENDED.
+description: Please note that the Industrial Action planned for this Thursday 29th January 2015 and 25th February 2015 is SUSPENDED.
 tags:
   - afc
   - ballot

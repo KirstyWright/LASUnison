@@ -4,7 +4,7 @@ date: '2021-07-23'
 category: News
 topic: Pay
 readTime: 3
-excerpt: The Government has announced a 3% pay rise for all NHS staff in England We need to be clear about your role in what is happening.
+description: The Government has announced a 3% pay rise for all NHS staff in England We need to be clear about your role in what is happening.
 tags:
   - afc
   - ballot

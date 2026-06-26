@@ -4,7 +4,7 @@ date: '2014-11-13'
 category: News
 topic: Pay
 readTime: 2
-excerpt: London Ambulance UNISON Call to take strike action 24 th November 2014 Dear UNISON Member, I am writing, as Branch Secretary, to call on you to take strike action again…
+description: London Ambulance UNISON Call to take strike action 24 th November 2014 Dear UNISON Member, I am writing, as Branch Secretary, to call on you to take strike action again…
 tags:
   - afc
   - pay

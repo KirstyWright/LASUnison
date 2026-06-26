@@ -4,7 +4,7 @@ date: '2015-05-11'
 category: News
 topic: Pensions
 readTime: 3
-excerpt: If you are currently participating in a salary sacrifice scheme and are now in the new NHS Pension Scheme 2015 you should consider whether this is still in your best…
+description: If you are currently participating in a salary sacrifice scheme and are now in the new NHS Pension Scheme 2015 you should consider whether this is still in your best…
 tags:
   - pay
   - pension

@@ -4,7 +4,7 @@ date: '2022-07-20'
 category: News
 topic: Pay
 readTime: 2
-excerpt: This announcement is over 3 months late and falls far short of inflation. It's another real-terms pay cut.
+description: This announcement is over 3 months late and falls far short of inflation. It's another real-terms pay cut.
 tags:
   - afc
   - consultation

@@ -4,7 +4,7 @@ date: '2026-02-16'
 category: News
 topic: Pay
 readTime: 2
-excerpt: Below-inflation rise means staff are expected to deliver more for less Commenting on the 3.3% wage rise announced today (Thursday) for most NHS staff in England, Wales and Northern Ireland…
+description: Below-inflation rise means staff are expected to deliver more for less Commenting on the 3.3% wage rise announced today (Thursday) for most NHS staff in England, Wales and Northern Ireland…
 tags:
   - government
   - pay

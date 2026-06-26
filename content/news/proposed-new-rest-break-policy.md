@@ -4,7 +4,7 @@ date: '2017-10-20'
 category: News
 topic: Pay
 readTime: 1
-excerpt: Following negotiations between UNISON and LAS management, a new proposed rest break agreement has been published.
+description: Following negotiations between UNISON and LAS management, a new proposed rest break agreement has been published.
 tags:
   - afc
   - benefits
@@ -24,4 +24,4 @@ Following negotiations between UNISON and LAS management, a new proposed rest br
 
 Please read the agreement in full and pass back any comments to your local UNISON rep or via our Facebook groups.
 
-[Download the proposed rest break policy here](/?mdocs-file=2896)
+[Download the proposed rest break policy here](/docs/mdocs/Proposed%20Draft%20New%20Operational%20Rest%20Break%20Policy%20v0.%2023%20201017%20PROPOSED.pdf)

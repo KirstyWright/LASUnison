@@ -4,7 +4,7 @@ date: '2015-02-05'
 category: News
 topic: Pay
 readTime: 3
-excerpt: 'Consultation and Ballot information for branches/members Summary: Health branches in England are asked to note the HSGE position on pay proposals, arrangements for consultative ballot and organise workplace meetings with…'
+description: 'Consultation and Ballot information for branches/members Summary: Health branches in England are asked to note the HSGE position on pay proposals, arrangements for consultative ballot and organise workplace meetings with…'
 tags:
   - afc
   - ballot

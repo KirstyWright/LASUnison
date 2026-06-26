@@ -4,7 +4,7 @@ date: '2011-07-26'
 category: News
 topic: Pay
 readTime: 4
-excerpt: If nothing changes between now and September, something will happen within our Service that has not happened for at least a decade.
+description: If nothing changes between now and September, something will happen within our Service that has not happened for at least a decade.
 wpCategories:
   - Branch News
   - Branch Secretary
@@ -58,4 +58,4 @@ Eric Roberts
 
 Branch Secretary.
 
-*This news story has been reproduced from Eric's Blog [www.ericsblog.lasunison.com](http://www.ericsblog.lasunison.com)*
+*This news story has been reproduced from Eric's Blog.*

@@ -4,7 +4,7 @@ date: '2020-06-05'
 category: News
 topic: Wellbeing
 readTime: 1
-excerpt: We are proud to announce that the LAS UNISON Branch Committee has agreed to make a 2nd donation to the UNISON Covid-19 response fund (There for You) that helps provide…
+description: We are proud to announce that the LAS UNISON Branch Committee has agreed to make a 2nd donation to the UNISON Covid-19 response fund (There for You) that helps provide…
 tags:
   - benefits
   - branch

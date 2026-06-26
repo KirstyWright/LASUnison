@@ -4,7 +4,7 @@ date: '2020-07-21'
 category: News
 topic: Pay
 readTime: 1
-excerpt: Investment in staff and public services will boost the economy Responding to the Chancellor’s announcement that around 900,000 public service workers – including teachers, police and the armed forces –…
+description: Investment in staff and public services will boost the economy Responding to the Chancellor’s announcement that around 900,000 public service workers – including teachers, police and the armed forces –…
 tags:
   - branch
   - consultation

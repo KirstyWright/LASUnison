@@ -16,7 +16,7 @@ const WRAP =
     <button
       type="button"
       aria-label="Dismiss"
-      class="ml-auto bg-transparent border-none text-[var(--purple-200)] cursor-pointer p-1 inline-flex hover:text-white [&>svg]:w-4 [&>svg]:h-4"
+      class="ml-auto bg-transparent border-none text-[var(--purple-200)] cursor-pointer inline-flex items-center justify-center w-11 h-11 rounded-[var(--radius-md)] hover:text-white [&>svg]:w-4 [&>svg]:h-4"
       @click="emit('close')"
     >
       <UiIcon name="x" :size="16" :stroke="2" />

@@ -3,7 +3,7 @@ title: What’s the right age to retire?
 date: '2025-11-06'
 category: News
 readTime: 2
-excerpt: UNISON has submitted its response to the government’s independent review into what factors should be considered when determining the state pension age UNISON’s response, with contributions from members, highlighted the…
+description: UNISON has submitted its response to the government’s independent review into what factors should be considered when determining the state pension age UNISON’s response, with contributions from members, highlighted the…
 tags:
   - government
   - pension

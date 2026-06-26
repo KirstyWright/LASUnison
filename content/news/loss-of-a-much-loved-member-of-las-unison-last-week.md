@@ -3,7 +3,7 @@ title: Loss of a much loved member of LAS UNISON last week
 date: '2020-06-01'
 category: News
 readTime: 2
-excerpt: On Friday 29th May 2020 we lost another London Ambulance UNISON member and Romford Ambulance Station Emergency Medical Technician, Jamie Lamb after a short illness in hospital.
+description: On Friday 29th May 2020 we lost another London Ambulance UNISON member and Romford Ambulance Station Emergency Medical Technician, Jamie Lamb after a short illness in hospital.
 wpCategories:
   - Branch News
 image: /images/2020/05/FB_IMG_1590934485822.jpg

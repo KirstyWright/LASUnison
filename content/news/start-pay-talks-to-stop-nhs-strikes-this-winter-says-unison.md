@@ -4,7 +4,7 @@ date: '2022-12-04'
 category: News
 topic: Pay
 readTime: 1
-excerpt: The government can easily prevent strikes across the NHS this winter. Start pay talks to stop NHS strikes this winter says UNISON Commenting on comments made by Conservative Party chairman…
+description: The government can easily prevent strikes across the NHS this winter. Start pay talks to stop NHS strikes this winter says UNISON Commenting on comments made by Conservative Party chairman…
 tags:
   - afc
   - government

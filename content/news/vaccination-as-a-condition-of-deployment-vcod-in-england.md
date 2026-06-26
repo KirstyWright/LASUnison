@@ -3,7 +3,7 @@ title: Vaccination as a Condition of Deployment (VCOD) in England
 date: '2022-01-18'
 category: News
 readTime: 10
-excerpt: What is ‘Vaccination as a Condition of Deployment’? In late 2021, new regulations were agreed by parliament making it unlawful for an employer delivering CQC regulated activities, to deploy an…
+description: What is ‘Vaccination as a Condition of Deployment’? In late 2021, new regulations were agreed by parliament making it unlawful for an employer delivering CQC regulated activities, to deploy an…
 tags:
   - covid 19
   - government
@@ -32,15 +32,15 @@ There is an exemption for Shared Lives carers, where the carer lives with the ca
 
 **What advice has been issued for the NHS?**
 
-In late 2021, NHS England published “[*Vaccination as a Condition of Deployment (VCOD) for Healthcare Workers. Phase 1 – Planning and preparation*](https://www.england.nhs.uk/coronavirus/publication/vaccination-as-a-condition-of-deployment-for-healthcare-workers-phase-1-planning-and-preparation/)” guidance which UNISON has contributed to through the NHS Social Partnership Forum.
+In late 2021, NHS England published “[*Vaccination as a Condition of Deployment (VCOD) for Healthcare Workers. Phase 1 – Planning and preparation*](https://www.england.nhs.uk/coronavirus/publication/vaccination-as-a-condition-of-deployment-for-healthcare-workers-phase-1-planning-and-preparation/) [Link no longer available]{.link-unavailable}” guidance which UNISON has contributed to through the NHS Social Partnership Forum.
 
-In early 2022, NHS England published further “[*Vaccination as a Condition of Deployment (VCOD) for Healthcare Workers. Phase 2 – VCOD Implementation*](https://www.england.nhs.uk/coronavirus/publication/vcod-for-healthcare-workers-phase-2/)” guidance
+In early 2022, NHS England published further “[*Vaccination as a Condition of Deployment (VCOD) for Healthcare Workers. Phase 2 – VCOD Implementation*](https://www.england.nhs.uk/coronavirus/publication/vcod-for-healthcare-workers-phase-2/) [Link no longer available]{.link-unavailable}” guidance
 
 Phase 1 sets out plans and provides resources to increase vaccination rates in preparation for phase 2.
 
 Phase 2 sets out the formal steps that should be considered when implementing the regulations, including redesigning roles, redeployment and dismissal for those who remain unvaccinated after 31 March 2022.
 
-[UNISON VCOD guidance for branches](https://www.unison.org.uk/news/article/2022/01/vaccination-as-a-condition-of-deployment-vcod-in-england-unison-branch-advice/) is now available.
+[UNISON VCOD guidance for branches](https://www.unison.org.uk/news/article/2022/01/vaccination-as-a-condition-of-deployment-vcod-in-england-unison-branch-advice/) [Link no longer available]{.link-unavailable} is now available.
 
 **Who is ‘in scope’ for the vaccine regulations?**
 
@@ -99,7 +99,7 @@ However, now the new legislation is into force, we need to support our branches 
 
 **What is UNISON’s advice?**
 
-UNISON has produced [advice for health branches](https://www.unison.org.uk/news/article/2022/01/vaccination-as-a-condition-of-deployment-vcod-in-england-unison-branch-advice/) supporting NHS members with this new policy in addition to general advice to branches about ‘[Bargaining over COVID-19 vaccination status requirements in the workplace](https://www.unison.org.uk/covid-19-vaccination-status-requirements-in-the-workplace/)’.
+UNISON has produced [advice for health branches](https://www.unison.org.uk/news/article/2022/01/vaccination-as-a-condition-of-deployment-vcod-in-england-unison-branch-advice/) [Link no longer available]{.link-unavailable} supporting NHS members with this new policy in addition to general advice to branches about ‘[Bargaining over COVID-19 vaccination status requirements in the workplace](https://www.unison.org.uk/covid-19-vaccination-status-requirements-in-the-workplace/) [Link no longer available]{.link-unavailable}’.
 
 The new NHS guidance means employers are expected to work in partnership on the impact of the VCOD policy, including working with health and safety representatives on risk assessments. UNISON’s role is to represent members through the processes, to ensure staff can make their case and seek consistent and fair outcomes.
 
@@ -118,7 +118,7 @@ The NHS England guidance recommends that formal conversations start from 6 Janua
 
 **How can I find out whether my role in ‘in scope’?**
 
-It is very difficult to give general advice on whether a role is ‘in scope’. There is a flow chart and examples in the NHS England [Phase 1 guidance](https://www.england.nhs.uk/coronavirus/wp-content/uploads/sites/52/2021/12/C1470-vcod-for-healthcare-workers-planning-and-preparation-guidance.pdf) to help local decision-making. The first question is whether the person is deployed for the provision of a CQC regulated activity (including non-clinical activity). The next question is whether the person has face-to-face contact with patients or service users in their role, including entering areas which are utilised for the provision of a CQC-regulated activity which may result in incidental face to face contact with patients or service users.
+It is very difficult to give general advice on whether a role is ‘in scope’. There is a flow chart and examples in the NHS England [Phase 1 guidance](https://www.england.nhs.uk/coronavirus/wp-content/uploads/sites/52/2021/12/C1470-vcod-for-healthcare-workers-planning-and-preparation-guidance.pdf) [Link no longer available]{.link-unavailable} to help local decision-making. The first question is whether the person is deployed for the provision of a CQC regulated activity (including non-clinical activity). The next question is whether the person has face-to-face contact with patients or service users in their role, including entering areas which are utilised for the provision of a CQC-regulated activity which may result in incidental face to face contact with patients or service users.
 
 Some employers are taking an ‘all roles in scope’ position. The problem with generalising is that it limits the ability of employers to redeploy staff into non face-to-face roles. It is also outside of the scope of the regulations and could affect employers’ decisions to dismiss staff who continue to remain unvaccinated.
 
