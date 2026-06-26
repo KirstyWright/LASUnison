@@ -24,23 +24,46 @@ const SIZES: Record<Size, string> = {
   lg: 'h-[54px] px-8 text-[1.125rem]',
 }
 
-const VARIANTS: Record<Variant, string> = {
-  'primary': 'bg-[var(--brand-primary)] text-white border-transparent hover:bg-[var(--brand-primary-strong)]',
-  'secondary': 'bg-[var(--brand-secondary)] text-white border-transparent hover:bg-[var(--brand-secondary-strong)]',
-  'accent': 'bg-[var(--brand-accent)] text-white border-transparent hover:bg-[var(--brand-accent-strong)]',
-  'emergency': 'bg-[var(--emergency)] text-white border-transparent hover:bg-[var(--red-700)]',
-  'highlight': 'bg-[var(--brand-highlight)] text-[var(--text-strong)] border-transparent hover:bg-[var(--brand-highlight-strong)]',
-  'outline': 'bg-transparent text-[var(--brand-primary)] border-[var(--brand-primary)] hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary-strong)]',
-  'outline-invert': 'bg-transparent text-white border-white/40 hover:bg-white/10',
-  'ghost': 'bg-transparent text-[var(--brand-primary)] border-transparent hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary-strong)]',
+// The button surface — background, border and hover background. Kept separate from
+// the text colour (TEXT, below) so the colour can also be painted on the inner
+// label/icon spans.
+const SURFACE: Record<Variant, string> = {
+  'primary': 'bg-[var(--brand-primary)] border-transparent hover:bg-[var(--brand-primary-strong)]',
+  'secondary': 'bg-[var(--brand-secondary)] border-transparent hover:bg-[var(--brand-secondary-strong)]',
+  'accent': 'bg-[var(--brand-accent)] border-transparent hover:bg-[var(--brand-accent-strong)]',
+  'emergency': 'bg-[var(--emergency)] border-transparent hover:bg-[var(--red-700)]',
+  'highlight': 'bg-[var(--brand-highlight)] border-transparent hover:bg-[var(--brand-highlight-strong)]',
+  'outline': 'bg-transparent border-[var(--brand-primary)] hover:bg-[var(--brand-primary-soft)]',
+  'outline-invert': 'bg-transparent border-white/40 hover:bg-white/10',
+  'ghost': 'bg-transparent border-transparent hover:bg-[var(--brand-primary-soft)]',
+}
+
+// Text colour, applied to the root AND the inner label/icon spans. When a button
+// renders inside prose, the `.las-prose .las-embed a` reset (main.css) forces the
+// anchor's colour to inherit the ink body colour — which would turn a primary
+// button's label dark-on-purple. Colouring the child spans (which no prose rule
+// targets) keeps the label correct. Hover uses `group-hover:` so it works whether
+// the rule lands on the root (which is the `group`) or on a span inside it.
+const TEXT: Record<Variant, string> = {
+  'primary': 'text-white',
+  'secondary': 'text-white',
+  'accent': 'text-white',
+  'emergency': 'text-white',
+  'highlight': 'text-[var(--text-strong)]',
+  'outline': 'text-[var(--brand-primary)] group-hover:text-[var(--brand-primary-strong)]',
+  'outline-invert': 'text-white',
+  'ghost': 'text-[var(--brand-primary)] group-hover:text-[var(--brand-primary-strong)]',
 }
 
 const IC = 'inline-flex w-[1.15em] h-[1.15em] [&>svg]:w-full [&>svg]:h-full'
 
+const textClasses = computed(() => TEXT[props.variant])
+
 const classes = computed(() => [
   BASE,
   SIZES[props.size],
-  VARIANTS[props.variant],
+  SURFACE[props.variant],
+  textClasses.value,
   props.fullWidth ? 'w-full' : '',
 ])
 
@@ -66,13 +89,16 @@ const linkProps = computed<Record<string, unknown>>(() =>
   >
     <span
       v-if="iconLeft"
-      :class="IC"
+      :class="[IC, textClasses]"
       aria-hidden="true"
     ><UiIcon :name="iconLeft" /></span>
-    <span v-if="$slots.default"><slot /></span>
+    <span
+      v-if="$slots.default"
+      :class="textClasses"
+    ><slot /></span>
     <span
       v-if="iconRight"
-      :class="IC"
+      :class="[IC, textClasses]"
       aria-hidden="true"
     ><UiIcon :name="iconRight" /></span>
   </component>

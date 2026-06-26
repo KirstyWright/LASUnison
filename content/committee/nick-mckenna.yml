@@ -1,7 +1,6 @@
 name: "Nick McKenna"
-role: "Male Seat"
-group: "rep"
-order: 1
-area: "east-central"
+role: "International Officer"
+group: "officer"
+order: 15
 workplace: "Whipps Cross"
 photo: "/images/committee/nick-mckenna.jpg"

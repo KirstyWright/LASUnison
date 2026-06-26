@@ -1,9 +1,9 @@
 <script setup lang="ts">
 /**
  * Callout — a small accent CTA card for content (`::callout{...}`). An icon chip,
- * a title, a short body (default slot, Markdown) and one or two action links.
- * The actions are built natively (not UiButton) so the prose link reset can't
- * recolour their labels — each label sits in a child <span>. Rooted in .las-embed.
+ * a title, a short body (default slot, Markdown) and one or two action buttons
+ * (UiButton). UiButton paints its label colour on child <span>s, so the
+ * `.las-prose .las-embed a` reset can't recolour the labels. Rooted in .las-embed.
  */
 type Tone = 'primary' | 'secondary' | 'accent'
 
