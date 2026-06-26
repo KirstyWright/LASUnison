@@ -3,5 +3,6 @@ allowBuilds:
   better-sqlite3: true
   esbuild: true
   sharp: set this to true or false
+  unrs-resolver: true
   vue-demi: true
 shamefullyHoist: true

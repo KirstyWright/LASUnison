@@ -10,7 +10,7 @@ import type { SiteLink } from '~/data/links'
 
 const route = useRoute()
 
-const { data: page } = await useAsyncData('page-' + route.path, () => {
+const { data: page } = await useAsyncData(`page-${route.path}`, () => {
   return queryCollection('content').path(route.path).first()
 })
 
@@ -23,7 +23,7 @@ if (!page.value) {
 // Resolve it from the editable committee collection; an author card renders at
 // the foot of the article. Matches on the file slug, with a name fallback so a
 // mistyped "Paul Ray" still resolves.
-const { data: officer } = await useAsyncData('officer-' + route.path, async () => {
+const { data: officer } = await useAsyncData(`officer-${route.path}`, async () => {
   const ref = page.value?.officer
   if (!ref) return null
   const slugify = (s: string) =>
@@ -40,13 +40,13 @@ const { data: officer } = await useAsyncData('officer-' + route.path, async () =
 const title = computed(() => page.value?.title || 'Page')
 const isStub = computed(() => page.value?.stub === true)
 
-const deslug = (seg: string) => seg.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())
+const deslug = (seg: string) => seg.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
 
 // A human label for a path from the nav (hub or item), else a de-slugged segment.
 function labelForPath(p: string): string | undefined {
   for (const g of navGroups) {
     if (g.hub === p) return g.label
-    const it = g.items.find((i) => i.path === p)
+    const it = g.items.find(i => i.path === p)
     if (it) return it.label
   }
   return undefined
@@ -57,16 +57,16 @@ function labelForPath(p: string): string | undefined {
 // URL segments keep their place, labelled from the nav where one matches.
 const crumbs = computed(() => {
   const segs = route.path.replace(/\/+$/, '').split('/').filter(Boolean)
-  const list: { label: string; to: string }[] = []
+  const list: { label: string, to: string }[] = []
 
   let acc = ''
   for (const seg of segs.slice(0, -1)) {
-    acc += '/' + seg
+    acc += `/${seg}`
     list.push({ label: labelForPath(acc) ?? deslug(seg), to: acc })
   }
 
   const group = navGroupForPath(route.path)
-  if (group && group.hub !== route.path && !list.some((c) => c.to === group.hub)) {
+  if (group && group.hub !== route.path && !list.some(c => c.to === group.hub)) {
     list.unshift({ label: group.label, to: group.hub })
   }
   return list
@@ -74,7 +74,7 @@ const crumbs = computed(() => {
 
 // Other pages in this section, as link cards.
 const siblings = computed<SiteLink[]>(() =>
-  siblingsForPath(route.path).map((i) => ({ label: i.label, url: i.path, note: i.note, icon: i.icon })),
+  siblingsForPath(route.path).map(i => ({ label: i.label, url: i.path, note: i.note, icon: i.icon })),
 )
 
 useContentSeo({
@@ -88,7 +88,7 @@ useSchemaOrg(() => [
   defineBreadcrumb({
     itemListElement: [
       { name: 'Home', item: '/' },
-      ...crumbs.value.map((c) => ({ name: c.label, item: c.to })),
+      ...crumbs.value.map(c => ({ name: c.label, item: c.to })),
       { name: title.value },
     ],
   }),
@@ -105,18 +105,36 @@ useSchemaOrg(() => [
         <div class="las-container py-12 md:py-16">
           <nav
             aria-label="Breadcrumb"
-            class="mb-5 text-[0.875rem] text-[var(--purple-200)] flex flex-wrap items-center gap-x-2 gap-y-1"
+            class="mb-5 flex flex-wrap items-center gap-x-2 gap-y-1 text-[0.875rem] text-[var(--purple-200)]"
           >
-            <NuxtLink to="/" class="text-[var(--purple-200)] no-underline hover:text-white">Home</NuxtLink>
-            <template v-for="c in crumbs" :key="c.to">
-              <span class="opacity-50" aria-hidden="true">/</span>
-              <NuxtLink :to="c.to" class="text-[var(--purple-200)] no-underline hover:text-white">{{ c.label }}</NuxtLink>
+            <NuxtLink
+              to="/"
+              class="text-[var(--purple-200)] no-underline hover:text-white"
+            >Home</NuxtLink>
+            <template
+              v-for="c in crumbs"
+              :key="c.to"
+            >
+              <span
+                class="opacity-50"
+                aria-hidden="true"
+              >/</span>
+              <NuxtLink
+                :to="c.to"
+                class="text-[var(--purple-200)] no-underline hover:text-white"
+              >{{ c.label }}</NuxtLink>
             </template>
-            <span class="opacity-50" aria-hidden="true">/</span>
-            <span class="text-white font-semibold" aria-current="page">{{ title }}</span>
+            <span
+              class="opacity-50"
+              aria-hidden="true"
+            >/</span>
+            <span
+              class="font-semibold text-white"
+              aria-current="page"
+            >{{ title }}</span>
           </nav>
           <h1
-            class="font-[family-name:var(--font-display)] font-black text-[length:var(--text-5xl)] leading-[1.02] tracking-[-0.02em] m-0 text-white"
+            class="m-0 font-[family-name:var(--font-display)] text-[length:var(--text-5xl)] leading-[1.02] font-black tracking-[-0.02em] text-white"
           >
             {{ title }}
           </h1>
@@ -128,18 +146,28 @@ useSchemaOrg(() => [
         <!-- Stub: a placeholder rather than an empty page -->
         <div
           v-if="isStub"
-          class="max-w-[60ch] mx-auto text-center border border-dashed border-[var(--border-default)] rounded-[var(--radius-lg)] py-16 px-6"
+          class="mx-auto max-w-[60ch] rounded-[var(--radius-lg)] border border-dashed border-[var(--border-default)] px-6 py-16 text-center"
         >
-          <p class="font-[family-name:var(--font-display)] font-extrabold text-[1.5rem] text-[var(--text-strong)] m-0 mb-2">
+          <p class="m-0 mb-2 font-[family-name:var(--font-display)] text-[1.5rem] font-extrabold text-[var(--text-strong)]">
             This page is on its way
           </p>
-          <p class="text-[var(--text-muted)] m-0 mb-7 mx-auto">
+          <p class="m-0 mx-auto mb-7 text-[var(--text-muted)]">
             We're still moving this content over from the old site. In the meantime, branch
             documents, forms and links all live in one place.
           </p>
-          <div class="flex flex-wrap gap-3 justify-center">
-            <UiButton href="/resources" icon-left="arrowRight">Browse resources</UiButton>
-            <UiButton href="/" variant="ghost">Back home</UiButton>
+          <div class="flex flex-wrap justify-center gap-3">
+            <UiButton
+              href="/resources"
+              icon-left="arrowRight"
+            >
+              Browse resources
+            </UiButton>
+            <UiButton
+              href="/"
+              variant="ghost"
+            >
+              Back home
+            </UiButton>
           </div>
         </div>
 
@@ -147,11 +175,15 @@ useSchemaOrg(() => [
         <template v-else>
           <div class="max-w-[72ch]">
             <UiLightbox>
-              <ContentRenderer v-if="page" :value="page" class="las-prose" />
+              <ContentRenderer
+                v-if="page"
+                :value="page"
+                class="las-prose"
+              />
             </UiLightbox>
             <p
               v-if="page?.date"
-              class="mt-12 pt-5 border-t border-[var(--border-subtle)] text-[length:var(--text-sm)] text-[var(--text-subtle)] m-0"
+              class="m-0 mt-12 border-t border-[var(--border-subtle)] pt-5 text-[length:var(--text-sm)] text-[var(--text-subtle)]"
             >
               Last updated {{ formatNewsDate(page.date) }}
             </p>
@@ -170,12 +202,19 @@ useSchemaOrg(() => [
           </div>
 
           <!-- In this section -->
-          <section v-if="siblings.length" class="mt-14 pt-10 border-t border-[var(--border-subtle)]">
-            <h2 class="font-[family-name:var(--font-display)] font-extrabold text-[length:var(--text-2xl)] tracking-[-0.015em] text-[var(--text-strong)] m-0">
+          <section
+            v-if="siblings.length"
+            class="mt-14 border-t border-[var(--border-subtle)] pt-10"
+          >
+            <h2 class="m-0 font-[family-name:var(--font-display)] text-[length:var(--text-2xl)] font-extrabold tracking-[-0.015em] text-[var(--text-strong)]">
               In this section
             </h2>
-            <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 mt-6">
-              <ResourcesQuickLink v-for="l in siblings" :key="l.url" :link="l" />
+            <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              <ResourcesQuickLink
+                v-for="l in siblings"
+                :key="l.url"
+                :link="l"
+              />
             </div>
           </section>
         </template>

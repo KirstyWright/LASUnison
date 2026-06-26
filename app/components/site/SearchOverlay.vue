@@ -112,9 +112,11 @@ async function runSearch(q: string) {
     const data = await searchSite(q)
     if (mine !== token) return // a newer keystroke won
     results.value = data
-  } catch {
+  }
+  catch {
     if (mine === token) results.value = EMPTY_RESULTS
-  } finally {
+  }
+  finally {
     if (mine === token) loading.value = false
   }
 }
@@ -128,7 +130,8 @@ function go(item: FlatItem | undefined) {
   close()
   if (item.to) {
     navigateTo(item.to)
-  } else if (item.href) {
+  }
+  else if (item.href) {
     if (item.external) window.open(item.href, '_blank', 'noopener')
     else navigateTo(item.href, { external: true })
   }
@@ -153,12 +156,14 @@ function onInputKeydown(e: KeyboardEvent) {
     if (!n) return
     activeIndex.value = activeIndex.value < n - 1 ? activeIndex.value + 1 : 0
     scrollActiveIntoView()
-  } else if (e.key === 'ArrowUp') {
+  }
+  else if (e.key === 'ArrowUp') {
     e.preventDefault()
     if (!n) return
     activeIndex.value = activeIndex.value > 0 ? activeIndex.value - 1 : n - 1
     scrollActiveIntoView()
-  } else if (e.key === 'Enter') {
+  }
+  else if (e.key === 'Enter') {
     e.preventDefault()
     go(activeIndex.value >= 0 ? items.value[activeIndex.value] : items.value[0])
   }
@@ -184,7 +189,8 @@ function onPanelKeydown(e: KeyboardEvent) {
   if (e.shiftKey && act === first) {
     e.preventDefault()
     last.focus()
-  } else if (!e.shiftKey && act === last) {
+  }
+  else if (!e.shiftKey && act === last) {
     e.preventDefault()
     first.focus()
   }
@@ -200,7 +206,8 @@ watch(isOpen, (val) => {
       inputEl.value?.focus()
       inputEl.value?.select()
     })
-  } else {
+  }
+  else {
     document.body.style.overflow = ''
   }
 })
@@ -208,8 +215,10 @@ watch(isOpen, (val) => {
 function onGlobalKeydown(e: KeyboardEvent) {
   if ((e.key === 'k' || e.key === 'K') && (e.metaKey || e.ctrlKey)) {
     e.preventDefault()
-    isOpen.value ? close() : open()
-  } else if (e.key === 'Escape' && isOpen.value) {
+    if (isOpen.value) close()
+    else open()
+  }
+  else if (e.key === 'Escape' && isOpen.value) {
     e.preventDefault()
     close()
   }
@@ -234,176 +243,246 @@ onBeforeUnmount(() => {
 
 <template>
   <ClientOnly>
-    <Teleport v-if="mounted" to="body">
+    <Teleport
+      v-if="mounted"
+      to="body"
+    >
       <!-- No Vue <Transition> here on purpose: a teleported transition can be
            orphaned (left visible) when navigateTo re-renders the app mid-leave.
            Presence is driven by v-if (instant, reliable close); the enter is a
            pure CSS animation on the scrim + panel. -->
+      <div
+        v-if="isOpen"
+        class="search-overlay fixed inset-0 z-[1000] flex items-start justify-center px-4 pt-[12vh] sm:pt-[14vh]"
+        @keydown="onPanelKeydown"
+      >
+        <!-- Scrim -->
         <div
-          v-if="isOpen"
-          class="search-overlay fixed inset-0 z-[1000] flex items-start justify-center px-4 pt-[12vh] sm:pt-[14vh]"
-          @keydown="onPanelKeydown"
-        >
-          <!-- Scrim -->
-          <div
-            class="search-scrim absolute inset-0 bg-[var(--purple-950)]/55 backdrop-blur-[2px]"
-            aria-hidden="true"
-            @click="close"
-          />
+          class="search-scrim absolute inset-0 bg-[var(--purple-950)]/55 backdrop-blur-[2px]"
+          aria-hidden="true"
+          @click="close"
+        />
 
-          <!-- Panel -->
-            <div
-              ref="panelEl"
-              role="dialog"
-              aria-modal="true"
-              aria-label="Search the site"
-              class="search-panel relative w-full max-w-[640px] bg-[var(--surface-card)] rounded-[var(--radius-xl)] shadow-[var(--shadow-xl)] ring-1 ring-[var(--border-subtle)] overflow-hidden font-[family-name:var(--font-sans)]"
+        <!-- Panel -->
+        <div
+          ref="panelEl"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Search the site"
+          class="search-panel relative w-full max-w-[640px] overflow-hidden rounded-[var(--radius-xl)] bg-[var(--surface-card)] font-[family-name:var(--font-sans)] shadow-[var(--shadow-xl)] ring-1 ring-[var(--border-subtle)]"
+        >
+          <!-- Search field -->
+          <div class="flex h-[64px] items-center gap-3 border-b border-[var(--border-subtle)] px-5">
+            <span
+              class="flex-none text-[var(--text-subtle)]"
+              aria-hidden="true"
             >
-              <!-- Search field -->
-              <div class="flex items-center gap-3 px-5 h-[64px] border-b border-[var(--border-subtle)]">
-                <span class="text-[var(--text-subtle)] flex-none" aria-hidden="true">
-                  <UiIcon name="search" :size="22" :stroke="2" />
-                </span>
-                <input
-                  ref="inputEl"
-                  v-model="query"
-                  type="text"
-                  role="combobox"
-                  :aria-expanded="items.length > 0 ? 'true' : 'false'"
-                  aria-controls="site-search-list"
-                  :aria-activedescendant="activeIndex >= 0 ? `site-search-opt-${activeIndex}` : undefined"
-                  autocomplete="off"
-                  autocapitalize="off"
-                  autocorrect="off"
-                  spellcheck="false"
-                  enterkeyhint="search"
-                  placeholder="Search pages, news, documents…"
-                  aria-label="Search the site"
-                  class="flex-1 min-w-0 h-full bg-transparent border-none outline-none text-[length:var(--text-md)] text-[var(--text-strong)] placeholder:text-[var(--text-subtle)]"
-                  @keydown="onInputKeydown"
-                >
-                <span
-                  v-if="loading"
-                  class="flex-none w-4 h-4 rounded-full border-2 border-[var(--border-default)] border-t-[var(--brand-primary)] animate-spin"
-                  aria-hidden="true"
-                />
+              <UiIcon
+                name="search"
+                :size="22"
+                :stroke="2"
+              />
+            </span>
+            <input
+              ref="inputEl"
+              v-model="query"
+              type="text"
+              role="combobox"
+              :aria-expanded="items.length > 0 ? 'true' : 'false'"
+              aria-controls="site-search-list"
+              :aria-activedescendant="activeIndex >= 0 ? `site-search-opt-${activeIndex}` : undefined"
+              autocomplete="off"
+              autocapitalize="off"
+              autocorrect="off"
+              spellcheck="false"
+              enterkeyhint="search"
+              placeholder="Search pages, news, documents…"
+              aria-label="Search the site"
+              class="h-full min-w-0 flex-1 border-none bg-transparent text-[length:var(--text-md)] text-[var(--text-strong)] outline-none placeholder:text-[var(--text-subtle)]"
+              @keydown="onInputKeydown"
+            >
+            <span
+              v-if="loading"
+              class="size-4 flex-none animate-spin rounded-full border-2 border-[var(--border-default)] border-t-[var(--brand-primary)]"
+              aria-hidden="true"
+            />
+            <button
+              type="button"
+              aria-label="Close search"
+              class="inline-flex size-11 flex-none cursor-pointer items-center justify-center rounded-[var(--radius-md)] border-none bg-[var(--surface-sunken)] text-[var(--text-muted)] hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
+              @click="close"
+            >
+              <UiIcon
+                name="x"
+                :size="18"
+                :stroke="2.2"
+              />
+            </button>
+          </div>
+
+          <!-- Body -->
+          <div
+            id="site-search-list"
+            ref="listEl"
+            role="listbox"
+            aria-label="Search results"
+            class="max-h-[min(60vh,520px)] overflow-y-auto overscroll-contain"
+          >
+            <!-- Idle: suggestions -->
+            <div
+              v-if="!hasQuery"
+              class="p-5"
+            >
+              <p class="m-0 mb-3 text-[0.8125rem] font-bold tracking-[0.06em] text-[var(--text-subtle)] uppercase">
+                Try searching for
+              </p>
+              <div class="flex flex-wrap gap-2">
                 <button
+                  v-for="s in SUGGESTIONS"
+                  :key="s"
                   type="button"
-                  aria-label="Close search"
-                  class="flex-none inline-flex items-center justify-center w-11 h-11 rounded-[var(--radius-md)] border-none bg-[var(--surface-sunken)] text-[var(--text-muted)] cursor-pointer hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
-                  @click="close"
+                  class="inline-flex h-9 cursor-pointer items-center rounded-[var(--radius-pill)] border border-[var(--border-default)] bg-[var(--surface-card)] px-3.5 text-[0.875rem] font-semibold text-[var(--text-body)] hover:border-[var(--brand-primary)] hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
+                  @click="pick(s)"
                 >
-                  <UiIcon name="x" :size="18" :stroke="2.2" />
+                  {{ s }}
                 </button>
               </div>
+              <p class="m-0 mt-5 flex items-center gap-1.5 text-[0.8125rem] text-[var(--text-subtle)]">
+                <kbd class="rounded border border-[var(--border-default)] bg-[var(--surface-sunken)] px-1.5 py-0.5 font-[family-name:var(--font-mono)] text-[0.75rem]">↑↓</kbd>
+                to navigate
+                <kbd class="rounded border border-[var(--border-default)] bg-[var(--surface-sunken)] px-1.5 py-0.5 font-[family-name:var(--font-mono)] text-[0.75rem]">↵</kbd>
+                to open
+                <kbd class="rounded border border-[var(--border-default)] bg-[var(--surface-sunken)] px-1.5 py-0.5 font-[family-name:var(--font-mono)] text-[0.75rem]">esc</kbd>
+                to close
+              </p>
+            </div>
 
-              <!-- Body -->
-              <div
-                id="site-search-list"
-                ref="listEl"
-                role="listbox"
-                aria-label="Search results"
-                class="max-h-[min(60vh,520px)] overflow-y-auto overscroll-contain"
+            <!-- Empty -->
+            <div
+              v-else-if="!loading && results.total === 0"
+              class="px-5 py-12 text-center"
+            >
+              <p class="m-0 mb-1 font-[family-name:var(--font-display)] text-[1.125rem] font-extrabold text-[var(--text-strong)]">
+                No matches
+              </p>
+              <p class="m-0 text-[0.875rem] text-[var(--text-muted)]">
+                Nothing matched “{{ trimmed }}”. Try fewer or different words.
+              </p>
+            </div>
+
+            <!-- Results -->
+            <div
+              v-else
+              class="py-2"
+            >
+              <template
+                v-for="g in GROUPS"
+                :key="g.key"
               >
-                <!-- Idle: suggestions -->
-                <div v-if="!hasQuery" class="p-5">
-                  <p class="text-[0.8125rem] font-bold uppercase tracking-[0.06em] text-[var(--text-subtle)] m-0 mb-3">
-                    Try searching for
-                  </p>
-                  <div class="flex flex-wrap gap-2">
-                    <button
-                      v-for="s in SUGGESTIONS"
-                      :key="s"
-                      type="button"
-                      class="inline-flex items-center h-9 px-3.5 rounded-[var(--radius-pill)] border border-[var(--border-default)] bg-[var(--surface-card)] text-[0.875rem] font-semibold text-[var(--text-body)] cursor-pointer hover:border-[var(--brand-primary)] hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
-                      @click="pick(s)"
-                    >{{ s }}</button>
-                  </div>
-                  <p class="text-[0.8125rem] text-[var(--text-subtle)] m-0 mt-5 flex items-center gap-1.5">
-                    <kbd class="font-[family-name:var(--font-mono)] text-[0.75rem] px-1.5 py-0.5 rounded border border-[var(--border-default)] bg-[var(--surface-sunken)]">↑↓</kbd>
-                    to navigate
-                    <kbd class="font-[family-name:var(--font-mono)] text-[0.75rem] px-1.5 py-0.5 rounded border border-[var(--border-default)] bg-[var(--surface-sunken)]">↵</kbd>
-                    to open
-                    <kbd class="font-[family-name:var(--font-mono)] text-[0.75rem] px-1.5 py-0.5 rounded border border-[var(--border-default)] bg-[var(--surface-sunken)]">esc</kbd>
-                    to close
-                  </p>
-                </div>
-
-                <!-- Empty -->
-                <div
-                  v-else-if="!loading && results.total === 0"
-                  class="px-5 py-12 text-center"
+                <section
+                  v-if="groupItems(g.key).length"
+                  :aria-label="g.label"
                 >
-                  <p class="font-[family-name:var(--font-display)] font-extrabold text-[1.125rem] text-[var(--text-strong)] m-0 mb-1">
-                    No matches
-                  </p>
-                  <p class="text-[0.875rem] text-[var(--text-muted)] m-0">
-                    Nothing matched “{{ trimmed }}”. Try fewer or different words.
-                  </p>
-                </div>
+                  <h2 class="m-0 flex items-center gap-2 px-5 pt-3 pb-1.5 text-[0.75rem] font-bold tracking-[0.07em] text-[var(--text-subtle)] uppercase">
+                    <UiIcon
+                      :name="g.icon"
+                      :size="14"
+                      :stroke="2"
+                    />
+                    {{ g.label }}
+                    <span class="font-[family-name:var(--font-mono)] font-medium text-[var(--text-subtle)]/80">{{ results.counts[g.key as keyof typeof results.counts] }}</span>
+                  </h2>
 
-                <!-- Results -->
-                <div v-else class="py-2">
-                  <template v-for="g in GROUPS" :key="g.key">
-                    <section v-if="groupItems(g.key).length" :aria-label="g.label">
-                      <h2 class="flex items-center gap-2 px-5 pt-3 pb-1.5 m-0 text-[0.75rem] font-bold uppercase tracking-[0.07em] text-[var(--text-subtle)]">
-                        <UiIcon :name="g.icon" :size="14" :stroke="2" />
-                        {{ g.label }}
-                        <span class="font-[family-name:var(--font-mono)] font-medium text-[var(--text-subtle)]/80">{{ results.counts[g.key as keyof typeof results.counts] }}</span>
-                      </h2>
-
-                      <component
-                        :is="item.to ? NuxtLink : 'a'"
-                        v-for="item in groupItems(g.key)"
-                        :id="`site-search-opt-${item.index}`"
-                        :key="item.to || item.href"
-                        :data-idx="item.index"
-                        role="option"
-                        :aria-selected="activeIndex === item.index"
-                        v-bind="item.to ? { to: item.to } : { href: item.href, target: item.external ? '_blank' : undefined, rel: item.external ? 'noopener' : undefined }"
-                        class="group/row flex items-start gap-3 px-5 py-2.5 no-underline cursor-pointer scroll-mt-2"
-                        :class="activeIndex === item.index ? 'bg-[var(--brand-primary-soft)]' : 'hover:bg-[var(--surface-sunken)]'"
-                        @click="close"
-                        @mousemove="activeIndex = item.index"
-                      >
-                        <span
-                          class="flex-none mt-0.5 inline-flex items-center justify-center w-8 h-8 rounded-[var(--radius-md)]"
-                          :class="activeIndex === item.index ? 'bg-white text-[var(--brand-primary)]' : 'bg-[var(--surface-sunken)] text-[var(--text-muted)]'"
-                          aria-hidden="true"
-                        >
-                          <UiIcon :name="g.icon" :size="16" :stroke="2" />
-                        </span>
-                        <span class="flex-1 min-w-0">
-                          <span class="flex items-center gap-1.5">
-                            <span class="block truncate font-semibold text-[var(--text-strong)] group-hover/row:text-[var(--brand-primary)]" :class="activeIndex === item.index ? 'text-[var(--brand-primary)]' : ''">
-                              <template v-for="(part, i) in highlightParts(item.title, query)" :key="i"><mark v-if="part.hit" class="bg-[var(--brand-highlight-soft)] text-inherit rounded-[2px] px-0.5">{{ part.text }}</mark><template v-else>{{ part.text }}</template></template>
-                            </span>
-                            <UiIcon v-if="item.external" name="arrowUpRight" :size="13" :stroke="2" class="flex-none text-[var(--text-subtle)]" />
-                          </span>
-                          <span v-if="item.snippet" class="block truncate text-[0.8125rem] text-[var(--text-muted)] mt-0.5">
-                            <template v-for="(part, i) in highlightParts(item.snippet, query)" :key="i"><mark v-if="part.hit" class="bg-transparent text-[var(--text-body)] font-semibold">{{ part.text }}</mark><template v-else>{{ part.text }}</template></template>
-                          </span>
-                          <span v-else-if="item.meta" class="block truncate text-[0.8125rem] text-[var(--text-muted)] mt-0.5">{{ item.meta }}</span>
-                        </span>
-                      </component>
-                    </section>
-                  </template>
-
-                  <!-- See all -->
-                  <div v-if="showSeeAll" class="px-5 pt-2 pb-1">
-                    <button
-                      type="button"
-                      class="w-full inline-flex items-center justify-center gap-2 h-11 rounded-[var(--radius-md)] border border-[var(--border-default)] bg-[var(--surface-card)] text-[0.875rem] font-bold text-[var(--brand-primary)] cursor-pointer hover:bg-[var(--brand-primary-soft)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
-                      @click="seeAll"
+                  <component
+                    :is="item.to ? NuxtLink : 'a'"
+                    v-for="item in groupItems(g.key)"
+                    :id="`site-search-opt-${item.index}`"
+                    :key="item.to || item.href"
+                    :data-idx="item.index"
+                    role="option"
+                    :aria-selected="activeIndex === item.index"
+                    v-bind="item.to ? { to: item.to } : { href: item.href, target: item.external ? '_blank' : undefined, rel: item.external ? 'noopener' : undefined }"
+                    class="group/row flex cursor-pointer scroll-mt-2 items-start gap-3 px-5 py-2.5 no-underline"
+                    :class="activeIndex === item.index ? 'bg-[var(--brand-primary-soft)]' : 'hover:bg-[var(--surface-sunken)]'"
+                    @click="close"
+                    @mousemove="activeIndex = item.index"
+                  >
+                    <span
+                      class="mt-0.5 inline-flex size-8 flex-none items-center justify-center rounded-[var(--radius-md)]"
+                      :class="activeIndex === item.index ? 'bg-white text-[var(--brand-primary)]' : 'bg-[var(--surface-sunken)] text-[var(--text-muted)]'"
+                      aria-hidden="true"
                     >
-                      See all {{ results.total }} results
-                      <UiIcon name="arrowRight" :size="16" :stroke="2" />
-                    </button>
-                  </div>
-                </div>
+                      <UiIcon
+                        :name="g.icon"
+                        :size="16"
+                        :stroke="2"
+                      />
+                    </span>
+                    <span class="min-w-0 flex-1">
+                      <span class="flex items-center gap-1.5">
+                        <span
+                          class="block truncate font-semibold text-[var(--text-strong)] group-hover/row:text-[var(--brand-primary)]"
+                          :class="activeIndex === item.index ? 'text-[var(--brand-primary)]' : ''"
+                        >
+                          <template
+                            v-for="(part, i) in highlightParts(item.title, query)"
+                            :key="i"
+                          ><mark
+                            v-if="part.hit"
+                            class="rounded-[2px] bg-[var(--brand-highlight-soft)] px-0.5 text-inherit"
+                          >{{ part.text }}</mark><template v-else>{{ part.text }}</template></template>
+                        </span>
+                        <UiIcon
+                          v-if="item.external"
+                          name="arrowUpRight"
+                          :size="13"
+                          :stroke="2"
+                          class="flex-none text-[var(--text-subtle)]"
+                        />
+                      </span>
+                      <span
+                        v-if="item.snippet"
+                        class="mt-0.5 block truncate text-[0.8125rem] text-[var(--text-muted)]"
+                      >
+                        <template
+                          v-for="(part, i) in highlightParts(item.snippet, query)"
+                          :key="i"
+                        ><mark
+                          v-if="part.hit"
+                          class="bg-transparent font-semibold text-[var(--text-body)]"
+                        >{{ part.text }}</mark><template v-else>{{ part.text }}</template></template>
+                      </span>
+                      <span
+                        v-else-if="item.meta"
+                        class="mt-0.5 block truncate text-[0.8125rem] text-[var(--text-muted)]"
+                      >{{ item.meta }}</span>
+                    </span>
+                  </component>
+                </section>
+              </template>
+
+              <!-- See all -->
+              <div
+                v-if="showSeeAll"
+                class="px-5 pt-2 pb-1"
+              >
+                <button
+                  type="button"
+                  class="inline-flex h-11 w-full cursor-pointer items-center justify-center gap-2 rounded-[var(--radius-md)] border border-[var(--border-default)] bg-[var(--surface-card)] text-[0.875rem] font-bold text-[var(--brand-primary)] hover:bg-[var(--brand-primary-soft)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
+                  @click="seeAll"
+                >
+                  See all {{ results.total }} results
+                  <UiIcon
+                    name="arrowRight"
+                    :size="16"
+                    :stroke="2"
+                  />
+                </button>
               </div>
             </div>
+          </div>
         </div>
+      </div>
     </Teleport>
   </ClientOnly>
 </template>

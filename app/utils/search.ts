@@ -4,10 +4,10 @@
  * search overlay and the /search page.
  */
 
-export interface PageHit { path: string; title: string; snippet: string }
-export interface NewsHit { path: string; title: string; snippet: string; date?: string; category?: string }
-export interface DocHit { id: number; title: string; url: string; type: string; topic: string; date: string }
-export interface LinkResult { label: string; url: string; note?: string; group: string }
+export interface PageHit { path: string, title: string, snippet: string }
+export interface NewsHit { path: string, title: string, snippet: string, date?: string, category?: string }
+export interface DocHit { id: number, title: string, url: string, type: string, topic: string, date: string }
+export interface LinkResult { label: string, url: string, note?: string, group: string }
 
 export interface SearchResponse {
   query: string
@@ -16,7 +16,7 @@ export interface SearchResponse {
   documents: DocHit[]
   links: LinkResult[]
   total: number
-  counts: { pages: number; news: number; documents: number; links: number }
+  counts: { pages: number, news: number, documents: number, links: number }
 }
 
 export const EMPTY_RESULTS: SearchResponse = {
@@ -33,7 +33,7 @@ function escapeRegExp(s: string): string {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 }
 
-export interface TextPart { text: string; hit: boolean }
+export interface TextPart { text: string, hit: boolean }
 
 /**
  * Split text into parts, flagging the spans that match any search term, so the
@@ -55,7 +55,8 @@ export function highlightParts(text: string, query: string): TextPart[] {
 export function searchHostLabel(url: string): string {
   try {
     return new URL(url).hostname.replace(/^www\./, '')
-  } catch {
+  }
+  catch {
     return url
   }
 }

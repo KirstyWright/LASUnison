@@ -1,11 +1,14 @@
 ---
 title: About Us
+date: 2026-06-26
 description: Welcome to the London Ambulance Service (LAS) branch of UNISON — who we are, what we campaign on, and how to get in touch.
-date: '2026-06-26'
-wpId: 1187
+hideJoinCta: false
 legacyUrl: https://lasunison.co.uk/about-us
 seo:
   description: The London Ambulance Service branch of UNISON — the biggest union in the LAS and part of Europe's largest public sector union, with over 1.3 million members.
+  title: About Us
+stub: false
+wpId: 1187
 ---
 
 ## Who we are
@@ -20,11 +23,9 @@ We use this site to get news, advice and updates to members and stewards far fas
 
 Not sure who to speak to? Start here. For urgent help at work, call UNISON Direct — and have your membership number ready.
 
-::contact-direct
-::
+:contact-direct
 
-::contact-grid
-::
+:contact-grid
 
 ## What we campaign on
 
@@ -38,7 +39,14 @@ Local stewards represent you at work and help sort out problems when they arise.
 
 ## Got a branch story to share?
 
-::callout{title="Send us your news" icon="megaphone" href="mailto:eddie.brand@lasunison.com" cta="Email the branch" tone="secondary"}
+::callout
+---
+cta: Email the branch
+href: mailto:eddie.brand@lasunison.com
+icon: megaphone
+title: Send us your news
+tone: secondary
+---
 Working on a pay claim, planning an event, or got a story from your station? Send it over with your contact details and we'll help get it onto the site.
 ::
 

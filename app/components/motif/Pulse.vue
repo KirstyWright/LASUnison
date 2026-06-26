@@ -11,8 +11,14 @@ withDefaults(defineProps<{ grid?: boolean }>(), { grid: true })
 </script>
 
 <template>
-  <div class="pulse" aria-hidden="true">
-    <div v-if="grid" class="pulse__grid" />
+  <div
+    class="pulse"
+    aria-hidden="true"
+  >
+    <div
+      v-if="grid"
+      class="pulse__grid"
+    />
     <div class="pulse__trace" />
   </div>
 </template>

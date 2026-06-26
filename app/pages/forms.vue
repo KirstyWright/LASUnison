@@ -23,20 +23,35 @@ useSeoMeta({
         <div class="las-container py-12 md:py-16">
           <nav
             aria-label="Breadcrumb"
-            class="mb-5 text-[0.875rem] text-[var(--purple-200)] flex flex-wrap items-center gap-x-2 gap-y-1"
+            class="mb-5 flex flex-wrap items-center gap-x-2 gap-y-1 text-[0.875rem] text-[var(--purple-200)]"
           >
-            <NuxtLink to="/" class="text-[var(--purple-200)] no-underline hover:text-white">Home</NuxtLink>
-            <span class="opacity-50" aria-hidden="true">/</span>
-            <NuxtLink to="/resources" class="text-[var(--purple-200)] no-underline hover:text-white">Resources</NuxtLink>
-            <span class="opacity-50" aria-hidden="true">/</span>
-            <span class="text-white font-semibold" aria-current="page">Forms</span>
+            <NuxtLink
+              to="/"
+              class="text-[var(--purple-200)] no-underline hover:text-white"
+            >Home</NuxtLink>
+            <span
+              class="opacity-50"
+              aria-hidden="true"
+            >/</span>
+            <NuxtLink
+              to="/resources"
+              class="text-[var(--purple-200)] no-underline hover:text-white"
+            >Resources</NuxtLink>
+            <span
+              class="opacity-50"
+              aria-hidden="true"
+            >/</span>
+            <span
+              class="font-semibold text-white"
+              aria-current="page"
+            >Forms</span>
           </nav>
           <h1
-            class="font-[family-name:var(--font-display)] font-black text-[length:var(--text-5xl)] leading-[1.02] tracking-[-0.02em] m-0 text-white"
+            class="m-0 font-[family-name:var(--font-display)] text-[length:var(--text-5xl)] leading-[1.02] font-black tracking-[-0.02em] text-white"
           >
             Forms
           </h1>
-          <p class="text-[length:var(--text-md)] leading-[1.6] text-[var(--purple-200)] mt-5 mb-0 max-w-[560px]">
+          <p class="mt-5 mb-0 max-w-[560px] text-[length:var(--text-md)] leading-[1.6] text-[var(--purple-200)]">
             {{ formsIntro }}
           </p>
         </div>
@@ -45,39 +60,50 @@ useSeoMeta({
       <!-- Forms grid -->
       <section class="las-section">
         <div class="las-container">
-          <ul class="list-none p-0 m-0 grid gap-4 sm:grid-cols-2">
-            <li v-for="form in forms" :key="form.url">
+          <ul class="m-0 grid list-none gap-4 p-0 sm:grid-cols-2">
+            <li
+              v-for="form in forms"
+              :key="form.url"
+            >
               <a
                 :href="form.url"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="group relative flex flex-col h-full bg-[var(--surface-card)] border border-[var(--border-subtle)] rounded-[var(--radius-lg)] p-5 shadow-[var(--shadow-sm)] no-underline transition-[transform,box-shadow,border-color] duration-200 ease-out hover:-translate-y-[3px] hover:shadow-[var(--shadow-lg)] hover:border-[var(--border-default)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
+                class="group relative flex h-full flex-col rounded-[var(--radius-lg)] border border-[var(--border-subtle)] bg-[var(--surface-card)] p-5 no-underline shadow-[var(--shadow-sm)] transition-[transform,box-shadow,border-color] duration-200 ease-out hover:translate-y-[-3px] hover:border-[var(--border-default)] hover:shadow-[var(--shadow-lg)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
               >
                 <span
                   class="absolute top-4 right-4 text-[var(--text-subtle)] transition-colors duration-150 group-hover:text-[var(--brand-primary)]"
                   aria-hidden="true"
                 >
-                  <UiIcon name="arrowUpRight" :size="18" :stroke="2" />
+                  <UiIcon
+                    name="arrowUpRight"
+                    :size="18"
+                    :stroke="2"
+                  />
                 </span>
 
                 <span
-                  class="inline-flex items-center justify-center w-11 h-11 rounded-[var(--radius-md)] bg-[var(--brand-secondary-soft)] text-[var(--green-700)] mb-4"
+                  class="mb-4 inline-flex size-11 items-center justify-center rounded-[var(--radius-md)] bg-[var(--brand-secondary-soft)] text-[var(--green-700)]"
                   aria-hidden="true"
                 >
-                  <UiIcon name="file" :size="22" :stroke="1.9" />
+                  <UiIcon
+                    name="file"
+                    :size="22"
+                    :stroke="1.9"
+                  />
                 </span>
 
-                <span class="block font-[family-name:var(--font-display)] font-extrabold text-[1.0625rem] tracking-[-0.01em] text-[var(--text-strong)] leading-tight pr-6 group-hover:text-[var(--brand-primary)]">
+                <span class="block pr-6 font-[family-name:var(--font-display)] text-[1.0625rem] leading-tight font-extrabold tracking-[-0.01em] text-[var(--text-strong)] group-hover:text-[var(--brand-primary)]">
                   {{ form.title }}
                 </span>
 
                 <span
                   v-if="form.description"
-                  class="block text-[length:var(--text-sm)] text-[var(--text-muted)] mt-1.5 leading-snug"
+                  class="mt-1.5 block text-[length:var(--text-sm)] leading-snug text-[var(--text-muted)]"
                 >{{ form.description }}</span>
 
-                <span class="mt-3 pt-3 border-t border-[var(--border-subtle)] flex items-center justify-between gap-2">
-                  <span class="font-[family-name:var(--font-mono)] text-[0.75rem] text-[var(--text-subtle)] truncate">{{ hostLabel(form.url) }}</span>
+                <span class="mt-3 flex items-center justify-between gap-2 border-t border-[var(--border-subtle)] pt-3">
+                  <span class="truncate font-[family-name:var(--font-mono)] text-[0.75rem] text-[var(--text-subtle)]">{{ hostLabel(form.url) }}</span>
                 </span>
 
                 <span class="sr-only"> (opens in a new tab)</span>
@@ -89,18 +115,25 @@ useSeoMeta({
                 :href="form.guide.url"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="inline-flex items-center gap-1.5 mt-2 text-[0.8125rem] font-semibold text-[var(--brand-primary)] hover:text-[var(--brand-primary-strong)]"
+                class="mt-2 inline-flex items-center gap-1.5 text-[0.8125rem] font-semibold text-[var(--brand-primary)] hover:text-[var(--brand-primary-strong)]"
               >
-                <UiIcon name="download" :size="15" :stroke="2" />
+                <UiIcon
+                  name="download"
+                  :size="15"
+                  :stroke="2"
+                />
                 {{ form.guide.label }}
               </a>
             </li>
           </ul>
 
           <!-- Suggest a form -->
-          <p class="text-[length:var(--text-sm)] text-[var(--text-muted)] mt-8 max-w-[60ch]">
+          <p class="mt-8 max-w-[60ch] text-[length:var(--text-sm)] text-[var(--text-muted)]">
             Is there a form you think should be here? Let us know via the
-            <NuxtLink to="/branch" class="text-[var(--text-link)] underline underline-offset-2 font-semibold hover:text-[var(--text-link-hover)]">branch office</NuxtLink>.
+            <NuxtLink
+              to="/branch"
+              class="font-semibold text-[var(--text-link)] underline underline-offset-2 hover:text-[var(--text-link-hover)]"
+            >branch office</NuxtLink>.
           </p>
         </div>
       </section>

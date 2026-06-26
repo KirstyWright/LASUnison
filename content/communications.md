@@ -1,10 +1,12 @@
 ---
 title: Communications
-officer: matt-searles
+date: 2023-03-07
 description: Thanks for visiting the communications officer page. If you want to contact me then click here to open an online form.
-date: '2023-03-07'
-wpId: 1349
+hideJoinCta: false
 legacyUrl: https://lasunison.co.uk/communications
+officer: matt-searles
+stub: false
+wpId: 1349
 ---
 
 Thanks for visiting the communications officer page.

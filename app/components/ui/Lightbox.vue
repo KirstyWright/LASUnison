@@ -163,12 +163,19 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div ref="root" style="display: contents" @click.capture="onClick">
+  <div
+    ref="root"
+    style="display: contents"
+    @click.capture="onClick"
+  >
     <slot />
   </div>
 
   <ClientOnly>
-    <Teleport v-if="mounted" to="body">
+    <Teleport
+      v-if="mounted"
+      to="body"
+    >
       <!-- Presence by v-if (instant, reliable close); entrance is a pure CSS
            animation. A teleported Vue <Transition> can strand mid-leave when a
            navigation re-renders the app, so we avoid one — same pattern as the
@@ -190,10 +197,14 @@ onBeforeUnmount(() => {
           ref="closeBtn"
           type="button"
           aria-label="Close image"
-          class="absolute top-4 right-4 z-10 inline-flex items-center justify-center w-11 h-11 rounded-full border-none bg-white/10 text-white cursor-pointer backdrop-blur-sm transition-colors duration-150 hover:bg-white/20 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-white/70"
+          class="absolute top-4 right-4 z-10 inline-flex size-11 cursor-pointer items-center justify-center rounded-full border-none bg-white/10 text-white backdrop-blur-sm transition-colors duration-150 hover:bg-white/20 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-white/70"
           @click="closeLightbox"
         >
-          <UiIcon name="x" :size="22" :stroke="2.2" />
+          <UiIcon
+            name="x"
+            :size="22"
+            :stroke="2.2"
+          />
         </button>
 
         <!-- Prev / next -->
@@ -201,18 +212,26 @@ onBeforeUnmount(() => {
           <button
             type="button"
             aria-label="Previous image"
-            class="lightbox-nav absolute left-3 sm:left-5 top-1/2 -translate-y-1/2 z-10 inline-flex items-center justify-center w-11 h-11 rounded-full border-none bg-white/10 text-white cursor-pointer backdrop-blur-sm transition-colors duration-150 hover:bg-white/20 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-white/70"
+            class="lightbox-nav absolute top-1/2 left-3 z-10 inline-flex size-11 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full border-none bg-white/10 text-white backdrop-blur-sm transition-colors duration-150 hover:bg-white/20 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-white/70 sm:left-5"
             @click="step(-1)"
           >
-            <UiIcon name="arrowLeft" :size="22" :stroke="2.2" />
+            <UiIcon
+              name="arrowLeft"
+              :size="22"
+              :stroke="2.2"
+            />
           </button>
           <button
             type="button"
             aria-label="Next image"
-            class="lightbox-nav absolute right-3 sm:right-5 top-1/2 -translate-y-1/2 z-10 inline-flex items-center justify-center w-11 h-11 rounded-full border-none bg-white/10 text-white cursor-pointer backdrop-blur-sm transition-colors duration-150 hover:bg-white/20 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-white/70"
+            class="lightbox-nav absolute top-1/2 right-3 z-10 inline-flex size-11 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full border-none bg-white/10 text-white backdrop-blur-sm transition-colors duration-150 hover:bg-white/20 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-white/70 sm:right-5"
             @click="step(1)"
           >
-            <UiIcon name="arrowRight" :size="22" :stroke="2.2" />
+            <UiIcon
+              name="arrowRight"
+              :size="22"
+              :stroke="2.2"
+            />
           </button>
         </template>
 
@@ -222,29 +241,38 @@ onBeforeUnmount(() => {
           role="dialog"
           aria-modal="true"
           :aria-label="current.alt || 'Image preview'"
-          class="lightbox-panel relative flex flex-col items-center justify-center m-0 max-w-[min(1100px,92vw)] max-h-[92vh]"
+          class="lightbox-panel relative m-0 flex max-h-[92vh] max-w-[min(1100px,92vw)] flex-col items-center justify-center"
         >
           <div
             v-if="failed"
             class="flex flex-col items-center gap-2 px-8 py-12 text-center text-white/80"
           >
-            <UiIcon name="alert" :size="28" :stroke="2" />
-            <p class="m-0 font-[family-name:var(--font-sans)] text-[0.9375rem]">This image is no longer available.</p>
+            <UiIcon
+              name="alert"
+              :size="28"
+              :stroke="2"
+            />
+            <p class="m-0 font-[family-name:var(--font-sans)] text-[0.9375rem]">
+              This image is no longer available.
+            </p>
           </div>
           <img
             v-else
             :key="current.src"
             :src="current.src"
             :alt="current.alt"
-            class="lightbox-img block max-w-full max-h-[80vh] w-auto h-auto object-contain rounded-[var(--radius-md)] bg-[var(--surface-card)] shadow-[0_24px_60px_-12px_rgba(0,0,0,0.6)]"
+            class="lightbox-img block size-auto max-h-[80vh] max-w-full rounded-[var(--radius-md)] bg-[var(--surface-card)] object-contain shadow-[0_24px_60px_-12px_rgba(0,0,0,0.6)]"
             @error="failed = true"
           >
 
           <figcaption
             v-if="current.alt || hasMany"
-            class="mt-4 flex items-center gap-3 max-w-[70ch] font-[family-name:var(--font-sans)] text-[0.875rem] text-white/85"
+            class="mt-4 flex max-w-[70ch] items-center gap-3 font-[family-name:var(--font-sans)] text-[0.875rem] text-white/85"
           >
-            <span v-if="current.alt" class="min-w-0 text-center">{{ current.alt }}</span>
+            <span
+              v-if="current.alt"
+              class="min-w-0 text-center"
+            >{{ current.alt }}</span>
             <span
               v-if="hasMany"
               class="flex-none font-[family-name:var(--font-mono)] text-[0.8125rem] text-white/60"

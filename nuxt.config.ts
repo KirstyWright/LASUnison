@@ -12,21 +12,9 @@ const indexable = process.env.NUXT_SITE_INDEXABLE === 'true'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxtjs/sitemap', '@nuxtjs/robots', 'nuxt-schema-org', 'nuxt-seo-utils', 'nuxt-studio'],
+  modules: ['@nuxt/eslint', '@nuxt/content', '@nuxtjs/sitemap', '@nuxtjs/robots', 'nuxt-schema-org', 'nuxt-seo-utils'],
 
-  // Consumed by the SEO modules (canonical, og:url, sitemap host, robots, schema).
-  site: {
-    url: siteUrl,
-    name: 'LAS UNISON',
-    indexable,
-  },
-
-  css: ['~/assets/css/main.css'],
-  vite: {
-    plugins: [
-      tailwindcss(),
-    ],
-  },
+  devtools: { enabled: true },
   app: {
     head: {
       htmlAttrs: { lang: 'en-GB' },
@@ -59,6 +47,50 @@ export default defineNuxtConfig({
     },
   },
 
+  css: ['~/assets/css/main.css'],
+
+  // Consumed by the SEO modules (canonical, og:url, sitemap host, robots, schema).
+  site: {
+    url: siteUrl,
+    name: 'LAS UNISON',
+    indexable,
+  },
+  compatibilityDate: '2024-04-03',
+
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      failOnError: false,
+      routes: ['/'],
+    },
+  },
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  },
+
+  hooks: {
+    // Seed every Content-backed route so orphaned/older pages still prerender.
+    'nitro:config'(nitroConfig) {
+      nitroConfig.prerender ||= {}
+      nitroConfig.prerender.routes = [
+        ...(nitroConfig.prerender.routes || []),
+        ...contentRoutes(),
+      ]
+    },
+  },
+
+  // Project-aware ESLint flat config. `stylistic` turns on formatting rules
+  // (single quotes, no semicolons, 2-space indent) that match the existing code,
+  // so ESLint also handles formatting — no separate Prettier needed. Custom rules
+  // (Vue, Tailwind) are layered on in eslint.config.mjs via withNuxt().
+  eslint: {
+    config: {
+      stylistic: true,
+    },
+  },
+
   // NOTE: the ~520 old-WordPress-URL → new-path 301s are served on the Nitro Node
   // server (dev / preview) by server/middleware/redirects.ts — NOT routeRules,
   // which compiled them into one giant matcher that overflowed V8's stack in the
@@ -77,26 +109,4 @@ export default defineNuxtConfig({
     exclude: ['/search'],
     sources: ['/api/__sitemap__/urls'],
   },
-
-  nitro: {
-    prerender: {
-      crawlLinks: true,
-      failOnError: false,
-      routes: ['/'],
-    },
-  },
-
-  hooks: {
-    // Seed every Content-backed route so orphaned/older pages still prerender.
-    'nitro:config'(nitroConfig) {
-      nitroConfig.prerender ||= {}
-      nitroConfig.prerender.routes = [
-        ...(nitroConfig.prerender.routes || []),
-        ...contentRoutes(),
-      ]
-    },
-  },
-
-  devtools: { enabled: true },
-  compatibilityDate: '2024-04-03',
 })

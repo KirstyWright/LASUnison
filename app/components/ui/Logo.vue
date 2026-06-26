@@ -10,12 +10,12 @@ withDefaults(defineProps<{ tone?: 'dark' | 'light' }>(), { tone: 'dark' })
 </script>
 
 <template>
-    <div>
-        <img
-          :src="logoUrl"
-          alt="LAS UNISON — London Ambulance Service"
-          class="h-16 w-auto select-none"
-          :class="tone === 'light' ? 'brightness-0 invert' : ''"
-        >
+  <div>
+    <img
+      :src="logoUrl"
+      alt="LAS UNISON — London Ambulance Service"
+      class="h-16 w-auto select-none"
+      :class="tone === 'light' ? 'brightness-0 invert' : ''"
+    >
   </div>
 </template>

@@ -91,9 +91,9 @@ const filteredStations = computed(() => {
   return allStations.value.filter((s: any) => {
     const sectorName = sectors.value.find(sec => sec.slug === s.sector)?.name ?? ''
     return (
-      s.name.toLowerCase().includes(q) ||
-      sectorName.toLowerCase().includes(q) ||
-      (s.aliases ?? []).some((a: string) => a.toLowerCase().includes(q))
+      s.name.toLowerCase().includes(q)
+      || sectorName.toLowerCase().includes(q)
+      || (s.aliases ?? []).some((a: string) => a.toLowerCase().includes(q))
     )
   })
 })
@@ -124,8 +124,8 @@ const mappableStations = computed(() => {
   }
   return [...byLocation.values()].map((group) => {
     const first = group[0]
-    const sharedArea =
-      group.length > 1 && group.every((s) => s.area && s.area === first.area)
+    const sharedArea
+      = group.length > 1 && group.every(s => s.area && s.area === first.area)
         ? first.area
         : null
     return { slug: first.slug, name: sharedArea ?? first.name, lat: first.lat, lng: first.lng }
@@ -162,29 +162,43 @@ useSeoMeta({
 
     <main id="main-content">
       <!-- ── Masthead ─────────────────────────────────────────────────────── -->
-      <section class="bg-[var(--surface-brand)] text-white relative overflow-hidden">
+      <section class="relative overflow-hidden bg-[var(--surface-brand)] text-white">
         <!-- Pulse, refined — live cardiac-monitor edge motif -->
         <div
           aria-hidden="true"
-          class="absolute inset-x-0 bottom-0 text-[var(--brand-highlight)] pointer-events-none"
+          class="pointer-events-none absolute inset-x-0 bottom-0 text-[var(--brand-highlight)]"
         >
           <MotifPulse />
         </div>
         <div class="las-container relative py-14 md:py-[4.5rem]">
-          <nav aria-label="Breadcrumb" class="mb-5 text-[0.875rem] text-[var(--purple-200)]">
-            <NuxtLink to="/" class="text-[var(--purple-200)] no-underline hover:text-white">Home</NuxtLink>
-            <span class="mx-2 opacity-50" aria-hidden="true">/</span>
-            <span class="text-white font-semibold" aria-current="page">Find a rep</span>
+          <nav
+            aria-label="Breadcrumb"
+            class="mb-5 text-[0.875rem] text-[var(--purple-200)]"
+          >
+            <NuxtLink
+              to="/"
+              class="text-[var(--purple-200)] no-underline hover:text-white"
+            >Home</NuxtLink>
+            <span
+              class="mx-2 opacity-50"
+              aria-hidden="true"
+            >/</span>
+            <span
+              class="font-semibold text-white"
+              aria-current="page"
+            >Find a rep</span>
           </nav>
           <div class="mb-[18px]">
-            <UiEyebrow color="var(--brand-highlight)">Your branch at every station</UiEyebrow>
+            <UiEyebrow color="var(--brand-highlight)">
+              Your branch at every station
+            </UiEyebrow>
           </div>
           <h1
-            class="font-[family-name:var(--font-display)] font-black text-[length:var(--text-5xl)] leading-[1.02] tracking-[-0.02em] m-0 text-white text-wrap-balance"
+            class="text-wrap-balance m-0 font-[family-name:var(--font-display)] text-[length:var(--text-5xl)] leading-[1.02] font-black tracking-[-0.02em] text-white"
           >
             Find your rep
           </h1>
-          <p class="text-[length:var(--text-md)] leading-[1.6] text-[var(--purple-200)] mt-5 mb-0 max-w-[560px]">
+          <p class="mt-5 mb-0 max-w-[560px] text-[length:var(--text-md)] leading-[1.6] text-[var(--purple-200)]">
             Most LAS workplaces have a UNISON rep, and every sector has a senior rep.
             Search for your station to see who represents you.
           </p>
@@ -192,36 +206,40 @@ useSeoMeta({
       </section>
 
       <!-- ── Search + view toggle ───────────────────────────────────────── -->
-      <div ref="searchBar" :style="{ top: headerH + 'px' }" class="bg-[var(--surface-card)] border-b border-[var(--border-subtle)] sticky z-[100] shadow-[var(--shadow-xs)]">
-        <div class="las-container py-3 flex items-center gap-3">
+      <div
+        ref="searchBar"
+        :style="{ top: `${headerH}px` }"
+        class="sticky z-[100] border-b border-[var(--border-subtle)] bg-[var(--surface-card)] shadow-[var(--shadow-xs)]"
+      >
+        <div class="las-container flex items-center gap-3 py-3">
           <!-- Search input -->
           <div class="relative flex-1">
             <UiIcon
               name="search"
               :size="18"
               :stroke="2"
-              class="absolute left-3.5 top-1/2 -translate-y-1/2 text-[var(--text-subtle)] pointer-events-none"
+              class="pointer-events-none absolute top-1/2 left-3.5 -translate-y-1/2 text-[var(--text-subtle)]"
             />
             <input
               v-model="search"
               type="search"
               placeholder="Search by station or workplace…"
-              class="w-full h-11 pl-10 pr-4 bg-[var(--surface-card)] border border-[var(--border-default)] rounded-[var(--radius-md)] text-[var(--text-body)] text-[1rem] placeholder:text-[var(--text-subtle)] focus-visible:outline-none focus:border-transparent focus:ring-[3px] focus:ring-[var(--border-focus)] transition-shadow duration-150"
+              class="h-11 w-full rounded-[var(--radius-md)] border border-[var(--border-default)] bg-[var(--surface-card)] pr-4 pl-10 text-[1rem] text-[var(--text-body)] transition-shadow duration-150 placeholder:text-[var(--text-subtle)] focus:border-transparent focus:ring-[3px] focus:ring-[var(--border-focus)] focus-visible:outline-none"
               aria-label="Search stations and workplaces"
               autocomplete="off"
-            />
+            >
           </div>
 
           <!-- Mobile list/map toggle -->
           <div
-            class="lg:hidden flex rounded-[var(--radius-md)] border border-[var(--border-default)] overflow-hidden flex-none"
+            class="flex flex-none overflow-hidden rounded-[var(--radius-md)] border border-[var(--border-default)] lg:hidden"
             role="group"
             aria-label="View mode"
           >
             <button
               type="button"
               :aria-pressed="mobileView === 'list'"
-              class="px-4 h-11 text-[0.875rem] font-bold transition-colors duration-150 border-none cursor-pointer"
+              class="h-11 cursor-pointer border-none px-4 text-[0.875rem] font-bold transition-colors duration-150"
               :class="mobileView === 'list'
                 ? 'bg-[var(--brand-primary)] text-white'
                 : 'bg-[var(--surface-card)] text-[var(--text-body)] hover:bg-[var(--surface-sunken)]'"
@@ -232,7 +250,7 @@ useSeoMeta({
             <button
               type="button"
               :aria-pressed="mobileView === 'map'"
-              class="px-4 h-11 text-[0.875rem] font-bold transition-colors duration-150 border-none border-l border-[var(--border-default)] cursor-pointer"
+              class="h-11 cursor-pointer border-l border-none border-[var(--border-default)] px-4 text-[0.875rem] font-bold transition-colors duration-150"
               :class="mobileView === 'map'
                 ? 'bg-[var(--brand-primary)] text-white'
                 : 'bg-[var(--surface-card)] text-[var(--text-body)] hover:bg-[var(--surface-sunken)]'"
@@ -245,10 +263,14 @@ useSeoMeta({
       </div>
 
       <!-- ── Main content ───────────────────────────────────────────────── -->
-      <div ref="results" :style="{ '--reps-row-scroll-mt': rowScrollMt + 'px' }" class="las-container py-8 lg:py-10">
+      <div
+        ref="results"
+        :style="{ '--reps-row-scroll-mt': `${rowScrollMt}px` }"
+        class="las-container py-8 lg:py-10"
+      >
         <!-- Result count -->
         <p
-          class="font-[family-name:var(--font-mono)] text-[0.8125rem] text-[var(--text-muted)] mb-4"
+          class="mb-4 font-[family-name:var(--font-mono)] text-[0.8125rem] text-[var(--text-muted)]"
           aria-live="polite"
         >
           {{ resultLabel }}
@@ -258,7 +280,10 @@ useSeoMeta({
           <!-- ── Left: sector panels ─────────────────────────────────────── -->
           <div class="min-w-0">
             <!-- Mobile map view -->
-            <div v-if="mobileView === 'map'" class="lg:hidden h-[320px] mb-6 rounded-[var(--radius-xl)] overflow-hidden">
+            <div
+              v-if="mobileView === 'map'"
+              class="mb-6 h-[320px] overflow-hidden rounded-[var(--radius-xl)] lg:hidden"
+            >
               <ClientOnly>
                 <RepsMap
                   :stations="mappableStations"
@@ -267,28 +292,43 @@ useSeoMeta({
                   @station-select="handleStationSelect"
                 />
                 <template #fallback>
-                  <div class="h-full bg-[var(--surface-sunken)] flex items-center justify-center rounded-[var(--radius-xl)]">
-                    <p class="text-[var(--text-muted)] text-[0.875rem]">Loading map…</p>
+                  <div class="flex h-full items-center justify-center rounded-[var(--radius-xl)] bg-[var(--surface-sunken)]">
+                    <p class="text-[0.875rem] text-[var(--text-muted)]">
+                      Loading map…
+                    </p>
                   </div>
                 </template>
               </ClientOnly>
             </div>
 
             <!-- Sector list (always shown on desktop, list mode on mobile) -->
-            <div v-show="mobileView === 'list'" class="flex flex-col gap-5 lg:block lg:space-y-5">
+            <div
+              v-show="mobileView === 'list'"
+              class="flex flex-col gap-5 lg:block lg:space-y-5"
+            >
               <!-- Empty state -->
               <div
                 v-if="filteredSectors.length === 0"
-                class="text-center border border-dashed border-[var(--border-default)] rounded-[var(--radius-xl)] py-16 px-6"
+                class="rounded-[var(--radius-xl)] border border-dashed border-[var(--border-default)] px-6 py-16 text-center"
               >
-                <UiIcon name="mapPin" :size="32" :stroke="1.5" class="text-[var(--text-subtle)] mx-auto mb-4" />
-                <p class="font-[family-name:var(--font-display)] font-extrabold text-[1.5rem] text-[var(--text-strong)] m-0 mb-2">
+                <UiIcon
+                  name="mapPin"
+                  :size="32"
+                  :stroke="1.5"
+                  class="mx-auto mb-4 text-[var(--text-subtle)]"
+                />
+                <p class="m-0 mb-2 font-[family-name:var(--font-display)] text-[1.5rem] font-extrabold text-[var(--text-strong)]">
                   No workplaces found
                 </p>
-                <p class="text-[var(--text-muted)] m-0 mb-6">
+                <p class="m-0 mb-6 text-[var(--text-muted)]">
                   No workplaces match "{{ search }}". Try a different name.
                 </p>
-                <UiButton variant="outline" @click="search = ''">Clear search</UiButton>
+                <UiButton
+                  variant="outline"
+                  @click="search = ''"
+                >
+                  Clear search
+                </UiButton>
               </div>
 
               <RepsSectorPanel
@@ -306,8 +346,8 @@ useSeoMeta({
           <!-- ── Right: sticky map (desktop only) ──────────────────────── -->
           <aside class="hidden lg:block">
             <div
-              :style="{ top: mapTop + 'px', height: `calc(100vh - ${mapTop + 18}px)` }"
-              class="sticky max-h-[640px] rounded-[var(--radius-xl)] overflow-hidden shadow-[var(--shadow-md)] border border-[var(--border-subtle)]"
+              :style="{ top: `${mapTop}px`, height: `calc(100vh - ${mapTop + 18}px)` }"
+              class="sticky max-h-[640px] overflow-hidden rounded-[var(--radius-xl)] border border-[var(--border-subtle)] shadow-[var(--shadow-md)]"
             >
               <ClientOnly>
                 <RepsMap
@@ -317,17 +357,24 @@ useSeoMeta({
                   @station-select="handleStationSelect"
                 />
                 <template #fallback>
-                  <div class="h-full bg-[var(--surface-sunken)] flex flex-col items-center justify-center gap-3">
-                    <UiIcon name="mapPin" :size="28" :stroke="1.5" class="text-[var(--text-subtle)]" />
-                    <p class="text-[var(--text-muted)] text-[0.875rem]">Loading map…</p>
+                  <div class="flex h-full flex-col items-center justify-center gap-3 bg-[var(--surface-sunken)]">
+                    <UiIcon
+                      name="mapPin"
+                      :size="28"
+                      :stroke="1.5"
+                      class="text-[var(--text-subtle)]"
+                    />
+                    <p class="text-[0.875rem] text-[var(--text-muted)]">
+                      Loading map…
+                    </p>
                   </div>
                 </template>
               </ClientOnly>
             </div>
-            <p class="text-[0.75rem] text-[var(--text-subtle)] text-center mt-2">
+            <p class="mt-2 text-center text-[0.75rem] text-[var(--text-subtle)]">
               Click a pin to jump to that station
             </p>
-            <p class="text-[length:var(--text-sm)] text-[var(--text-muted)] text-center mt-2">
+            <p class="mt-2 text-center text-[length:var(--text-sm)] text-[var(--text-muted)]">
               Map pins aren't keyboard-accessible — use the search and list to find your station.
             </p>
           </aside>

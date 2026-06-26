@@ -36,12 +36,12 @@ const tel = computed(() => props.phone?.replace(/\s+/g, '') ?? '')
 <template>
   <aside
     :aria-label="`${eyebrow}: ${name}, ${role}`"
-    class="flex flex-col sm:flex-row gap-5 sm:gap-6 p-5 sm:p-6 rounded-[var(--radius-xl)] bg-[var(--surface-brand-soft)] border border-[var(--purple-100)] shadow-[var(--shadow-sm)]"
+    class="flex flex-col gap-5 rounded-[var(--radius-xl)] border border-[var(--purple-100)] bg-[var(--surface-brand-soft)] p-5 shadow-[var(--shadow-sm)] sm:flex-row sm:gap-6 sm:p-6"
   >
     <!-- Portrait -->
     <div class="flex-none">
       <div
-        class="relative w-20 h-20 sm:w-[104px] sm:h-[104px] rounded-[var(--radius-lg)] overflow-hidden bg-[var(--surface-sunken)] shadow-[var(--shadow-sm)]"
+        class="relative size-20 overflow-hidden rounded-[var(--radius-lg)] bg-[var(--surface-sunken)] shadow-[var(--shadow-sm)] sm:size-[104px]"
       >
         <img
           v-if="photo"
@@ -51,49 +51,72 @@ const tel = computed(() => props.phone?.replace(/\s+/g, '') ?? '')
           height="208"
           loading="lazy"
           decoding="async"
-          class="w-full h-full object-cover object-[center_top]"
+          class="size-full object-cover object-[center_top]"
         >
         <div
           v-else
-          class="w-full h-full flex items-center justify-center"
+          class="flex size-full items-center justify-center"
           style="background: linear-gradient(150deg, var(--purple-600), var(--purple-800))"
           aria-hidden="true"
         >
-          <span class="font-[family-name:var(--font-display)] font-black text-[1.75rem] leading-none text-white/90">
+          <span class="font-[family-name:var(--font-display)] text-[1.75rem] leading-none font-black text-white/90">
             {{ initials }}
           </span>
         </div>
         <!-- accent keyline -->
-        <span class="absolute inset-x-0 bottom-0 h-1 bg-[var(--brand-primary)]" aria-hidden="true" />
+        <span
+          class="absolute inset-x-0 bottom-0 h-1 bg-[var(--brand-primary)]"
+          aria-hidden="true"
+        />
       </div>
     </div>
 
     <!-- Identity + contact -->
-    <div class="flex flex-col min-w-0">
+    <div class="flex min-w-0 flex-col">
       <UiEyebrow>{{ eyebrow }}</UiEyebrow>
       <p
-        class="font-[family-name:var(--font-display)] font-extrabold text-[length:var(--text-xl)] leading-[1.15] tracking-[-0.015em] text-[var(--text-strong)] mt-1.5 mb-0"
+        class="mt-1.5 mb-0 font-[family-name:var(--font-display)] text-[length:var(--text-xl)] leading-[1.15] font-extrabold tracking-[-0.015em] text-[var(--text-strong)]"
       >
         {{ name }}
       </p>
-      <p class="font-bold text-[length:var(--text-base)] text-[var(--brand-primary)] mt-0.5 mb-0">
+      <p class="mt-0.5 mb-0 text-[length:var(--text-base)] font-bold text-[var(--brand-primary)]">
         {{ role }}
       </p>
 
       <p
         v-if="workplace"
-        class="flex items-center gap-1.5 text-[0.875rem] leading-[1.35] text-[var(--text-muted)] mt-2 mb-0"
+        class="mt-2 mb-0 flex items-center gap-1.5 text-[0.875rem] leading-[1.35] text-[var(--text-muted)]"
       >
-        <UiIcon name="mapPin" :size="15" :stroke="2" class="text-[var(--text-subtle)] flex-none" />
+        <UiIcon
+          name="mapPin"
+          :size="15"
+          :stroke="2"
+          class="flex-none text-[var(--text-subtle)]"
+        />
         {{ workplace }}
       </p>
 
       <!-- Contact — officers may carry a phone, an email, or both. -->
-      <div v-if="phone || email" class="flex flex-wrap gap-2.5 mt-4">
-        <UiButton v-if="phone" :href="`tel:${tel}`" variant="primary" size="sm" icon-left="phone">
-          {{ phone }}
+      <div
+        v-if="phone || email"
+        class="mt-4 flex flex-wrap gap-2.5"
+      >
+        <UiButton
+          v-if="phone"
+          :href="`tel:${tel}`"
+          variant="primary"
+          size="sm"
+          icon-left="phone"
+        >
+          <span class="font-[family-name:var(--font-mono)]">{{ phone }}</span>
         </UiButton>
-        <UiButton v-if="email" :href="`mailto:${email}`" variant="outline" size="sm" icon-left="mail">
+        <UiButton
+          v-if="email"
+          :href="`mailto:${email}`"
+          variant="outline"
+          size="sm"
+          icon-left="mail"
+        >
           Email {{ firstName }}
         </UiButton>
       </div>

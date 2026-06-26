@@ -8,9 +8,9 @@
  * "from" figure and tax-relief link are props so Studio can update them when rates
  * change.
  */
-interface Band { salary: string; cost: string }
+interface Band { salary: string, cost: string }
 
-const props = withDefaults(
+withDefaults(
   defineProps<{
     fromCost?: string
     region?: string
@@ -44,20 +44,23 @@ const NuxtLink = resolveComponent('NuxtLink')
 </script>
 
 <template>
-  <div :id="anchor" class="las-embed bg-[var(--surface-card)] border border-[var(--border-default)] rounded-[var(--radius-lg)] overflow-hidden scroll-mt-[calc(var(--header-h)+1rem)]">
+  <div
+    :id="anchor"
+    class="las-embed scroll-mt-[calc(var(--header-h)+1rem)] overflow-hidden rounded-[var(--radius-lg)] border border-[var(--border-default)] bg-[var(--surface-card)]"
+  >
     <!-- From figure -->
-    <div class="flex flex-wrap items-end gap-x-4 gap-y-1 bg-[var(--surface-brand-soft)] px-5 py-4 border-b border-[var(--border-subtle)]">
+    <div class="flex flex-wrap items-end gap-x-4 gap-y-1 border-b border-[var(--border-subtle)] bg-[var(--surface-brand-soft)] px-5 py-4">
       <div>
-        <span class="block font-[family-name:var(--font-sans)] text-[0.75rem] font-bold uppercase tracking-[0.08em] text-[var(--brand-primary)]">From</span>
-        <span class="block font-[family-name:var(--font-mono)] font-semibold text-[length:var(--text-4xl)] leading-none text-[var(--text-strong)]">{{ fromCost }}</span>
+        <span class="block font-[family-name:var(--font-sans)] text-[0.75rem] font-bold tracking-[0.08em] text-[var(--brand-primary)] uppercase">From</span>
+        <span class="block font-[family-name:var(--font-mono)] text-[length:var(--text-4xl)] leading-none font-semibold text-[var(--text-strong)]">{{ fromCost }}</span>
       </div>
-      <span class="text-[0.9375rem] leading-[1.45] text-[var(--text-muted)] pb-1">a month. What you pay is banded by your salary — everyone gets the same cover.</span>
+      <span class="pb-1 text-[0.9375rem] leading-[1.45] text-[var(--text-muted)]">a month. What you pay is banded by your salary — everyone gets the same cover.</span>
     </div>
 
     <!-- Column heads -->
     <div class="flex items-baseline justify-between gap-4 px-5 pt-4 pb-2">
-      <span class="font-[family-name:var(--font-sans)] text-[0.75rem] font-bold uppercase tracking-[0.06em] text-[var(--text-muted)]">Annual salary</span>
-      <span class="font-[family-name:var(--font-sans)] text-[0.75rem] font-bold uppercase tracking-[0.06em] text-[var(--text-muted)]">Monthly cost · {{ region }}</span>
+      <span class="font-[family-name:var(--font-sans)] text-[0.75rem] font-bold tracking-[0.08em] text-[var(--text-muted)] uppercase">Annual salary</span>
+      <span class="font-[family-name:var(--font-sans)] text-[0.75rem] font-bold tracking-[0.08em] text-[var(--text-muted)] uppercase">Monthly cost · {{ region }}</span>
     </div>
 
     <!-- Bands -->
@@ -65,23 +68,43 @@ const NuxtLink = resolveComponent('NuxtLink')
       <div
         v-for="b in items"
         :key="b.salary"
-        class="flex items-baseline justify-between gap-4 py-2.5 border-t border-[var(--border-subtle)]"
+        class="flex items-baseline justify-between gap-4 border-t border-[var(--border-subtle)] py-2.5"
       >
-        <dt class="m-0 text-[0.9375rem] text-[var(--text-body)]">{{ b.salary }}</dt>
-        <dd class="m-0 font-[family-name:var(--font-mono)] font-semibold text-[0.9375rem] tabular-nums text-[var(--text-strong)]">{{ b.cost }}</dd>
+        <dt class="m-0 text-[0.9375rem] text-[var(--text-body)]">
+          {{ b.salary }}
+        </dt>
+        <dd class="m-0 font-[family-name:var(--font-mono)] text-[0.9375rem] font-semibold text-[var(--text-strong)] tabular-nums">
+          {{ b.cost }}
+        </dd>
       </div>
     </dl>
 
     <!-- Tax relief note -->
-    <div class="flex items-start gap-3 bg-[var(--surface-sunken)] px-5 py-4 border-t border-[var(--border-subtle)]">
-      <span class="flex-none mt-0.5 text-[var(--brand-secondary)]" aria-hidden="true">
-        <UiIcon name="banknote" :size="20" :stroke="1.9" />
+    <div class="flex items-start gap-3 border-t border-[var(--border-subtle)] bg-[var(--surface-sunken)] px-5 py-4">
+      <span
+        class="mt-0.5 flex-none text-[var(--brand-secondary)]"
+        aria-hidden="true"
+      >
+        <UiIcon
+          name="banknote"
+          :size="20"
+          :stroke="1.9"
+        />
       </span>
       <p class="m-0 text-[0.9375rem] leading-[1.55] text-[var(--text-muted)]">
         You can claim tax relief on 70% of your subscription, lowering the real cost.
-        <component :is="NuxtLink" :to="taxReliefHref" class="group inline-flex items-center gap-1 align-baseline">
+        <component
+          :is="NuxtLink"
+          :to="taxReliefHref"
+          class="group inline-flex items-center gap-1 align-baseline"
+        >
           <span class="font-semibold text-[var(--brand-primary)] transition-colors group-hover:text-[var(--brand-primary-strong)]">How tax relief works</span>
-          <UiIcon name="arrowRight" :size="15" :stroke="2.2" class="text-[var(--brand-primary)] transition-transform group-hover:translate-x-0.5" />
+          <UiIcon
+            name="arrowRight"
+            :size="15"
+            :stroke="2.2"
+            class="text-[var(--brand-primary)] transition-transform group-hover:translate-x-0.5"
+          />
         </component>
       </p>
     </div>

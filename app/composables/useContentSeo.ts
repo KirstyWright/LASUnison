@@ -14,13 +14,13 @@
  * scrapers always receive a full URL.
  */
 const SITE_TITLE = 'LAS UNISON — London Ambulance Service UNISON Branch'
-const SITE_DESC =
-  'The UK’s biggest ambulance branch. We represent, protect and stand up for London Ambulance Service staff.'
+const SITE_DESC
+  = 'The UK’s biggest ambulance branch. We represent, protect and stand up for London Ambulance Service staff.'
 
 interface ContentSeoInput {
   title: () => string | undefined
   description: () => string | undefined
-  seo?: () => { title?: string; description?: string; image?: string; noindex?: boolean } | undefined
+  seo?: () => { title?: string, description?: string, image?: string, noindex?: boolean } | undefined
   image?: () => string | undefined
   type?: 'website' | 'article'
 }

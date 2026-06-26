@@ -10,7 +10,7 @@
  * child <span> with its own colour, immune to `.las-prose a`.
  */
 const props = withDefaults(
-  defineProps<{ number?: string; textphone?: string; hours?: string; onlineUrl?: string }>(),
+  defineProps<{ number?: string, textphone?: string, hours?: string, onlineUrl?: string }>(),
   {
     number: '0800 0857 857',
     textphone: '0800 0 967 968',
@@ -25,35 +25,49 @@ const textTel = computed(() => `tel:${props.textphone.replace(/\s+/g, '')}`)
 
 <template>
   <div
-    class="las-embed flex flex-col gap-4 bg-[var(--surface-brand-soft)] border border-[var(--border-default)] rounded-[var(--radius-lg)] p-6 md:p-7"
+    class="las-embed flex flex-col gap-4 rounded-[var(--radius-lg)] border border-[var(--border-default)] bg-[var(--surface-brand-soft)] p-6 md:p-7"
   >
     <div class="flex items-center gap-3">
       <span
-        class="flex-none w-11 h-11 inline-flex items-center justify-center rounded-[var(--radius-md)] bg-[var(--brand-primary)] text-white"
+        class="inline-flex size-11 flex-none items-center justify-center rounded-[var(--radius-md)] bg-[var(--brand-primary)] text-white"
         aria-hidden="true"
       >
-        <UiIcon name="phone" :size="22" :stroke="1.9" />
+        <UiIcon
+          name="phone"
+          :size="22"
+          :stroke="1.9"
+        />
       </span>
       <span
-        class="font-[family-name:var(--font-sans)] text-[0.8125rem] font-bold uppercase tracking-[0.08em] text-[var(--brand-primary-strong)]"
+        class="font-[family-name:var(--font-sans)] text-[0.8125rem] font-bold tracking-[0.08em] text-[var(--brand-primary-strong)] uppercase"
       >UNISON Direct</span>
     </div>
 
     <div class="flex flex-col gap-1.5">
-      <a :href="tel" class="group inline-flex flex-wrap items-baseline gap-x-3 gap-y-1 w-fit">
+      <a
+        :href="tel"
+        class="group inline-flex w-fit flex-wrap items-baseline gap-x-3 gap-y-1"
+      >
         <span
-          class="font-[family-name:var(--font-mono)] font-semibold text-[length:var(--text-3xl)] tracking-[-0.01em] whitespace-nowrap text-[var(--text-strong)] transition-colors group-hover:text-[var(--brand-primary)]"
+          class="font-[family-name:var(--font-mono)] text-[length:var(--text-3xl)] font-semibold tracking-[-0.01em] whitespace-nowrap text-[var(--text-strong)] transition-colors group-hover:text-[var(--brand-primary)]"
         >{{ number }}</span>
         <span class="text-[length:var(--text-sm)] text-[var(--text-muted)]">freephone</span>
       </a>
       <p class="m-0 text-[length:var(--text-sm)] text-[var(--text-muted)]">
         Textphone
-        <a :href="textTel" class="font-[family-name:var(--font-mono)]"><span class="text-[var(--text-body)]">{{ textphone }}</span></a>
+        <a
+          :href="textTel"
+          class="font-[family-name:var(--font-mono)] no-underline transition-colors duration-150 hover:text-[var(--brand-primary)]"
+        ><span class="text-[var(--text-body)]">{{ textphone }}</span></a>
       </p>
     </div>
 
     <span class="inline-flex items-center gap-1.5 text-[length:var(--text-sm)] text-[var(--text-muted)]">
-      <UiIcon name="clock" :size="16" :stroke="1.9" />
+      <UiIcon
+        name="clock"
+        :size="16"
+        :stroke="1.9"
+      />
       {{ hours }}
     </span>
 
@@ -65,7 +79,7 @@ const textTel = computed(() => `tel:${props.textphone.replace(/\s+/g, '')}`)
       :href="onlineUrl"
       target="_blank"
       rel="noopener noreferrer"
-      class="group inline-flex items-center gap-1.5 w-fit py-1 font-semibold"
+      class="group inline-flex w-fit items-center gap-1.5 py-1 font-semibold"
     >
       <span class="text-[var(--brand-primary)] transition-colors group-hover:text-[var(--brand-primary-strong)]">Get help online at unison.org.uk</span>
       <UiIcon

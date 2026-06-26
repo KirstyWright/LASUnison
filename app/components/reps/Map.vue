@@ -122,7 +122,7 @@ function scrollToStation(slug: string) {
 <template>
   <div
     ref="mapEl"
-    class="w-full h-full rounded-[var(--radius-xl)] overflow-hidden z-0"
+    class="z-0 size-full overflow-hidden rounded-[var(--radius-xl)]"
     role="application"
     aria-label="Map of LAS ambulance stations across London — use the list below to search and find your rep"
   />

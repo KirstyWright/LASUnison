@@ -10,23 +10,32 @@ defineProps<{
 </script>
 
 <template>
-  <div class="flex items-center gap-3 min-w-0">
+  <div class="flex min-w-0 items-center gap-3">
     <div
-      class="w-9 h-9 flex-none rounded-full grid place-items-center border border-dashed border-[var(--border-default)] text-[var(--text-subtle)]"
+      class="grid size-9 flex-none place-items-center rounded-full border border-dashed border-[var(--border-default)] text-[var(--text-subtle)]"
       aria-hidden="true"
     >
-      <UiIcon name="userPlus" :size="15" :stroke="1.8" />
+      <UiIcon
+        name="userPlus"
+        :size="15"
+        :stroke="1.8"
+      />
     </div>
     <div class="min-w-0">
-      <p class="font-bold text-[0.9375rem] leading-[1.25] text-[var(--text-muted)] m-0">
+      <p class="m-0 text-[0.9375rem] leading-[1.25] font-bold text-[var(--text-muted)]">
         {{ label ?? 'Position vacant' }}
       </p>
       <a
         href="mailto:branch@lasunison.com"
-        class="min-h-[2.75rem] inline-flex items-center gap-1 text-[0.75rem] font-semibold text-[var(--brand-primary)] no-underline hover:underline leading-[1.3] mt-0.5"
+        class="mt-0.5 inline-flex min-h-[2.75rem] items-center gap-1 text-[0.75rem] leading-[1.3] font-semibold text-[var(--brand-primary)] no-underline hover:underline"
       >
         Could this be you?
-        <UiIcon name="arrowRight" :size="12" :stroke="2.2" class="flex-none" />
+        <UiIcon
+          name="arrowRight"
+          :size="12"
+          :stroke="2.2"
+          class="flex-none"
+        />
       </a>
     </div>
   </div>

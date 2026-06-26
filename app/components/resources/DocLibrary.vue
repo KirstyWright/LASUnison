@@ -60,22 +60,35 @@ const countLabel = computed(() => {
   return `${n} document${n === 1 ? '' : 's'}`
 })
 
-const CHIP_BASE =
-  'inline-flex items-center gap-2 font-[family-name:var(--font-sans)] font-bold text-[0.875rem] leading-none px-3.5 h-9 rounded-full border-2 cursor-pointer whitespace-nowrap transition-colors duration-150 ease-out focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]'
+const CHIP_BASE
+  = 'inline-flex items-center gap-2 font-[family-name:var(--font-sans)] font-bold text-[0.875rem] leading-none px-3.5 h-9 rounded-full border-2 cursor-pointer whitespace-nowrap transition-colors duration-150 ease-out focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]'
 const CHIP_ACTIVE = 'bg-[var(--brand-primary)] border-[var(--brand-primary)] text-white'
-const CHIP_IDLE =
-  'bg-[var(--surface-card)] border-[var(--border-default)] text-[var(--text-body)] hover:border-[var(--brand-primary)] hover:text-[var(--brand-primary)]'
+const CHIP_IDLE
+  = 'bg-[var(--surface-card)] border-[var(--border-default)] text-[var(--text-body)] hover:border-[var(--brand-primary)] hover:text-[var(--brand-primary)]'
 </script>
 
 <template>
   <div>
     <!-- Facets -->
-    <div class="flex flex-col gap-4 mb-6">
+    <div class="mb-6 flex flex-col gap-4">
       <!-- Text search within the library -->
-      <div role="search" class="relative w-full max-w-[460px]">
-        <label for="doc-search" class="sr-only">Search documents by title</label>
-        <span class="absolute left-4 top-1/2 -translate-y-1/2 text-[var(--text-subtle)] pointer-events-none" aria-hidden="true">
-          <UiIcon name="search" :size="20" :stroke="2" />
+      <div
+        role="search"
+        class="relative w-full max-w-[460px]"
+      >
+        <label
+          for="doc-search"
+          class="sr-only"
+        >Search documents by title</label>
+        <span
+          class="pointer-events-none absolute top-1/2 left-4 -translate-y-1/2 text-[var(--text-subtle)]"
+          aria-hidden="true"
+        >
+          <UiIcon
+            name="search"
+            :size="20"
+            :stroke="2"
+          />
         </span>
         <input
           id="doc-search"
@@ -84,23 +97,27 @@ const CHIP_IDLE =
           enterkeyhint="search"
           autocomplete="off"
           placeholder="Search documents by title…"
-          class="w-full h-11 pl-11 pr-11 bg-[var(--surface-card)] text-[var(--text-strong)] text-[length:var(--text-base)] rounded-[var(--radius-md)] border-2 border-[var(--border-default)] placeholder:text-[var(--text-subtle)] focus:outline-none focus-visible:border-[var(--border-focus)] [&::-webkit-search-cancel-button]:appearance-none"
+          class="h-11 w-full rounded-[var(--radius-md)] border-2 border-[var(--border-default)] bg-[var(--surface-card)] px-11 text-[length:var(--text-base)] text-[var(--text-strong)] placeholder:text-[var(--text-subtle)] focus:outline-none focus-visible:border-[var(--border-focus)] [&::-webkit-search-cancel-button]:appearance-none"
         >
         <button
           v-show="q"
           type="button"
           aria-label="Clear document search"
-          class="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 inline-flex items-center justify-center rounded-full border-none bg-[var(--surface-sunken)] text-[var(--text-muted)] cursor-pointer hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
+          class="absolute top-1/2 right-2 inline-flex size-8 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full border-none bg-[var(--surface-sunken)] text-[var(--text-muted)] hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
           @click="q = ''"
         >
-          <UiIcon name="x" :size="16" :stroke="2.2" />
+          <UiIcon
+            name="x"
+            :size="16"
+            :stroke="2.2"
+          />
         </button>
       </div>
 
       <div
         role="group"
         aria-label="Filter documents by topic"
-        class="flex gap-2 flex-wrap"
+        class="flex flex-wrap gap-2"
       >
         <button
           v-for="t in topics"
@@ -118,36 +135,47 @@ const CHIP_IDLE =
         </button>
       </div>
 
-      <div class="flex items-center justify-between gap-4 flex-wrap">
+      <div class="flex flex-wrap items-center justify-between gap-4">
         <div class="flex items-center gap-3">
           <div class="relative">
-            <label for="doc-year" class="sr-only">Filter by year</label>
+            <label
+              for="doc-year"
+              class="sr-only"
+            >Filter by year</label>
             <select
               id="doc-year"
               v-model="year"
-              class="appearance-none h-10 pl-3.5 pr-9 bg-[var(--surface-card)] border-2 border-[var(--border-default)] rounded-[var(--radius-md)] font-bold text-[0.875rem] text-[var(--text-body)] cursor-pointer hover:border-[var(--brand-primary)] focus-visible:outline-none focus-visible:border-[var(--border-focus)] focus-visible:ring-[3px] focus-visible:ring-[var(--border-focus)]"
+              class="h-10 cursor-pointer appearance-none rounded-[var(--radius-md)] border-2 border-[var(--border-default)] bg-[var(--surface-card)] pr-9 pl-3.5 text-[0.875rem] font-bold text-[var(--text-body)] hover:border-[var(--brand-primary)] focus-visible:border-[var(--border-focus)] focus-visible:ring-[3px] focus-visible:ring-[var(--border-focus)] focus-visible:outline-none"
             >
-              <option value="All">All years</option>
-              <option v-for="y in years" :key="y" :value="String(y)">{{ y }}</option>
+              <option value="All">
+                All years
+              </option>
+              <option
+                v-for="y in years"
+                :key="y"
+                :value="String(y)"
+              >
+                {{ y }}
+              </option>
             </select>
             <UiIcon
               name="chevronDown"
               :size="16"
               :stroke="2.2"
-              class="absolute right-3 top-1/2 -translate-y-1/2 text-[var(--text-muted)] pointer-events-none"
+              class="pointer-events-none absolute top-1/2 right-3 -translate-y-1/2 text-[var(--text-muted)]"
             />
           </div>
           <button
             v-if="hasFilters"
             type="button"
-            class="text-[0.875rem] font-bold text-[var(--text-link)] hover:text-[var(--text-link-hover)] bg-transparent border-none cursor-pointer px-1 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)] rounded-[2px]"
+            class="cursor-pointer rounded-[2px] border-none bg-transparent px-1 text-[0.875rem] font-bold text-[var(--text-link)] hover:text-[var(--text-link-hover)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
             @click="clearFilters"
           >
             Clear filters
           </button>
         </div>
         <p
-          class="font-[family-name:var(--font-mono)] text-[0.8125rem] text-[var(--text-muted)] m-0 tabular-nums"
+          class="m-0 font-[family-name:var(--font-mono)] text-[0.8125rem] text-[var(--text-muted)] tabular-nums"
           aria-live="polite"
         >
           {{ countLabel }}
@@ -156,8 +184,14 @@ const CHIP_IDLE =
     </div>
 
     <!-- List -->
-    <ul v-if="shown.length" class="list-none p-0 m-0 grid gap-1.5 sm:gap-2">
-      <li v-for="d in shown" :key="d.file">
+    <ul
+      v-if="shown.length"
+      class="m-0 grid list-none gap-1.5 p-0 sm:gap-2"
+    >
+      <li
+        v-for="d in shown"
+        :key="d.file"
+      >
         <ResourcesDocRow :doc="d" />
       </li>
     </ul>
@@ -165,20 +199,33 @@ const CHIP_IDLE =
     <!-- Empty -->
     <div
       v-else
-      class="text-center border border-dashed border-[var(--border-default)] rounded-[var(--radius-lg)] py-14 px-6"
+      class="rounded-[var(--radius-lg)] border border-dashed border-[var(--border-default)] px-6 py-14 text-center"
     >
-      <p class="font-[family-name:var(--font-display)] font-extrabold text-[1.375rem] text-[var(--text-strong)] m-0 mb-2">
+      <p class="m-0 mb-2 font-[family-name:var(--font-display)] text-[1.375rem] font-extrabold text-[var(--text-strong)]">
         No documents match
       </p>
-      <p class="text-[var(--text-muted)] m-0 mb-5">
+      <p class="m-0 mb-5 text-[var(--text-muted)]">
         Try a different search, topic or year.
       </p>
-      <UiButton variant="outline" size="sm" @click="clearFilters">Clear filters</UiButton>
+      <UiButton
+        variant="outline"
+        size="sm"
+        @click="clearFilters"
+      >
+        Clear filters
+      </UiButton>
     </div>
 
     <!-- Pagination -->
-    <div v-if="remaining > 0" class="flex justify-center mt-8">
-      <UiButton variant="outline" icon-right="chevronDown" @click="visible += PAGE">
+    <div
+      v-if="remaining > 0"
+      class="mt-8 flex justify-center"
+    >
+      <UiButton
+        variant="outline"
+        icon-right="chevronDown"
+        @click="visible += PAGE"
+      >
         Show more ({{ remaining }} left)
       </UiButton>
     </div>

@@ -50,15 +50,15 @@ const TOPIC_MAP: Record<string, TopicMeta> = {
   'Stewards’ resources': { ...PURPLE, icon: 'briefcase' },
   'Labour Link': { ...PURPLE, icon: 'flag' },
   'Education & learning': { ...GREEN, icon: 'graduationCap' },
-  Membership: { ...GREEN, icon: 'userPlus' },
-  Welfare: { ...GREEN, icon: 'heart' },
-  Equality: { ...GREEN, icon: 'users' },
-  Environment: { ...GREEN, icon: 'flag' },
+  'Membership': { ...GREEN, icon: 'userPlus' },
+  'Welfare': { ...GREEN, icon: 'heart' },
+  'Equality': { ...GREEN, icon: 'users' },
+  'Environment': { ...GREEN, icon: 'flag' },
   'Health & safety': { ...BLUE, icon: 'shield' },
-  Pensions: { ...BLUE, icon: 'clock' },
+  'Pensions': { ...BLUE, icon: 'clock' },
   'Legal & forms': { ...BLUE, icon: 'scale' },
   'Retired members': { ...MUTED, icon: 'award' },
-  General: { ...MUTED, icon: 'file' },
+  'General': { ...MUTED, icon: 'file' },
 }
 
 const TOPIC_FALLBACK: TopicMeta = { ...MUTED, icon: 'file' }
@@ -87,7 +87,8 @@ export function docYear(iso: string): number {
 export function hostLabel(url: string): string {
   try {
     return new URL(url).hostname.replace(/^www\./, '')
-  } catch {
+  }
+  catch {
     return url.replace(/^https?:\/\//, '').replace(/^www\./, '').split('/')[0] ?? url
   }
 }

@@ -7,7 +7,7 @@
  */
 type Tone = 'primary' | 'secondary' | 'accent'
 
-const props = withDefaults(
+withDefaults(
   defineProps<{
     title?: string
     icon?: string
@@ -20,19 +20,16 @@ const props = withDefaults(
   { icon: 'arrowRight', tone: 'primary' },
 )
 
-const NuxtLink = resolveComponent('NuxtLink')
+// UiButton resolves internal paths to NuxtLink and external URLs to <a>; we only
+// need to flag genuinely external links (not internal, not mailto:) so they open
+// in a new tab.
 const isInternal = (h?: string) => !!h && h.startsWith('/')
 const isMail = (h?: string) => !!h && h.startsWith('mailto:')
+const isExternal = (h?: string) => !!h && !isInternal(h) && !isMail(h)
+const extAttrs = (h?: string) =>
+  isExternal(h) ? { target: '_blank', rel: 'noopener noreferrer' } : {}
 
-// Internal paths route via NuxtLink; mailto: stays a plain anchor; external URLs
-// open in a new tab. Returns the bindings (incl. `is`) for <component>.
-function bind(h?: string) {
-  if (isInternal(h)) return { is: NuxtLink, to: h }
-  if (isMail(h)) return { is: 'a', href: h }
-  return { is: 'a', href: h, target: '_blank', rel: 'noopener noreferrer' }
-}
-
-const TONES: Record<Tone, { card: string; chip: string }> = {
+const TONES: Record<Tone, { card: string, chip: string }> = {
   primary: { card: 'bg-[var(--surface-brand-soft)]', chip: 'bg-[var(--brand-primary)] text-white' },
   secondary: { card: 'bg-[var(--brand-secondary-soft)]', chip: 'bg-[var(--brand-secondary)] text-white' },
   accent: { card: 'bg-[var(--brand-accent-soft)]', chip: 'bg-[var(--brand-accent)] text-white' },
@@ -41,46 +38,57 @@ const TONES: Record<Tone, { card: string; chip: string }> = {
 
 <template>
   <div
-    class="las-embed flex flex-col gap-3 border border-[var(--border-default)] rounded-[var(--radius-lg)] p-6"
+    class="las-embed flex flex-col gap-3 rounded-[var(--radius-lg)] border border-[var(--border-default)] p-6"
     :class="TONES[tone].card"
   >
     <div class="flex items-center gap-3">
       <span
-        class="flex-none w-10 h-10 inline-flex items-center justify-center rounded-[var(--radius-md)]"
+        class="inline-flex size-10 flex-none items-center justify-center rounded-[var(--radius-md)]"
         :class="TONES[tone].chip"
         aria-hidden="true"
       >
-        <UiIcon :name="icon" :size="20" :stroke="1.9" />
+        <UiIcon
+          :name="icon"
+          :size="20"
+          :stroke="1.9"
+        />
       </span>
       <div
         v-if="title"
-        class="font-[family-name:var(--font-display)] font-extrabold text-[length:var(--text-lg)] text-[var(--text-strong)] leading-tight"
-      >{{ title }}</div>
+        class="font-[family-name:var(--font-display)] text-[length:var(--text-lg)] leading-tight font-extrabold text-[var(--text-strong)]"
+      >
+        {{ title }}
+      </div>
     </div>
 
-    <div class="text-[var(--text-body)] leading-[1.6]">
+    <div class="leading-[1.6] text-[var(--text-body)]">
       <slot />
     </div>
 
-    <div v-if="cta || cta2" class="flex flex-wrap gap-3 mt-1">
-      <component
-        :is="bind(href).is"
+    <div
+      v-if="cta || cta2"
+      class="mt-1 flex flex-wrap gap-3"
+    >
+      <UiButton
         v-if="cta"
-        v-bind="bind(href)"
-        class="group inline-flex items-center gap-2 h-11 px-5 rounded-full bg-[var(--brand-primary)] transition-colors hover:bg-[var(--brand-primary-strong)]"
+        :href="href"
+        variant="primary"
+        size="md"
+        icon-right="arrowRight"
+        v-bind="extAttrs(href)"
       >
-        <span class="font-[family-name:var(--font-sans)] font-bold text-[0.9375rem] text-white">{{ cta }}</span>
-        <UiIcon name="arrowRight" :size="17" :stroke="2.2" class="text-white transition-transform group-hover:translate-x-0.5" />
-      </component>
+        {{ cta }}
+      </UiButton>
 
-      <component
-        :is="bind(href2).is"
+      <UiButton
         v-if="cta2"
-        v-bind="bind(href2)"
-        class="group inline-flex items-center gap-2 h-11 px-5 rounded-full bg-transparent border-2 border-[var(--brand-primary)] transition-colors hover:bg-[var(--brand-primary-soft)]"
+        :href="href2"
+        variant="outline"
+        size="md"
+        v-bind="extAttrs(href2)"
       >
-        <span class="font-[family-name:var(--font-sans)] font-bold text-[0.9375rem] text-[var(--brand-primary)]">{{ cta2 }}</span>
-      </component>
+        {{ cta2 }}
+      </UiButton>
     </div>
   </div>
 </template>

@@ -57,7 +57,8 @@ function onTriggerKeydown(e: KeyboardEvent) {
     e.preventDefault()
     show()
     nextTick(() => focusItem(0))
-  } else if (e.key === 'Escape') {
+  }
+  else if (e.key === 'Escape') {
     hide()
   }
 }
@@ -65,10 +66,12 @@ function onItemKeydown(e: KeyboardEvent, i: number) {
   if (e.key === 'ArrowDown') {
     e.preventDefault()
     focusItem(i + 1)
-  } else if (e.key === 'ArrowUp') {
+  }
+  else if (e.key === 'ArrowUp') {
     e.preventDefault()
     focusItem(i - 1)
-  } else if (e.key === 'Escape') {
+  }
+  else if (e.key === 'Escape') {
     e.preventDefault()
     hide()
     focusTrigger()
@@ -90,7 +93,7 @@ function onItemKeydown(e: KeyboardEvent, i: number) {
       data-nav-trigger
       :aria-expanded="open"
       :aria-current="route.path === group.hub ? 'page' : (isActive ? 'true' : undefined)"
-      class="inline-flex items-center gap-1 px-3 py-2 rounded-[var(--radius-md)] font-bold text-[1rem] no-underline hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)] transition-colors duration-150"
+      class="inline-flex items-center gap-1 rounded-[var(--radius-md)] px-3 py-2 text-[1rem] font-bold no-underline transition-colors duration-150 hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
       :class="isActive ? 'text-[var(--brand-primary)]' : 'text-[var(--text-body)]'"
       @keydown="onTriggerKeydown"
     >
@@ -112,31 +115,38 @@ function onItemKeydown(e: KeyboardEvent, i: number) {
     >
       <div
         v-show="open"
-        class="absolute left-0 top-full pt-2 z-[210] w-[320px]"
+        class="absolute top-full left-0 z-[210] w-[320px] pt-2"
       >
         <ul
-          class="list-none m-0 p-2 bg-[var(--surface-card)] border border-[var(--border-default)] rounded-[var(--radius-lg)] shadow-[var(--shadow-lg)] flex flex-col gap-0.5"
+          class="m-0 flex list-none flex-col gap-0.5 rounded-[var(--radius-lg)] border border-[var(--border-default)] bg-[var(--surface-card)] p-2 shadow-[var(--shadow-lg)]"
         >
-          <li v-for="(item, i) in group.items" :key="item.path">
+          <li
+            v-for="(item, i) in group.items"
+            :key="item.path"
+          >
             <NuxtLink
               :to="item.path"
               data-nav-item
-              class="group/item flex items-start gap-3 p-2.5 rounded-[var(--radius-md)] no-underline text-[var(--text-body)] hover:bg-[var(--surface-sunken)] focus-visible:bg-[var(--surface-sunken)] transition-colors duration-150"
+              class="group/item flex items-start gap-3 rounded-[var(--radius-md)] p-2.5 text-[var(--text-body)] no-underline transition-colors duration-150 hover:bg-[var(--surface-sunken)] focus-visible:bg-[var(--surface-sunken)]"
               @keydown="onItemKeydown($event, i)"
             >
               <span
-                class="flex-none w-9 h-9 rounded-[var(--radius-md)] bg-[var(--brand-primary-soft)] text-[var(--brand-primary-strong)] inline-flex items-center justify-center mt-0.5"
+                class="mt-0.5 inline-flex size-9 flex-none items-center justify-center rounded-[var(--radius-md)] bg-[var(--brand-primary-soft)] text-[var(--brand-primary-strong)]"
                 aria-hidden="true"
               >
-                <UiIcon :name="item.icon ?? 'arrowRight'" :size="18" :stroke="1.9" />
+                <UiIcon
+                  :name="item.icon ?? 'arrowRight'"
+                  :size="18"
+                  :stroke="1.9"
+                />
               </span>
               <span class="min-w-0">
                 <span
-                  class="block font-bold text-[0.9375rem] text-[var(--text-strong)] leading-tight group-hover/item:text-[var(--brand-primary)]"
+                  class="block text-[0.9375rem] leading-tight font-bold text-[var(--text-strong)] group-hover/item:text-[var(--brand-primary)]"
                 >{{ item.label }}</span>
                 <span
                   v-if="item.note"
-                  class="block text-[0.8125rem] text-[var(--text-muted)] leading-snug mt-0.5"
+                  class="mt-0.5 block text-[0.8125rem] leading-snug text-[var(--text-muted)]"
                 >{{ item.note }}</span>
               </span>
             </NuxtLink>

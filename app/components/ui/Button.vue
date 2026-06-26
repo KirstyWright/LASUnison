@@ -15,8 +15,8 @@ const props = withDefaults(
   { variant: 'primary', size: 'md', fullWidth: false, type: 'button' },
 )
 
-const BASE =
-  'group inline-flex items-center justify-center gap-2 font-[family-name:var(--font-sans)] font-bold leading-none rounded-full border-2 cursor-pointer whitespace-nowrap no-underline transition-colors duration-150 ease-out active:translate-y-px disabled:opacity-50 disabled:cursor-not-allowed disabled:active:translate-y-0 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]'
+const BASE
+  = 'group inline-flex items-center justify-center gap-2 font-[family-name:var(--font-sans)] font-bold leading-none rounded-full border-2 cursor-pointer whitespace-nowrap no-underline transition-colors duration-150 ease-out active:translate-y-px disabled:opacity-50 disabled:cursor-not-allowed disabled:active:translate-y-0 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]'
 
 const SIZES: Record<Size, string> = {
   sm: 'h-9 px-4 text-[0.875rem]',
@@ -25,14 +25,14 @@ const SIZES: Record<Size, string> = {
 }
 
 const VARIANTS: Record<Variant, string> = {
-  primary: 'bg-[var(--brand-primary)] text-white border-transparent hover:bg-[var(--brand-primary-strong)]',
-  secondary: 'bg-[var(--brand-secondary)] text-white border-transparent hover:bg-[var(--brand-secondary-strong)]',
-  accent: 'bg-[var(--brand-accent)] text-white border-transparent hover:bg-[var(--brand-accent-strong)]',
-  emergency: 'bg-[var(--emergency)] text-white border-transparent hover:bg-[var(--red-700)]',
-  highlight: 'bg-[var(--brand-highlight)] text-[var(--text-strong)] border-transparent hover:bg-[var(--brand-highlight-strong)]',
-  outline: 'bg-transparent text-[var(--brand-primary)] border-[var(--brand-primary)] hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary-strong)]',
+  'primary': 'bg-[var(--brand-primary)] text-white border-transparent hover:bg-[var(--brand-primary-strong)]',
+  'secondary': 'bg-[var(--brand-secondary)] text-white border-transparent hover:bg-[var(--brand-secondary-strong)]',
+  'accent': 'bg-[var(--brand-accent)] text-white border-transparent hover:bg-[var(--brand-accent-strong)]',
+  'emergency': 'bg-[var(--emergency)] text-white border-transparent hover:bg-[var(--red-700)]',
+  'highlight': 'bg-[var(--brand-highlight)] text-[var(--text-strong)] border-transparent hover:bg-[var(--brand-highlight-strong)]',
+  'outline': 'bg-transparent text-[var(--brand-primary)] border-[var(--brand-primary)] hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary-strong)]',
   'outline-invert': 'bg-transparent text-white border-white/40 hover:bg-white/10',
-  ghost: 'bg-transparent text-[var(--brand-primary)] border-transparent hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary-strong)]',
+  'ghost': 'bg-transparent text-[var(--brand-primary)] border-transparent hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary-strong)]',
 }
 
 const IC = 'inline-flex w-[1.15em] h-[1.15em] [&>svg]:w-full [&>svg]:h-full'
@@ -64,8 +64,16 @@ const linkProps = computed<Record<string, unknown>>(() =>
     v-bind="linkProps"
     :class="classes"
   >
-    <span v-if="iconLeft" :class="IC" aria-hidden="true"><UiIcon :name="iconLeft" /></span>
+    <span
+      v-if="iconLeft"
+      :class="IC"
+      aria-hidden="true"
+    ><UiIcon :name="iconLeft" /></span>
     <span v-if="$slots.default"><slot /></span>
-    <span v-if="iconRight" :class="IC" aria-hidden="true"><UiIcon :name="iconRight" /></span>
+    <span
+      v-if="iconRight"
+      :class="IC"
+      aria-hidden="true"
+    ><UiIcon :name="iconRight" /></span>
   </component>
 </template>

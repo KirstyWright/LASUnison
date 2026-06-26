@@ -38,13 +38,13 @@ const bannerBg = computed(() => newsBannerBg(props.tone))
     :loading="eager ? 'eager' : 'lazy'"
     :fetchpriority="eager ? 'high' : 'auto'"
     decoding="async"
-    class="h-full w-full object-cover"
+    class="size-full object-cover"
   >
 
   <!-- Branded banner placeholder (decorative) -->
   <div
     v-else
-    class="relative h-full w-full overflow-hidden flex flex-col items-center justify-center text-center text-white"
+    class="relative flex size-full flex-col items-center justify-center overflow-hidden text-center text-white"
     :style="{ background: bannerBg }"
     aria-hidden="true"
   >
@@ -53,18 +53,18 @@ const bannerBg = computed(() => newsBannerBg(props.tone))
       :name="icon"
       :size="large ? 220 : 150"
       :stroke="1.25"
-      class="absolute -right-7 -bottom-8 text-white opacity-[0.09] pointer-events-none"
+      class="pointer-events-none absolute -right-7 -bottom-8 text-white opacity-[0.09]"
     />
 
     <!-- Pulse, refined — echoes the masthead motif -->
-    <div class="absolute inset-x-0 bottom-0 text-white opacity-60 pointer-events-none">
+    <div class="pointer-events-none absolute inset-x-0 bottom-0 text-white opacity-60">
       <MotifPulse />
     </div>
 
     <!-- wordmark + category -->
     <div class="relative flex flex-col items-center gap-2 px-4">
       <span
-        class="inline-flex items-center gap-2 font-[family-name:var(--font-display)] font-extrabold tracking-[-0.01em] leading-none"
+        class="inline-flex items-center gap-2 font-[family-name:var(--font-display)] leading-none font-extrabold tracking-[-0.01em]"
         :class="large ? 'text-[1.65rem]' : 'text-[1.0625rem]'"
       >
         <span
@@ -74,7 +74,7 @@ const bannerBg = computed(() => newsBannerBg(props.tone))
         LAS UNISON
       </span>
       <span
-        class="font-[family-name:var(--font-mono)] uppercase text-[var(--purple-100)] opacity-90"
+        class="font-[family-name:var(--font-mono)] text-[var(--purple-100)] uppercase opacity-90"
         :class="large
           ? 'text-[0.8125rem] tracking-[0.22em]'
           : 'text-[0.6875rem] tracking-[0.2em]'"

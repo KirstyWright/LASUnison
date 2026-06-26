@@ -6,7 +6,7 @@
  * in .las-embed so the prose styles don't touch it. Pass `items` from the block's
  * frontmatter — `{ value, label, sub? }`.
  */
-interface StatItem { value: string; label: string; sub?: string }
+interface StatItem { value: string, label: string, sub?: string }
 
 defineProps<{ items: StatItem[] }>()
 </script>
@@ -23,7 +23,13 @@ defineProps<{ items: StatItem[] }>()
         :key="s.label"
         class="bg-[var(--surface-sunken)] px-6 py-7"
       >
-        <UiStat :value="s.value" :label="s.label" :sub="s.sub" align="center" size="md" />
+        <UiStat
+          :value="s.value"
+          :label="s.label"
+          :sub="s.sub"
+          align="center"
+          size="md"
+        />
       </div>
     </div>
   </div>

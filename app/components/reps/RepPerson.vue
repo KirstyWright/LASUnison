@@ -26,9 +26,9 @@ const initials = computed(() =>
 </script>
 
 <template>
-  <div class="flex items-center gap-3 min-w-0">
+  <div class="flex min-w-0 items-center gap-3">
     <div
-      class="flex-none rounded-full grid place-items-center font-[family-name:var(--font-display)] font-black leading-none"
+      class="grid flex-none place-items-center rounded-full font-[family-name:var(--font-display)] leading-none font-black"
       :class="senior
         ? 'w-10 h-10 bg-[var(--brand-primary)] text-white text-[0.875rem]'
         : 'w-9 h-9 bg-[var(--brand-primary-soft)] text-[var(--brand-primary-strong)] text-[0.8125rem]'"
@@ -48,7 +48,7 @@ const initials = computed(() =>
       </p>
       <p
         v-if="note"
-        class="text-[0.75rem] text-[var(--text-subtle)] m-0 mt-0.5 leading-[1.3] truncate"
+        class="m-0 mt-0.5 truncate text-[0.75rem] leading-[1.3] text-[var(--text-subtle)]"
         :title="note"
       >
         {{ note }}

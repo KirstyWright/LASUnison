@@ -26,12 +26,17 @@ const OUT = resolve(ROOT, 'public/.htaccess')
 const postRedirects = JSON.parse(readFileSync(resolve(ROOT, 'app/redirects.json'), 'utf8'))
 
 // Escape regex metacharacters so a literal old path can't be mis-parsed.
-const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+const escapeRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 
 const siteUrl = process.env.NUXT_PUBLIC_SITE_URL || 'https://2026.lasunison.com'
 const forceCanonical = process.env.SEO_FORCE_CANONICAL === 'true'
 const canonicalHost = (() => {
-  try { return new URL(siteUrl).host } catch { return '' }
+  try {
+    return new URL(siteUrl).host
+  }
+  catch {
+    return ''
+  }
 })()
 
 // Manual page redirects win over the generated post redirects where they overlap
@@ -80,8 +85,8 @@ L.push('')
 writeFileSync(OUT, L.join('\n'))
 console.log(`✓ wrote ${OUT}`)
 console.log(
-  `  ${Object.keys(redirects).length} redirect rules` +
-    (forceCanonical && canonicalHost
-      ? `; canonical host = ${canonicalHost} (HTTPS forced)`
-      : '; no host canonicalisation (staging-safe)'),
+  `  ${Object.keys(redirects).length} redirect rules`
+  + (forceCanonical && canonicalHost
+    ? `; canonical host = ${canonicalHost} (HTTPS forced)`
+    : '; no host canonicalisation (staging-safe)'),
 )

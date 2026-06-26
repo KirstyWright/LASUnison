@@ -18,7 +18,10 @@ useSeoMeta({
   <div>
     <SiteHeader />
 
-    <main id="main-content" tabindex="-1">
+    <main
+      id="main-content"
+      tabindex="-1"
+    >
       <HomeHero />
 
       <!-- UNISON Direct — help first, overlapping the hero -->

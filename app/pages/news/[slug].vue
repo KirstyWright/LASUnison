@@ -55,11 +55,11 @@ useSeoMeta({
 useSchemaOrg(() => [
   defineArticle({
     '@type': 'NewsArticle',
-    headline: article.value?.title,
-    description: article.value?.seo?.description || article.value?.description,
-    datePublished: article.value?.date,
-    image: absImage.value,
-    author: article.value?.author ? { name: article.value.author } : { name: 'LAS UNISON' },
+    'headline': article.value?.title,
+    'description': article.value?.seo?.description || article.value?.description,
+    'datePublished': article.value?.date,
+    'image': absImage.value,
+    'author': article.value?.author ? { name: article.value.author } : { name: 'LAS UNISON' },
   }),
   defineBreadcrumb({
     itemListElement: [
@@ -75,47 +75,72 @@ useSchemaOrg(() => [
   <div>
     <SiteHeader />
 
-    <main v-if="article" id="main-content">
+    <main
+      v-if="article"
+      id="main-content"
+    >
       <article>
         <!-- Masthead -->
         <header class="border-b border-[var(--border-subtle)] bg-[var(--surface-card)]">
           <div class="las-container py-10 md:py-14">
             <div class="max-w-[760px]">
-              <nav aria-label="Breadcrumb" class="mb-6 text-[0.875rem] text-[var(--text-muted)]">
-                <NuxtLink to="/" class="text-[var(--text-muted)] no-underline hover:text-[var(--brand-primary)]">Home</NuxtLink>
-                <span class="mx-2 text-[var(--border-strong)]" aria-hidden="true">/</span>
-                <NuxtLink to="/news" class="text-[var(--text-muted)] no-underline hover:text-[var(--brand-primary)]">News</NuxtLink>
+              <nav
+                aria-label="Breadcrumb"
+                class="mb-6 text-[0.875rem] text-[var(--text-muted)]"
+              >
+                <NuxtLink
+                  to="/"
+                  class="text-[var(--text-muted)] no-underline hover:text-[var(--brand-primary)]"
+                >Home</NuxtLink>
+                <span
+                  class="mx-2 text-[var(--border-strong)]"
+                  aria-hidden="true"
+                >/</span>
+                <NuxtLink
+                  to="/news"
+                  class="text-[var(--text-muted)] no-underline hover:text-[var(--brand-primary)]"
+                >News</NuxtLink>
               </nav>
 
-              <div class="flex items-center gap-3 mb-4">
+              <div class="mb-4 flex items-center gap-3">
                 <span
-                  class="font-[family-name:var(--font-sans)] text-[0.875rem] font-bold tracking-[0.08em] uppercase leading-none"
+                  class="font-[family-name:var(--font-sans)] text-[0.875rem] leading-none font-bold tracking-[0.08em] uppercase"
                   :style="{ color: meta.accent }"
                 >{{ article.category }}</span>
                 <span
                   v-if="article.urgent"
-                  class="inline-flex items-center gap-1.5 font-[family-name:var(--font-sans)] font-bold text-[0.75rem] tracking-[0.04em] uppercase leading-none px-2.5 py-1.5 rounded-[var(--radius-sm)] bg-[var(--emergency)] text-white"
+                  class="inline-flex items-center gap-1.5 rounded-[var(--radius-sm)] bg-[var(--emergency)] px-2.5 py-1.5 font-[family-name:var(--font-sans)] text-[0.75rem] leading-none font-bold tracking-[0.04em] text-white uppercase"
                 >
-                  <UiIcon name="alert" :size="13" :stroke="2.4" /> Action needed
+                  <UiIcon
+                    name="alert"
+                    :size="13"
+                    :stroke="2.4"
+                  /> Action needed
                 </span>
               </div>
 
               <h1
-                class="font-[family-name:var(--font-display)] font-black text-[length:var(--text-4xl)] leading-[1.08] tracking-[-0.02em] text-[var(--text-strong)] m-0"
+                class="m-0 font-[family-name:var(--font-display)] text-[length:var(--text-4xl)] leading-[1.08] font-black tracking-[-0.02em] text-[var(--text-strong)]"
               >
                 {{ article.title }}
               </h1>
 
               <div
-                class="flex items-center gap-x-3 gap-y-1 flex-wrap mt-5 font-[family-name:var(--font-mono)] text-[0.875rem] text-[var(--text-muted)]"
+                class="mt-5 flex flex-wrap items-center gap-x-3 gap-y-1 font-[family-name:var(--font-mono)] text-[0.875rem] text-[var(--text-muted)]"
               >
                 <time :datetime="isoDate(article.date)">{{ dateText }}</time>
                 <template v-if="readText">
-                  <span class="text-[var(--border-strong)]" aria-hidden="true">·</span>
+                  <span
+                    class="text-[var(--border-strong)]"
+                    aria-hidden="true"
+                  >·</span>
                   <span>{{ readText }}</span>
                 </template>
                 <template v-if="article.author">
-                  <span class="text-[var(--border-strong)]" aria-hidden="true">·</span>
+                  <span
+                    class="text-[var(--border-strong)]"
+                    aria-hidden="true"
+                  >·</span>
                   <span class="text-[var(--text-body)]">{{ article.author }}</span>
                 </template>
               </div>
@@ -126,7 +151,7 @@ useSchemaOrg(() => [
         <!-- Hero image (only when the article has a real featured image) -->
         <figure
           v-if="article.image"
-          class="border-b border-[var(--border-subtle)] bg-[var(--surface-sunken)] m-0"
+          class="m-0 border-b border-[var(--border-subtle)] bg-[var(--surface-sunken)]"
         >
           <div class="las-container py-8 md:py-10">
             <img
@@ -135,7 +160,7 @@ useSchemaOrg(() => [
               loading="eager"
               fetchpriority="high"
               decoding="async"
-              class="block w-full max-h-[460px] object-cover rounded-[var(--radius-card)] shadow-[var(--shadow-sm)]"
+              class="block max-h-[460px] w-full rounded-[var(--radius-card)] object-cover shadow-[var(--shadow-sm)]"
             >
           </div>
         </figure>
@@ -147,16 +172,23 @@ useSchemaOrg(() => [
             <div
               v-if="article.urgent"
               role="alert"
-              class="flex gap-3 items-start bg-[var(--danger-soft)] rounded-[var(--radius-lg)] p-5 mb-8"
+              class="mb-8 flex items-start gap-3 rounded-[var(--radius-lg)] bg-[var(--danger-soft)] p-5"
             >
-              <span class="flex-none text-[var(--red-700)] mt-px" aria-hidden="true">
-                <UiIcon name="alert" :size="22" :stroke="2" />
+              <span
+                class="mt-px flex-none text-[var(--red-700)]"
+                aria-hidden="true"
+              >
+                <UiIcon
+                  name="alert"
+                  :size="22"
+                  :stroke="2"
+                />
               </span>
               <div>
-                <p class="font-[family-name:var(--font-display)] font-bold text-[1.0625rem] text-[var(--red-700)] m-0 mb-0.5">
+                <p class="m-0 mb-0.5 font-[family-name:var(--font-display)] text-[1.0625rem] font-bold text-[var(--red-700)]">
                   Action needed
                 </p>
-                <p class="text-[0.9375rem] leading-[1.55] text-[var(--text-body)] m-0">
+                <p class="m-0 text-[0.9375rem] leading-[1.55] text-[var(--text-body)]">
                   If this affects you, contact your local UNISON rep or UNISON Direct without delay.
                 </p>
               </div>
@@ -174,35 +206,52 @@ useSchemaOrg(() => [
               :href="article.source"
               target="_blank"
               rel="noopener"
-              class="group flex items-center gap-4 mt-10 p-5 rounded-[var(--radius-lg)] bg-[var(--surface-brand-soft)] border border-[var(--border-subtle)] no-underline transition-colors duration-150 hover:border-[var(--brand-primary)]"
+              class="group mt-10 flex items-center gap-4 rounded-[var(--radius-lg)] border border-[var(--border-subtle)] bg-[var(--surface-brand-soft)] p-5 no-underline transition-colors duration-150 hover:border-[var(--brand-primary)]"
             >
-              <span class="flex-none w-11 h-11 rounded-full bg-[var(--brand-primary)] text-white inline-flex items-center justify-center">
-                <UiIcon name="arrowUpRight" :size="20" />
+              <span class="inline-flex size-11 flex-none items-center justify-center rounded-full bg-[var(--brand-primary)] text-white">
+                <UiIcon
+                  name="arrowUpRight"
+                  :size="20"
+                />
               </span>
               <span class="min-w-0">
-                <span class="block font-[family-name:var(--font-display)] font-bold text-[1.0625rem] text-[var(--text-strong)] group-hover:text-[var(--brand-primary)]">
+                <span class="block font-[family-name:var(--font-display)] text-[1.0625rem] font-bold text-[var(--text-strong)] group-hover:text-[var(--brand-primary)]">
                   {{ article.sourceLabel ?? 'Read more' }}
                 </span>
-                <span class="block text-[0.875rem] text-[var(--text-muted)] truncate">{{ article.source }}</span>
+                <span class="block truncate text-[0.875rem] text-[var(--text-muted)]">{{ article.source }}</span>
               </span>
             </a>
 
             <!-- Back link -->
-            <div class="mt-12 pt-8 border-t border-[var(--border-subtle)]">
-              <UiButton variant="ghost" href="/news" icon-left="arrowLeft">All news</UiButton>
+            <div class="mt-12 border-t border-[var(--border-subtle)] pt-8">
+              <UiButton
+                variant="ghost"
+                href="/news"
+                icon-left="arrowLeft"
+              >
+                All news
+              </UiButton>
             </div>
           </div>
         </div>
       </article>
 
       <!-- Related -->
-      <section v-if="related.length" class="bg-[var(--surface-card)] border-t border-[var(--border-subtle)]">
+      <section
+        v-if="related.length"
+        class="border-t border-[var(--border-subtle)] bg-[var(--surface-card)]"
+      >
         <div class="las-container py-[var(--section-y)]">
-          <h2 class="font-[family-name:var(--font-display)] font-extrabold text-[length:var(--text-2xl)] text-[var(--text-strong)] mt-0 mb-7">
+          <h2 class="mt-0 mb-7 font-[family-name:var(--font-display)] text-[length:var(--text-2xl)] font-extrabold text-[var(--text-strong)]">
             More from the branch
           </h2>
           <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <NewsCard v-for="p in related" :key="p.path" :post="p" class="las-reveal" />
+            <NewsCard
+              v-for="p in related"
+              :key="p.path"
+              :post="p"
+              class="las-reveal"
+            />
           </div>
         </div>
       </section>

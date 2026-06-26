@@ -7,7 +7,7 @@
  * reset can't recolour them.
  */
 type Tone = 'primary' | 'secondary' | 'accent' | 'amber'
-interface ContactItem { icon: string; title: string; body: string; href: string; tone: Tone }
+interface ContactItem { icon: string, title: string, body: string, href: string, tone: Tone }
 
 withDefaults(
   defineProps<{ items?: ContactItem[] }>(),
@@ -47,29 +47,40 @@ const TONES: Record<Tone, string> = {
       v-for="item in items"
       :key="item.title"
       v-bind="bind(item.href)"
-      class="group relative flex flex-col gap-2 bg-[var(--surface-card)] border border-[var(--border-subtle)] rounded-[var(--radius-lg)] shadow-[var(--shadow-sm)] p-5 no-underline transition-[transform,box-shadow,border-color] duration-200 ease-out hover:-translate-y-[3px] hover:shadow-[var(--shadow-lg)] hover:border-[var(--border-default)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
+      class="group relative flex flex-col gap-2 rounded-[var(--radius-lg)] border border-[var(--border-subtle)] bg-[var(--surface-card)] p-5 no-underline shadow-[var(--shadow-sm)] transition-[transform,box-shadow,border-color] duration-200 ease-out hover:translate-y-[-3px] hover:border-[var(--border-default)] hover:shadow-[var(--shadow-lg)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
     >
       <span
         class="absolute top-4 right-4 text-[var(--text-subtle)] transition-colors duration-150 group-hover:text-[var(--brand-primary)]"
         aria-hidden="true"
       >
-        <UiIcon :name="isExternal(item.href) ? 'arrowUpRight' : 'arrowRight'" :size="18" :stroke="2" />
+        <UiIcon
+          :name="isExternal(item.href) ? 'arrowUpRight' : 'arrowRight'"
+          :size="18"
+          :stroke="2"
+        />
       </span>
 
       <span
-        class="w-11 h-11 rounded-[var(--radius-md)] inline-flex items-center justify-center"
+        class="inline-flex size-11 items-center justify-center rounded-[var(--radius-md)]"
         :class="TONES[item.tone]"
         aria-hidden="true"
       >
-        <UiIcon :name="item.icon" :size="22" :stroke="1.9" />
+        <UiIcon
+          :name="item.icon"
+          :size="22"
+          :stroke="1.9"
+        />
       </span>
 
       <span
-        class="block font-[family-name:var(--font-display)] font-extrabold text-[length:var(--text-lg)] tracking-[-0.01em] text-[var(--text-strong)] leading-tight mt-1 pr-6 transition-colors group-hover:text-[var(--brand-primary)]"
+        class="mt-1 block pr-6 font-[family-name:var(--font-display)] text-[length:var(--text-lg)] leading-tight font-extrabold tracking-[-0.01em] text-[var(--text-strong)] transition-colors group-hover:text-[var(--brand-primary)]"
       >{{ item.title }}</span>
       <span class="block text-[0.9375rem] leading-[1.55] text-[var(--text-muted)]">{{ item.body }}</span>
 
-      <span v-if="isExternal(item.href)" class="sr-only"> (opens in a new tab)</span>
+      <span
+        v-if="isExternal(item.href)"
+        class="sr-only"
+      > (opens in a new tab)</span>
     </component>
   </div>
 </template>

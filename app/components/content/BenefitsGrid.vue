@@ -7,7 +7,7 @@
  * Rooted in .las-embed; titles/bodies are <span>s, immune to the `.las-prose a`
  * reset. Pass `items` to override the defaults.
  */
-interface Benefit { icon: string; title: string; body: string }
+interface Benefit { icon: string, title: string, body: string }
 
 withDefaults(
   defineProps<{ items?: Benefit[] }>(),
@@ -26,16 +26,24 @@ withDefaults(
 
 <template>
   <div class="las-embed grid gap-x-6 gap-y-5 sm:grid-cols-2">
-    <div v-for="b in items" :key="b.title" class="flex items-start gap-3.5">
+    <div
+      v-for="b in items"
+      :key="b.title"
+      class="flex items-start gap-3.5"
+    >
       <span
-        class="flex-none w-11 h-11 rounded-[var(--radius-md)] bg-[var(--brand-secondary-soft)] text-[var(--brand-secondary)] inline-flex items-center justify-center mt-0.5"
+        class="mt-0.5 inline-flex size-11 flex-none items-center justify-center rounded-[var(--radius-md)] bg-[var(--brand-secondary-soft)] text-[var(--brand-secondary)]"
         aria-hidden="true"
       >
-        <UiIcon :name="b.icon" :size="22" :stroke="1.9" />
+        <UiIcon
+          :name="b.icon"
+          :size="22"
+          :stroke="1.9"
+        />
       </span>
       <div>
-        <span class="block font-[family-name:var(--font-display)] font-bold text-[length:var(--text-md)] text-[var(--text-strong)] leading-tight">{{ b.title }}</span>
-        <span class="block text-[0.9375rem] leading-[1.5] text-[var(--text-muted)] mt-0.5">{{ b.body }}</span>
+        <span class="block font-[family-name:var(--font-display)] text-[length:var(--text-md)] leading-tight font-extrabold text-[var(--text-strong)]">{{ b.title }}</span>
+        <span class="mt-0.5 block text-[0.9375rem] leading-[1.5] text-[var(--text-muted)]">{{ b.body }}</span>
       </div>
     </div>
   </div>

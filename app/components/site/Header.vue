@@ -31,19 +31,25 @@ function launchSearch() {
 
 <template>
   <header class="sticky top-0 z-[200] font-[family-name:var(--font-sans)]">
-    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a
+      href="#main-content"
+      class="skip-link"
+    >Skip to main content</a>
 
     <!-- Utility strip -->
     <div class="bg-[var(--surface-brand-deep)] text-[var(--purple-200)]">
-      <div class="las-container flex items-center justify-between h-10 text-[0.875rem]">
-        <span class="font-semibold truncate">London Ambulance Service UNISON Branch</span>
-        <div class="flex items-center gap-4 flex-none">
+      <div class="las-container flex h-10 items-center justify-between text-[0.875rem]">
+        <span class="truncate font-semibold">London Ambulance Service UNISON Branch</span>
+        <div class="flex flex-none items-center gap-4">
           <a
             href="https://my.unison.org.uk"
-            class="text-[var(--purple-200)] no-underline font-semibold hover:text-white whitespace-nowrap transition-colors duration-150"
+            class="font-semibold whitespace-nowrap text-[var(--purple-200)] no-underline transition-colors duration-150 hover:text-white"
           >My UNISON</a>
-          <span class="opacity-40" aria-hidden="true">|</span>
-          <div class="hidden sm:flex gap-3">
+          <span
+            class="opacity-40"
+            aria-hidden="true"
+          >|</span>
+          <div class="hidden gap-3 sm:flex">
             <a
               v-for="s in SOCIALS"
               :key="s.name"
@@ -51,9 +57,13 @@ function launchSearch() {
               target="_blank"
               rel="noopener noreferrer"
               :aria-label="`LAS UNISON on ${s.name}`"
-              class="text-[var(--purple-200)] inline-flex hover:text-white transition-colors duration-150"
+              class="inline-flex text-[var(--purple-200)] transition-colors duration-150 hover:text-white"
             >
-              <UiIcon :name="s.name" :size="16" :stroke="1.8" />
+              <UiIcon
+                :name="s.name"
+                :size="16"
+                :stroke="1.8"
+              />
             </a>
           </div>
         </div>
@@ -61,19 +71,32 @@ function launchSearch() {
     </div>
 
     <!-- Main bar -->
-    <div class="bg-[var(--surface-card)] border-b border-[var(--border-default)] shadow-[var(--shadow-xs)]">
-      <div class="las-container flex items-center gap-6 h-[78px]">
-        <NuxtLink to="/" class="flex items-center flex-none" aria-label="LAS UNISON — home">
+    <div class="border-b border-[var(--border-default)] bg-[var(--surface-card)] shadow-[var(--shadow-xs)]">
+      <div class="las-container flex h-[78px] items-center gap-6">
+        <NuxtLink
+          to="/"
+          class="flex flex-none items-center"
+          aria-label="LAS UNISON — home"
+        >
           <UiLogo tone="dark" />
         </NuxtLink>
 
-        <nav class="hidden lg:flex items-center gap-1 ml-auto" aria-label="Primary">
-          <template v-for="group in navGroups" :key="group.id">
-            <SiteNavDropdown v-if="group.items.length" :group="group" />
+        <nav
+          class="ml-auto hidden items-center gap-1 lg:flex"
+          aria-label="Primary"
+        >
+          <template
+            v-for="group in navGroups"
+            :key="group.id"
+          >
+            <SiteNavDropdown
+              v-if="group.items.length"
+              :group="group"
+            />
             <NuxtLink
               v-else
               :to="group.hub"
-              class="inline-flex items-center px-3 py-2 rounded-[var(--radius-md)] font-bold text-[1rem] no-underline hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)] transition-colors duration-150"
+              class="inline-flex items-center rounded-[var(--radius-md)] px-3 py-2 text-[1rem] font-bold no-underline transition-colors duration-150 hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)]"
               :class="activeGroupId === group.id ? 'text-[var(--brand-primary)]' : 'text-[var(--text-body)]'"
               :aria-current="route.path === group.hub ? 'page' : (activeGroupId === group.id ? 'true' : undefined)"
             >
@@ -82,28 +105,40 @@ function launchSearch() {
           </template>
         </nav>
 
-        <div class="flex items-center gap-2 flex-none ml-auto lg:ml-0">
+        <div class="ml-auto flex flex-none items-center gap-2 lg:ml-0">
           <button
             type="button"
             aria-label="Search the site"
             aria-keyshortcuts="Meta+K Control+K"
-            class="w-11 h-11 rounded-[var(--radius-md)] border-none bg-transparent text-[var(--text-muted)] cursor-pointer hidden sm:inline-flex items-center justify-center hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
+            class="hidden size-11 cursor-pointer items-center justify-center rounded-[var(--radius-md)] border-none bg-transparent text-[var(--text-muted)] hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)] sm:inline-flex"
             @click="launchSearch"
           >
-            <UiIcon name="search" :size="22" />
+            <UiIcon
+              name="search"
+              :size="22"
+            />
           </button>
-          <UiButton variant="primary" href="/#join">Join us</UiButton>
+          <UiButton
+            variant="primary"
+            href="/#join"
+          >
+            Join us
+          </UiButton>
 
           <!-- Mobile menu toggle -->
           <button
             type="button"
-            class="lg:hidden w-11 h-11 rounded-[var(--radius-md)] border border-[var(--border-default)] bg-transparent text-[var(--text-strong)] cursor-pointer inline-flex items-center justify-center hover:bg-[var(--surface-sunken)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
+            class="inline-flex size-11 cursor-pointer items-center justify-center rounded-[var(--radius-md)] border border-[var(--border-default)] bg-transparent text-[var(--text-strong)] hover:bg-[var(--surface-sunken)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)] lg:hidden"
             :aria-expanded="menuOpen"
             aria-controls="mobile-menu"
             :aria-label="menuOpen ? 'Close menu' : 'Open menu'"
             @click="menuOpen = !menuOpen"
           >
-            <UiIcon :name="menuOpen ? 'x' : 'menu'" :size="24" :stroke="2.2" />
+            <UiIcon
+              :name="menuOpen ? 'x' : 'menu'"
+              :size="24"
+              :stroke="2.2"
+            />
           </button>
         </div>
       </div>
@@ -120,27 +155,37 @@ function launchSearch() {
         <nav
           v-show="menuOpen"
           id="mobile-menu"
-          class="lg:hidden border-t border-[var(--border-subtle)] bg-[var(--surface-card)]"
+          class="border-t border-[var(--border-subtle)] bg-[var(--surface-card)] lg:hidden"
           aria-label="Primary (mobile)"
         >
           <!-- Scrollable inner — caps at viewport height minus the two header bars -->
-          <div class="overflow-y-auto max-h-[calc(100dvh-var(--header-h))]">
-            <div class="las-container py-3 flex flex-col">
+          <div class="max-h-[calc(100dvh-var(--header-h))] overflow-y-auto">
+            <div class="las-container flex flex-col py-3">
               <button
                 type="button"
-                class="mb-1 flex items-center gap-2.5 py-2.5 px-3 -mx-3 rounded-[var(--radius-md)] border-none bg-[var(--surface-sunken)] text-[var(--text-body)] font-bold text-[length:var(--text-md)] cursor-pointer text-left hover:text-[var(--brand-primary)]"
+                class="-mx-3 mb-1 flex cursor-pointer items-center gap-2.5 rounded-[var(--radius-md)] border-none bg-[var(--surface-sunken)] px-3 py-2.5 text-left text-[length:var(--text-md)] font-bold text-[var(--text-body)] hover:text-[var(--brand-primary)]"
                 @click="launchSearch"
               >
-                <UiIcon name="search" :size="20" :stroke="2" />
+                <UiIcon
+                  name="search"
+                  :size="20"
+                  :stroke="2"
+                />
                 Search the site
               </button>
 
-              <template v-for="group in navGroups" :key="group.id">
+              <template
+                v-for="group in navGroups"
+                :key="group.id"
+              >
                 <!-- Group with children → accordion section -->
-                <div v-if="group.items.length" class="border-b border-[var(--border-subtle)] last:border-b-0">
+                <div
+                  v-if="group.items.length"
+                  class="border-b border-[var(--border-subtle)] last:border-b-0"
+                >
                   <button
                     type="button"
-                    class="w-full flex items-center justify-between gap-2 py-2.5 px-3 -mx-3 rounded-[var(--radius-md)] border-none bg-transparent font-bold text-[length:var(--text-md)] cursor-pointer text-left hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)]"
+                    class="-mx-3 flex w-full cursor-pointer items-center justify-between gap-2 rounded-[var(--radius-md)] border-none bg-transparent px-3 py-2.5 text-left text-[length:var(--text-md)] font-bold hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)]"
                     :class="activeGroupId === group.id ? 'text-[var(--brand-primary)]' : 'text-[var(--text-body)]'"
                     :aria-expanded="!!openMobile[group.id]"
                     :aria-controls="`m-${group.id}`"
@@ -158,12 +203,15 @@ function launchSearch() {
                   <ul
                     v-show="openMobile[group.id]"
                     :id="`m-${group.id}`"
-                    class="list-none m-0 pb-2 pl-3 flex flex-col"
+                    class="m-0 flex list-none flex-col pb-2 pl-3"
                   >
-                    <li v-for="item in group.items" :key="item.path">
+                    <li
+                      v-for="item in group.items"
+                      :key="item.path"
+                    >
                       <NuxtLink
                         :to="item.path"
-                        class="block py-2 px-3 -mx-3 rounded-[var(--radius-md)] no-underline text-[0.9375rem] text-[var(--text-muted)] hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)]"
+                        class="-mx-3 block rounded-[var(--radius-md)] px-3 py-2 text-[0.9375rem] text-[var(--text-muted)] no-underline hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)]"
                       >
                         {{ item.label }}
                       </NuxtLink>
@@ -174,7 +222,7 @@ function launchSearch() {
                 <NuxtLink
                   v-else
                   :to="group.hub"
-                  class="py-2.5 px-3 -mx-3 rounded-[var(--radius-md)] font-bold text-[length:var(--text-md)] no-underline border-b border-[var(--border-subtle)] last:border-b-0 hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)]"
+                  class="-mx-3 rounded-[var(--radius-md)] border-b border-[var(--border-subtle)] px-3 py-2.5 text-[length:var(--text-md)] font-bold no-underline last:border-b-0 hover:bg-[var(--surface-sunken)] hover:text-[var(--brand-primary)]"
                   :class="activeGroupId === group.id ? 'text-[var(--brand-primary)]' : 'text-[var(--text-body)]'"
                   :aria-current="route.path === group.hub ? 'page' : (activeGroupId === group.id ? 'true' : undefined)"
                 >
@@ -184,12 +232,23 @@ function launchSearch() {
 
               <a
                 href="tel:08000857857"
-                class="mt-2 flex items-center gap-2.5 py-2.5 px-3 -mx-3 rounded-[var(--radius-md)] no-underline text-[var(--emergency)] font-bold hover:bg-[var(--emergency-soft)]"
+                class="-mx-3 mt-2 flex items-center gap-2.5 rounded-[var(--radius-md)] px-3 py-2.5 font-bold text-[var(--emergency)] no-underline hover:bg-[var(--emergency-soft)]"
               >
-                <UiIcon name="phone" :size="18" :stroke="2" />
+                <UiIcon
+                  name="phone"
+                  :size="18"
+                  :stroke="2"
+                />
                 UNISON Direct · <span class="font-[family-name:var(--font-mono)]">0800 0857 857</span>
               </a>
-              <UiButton variant="primary" href="/#join" full-width class="mt-3 mb-1">Join us</UiButton>
+              <UiButton
+                variant="primary"
+                href="/#join"
+                full-width
+                class="mt-3 mb-1"
+              >
+                Join us
+              </UiButton>
             </div>
           </div>
         </nav>

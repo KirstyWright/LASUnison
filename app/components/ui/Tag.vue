@@ -1,11 +1,11 @@
 <script setup lang="ts">
 const props = withDefaults(
-  defineProps<{ href?: string; active?: boolean }>(),
+  defineProps<{ href?: string, active?: boolean }>(),
   { active: false },
 )
 
-const BASE =
-  'inline-flex items-center gap-[0.45em] font-[family-name:var(--font-sans)] font-semibold text-[0.875rem] leading-none px-[0.85em] py-[0.5em] rounded-full no-underline border transition-colors duration-150'
+const BASE
+  = 'inline-flex items-center gap-[0.45em] font-[family-name:var(--font-sans)] font-semibold text-[0.875rem] leading-none px-[0.85em] py-[0.5em] rounded-full no-underline border transition-colors duration-150'
 
 const tone = computed(() =>
   props.active
@@ -18,7 +18,11 @@ const tone = computed(() =>
 </script>
 
 <template>
-  <component :is="href ? 'a' : 'span'" :href="href" :class="[BASE, tone]">
+  <component
+    :is="href ? 'a' : 'span'"
+    :href="href"
+    :class="[BASE, tone]"
+  >
     <slot />
   </component>
 </template>

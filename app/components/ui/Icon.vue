@@ -46,7 +46,7 @@ const PATHS: Record<string, string[]> = {
 }
 
 const props = withDefaults(
-  defineProps<{ name: string; size?: number; stroke?: number }>(),
+  defineProps<{ name: string, size?: number, stroke?: number }>(),
   { size: 24, stroke: 2 },
 )
 

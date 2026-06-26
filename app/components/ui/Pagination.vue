@@ -52,19 +52,19 @@ const items = computed<(number | '…')[]>(() => {
 const hasPrev = computed(() => props.currentPage > 1)
 const hasNext = computed(() => props.currentPage < props.totalPages)
 
-const STEP =
-  'inline-flex items-center gap-1.5 h-11 px-3.5 rounded-[var(--radius-pill)] font-bold text-[0.875rem] leading-none border-2 transition-colors duration-150 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]'
-const STEP_ON =
-  'bg-[var(--surface-card)] border-[var(--border-default)] text-[var(--text-body)] no-underline hover:border-[var(--brand-primary)] hover:text-[var(--brand-primary)]'
-const STEP_OFF =
-  'bg-transparent border-[var(--border-subtle)] text-[var(--text-subtle)] cursor-not-allowed'
+const STEP
+  = 'inline-flex items-center gap-1.5 h-11 px-3.5 rounded-[var(--radius-pill)] font-bold text-[0.875rem] leading-none border-2 transition-colors duration-150 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]'
+const STEP_ON
+  = 'bg-[var(--surface-card)] border-[var(--border-default)] text-[var(--text-body)] no-underline hover:border-[var(--brand-primary)] hover:text-[var(--brand-primary)]'
+const STEP_OFF
+  = 'bg-transparent border-[var(--border-subtle)] text-[var(--text-subtle)] cursor-not-allowed'
 
-const NUM =
-  'inline-flex items-center justify-center min-w-11 h-11 px-2 rounded-[var(--radius-md)] font-bold text-[0.875rem] tabular-nums leading-none border-2 transition-colors duration-150 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]'
-const NUM_IDLE =
-  'bg-[var(--surface-card)] border-[var(--border-default)] text-[var(--text-body)] no-underline hover:border-[var(--brand-primary)] hover:text-[var(--brand-primary)]'
-const NUM_ACTIVE =
-  'bg-[var(--brand-primary)] border-[var(--brand-primary)] text-white'
+const NUM
+  = 'inline-flex items-center justify-center min-w-11 h-11 px-2 rounded-[var(--radius-md)] font-bold text-[0.875rem] tabular-nums leading-none border-2 transition-colors duration-150 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]'
+const NUM_IDLE
+  = 'bg-[var(--surface-card)] border-[var(--border-default)] text-[var(--text-body)] no-underline hover:border-[var(--brand-primary)] hover:text-[var(--brand-primary)]'
+const NUM_ACTIVE
+  = 'bg-[var(--brand-primary)] border-[var(--brand-primary)] text-white'
 </script>
 
 <!--
@@ -76,25 +76,54 @@ const NUM_ACTIVE =
   guards modifier-clicks, so ⌘/middle-click open a new tab).
 -->
 <template>
-  <nav v-if="totalPages > 1" :aria-label="label" class="flex items-center justify-center gap-1.5 flex-wrap">
+  <nav
+    v-if="totalPages > 1"
+    :aria-label="label"
+    class="flex flex-wrap items-center justify-center gap-1.5"
+  >
     <!-- Previous -->
-    <NuxtLink v-if="hasPrev" :to="linkTo(currentPage - 1)" custom v-slot="{ href, navigate }">
-      <a :href="href" rel="prev" :class="[STEP, STEP_ON]" @click="navigate">
-        <UiIcon name="arrowLeft" :size="16" :stroke="2.2" />
+    <NuxtLink
+      v-if="hasPrev"
+      v-slot="{ href, navigate }"
+      :to="linkTo(currentPage - 1)"
+      custom
+    >
+      <a
+        :href="href"
+        rel="prev"
+        :class="[STEP, STEP_ON]"
+        @click="navigate"
+      >
+        <UiIcon
+          name="arrowLeft"
+          :size="16"
+          :stroke="2.2"
+        />
         <span class="max-sm:sr-only">Previous</span>
       </a>
     </NuxtLink>
-    <span v-else :class="[STEP, STEP_OFF]" aria-hidden="true">
-      <UiIcon name="arrowLeft" :size="16" :stroke="2.2" />
+    <span
+      v-else
+      :class="[STEP, STEP_OFF]"
+      aria-hidden="true"
+    >
+      <UiIcon
+        name="arrowLeft"
+        :size="16"
+        :stroke="2.2"
+      />
       <span class="max-sm:sr-only">Previous</span>
     </span>
 
     <!-- Page numbers -->
-    <ul class="flex items-center gap-1.5 list-none p-0 m-0">
-      <li v-for="(item, i) in items" :key="`${item}-${i}`">
+    <ul class="m-0 flex list-none items-center gap-1.5 p-0">
+      <li
+        v-for="(item, i) in items"
+        :key="`${item}-${i}`"
+      >
         <span
           v-if="item === '…'"
-          class="inline-flex items-center justify-center min-w-8 h-10 text-[var(--text-subtle)] select-none"
+          class="inline-flex h-10 min-w-8 items-center justify-center text-[var(--text-subtle)] select-none"
           aria-hidden="true"
         >…</span>
         <span
@@ -102,22 +131,54 @@ const NUM_ACTIVE =
           :class="[NUM, NUM_ACTIVE]"
           aria-current="page"
         >{{ item }}</span>
-        <NuxtLink v-else :to="linkTo(item)" custom v-slot="{ href, navigate }">
-          <a :href="href" :class="[NUM, NUM_IDLE]" :aria-label="`Go to page ${item}`" @click="navigate">{{ item }}</a>
+        <NuxtLink
+          v-else
+          v-slot="{ href, navigate }"
+          :to="linkTo(item)"
+          custom
+        >
+          <a
+            :href="href"
+            :class="[NUM, NUM_IDLE]"
+            :aria-label="`Go to page ${item}`"
+            @click="navigate"
+          >{{ item }}</a>
         </NuxtLink>
       </li>
     </ul>
 
     <!-- Next -->
-    <NuxtLink v-if="hasNext" :to="linkTo(currentPage + 1)" custom v-slot="{ href, navigate }">
-      <a :href="href" rel="next" :class="[STEP, STEP_ON]" @click="navigate">
+    <NuxtLink
+      v-if="hasNext"
+      v-slot="{ href, navigate }"
+      :to="linkTo(currentPage + 1)"
+      custom
+    >
+      <a
+        :href="href"
+        rel="next"
+        :class="[STEP, STEP_ON]"
+        @click="navigate"
+      >
         <span class="max-sm:sr-only">Next</span>
-        <UiIcon name="arrowRight" :size="16" :stroke="2.2" />
+        <UiIcon
+          name="arrowRight"
+          :size="16"
+          :stroke="2.2"
+        />
       </a>
     </NuxtLink>
-    <span v-else :class="[STEP, STEP_OFF]" aria-hidden="true">
+    <span
+      v-else
+      :class="[STEP, STEP_OFF]"
+      aria-hidden="true"
+    >
       <span class="max-sm:sr-only">Next</span>
-      <UiIcon name="arrowRight" :size="16" :stroke="2.2" />
+      <UiIcon
+        name="arrowRight"
+        :size="16"
+        :stroke="2.2"
+      />
     </span>
   </nav>
 </template>

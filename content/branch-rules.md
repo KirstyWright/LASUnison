@@ -1,9 +1,11 @@
 ---
 title: Branch Rules
+date: 2016-05-27
 description: LAS UNISON BRANCH RULES BRANCH NAME The Branch shall be called London Ambulance Service Branch of UNISON. RELATIONSHIP TO NATIONAL ORGANISATION 2.
-date: '2016-05-27'
-wpId: 1761
+hideJoinCta: false
 legacyUrl: https://lasunison.co.uk/branch-rules
+stub: false
+wpId: 1761
 ---
 
 ## LAS UNISON BRANCH RULES
@@ -15,8 +17,8 @@ The Branch shall be called London Ambulance Service Branch of UNISON.
 #### RELATIONSHIP TO NATIONAL ORGANISATION
 
 2. a) Branch rules shall be in accordance with national rules, decisions of the National Delegate Conference and the National Executive Council.
-Any member of the Branch may have a copy of the current Rule Book and Branch Rules upon request.
-The Branch shall make an audited annual return of Branch income, expenditure, assets and liabilities as prescribed by the National Executive Council and in accordance with national rules.
+   Any member of the Branch may have a copy of the current Rule Book and Branch Rules upon request.
+   The Branch shall make an audited annual return of Branch income, expenditure, assets and liabilities as prescribed by the National Executive Council and in accordance with national rules.
 
 #### AIMS OF THE BRANCH
 
@@ -34,9 +36,9 @@ e) The National Executive Council may terminate an individual's membership in ac
 #### BRANCH STRUCTURE
 
 5. a) There will be an Annual General Meeting of the Branch, which will elect Branch officers and members of the Branch Committee, which may be preceded by a ballot of all members by decision of the Branch Committee.
-b) Other Branch meetings may be called by the Branch Committee, or by 5% of the membership.
-c) The Branch will keep a bank/building society account in the name of the Branch.
-d) The Branch will have the following eight sections:
+   b) Other Branch meetings may be called by the Branch Committee, or by 5% of the membership.
+   c) The Branch will keep a bank/building society account in the name of the Branch.
+   d) The Branch will have the following eight sections:
 
 (i) North West Section which will incorporate all operational members in LAS North West Sector.
 (ii) West Section which will incorporate all operational members in LAS North Sector.
@@ -87,19 +89,19 @@ h) Any election will be conducted in accordance with the Election Procedures - a
 #### BRANCH COMMITTEE
 
 7. a) Representation on the Branch Committee will be in accordance with Branch Rules 5 and 6 above.
-b) The Branch Committee shall administer branch business in accordance with the national rules and guidance.
-c) The quorum for the Branch Committee shall be one third of members of the Committee. The quorum therefore will be 11.
-d) The Branch Committee will establish arrangements for representation of members, and difficulties will be discussed with the Regional Officer in the first instance.
-e) The Branch Committee will make decisions by a simple majority of those present and voting.
+   b) The Branch Committee shall administer branch business in accordance with the national rules and guidance.
+   c) The quorum for the Branch Committee shall be one third of members of the Committee. The quorum therefore will be 11.
+   d) The Branch Committee will establish arrangements for representation of members, and difficulties will be discussed with the Regional Officer in the first instance.
+   e) The Branch Committee will make decisions by a simple majority of those present and voting.
 
 #### CONDUCT OF MEETINGS
 
 8. a) All meetings will be conducted in a fair and democratic manner.
-b) All meetings should be advertised as widely as far in advance as possible.
-c) The procedures to be used at the meeting should be explained clearly by the Chair.
-d) There shall be a quorum of 2% of Branch membership for the Annual General Meeting and extraordinary meetings. (This will be set by the Branch Committee based on the membership figures in March annually)
-e) The Branch will maintain records of meetings, financial records, books of accounts and other appropriate records to enable the Branch to function.
-f) Each Section Committee will meet at least annually to nominate its Branch Committee members and Section Secretary, and will meet at other times of the year as determined by its own membership.
+   b) All meetings should be advertised as widely as far in advance as possible.
+   c) The procedures to be used at the meeting should be explained clearly by the Chair.
+   d) There shall be a quorum of 2% of Branch membership for the Annual General Meeting and extraordinary meetings. (This will be set by the Branch Committee based on the membership figures in March annually)
+   e) The Branch will maintain records of meetings, financial records, books of accounts and other appropriate records to enable the Branch to function.
+   f) Each Section Committee will meet at least annually to nominate its Branch Committee members and Section Secretary, and will meet at other times of the year as determined by its own membership.
 
 #### MEDIA COMMUNICATIONS
 
@@ -108,7 +110,7 @@ f) Each Section Committee will meet at least annually to nominate its Branch Com
 #### AFFILIATIONS
 
 10. a) Affiliations to relevant constituency Labour Parties will be decided by the APF membership.
-b) Affiliations to trades councils shall be determined by the Annual General Meeting or Branch Committee.
+    b) Affiliations to trades councils shall be determined by the Annual General Meeting or Branch Committee.
 
 #### DONATIONS
 
@@ -121,15 +123,15 @@ b) Affiliations to trades councils shall be determined by the Annual General Mee
 #### APPROVAL AND ALTERATION TO BRANCH RULES
 
 13. a) Branch rules must be agreed by two thirds of members present and voting at a quorate Annual General Meeting of the Branch.,
-b) Branch rules must be approved in accordance with UNISON’s procedures.
-c) Any changes to Branch rules must be agreed and approved in the same way.
+    b) Branch rules must be approved in accordance with UNISON’s procedures.
+    c) Any changes to Branch rules must be agreed and approved in the same way.
 
 #### FINANCES
 
 14. a) Branch finances will be approved by the Annual General Meeting, after consideration and proposal by the Branch Committee.
-b) All legitimate expenses incurred in the carrying out of UNISON Branch and related Trade Union activity will be reimbursed following approval by the Branch Treasurer and/or the Branch Committee.
-c) The Branch Committee will determine which Branch Officer posts for which a postholder may be issued with a mobile telephone and will agree a schedule of reimbursement for this equipment.
-d) The Annual General Meeting shall elect two Branch Auditors who should not be members of the Branch Committee, to audit Branch accounts.
+    b) All legitimate expenses incurred in the carrying out of UNISON Branch and related Trade Union activity will be reimbursed following approval by the Branch Treasurer and/or the Branch Committee.
+    c) The Branch Committee will determine which Branch Officer posts for which a postholder may be issued with a mobile telephone and will agree a schedule of reimbursement for this equipment.
+    d) The Annual General Meeting shall elect two Branch Auditors who should not be members of the Branch Committee, to audit Branch accounts.
 
 ##### 15 OCTOBER 2001
 

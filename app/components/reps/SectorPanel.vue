@@ -37,25 +37,31 @@ const areaGroups = computed(() => {
 </script>
 
 <template>
-  <section class="border border-[var(--border-subtle)] rounded-[var(--radius-xl)] overflow-hidden bg-[var(--surface-card)] shadow-[var(--shadow-sm)]">
+  <section class="overflow-hidden rounded-[var(--radius-xl)] border border-[var(--border-subtle)] bg-[var(--surface-card)] shadow-[var(--shadow-sm)]">
     <!-- Sector header -->
     <button
       type="button"
-      class="w-full flex items-center gap-4 px-6 py-5 text-left bg-[var(--surface-brand-soft)] hover:bg-[var(--brand-primary-soft)] transition-colors duration-150 cursor-pointer border-none"
+      class="flex w-full cursor-pointer items-center gap-4 border-none bg-[var(--surface-brand-soft)] px-6 py-5 text-left transition-colors duration-150 hover:bg-[var(--brand-primary-soft)]"
       :aria-expanded="open"
       @click="open = !open"
     >
-      <div class="w-2 h-8 rounded-full bg-[var(--brand-primary)] flex-none" aria-hidden="true" />
-      <div class="flex-1 min-w-0">
-        <h2 class="font-[family-name:var(--font-display)] font-black text-[1.375rem] leading-[1.1] tracking-[-0.02em] text-[var(--text-strong)] m-0">
+      <div
+        class="h-8 w-2 flex-none rounded-full bg-[var(--brand-primary)]"
+        aria-hidden="true"
+      />
+      <div class="min-w-0 flex-1">
+        <h2 class="m-0 font-[family-name:var(--font-display)] text-[1.375rem] leading-[1.1] font-black tracking-[-0.02em] text-[var(--text-strong)]">
           {{ sector.name }}
         </h2>
-        <p v-if="sector.description" class="text-[0.8125rem] text-[var(--text-muted)] m-0 mt-0.5 truncate hidden md:block">
+        <p
+          v-if="sector.description"
+          class="m-0 mt-0.5 hidden truncate text-[0.8125rem] text-[var(--text-muted)] md:block"
+        >
           {{ sector.description }}
         </p>
       </div>
-      <div class="flex items-center gap-3 flex-none">
-        <span class="text-[0.8125rem] font-[family-name:var(--font-mono)] text-[var(--text-muted)]">
+      <div class="flex flex-none items-center gap-3">
+        <span class="font-[family-name:var(--font-mono)] text-[0.8125rem] text-[var(--text-muted)]">
           {{ stations.length }} workplace{{ stations.length === 1 ? '' : 's' }}
         </span>
         <UiIcon
@@ -77,13 +83,19 @@ const areaGroups = computed(() => {
       leave-from-class="max-h-[9999px] opacity-100"
       leave-to-class="max-h-0 opacity-0"
     >
-      <div v-show="open" class="px-6 pb-6">
+      <div
+        v-show="open"
+        class="px-6 pb-6"
+      >
         <!-- Senior rep(s) — omitted for sectors without one (e.g. Other workplaces) -->
-        <div v-if="seniorReps.length" class="pt-5 pb-5 border-b border-[var(--border-subtle)] mb-5">
-          <p class="text-[0.75rem] font-bold tracking-[0.08em] uppercase text-[var(--brand-secondary)] mb-4">
+        <div
+          v-if="seniorReps.length"
+          class="mb-5 border-b border-[var(--border-subtle)] py-5"
+        >
+          <p class="mb-4 text-[0.75rem] font-bold tracking-[0.08em] text-[var(--brand-secondary)] uppercase">
             {{ seniorReps.length > 1 ? 'Sector Senior Reps' : 'Sector Senior Rep' }}
           </p>
-          <div class="grid sm:grid-cols-2 gap-x-6 gap-y-4">
+          <div class="grid gap-x-6 gap-y-4 sm:grid-cols-2">
             <RepsRepPerson
               v-for="rep in seniorReps"
               :key="`snr-${rep.name}`"
@@ -96,10 +108,13 @@ const areaGroups = computed(() => {
 
         <!-- Stations, grouped by sub-area where present -->
         <div class="flex flex-col gap-4">
-          <div v-for="group in areaGroups" :key="group.area || 'flat'">
+          <div
+            v-for="group in areaGroups"
+            :key="group.area || 'flat'"
+          >
             <p
               v-if="group.area"
-              class="text-[0.75rem] font-bold tracking-[0.08em] uppercase text-[var(--text-muted)] mb-1 mt-1"
+              class="my-1 text-[0.75rem] font-bold tracking-[0.08em] text-[var(--text-muted)] uppercase"
             >
               {{ group.area }}
             </p>

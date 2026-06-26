@@ -1,12 +1,12 @@
+hsReps:
+  - name: Ben Russell
 kind: station
-name: "Battersea (Q1)"
-slug: "battersea"
-sector: "south-west"
-type: "ambulance-station"
 lat: 51.46061
 lng: -0.16776
+name: Battersea (Q1)
 order: 49
 reps:
-  - name: "Terry Flack"
-hsReps:
-  - name: "Ben Russell"
+  - name: Terry Flack
+sector: south-west
+slug: battersea
+type: ambulance-station

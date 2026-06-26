@@ -13,15 +13,15 @@ const OVERRIDES: Record<string, string> = {
   '/update-your-details': 'https://my.unison.org.uk/',
 }
 
-interface FooterLink { label: string; href: string }
-interface FooterCol { h: string; href: string; links: FooterLink[] }
+interface FooterLink { label: string, href: string }
+interface FooterCol { h: string, href: string, links: FooterLink[] }
 
 function colFromGroup(id: string): FooterCol {
-  const g = navGroups.find((x) => x.id === id)!
+  const g = navGroups.find(x => x.id === id)!
   return {
     h: g.label,
     href: g.hub,
-    links: g.items.map((it) => ({ label: it.label, href: OVERRIDES[it.path] ?? it.path })),
+    links: g.items.map(it => ({ label: it.label, href: OVERRIDES[it.path] ?? it.path })),
   }
 }
 
@@ -72,16 +72,19 @@ const NuxtLink = resolveComponent('NuxtLink')
       }"
       aria-hidden="true"
     />
-    <div class="bg-[var(--surface-inverse)] text-[var(--ink-300)] pt-16 pb-8">
+    <div class="bg-[var(--surface-inverse)] pt-16 pb-8 text-[var(--ink-300)]">
       <div class="las-container">
         <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.5fr_repeat(4,1fr)]">
           <div>
-            <UiLogo tone="light" class="mb-[18px]" />
-            <p class="text-[0.875rem] leading-[1.6] text-[var(--ink-400)] max-w-[300px]">
+            <UiLogo
+              tone="light"
+              class="mb-[18px]"
+            />
+            <p class="max-w-[300px] text-[0.875rem] leading-[1.6] text-[var(--ink-400)]">
               The biggest ambulance branch in the UK. We represent, support and
               stand up for ambulance staff across London.
             </p>
-            <div class="flex gap-2.5 mt-[18px]">
+            <div class="mt-[18px] flex gap-2.5">
               <a
                 v-for="s in SOCIALS"
                 :key="s.name"
@@ -89,47 +92,71 @@ const NuxtLink = resolveComponent('NuxtLink')
                 :aria-label="`LAS UNISON on ${s.name}`"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="w-11 h-11 rounded-full bg-white/[0.08] text-white inline-flex items-center justify-center hover:bg-white/[0.16]"
+                class="inline-flex size-11 items-center justify-center rounded-full bg-white/[0.08] text-white hover:bg-white/[0.16]"
               >
-                <UiIcon :name="s.name" :size="18" :stroke="1.8" />
+                <UiIcon
+                  :name="s.name"
+                  :size="18"
+                  :stroke="1.8"
+                />
               </a>
             </div>
           </div>
-          <div v-for="col in COLS" :key="col.h">
+          <div
+            v-for="col in COLS"
+            :key="col.h"
+          >
             <h4 class="m-0 mb-3.5">
               <NuxtLink
                 :to="col.href"
-                class="font-[family-name:var(--font-display)] font-extrabold text-[1rem] text-white no-underline tracking-[0.02em] hover:text-[var(--ink-300)] transition-colors duration-150"
+                class="font-[family-name:var(--font-display)] text-[1rem] font-extrabold tracking-[0.02em] text-white no-underline transition-colors duration-150 hover:text-[var(--ink-300)]"
               >{{ col.h }}</NuxtLink>
             </h4>
-            <ul class="list-none p-0 m-0 flex flex-col gap-[9px]">
-              <li v-for="l in col.links" :key="l.label">
+            <ul class="m-0 flex list-none flex-col gap-[9px] p-0">
+              <li
+                v-for="l in col.links"
+                :key="l.label"
+              >
                 <component
                   :is="isInternal(l.href) ? NuxtLink : 'a'"
                   :to="isInternal(l.href) ? l.href : undefined"
                   :href="isInternal(l.href) ? undefined : l.href"
-                  class="text-[var(--ink-300)] no-underline text-[0.875rem] hover:text-white transition-colors duration-150"
+                  class="text-[0.875rem] text-[var(--ink-300)] no-underline transition-colors duration-150 hover:text-white"
                   :target="isInternal(l.href) ? undefined : '_blank'"
                   :rel="isInternal(l.href) ? undefined : 'noopener noreferrer'"
-                >{{ l.label }}</component>
+                >
+                  {{ l.label }}
+                </component>
               </li>
             </ul>
           </div>
         </div>
 
         <div
-          class="border-t border-white/10 mt-12 pt-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between text-[0.875rem] text-[var(--ink-400)]"
+          class="mt-12 flex flex-col gap-4 border-t border-white/10 pt-6 text-[0.875rem] text-[var(--ink-400)] sm:flex-row sm:items-center sm:justify-between"
         >
-          <nav aria-label="More" class="flex flex-wrap items-center gap-x-[18px] gap-y-2">
+          <nav
+            aria-label="More"
+            class="flex flex-wrap items-center gap-x-[18px] gap-y-2"
+          >
             <NuxtLink
               v-for="m in MORE"
               :key="m.href"
               :to="m.href"
-              class="text-[var(--ink-300)] no-underline font-semibold hover:text-white"
+              class="font-semibold text-[var(--ink-300)] no-underline hover:text-white"
             >{{ m.label }}</NuxtLink>
-            <span class="opacity-30" aria-hidden="true">|</span>
-            <NuxtLink to="/legal/privacy-policy" class="text-[var(--ink-400)] no-underline hover:text-white">Privacy Policy</NuxtLink>
-            <NuxtLink to="/legal/cookie-policy" class="text-[var(--ink-400)] no-underline hover:text-white">Cookie Policy</NuxtLink>
+            <span
+              class="opacity-30"
+              aria-hidden="true"
+            >|</span>
+            <NuxtLink
+              to="/legal/privacy-policy"
+              class="text-[var(--ink-400)] no-underline hover:text-white"
+            >Privacy Policy</NuxtLink>
+            <NuxtLink
+              to="/legal/cookie-policy"
+              class="text-[var(--ink-400)] no-underline hover:text-white"
+            >Cookie Policy</NuxtLink>
           </nav>
           <span>© London Ambulance Service UNISON Branch.</span>
         </div>

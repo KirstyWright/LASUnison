@@ -32,10 +32,18 @@ const valueSize = computed(() =>
     :class="align === 'center' && 'items-center text-center'"
   >
     <span
-      class="font-[family-name:var(--font-display)] font-black tracking-[-0.015em] leading-none"
+      class="font-[family-name:var(--font-display)] leading-none font-black tracking-[-0.015em]"
       :class="[valueColor, valueSize]"
     >{{ value }}</span>
-    <span v-if="label" class="text-[1rem] font-bold" :class="labelColor">{{ label }}</span>
-    <span v-if="sub" class="text-[length:var(--text-sm)]" :class="subColor">{{ sub }}</span>
+    <span
+      v-if="label"
+      class="text-[1rem] font-bold"
+      :class="labelColor"
+    >{{ label }}</span>
+    <span
+      v-if="sub"
+      class="text-[length:var(--text-sm)]"
+      :class="subColor"
+    >{{ sub }}</span>
   </div>
 </template>

@@ -32,25 +32,33 @@ const TYPE_LABELS: Record<string, string> = {
 <template>
   <div
     :id="`station-${station.slug}`"
-    class="rounded-[var(--radius-lg)] transition-colors duration-200 scroll-mt-[var(--reps-row-scroll-mt,200px)]"
+    class="scroll-mt-[var(--reps-row-scroll-mt,200px)] rounded-[var(--radius-lg)] transition-colors duration-200"
     :class="highlighted ? 'bg-[var(--surface-brand-soft)]' : ''"
   >
     <!-- Station header -->
     <div class="flex items-center gap-3 px-1 py-3">
-      <UiIcon name="mapPin" :size="16" :stroke="2" class="text-[var(--brand-primary)] flex-none" />
-      <span class="font-[family-name:var(--font-display)] font-extrabold text-[1rem] tracking-[-0.01em] text-[var(--text-strong)]">
+      <UiIcon
+        name="mapPin"
+        :size="16"
+        :stroke="2"
+        class="flex-none text-[var(--brand-primary)]"
+      />
+      <span class="font-[family-name:var(--font-display)] text-[1rem] font-extrabold tracking-[-0.01em] text-[var(--text-strong)]">
         {{ station.name }}
       </span>
-      <UiBadge variant="neutral" class="ml-auto flex-none">
+      <UiBadge
+        variant="neutral"
+        class="ml-auto flex-none"
+      >
         {{ TYPE_LABELS[station.type ?? ''] ?? station.type }}
       </UiBadge>
     </div>
 
     <!-- Reps: workplace + health & safety -->
-    <div class="pl-7 pb-4 grid sm:grid-cols-2 gap-x-6 gap-y-5">
+    <div class="grid gap-x-6 gap-y-5 pb-4 pl-7 sm:grid-cols-2">
       <!-- Workplace rep(s) -->
       <div class="flex flex-col gap-3">
-        <p class="text-[length:var(--text-xs)] font-bold tracking-[0.07em] uppercase text-[var(--text-subtle)] m-0">
+        <p class="m-0 text-[length:var(--text-xs)] font-bold tracking-[0.07em] text-[var(--text-subtle)] uppercase">
           {{ (station.reps?.length ?? 0) > 1 ? 'Workplace reps' : 'Workplace rep' }}
         </p>
         <template v-if="station.reps?.length">
@@ -61,12 +69,15 @@ const TYPE_LABELS: Record<string, string> = {
             :note="rep.note"
           />
         </template>
-        <RepsVacantCard v-else label="No workplace rep yet" />
+        <RepsVacantCard
+          v-else
+          label="No workplace rep yet"
+        />
       </div>
 
       <!-- Health & safety rep(s) -->
       <div class="flex flex-col gap-3">
-        <p class="text-[length:var(--text-xs)] font-bold tracking-[0.07em] uppercase text-[var(--text-subtle)] m-0">
+        <p class="m-0 text-[length:var(--text-xs)] font-bold tracking-[0.07em] text-[var(--text-subtle)] uppercase">
           {{ (station.hsReps?.length ?? 0) > 1 ? 'Health &amp; safety reps' : 'Health &amp; safety rep' }}
         </p>
         <template v-if="station.hsReps?.length">
@@ -77,7 +88,10 @@ const TYPE_LABELS: Record<string, string> = {
             :note="rep.note"
           />
         </template>
-        <RepsVacantCard v-else label="No H&amp;S rep yet" />
+        <RepsVacantCard
+          v-else
+          label="No H&amp;S rep yet"
+        />
       </div>
     </div>
   </div>

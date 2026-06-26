@@ -55,11 +55,11 @@ function makeSnippet(body: string, terms: string[], len = 160): string {
     const i = lower.indexOf(t)
     if (i !== -1 && (at === -1 || i < at)) at = i
   }
-  if (at <= 0) return text.length > len ? text.slice(0, len).trim() + ' …' : text
+  if (at <= 0) return text.length > len ? `${text.slice(0, len).trim()} …` : text
   const start = Math.max(0, at - 60)
   let snip = text.slice(start, start + len).trim()
-  if (start > 0) snip = '… ' + snip
-  if (start + len < text.length) snip = snip + ' …'
+  if (start > 0) snip = `… ${snip}`
+  if (start + len < text.length) snip = `${snip} …`
   return snip
 }
 
@@ -93,7 +93,7 @@ async function buildIndex(): Promise<SearchIndex> {
       const base = (sec.id || '').split('#')[0]
       if (!base) continue
       const chunk = `${(sec.titles || []).join(' ')} ${sec.content || ''}`
-      map.set(base, (map.get(base) ? map.get(base) + ' ' : '') + chunk)
+      map.set(base, (map.get(base) ? `${map.get(base)} ` : '') + chunk)
     }
     return map
   }
@@ -114,7 +114,7 @@ async function buildIndex(): Promise<SearchIndex> {
   const toEntry = (
     m: any,
     bodies: Map<string, string>,
-    extra?: { date?: string; category?: string; lead?: string },
+    extra?: { date?: string, category?: string, lead?: string },
   ): IndexEntry => {
     const body = bodies.get(m.path) || ''
     const title = m.title || ''

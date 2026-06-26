@@ -141,29 +141,43 @@ useSeoMeta({
 
     <main id="main-content">
       <!-- Masthead -->
-      <section class="bg-[var(--surface-brand)] text-white relative overflow-hidden">
+      <section class="relative overflow-hidden bg-[var(--surface-brand)] text-white">
         <!-- Pulse, refined — live cardiac-monitor edge motif -->
         <div
           aria-hidden="true"
-          class="absolute inset-x-0 bottom-0 text-[var(--brand-highlight)] pointer-events-none"
+          class="pointer-events-none absolute inset-x-0 bottom-0 text-[var(--brand-highlight)]"
         >
           <MotifPulse />
         </div>
         <div class="las-container relative py-14 md:py-[4.5rem]">
-          <nav aria-label="Breadcrumb" class="mb-5 text-[0.875rem] text-[var(--purple-200)]">
-            <NuxtLink to="/" class="text-[var(--purple-200)] no-underline hover:text-white">Home</NuxtLink>
-            <span class="mx-2 opacity-50" aria-hidden="true">/</span>
-            <span class="text-white font-semibold" aria-current="page">News</span>
+          <nav
+            aria-label="Breadcrumb"
+            class="mb-5 text-[0.875rem] text-[var(--purple-200)]"
+          >
+            <NuxtLink
+              to="/"
+              class="text-[var(--purple-200)] no-underline hover:text-white"
+            >Home</NuxtLink>
+            <span
+              class="mx-2 opacity-50"
+              aria-hidden="true"
+            >/</span>
+            <span
+              class="font-semibold text-white"
+              aria-current="page"
+            >News</span>
           </nav>
           <div class="mb-[18px]">
-            <UiEyebrow color="var(--brand-highlight)">Latest from the branch</UiEyebrow>
+            <UiEyebrow color="var(--brand-highlight)">
+              Latest from the branch
+            </UiEyebrow>
           </div>
           <h1
-            class="font-[family-name:var(--font-display)] font-black text-[length:var(--text-5xl)] leading-[1.02] tracking-[-0.02em] m-0 text-white"
+            class="m-0 font-[family-name:var(--font-display)] text-[length:var(--text-5xl)] leading-[1.02] font-black tracking-[-0.02em] text-white"
           >
             News &amp; updates
           </h1>
-          <p class="text-[length:var(--text-md)] leading-[1.6] text-[var(--purple-200)] mt-5 mb-0 max-w-[560px]">
+          <p class="mt-5 mb-0 max-w-[560px] text-[length:var(--text-md)] leading-[1.6] text-[var(--purple-200)]">
             Statements, negotiations, reports and campaigns from the people who represent, protect and
             stand up for London's ambulance staff.
           </p>
@@ -173,13 +187,25 @@ useSeoMeta({
       <section class="las-section">
         <div class="las-container">
           <!-- Lead story -->
-          <NewsCard v-if="showFeatured" :post="(featured as NewsItem)" featured class="mb-12 las-reveal" />
+          <NewsCard
+            v-if="showFeatured"
+            :post="(featured as NewsItem)"
+            featured
+            class="las-reveal mb-12"
+          />
 
           <!-- Controls -->
-          <div ref="listTop" class="flex flex-col gap-4 mb-8 lg:flex-row lg:items-center lg:justify-between scroll-mt-[calc(var(--header-h)+1rem)]">
-            <NewsFilters :model-value="activeCategory" :categories="categories" @update:model-value="setCategory" />
+          <div
+            ref="listTop"
+            class="mb-8 flex scroll-mt-[calc(var(--header-h)+1rem)] flex-col gap-4 lg:flex-row lg:items-center lg:justify-between"
+          >
+            <NewsFilters
+              :model-value="activeCategory"
+              :categories="categories"
+              @update:model-value="setCategory"
+            />
             <p
-              class="font-[family-name:var(--font-mono)] text-[0.8125rem] text-[var(--text-muted)] m-0 flex-none"
+              class="m-0 flex-none font-[family-name:var(--font-mono)] text-[0.8125rem] text-[var(--text-muted)]"
               aria-live="polite"
             >
               {{ countLabel }}
@@ -191,21 +217,31 @@ useSeoMeta({
             v-if="gridPosts.length"
             class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
           >
-            <NewsCard v-for="p in gridPosts" :key="p.path" :post="(p as NewsItem)" class="las-reveal" />
+            <NewsCard
+              v-for="p in gridPosts"
+              :key="p.path"
+              :post="(p as NewsItem)"
+              class="las-reveal"
+            />
           </div>
 
           <!-- Empty state -->
           <div
             v-else-if="!showFeatured"
-            class="text-center border border-dashed border-[var(--border-default)] rounded-[var(--radius-lg)] py-16 px-6"
+            class="rounded-[var(--radius-lg)] border border-dashed border-[var(--border-default)] px-6 py-16 text-center"
           >
-            <p class="font-[family-name:var(--font-display)] font-extrabold text-[1.5rem] text-[var(--text-strong)] m-0 mb-2">
+            <p class="m-0 mb-2 font-[family-name:var(--font-display)] text-[1.5rem] font-extrabold text-[var(--text-strong)]">
               Nothing here yet
             </p>
-            <p class="text-[var(--text-muted)] m-0 mb-6">
+            <p class="m-0 mb-6 text-[var(--text-muted)]">
               There are no articles in “{{ activeCategory }}” at the moment.
             </p>
-            <UiButton variant="outline" @click="setCategory('All')">View all news</UiButton>
+            <UiButton
+              variant="outline"
+              @click="setCategory('All')"
+            >
+              View all news
+            </UiButton>
           </div>
 
           <!-- Pagination -->

@@ -16,7 +16,7 @@ interface Slide {
 }
 
 const props = withDefaults(
-  defineProps<{ slides: Slide[]; interval?: number }>(),
+  defineProps<{ slides: Slide[], interval?: number }>(),
   { interval: 6000 },
 )
 
@@ -26,6 +26,7 @@ const paused = ref(false) // transient pause while hovered / focus-within
 
 const count = computed(() => props.slides.length)
 // Kept (logic intact) so the per-slide caption can be re-enabled later.
+// eslint-disable-next-line @typescript-eslint/no-unused-vars -- retained for future re-enable
 const current = computed(() => props.slides[active.value] ?? props.slides[0])
 // The timer runs only when motion is allowed, the pointer isn't hovering/focused
 // inside, and there's more than one slide to show.
@@ -58,7 +59,7 @@ watch(rotating, start)
 onMounted(() => {
   const mq = window.matchMedia('(prefers-reduced-motion: reduce)')
   reduced.value = mq.matches
-  mq.addEventListener('change', (e) => (reduced.value = e.matches))
+  mq.addEventListener('change', e => (reduced.value = e.matches))
   start()
 })
 onBeforeUnmount(stop)
@@ -76,10 +77,13 @@ onBeforeUnmount(stop)
     @focusout="paused = false"
   >
     <div
-      class="relative aspect-[4/5] rounded-[var(--radius-xl)] overflow-hidden shadow-[var(--shadow-xl)] border-4 border-white/[0.12] bg-[var(--purple-900)]"
+      class="relative aspect-[4/5] overflow-hidden rounded-[var(--radius-xl)] border-4 border-white/[0.12] bg-[var(--purple-900)] shadow-[var(--shadow-xl)]"
     >
       <!-- slides: stacked, crossfaded -->
-      <div class="absolute inset-0" :aria-live="rotating ? 'off' : 'polite'">
+      <div
+        class="absolute inset-0"
+        :aria-live="rotating ? 'off' : 'polite'"
+      >
         <div
           v-for="(s, i) in slides"
           :key="s.src"
@@ -93,7 +97,7 @@ onBeforeUnmount(stop)
           <img
             :src="s.src"
             :alt="s.alt"
-            class="w-full h-full object-cover"
+            class="size-full object-cover"
             :style="{ objectPosition: s.focus ?? 'center' }"
             :fetchpriority="i === 0 ? 'high' : undefined"
             :loading="i === 0 ? 'eager' : 'lazy'"
@@ -107,22 +111,29 @@ onBeforeUnmount(stop)
       <!-- purple wash anchors the photo to the drenched hero and lifts the caption -->
       <div
         aria-hidden="true"
-        class="absolute inset-0 bg-gradient-to-t from-[var(--purple-950)]/65 via-[var(--purple-950)]/5 to-transparent pointer-events-none"
+        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-[var(--purple-950)]/65 via-[var(--purple-950)]/5 to-transparent"
       />
 
       <!-- caption overlay hidden for now — data + `current` logic kept so it can be re-enabled -->
     </div>
 
     <!-- controls: slide dots, sat on the drenched hero below the frame -->
-    <div v-if="count > 1" class="mt-4 flex items-center justify-center">
-      <div role="group" aria-label="Choose a photo" class="flex items-center gap-1.5">
+    <div
+      v-if="count > 1"
+      class="mt-4 flex items-center justify-center"
+    >
+      <div
+        role="group"
+        aria-label="Choose a photo"
+        class="flex items-center gap-1.5"
+      >
         <button
           v-for="(s, i) in slides"
           :key="s.src"
           type="button"
           :aria-label="`Show photo ${i + 1}: ${s.caption}`"
           :aria-current="i === active ? 'true' : undefined"
-          class="group inline-flex items-center justify-center h-11 w-11 rounded-full focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
+          class="group inline-flex size-11 items-center justify-center rounded-full focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
           @click="select(i)"
         >
           <span

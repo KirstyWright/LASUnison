@@ -90,7 +90,7 @@ export const navGroups: NavGroup[] = [
     hub: '/get-involved',
     intro: 'The branch is its members. Become a rep, join a self-organised group, or get active on the issues you care about.',
     items: [
-      { label: "Stewards' zone", path: '/stewards-zone', note: 'Tools and resources for reps', icon: 'briefcase' },
+      { label: 'Stewards\' zone', path: '/stewards-zone', note: 'Tools and resources for reps', icon: 'briefcase' },
       { label: 'Young members', path: '/young-members', note: 'Members aged 27 and under', icon: 'users' },
       { label: 'Environment', path: '/environment', note: 'Greening the NHS and our workplaces', icon: 'heart' },
       { label: 'International', path: '/international', note: 'Solidarity beyond our borders', icon: 'flag' },
@@ -139,12 +139,12 @@ export function navGroupForPath(path: string): NavGroup | undefined {
     if (clean(g.hub) === p) return g
     for (const it of g.items) {
       const ip = clean(it.path)
-      if (ip === p || p.startsWith(ip + '/')) return g
+      if (ip === p || p.startsWith(`${ip}/`)) return g
     }
   }
   // Second pass: hub-prefix match (e.g. a child page under a hub route).
   for (const g of navGroups) {
-    if (g.hub !== '/' && p.startsWith(clean(g.hub) + '/')) return g
+    if (g.hub !== '/' && p.startsWith(`${clean(g.hub)}/`)) return g
   }
   return undefined
 }
@@ -157,5 +157,5 @@ export function siblingsForPath(path: string): NavItem[] {
   const group = navGroupForPath(path)
   if (!group) return []
   const p = clean(path)
-  return group.items.filter((it) => clean(it.path) !== p)
+  return group.items.filter(it => clean(it.path) !== p)
 }

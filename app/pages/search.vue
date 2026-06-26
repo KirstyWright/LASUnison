@@ -60,7 +60,7 @@ function clear() {
   router.replace({ query: {} })
 }
 
-useHead({ title: () => (searching.value ? `“${queryText.value}” — Search` : 'Search') + ' — LAS UNISON' })
+useHead({ title: () => `${searching.value ? `“${queryText.value}” — Search` : 'Search'} — LAS UNISON` })
 useSeoMeta({ robots: 'noindex', description: 'Search every page, news post, document and link on the LAS UNISON site.' })
 </script>
 
@@ -70,39 +70,64 @@ useSeoMeta({ robots: 'noindex', description: 'Search every page, news post, docu
 
     <main id="main-content">
       <!-- Masthead -->
-      <section class="bg-[var(--surface-brand)] text-white relative overflow-hidden">
+      <section class="relative overflow-hidden bg-[var(--surface-brand)] text-white">
         <!-- Pulse, refined — live cardiac-monitor edge motif -->
         <div
           aria-hidden="true"
-          class="absolute inset-x-0 bottom-0 text-[var(--brand-highlight)] pointer-events-none"
+          class="pointer-events-none absolute inset-x-0 bottom-0 text-[var(--brand-highlight)]"
         >
           <MotifPulse />
         </div>
         <div class="las-container relative py-14 md:py-[4.5rem]">
-          <nav aria-label="Breadcrumb" class="mb-5 text-[0.875rem] text-[var(--purple-200)]">
-            <NuxtLink to="/" class="text-[var(--purple-200)] no-underline hover:text-white">Home</NuxtLink>
-            <span class="mx-2 opacity-50" aria-hidden="true">/</span>
-            <span class="text-white font-semibold" aria-current="page">Search</span>
+          <nav
+            aria-label="Breadcrumb"
+            class="mb-5 text-[0.875rem] text-[var(--purple-200)]"
+          >
+            <NuxtLink
+              to="/"
+              class="text-[var(--purple-200)] no-underline hover:text-white"
+            >Home</NuxtLink>
+            <span
+              class="mx-2 opacity-50"
+              aria-hidden="true"
+            >/</span>
+            <span
+              class="font-semibold text-white"
+              aria-current="page"
+            >Search</span>
           </nav>
           <div class="mb-[18px]">
-            <UiEyebrow color="var(--brand-highlight)">Search</UiEyebrow>
+            <UiEyebrow color="var(--brand-highlight)">
+              Search
+            </UiEyebrow>
           </div>
           <h1
-            class="font-[family-name:var(--font-display)] font-black text-[length:var(--text-5xl)] leading-[1.02] tracking-[-0.02em] m-0 text-white"
+            class="m-0 font-[family-name:var(--font-display)] text-[length:var(--text-5xl)] leading-[1.02] font-black tracking-[-0.02em] text-white"
           >
             Search the site
           </h1>
-          <p class="text-[length:var(--text-md)] leading-[1.6] text-[var(--purple-200)] mt-5 mb-8 max-w-[560px]">
+          <p class="mt-5 mb-8 max-w-[560px] text-[length:var(--text-md)] leading-[1.6] text-[var(--purple-200)]">
             Every page, news post, document and link — search all of it in one place.
           </p>
 
-          <form role="search" class="relative w-full max-w-[640px]" @submit.prevent="onSubmit">
-            <label for="site-search-page" class="sr-only">Search the site</label>
+          <form
+            role="search"
+            class="relative w-full max-w-[640px]"
+            @submit.prevent="onSubmit"
+          >
+            <label
+              for="site-search-page"
+              class="sr-only"
+            >Search the site</label>
             <span
-              class="absolute left-5 top-1/2 -translate-y-1/2 text-[var(--text-subtle)] pointer-events-none"
+              class="pointer-events-none absolute top-1/2 left-5 -translate-y-1/2 text-[var(--text-subtle)]"
               aria-hidden="true"
             >
-              <UiIcon name="search" :size="22" :stroke="2" />
+              <UiIcon
+                name="search"
+                :size="22"
+                :stroke="2"
+              />
             </span>
             <input
               id="site-search-page"
@@ -111,17 +136,21 @@ useSeoMeta({ robots: 'noindex', description: 'Search every page, news post, docu
               enterkeyhint="search"
               autocomplete="off"
               placeholder="Search pages, news, documents and links…"
-              class="w-full h-[58px] pl-[3.25rem] pr-[3.25rem] bg-[var(--surface-card)] text-[var(--text-strong)] text-[length:var(--text-md)] rounded-[var(--radius-pill)] shadow-[var(--shadow-lg)] placeholder:text-[var(--text-subtle)] [&::-webkit-search-cancel-button]:appearance-none"
+              class="h-[58px] w-full rounded-[var(--radius-pill)] bg-[var(--surface-card)] px-[3.25rem] text-[length:var(--text-md)] text-[var(--text-strong)] shadow-[var(--shadow-lg)] placeholder:text-[var(--text-subtle)] [&::-webkit-search-cancel-button]:appearance-none"
               @input="onInput"
             >
             <button
               v-show="q"
               type="button"
               aria-label="Clear search"
-              class="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 inline-flex items-center justify-center rounded-full border-none bg-[var(--surface-sunken)] text-[var(--text-muted)] cursor-pointer hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
+              class="absolute top-1/2 right-3 inline-flex size-9 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full border-none bg-[var(--surface-sunken)] text-[var(--text-muted)] hover:bg-[var(--brand-primary-soft)] hover:text-[var(--brand-primary)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
               @click="clear"
             >
-              <UiIcon name="x" :size="18" :stroke="2.2" />
+              <UiIcon
+                name="x"
+                :size="18"
+                :stroke="2.2"
+              />
             </button>
           </form>
         </div>
@@ -131,9 +160,13 @@ useSeoMeta({ robots: 'noindex', description: 'Search every page, news post, docu
       <section class="las-section">
         <div class="las-container">
           <!-- Idle -->
-          <div v-if="!searching" class="text-[var(--text-muted)] max-w-[520px]">
-            <p class="m-0">Type above to search the whole site. You can also press
-              <kbd class="font-[family-name:var(--font-mono)] text-[0.8125rem] px-1.5 py-0.5 rounded border border-[var(--border-default)] bg-[var(--surface-sunken)]">⌘K</kbd>
+          <div
+            v-if="!searching"
+            class="max-w-[520px] text-[var(--text-muted)]"
+          >
+            <p class="m-0">
+              Type above to search the whole site. You can also press
+              <kbd class="rounded border border-[var(--border-default)] bg-[var(--surface-sunken)] px-1.5 py-0.5 font-[family-name:var(--font-mono)] text-[0.8125rem]">⌘K</kbd>
               anywhere to open quick search.
             </p>
           </div>
@@ -144,47 +177,76 @@ useSeoMeta({ robots: 'noindex', description: 'Search every page, news post, docu
                otherwise render the empty state, the client the real results). -->
           <ClientOnly v-else>
             <template #fallback>
-              <p class="text-[0.875rem] text-[var(--text-muted)] m-0">Searching…</p>
+              <p class="m-0 text-[0.875rem] text-[var(--text-muted)]">
+                Searching…
+              </p>
             </template>
 
-            <div class="flex items-baseline justify-between gap-4 flex-wrap mb-8">
-              <h2 class="font-[family-name:var(--font-display)] font-extrabold text-[length:var(--text-2xl)] text-[var(--text-strong)] m-0">
+            <div class="mb-8 flex flex-wrap items-baseline justify-between gap-4">
+              <h2 class="m-0 font-[family-name:var(--font-display)] text-[length:var(--text-2xl)] font-extrabold text-[var(--text-strong)]">
                 {{ results.total }} result{{ results.total === 1 ? '' : 's' }}
-                <span class="text-[var(--text-muted)] font-bold">for “{{ queryText }}”</span>
+                <span class="font-bold text-[var(--text-muted)]">for “{{ queryText }}”</span>
               </h2>
-              <span v-if="pending" class="text-[0.875rem] text-[var(--text-muted)]">Searching…</span>
+              <span
+                v-if="pending"
+                class="text-[0.875rem] text-[var(--text-muted)]"
+              >Searching…</span>
             </div>
 
             <!-- Nothing matched -->
             <div
               v-if="!pending && results.total === 0"
-              class="text-center border border-dashed border-[var(--border-default)] rounded-[var(--radius-lg)] py-16 px-6"
+              class="rounded-[var(--radius-lg)] border border-dashed border-[var(--border-default)] px-6 py-16 text-center"
             >
-              <p class="font-[family-name:var(--font-display)] font-extrabold text-[1.5rem] text-[var(--text-strong)] m-0 mb-2">
+              <p class="m-0 mb-2 font-[family-name:var(--font-display)] text-[1.5rem] font-extrabold text-[var(--text-strong)]">
                 No matches
               </p>
-              <p class="text-[var(--text-muted)] m-0 max-w-[420px] mx-auto">
+              <p class="m-0 mx-auto max-w-[420px] text-[var(--text-muted)]">
                 Nothing matched “{{ queryText }}”. Try fewer words or different terms.
               </p>
             </div>
 
-            <div v-else class="flex flex-col gap-12">
+            <div
+              v-else
+              class="flex flex-col gap-12"
+            >
               <!-- Pages -->
               <div v-if="results.pages.length">
-                <h3 class="font-[family-name:var(--font-display)] font-extrabold text-[length:var(--text-lg)] text-[var(--text-strong)] m-0 mb-4">
+                <h3 class="m-0 mb-4 font-[family-name:var(--font-display)] text-[length:var(--text-lg)] font-extrabold text-[var(--text-strong)]">
                   Pages
-                  <span class="font-[family-name:var(--font-mono)] text-[0.8125rem] text-[var(--text-subtle)] font-medium ml-1">{{ results.counts.pages }}</span>
+                  <span class="ml-1 font-[family-name:var(--font-mono)] text-[0.8125rem] font-medium text-[var(--text-subtle)]">{{ results.counts.pages }}</span>
                 </h3>
-                <ul class="list-none p-0 m-0 grid gap-2">
-                  <li v-for="p in results.pages" :key="p.path">
-                    <NuxtLink :to="p.path" class="group block px-4 py-3.5 rounded-[var(--radius-lg)] border border-[var(--border-subtle)] no-underline bg-[var(--surface-card)] transition-[border-color,box-shadow] duration-150 hover:border-[var(--border-default)] hover:shadow-[var(--shadow-sm)]">
+                <ul class="m-0 grid list-none gap-2 p-0">
+                  <li
+                    v-for="p in results.pages"
+                    :key="p.path"
+                  >
+                    <NuxtLink
+                      :to="p.path"
+                      class="group block rounded-[var(--radius-lg)] border border-[var(--border-subtle)] bg-[var(--surface-card)] px-4 py-3.5 no-underline transition-[border-color,box-shadow] duration-150 hover:border-[var(--border-default)] hover:shadow-[var(--shadow-sm)]"
+                    >
                       <span class="block font-semibold text-[var(--text-strong)] group-hover:text-[var(--brand-primary)]">
-                        <template v-for="(part, i) in highlightParts(p.title || p.path, queryText)" :key="i"><mark v-if="part.hit" class="bg-[var(--brand-highlight-soft)] rounded-[2px] px-0.5">{{ part.text }}</mark><template v-else>{{ part.text }}</template></template>
+                        <template
+                          v-for="(part, i) in highlightParts(p.title || p.path, queryText)"
+                          :key="i"
+                        ><mark
+                          v-if="part.hit"
+                          class="rounded-[2px] bg-[var(--brand-highlight-soft)] px-0.5"
+                        >{{ part.text }}</mark><template v-else>{{ part.text }}</template></template>
                       </span>
-                      <span v-if="p.snippet" class="block text-[0.875rem] text-[var(--text-muted)] mt-1 leading-snug">
-                        <template v-for="(part, i) in highlightParts(p.snippet, queryText)" :key="i"><mark v-if="part.hit" class="bg-transparent text-[var(--text-body)] font-semibold">{{ part.text }}</mark><template v-else>{{ part.text }}</template></template>
+                      <span
+                        v-if="p.snippet"
+                        class="mt-1 block text-[0.875rem] leading-snug text-[var(--text-muted)]"
+                      >
+                        <template
+                          v-for="(part, i) in highlightParts(p.snippet, queryText)"
+                          :key="i"
+                        ><mark
+                          v-if="part.hit"
+                          class="bg-transparent font-semibold text-[var(--text-body)]"
+                        >{{ part.text }}</mark><template v-else>{{ part.text }}</template></template>
                       </span>
-                      <span class="block font-[family-name:var(--font-mono)] text-[0.75rem] text-[var(--text-subtle)] mt-1">{{ p.path }}</span>
+                      <span class="mt-1 block font-[family-name:var(--font-mono)] text-[0.75rem] text-[var(--text-subtle)]">{{ p.path }}</span>
                     </NuxtLink>
                   </li>
                 </ul>
@@ -192,23 +254,50 @@ useSeoMeta({ robots: 'noindex', description: 'Search every page, news post, docu
 
               <!-- News -->
               <div v-if="results.news.length">
-                <h3 class="font-[family-name:var(--font-display)] font-extrabold text-[length:var(--text-lg)] text-[var(--text-strong)] m-0 mb-4">
+                <h3 class="m-0 mb-4 font-[family-name:var(--font-display)] text-[length:var(--text-lg)] font-extrabold text-[var(--text-strong)]">
                   News
-                  <span class="font-[family-name:var(--font-mono)] text-[0.8125rem] text-[var(--text-subtle)] font-medium ml-1">{{ results.counts.news }}</span>
+                  <span class="ml-1 font-[family-name:var(--font-mono)] text-[0.8125rem] font-medium text-[var(--text-subtle)]">{{ results.counts.news }}</span>
                 </h3>
-                <ul class="list-none p-0 m-0 grid gap-2">
-                  <li v-for="n in results.news" :key="n.path">
-                    <NuxtLink :to="n.path" class="group block px-4 py-3.5 rounded-[var(--radius-lg)] border border-[var(--border-subtle)] no-underline bg-[var(--surface-card)] transition-[border-color,box-shadow] duration-150 hover:border-[var(--border-default)] hover:shadow-[var(--shadow-sm)]">
-                      <span class="flex items-center gap-2 mb-1 text-[0.75rem] font-bold uppercase tracking-[0.05em] text-[var(--text-subtle)]">
+                <ul class="m-0 grid list-none gap-2 p-0">
+                  <li
+                    v-for="n in results.news"
+                    :key="n.path"
+                  >
+                    <NuxtLink
+                      :to="n.path"
+                      class="group block rounded-[var(--radius-lg)] border border-[var(--border-subtle)] bg-[var(--surface-card)] px-4 py-3.5 no-underline transition-[border-color,box-shadow] duration-150 hover:border-[var(--border-default)] hover:shadow-[var(--shadow-sm)]"
+                    >
+                      <span class="mb-1 flex items-center gap-2 text-[0.75rem] font-bold tracking-[0.05em] text-[var(--text-subtle)] uppercase">
                         <span v-if="n.category">{{ n.category }}</span>
-                        <span v-if="n.category && n.date" aria-hidden="true">·</span>
-                        <span v-if="n.date" class="font-medium normal-case tracking-normal">{{ newsDate(n.date) }}</span>
+                        <span
+                          v-if="n.category && n.date"
+                          aria-hidden="true"
+                        >·</span>
+                        <span
+                          v-if="n.date"
+                          class="font-medium tracking-normal normal-case"
+                        >{{ newsDate(n.date) }}</span>
                       </span>
                       <span class="block font-semibold text-[var(--text-strong)] group-hover:text-[var(--brand-primary)]">
-                        <template v-for="(part, i) in highlightParts(n.title, queryText)" :key="i"><mark v-if="part.hit" class="bg-[var(--brand-highlight-soft)] rounded-[2px] px-0.5">{{ part.text }}</mark><template v-else>{{ part.text }}</template></template>
+                        <template
+                          v-for="(part, i) in highlightParts(n.title, queryText)"
+                          :key="i"
+                        ><mark
+                          v-if="part.hit"
+                          class="rounded-[2px] bg-[var(--brand-highlight-soft)] px-0.5"
+                        >{{ part.text }}</mark><template v-else>{{ part.text }}</template></template>
                       </span>
-                      <span v-if="n.snippet" class="block text-[0.875rem] text-[var(--text-muted)] mt-1 leading-snug">
-                        <template v-for="(part, i) in highlightParts(n.snippet, queryText)" :key="i"><mark v-if="part.hit" class="bg-transparent text-[var(--text-body)] font-semibold">{{ part.text }}</mark><template v-else>{{ part.text }}</template></template>
+                      <span
+                        v-if="n.snippet"
+                        class="mt-1 block text-[0.875rem] leading-snug text-[var(--text-muted)]"
+                      >
+                        <template
+                          v-for="(part, i) in highlightParts(n.snippet, queryText)"
+                          :key="i"
+                        ><mark
+                          v-if="part.hit"
+                          class="bg-transparent font-semibold text-[var(--text-body)]"
+                        >{{ part.text }}</mark><template v-else>{{ part.text }}</template></template>
                       </span>
                     </NuxtLink>
                   </li>
@@ -217,26 +306,42 @@ useSeoMeta({ robots: 'noindex', description: 'Search every page, news post, docu
 
               <!-- Documents -->
               <div v-if="results.documents.length">
-                <h3 class="font-[family-name:var(--font-display)] font-extrabold text-[length:var(--text-lg)] text-[var(--text-strong)] m-0 mb-4">
+                <h3 class="m-0 mb-4 font-[family-name:var(--font-display)] text-[length:var(--text-lg)] font-extrabold text-[var(--text-strong)]">
                   Documents
-                  <span class="font-[family-name:var(--font-mono)] text-[0.8125rem] text-[var(--text-subtle)] font-medium ml-1">{{ results.counts.documents }}</span>
+                  <span class="ml-1 font-[family-name:var(--font-mono)] text-[0.8125rem] font-medium text-[var(--text-subtle)]">{{ results.counts.documents }}</span>
                 </h3>
-                <ul class="list-none p-0 m-0 grid gap-1.5">
-                  <li v-for="d in results.documents" :key="d.url">
+                <ul class="m-0 grid list-none gap-1.5 p-0">
+                  <li
+                    v-for="d in results.documents"
+                    :key="d.url"
+                  >
                     <a
                       :href="d.url"
                       :target="isExternal(d.url) ? '_blank' : undefined"
                       :rel="isExternal(d.url) ? 'noopener' : undefined"
-                      class="group flex items-center gap-3.5 px-4 py-3 rounded-[var(--radius-lg)] border border-transparent no-underline hover:bg-[var(--surface-card)] hover:border-[var(--border-subtle)] hover:shadow-[var(--shadow-sm)] transition-[background-color,border-color] duration-150"
+                      class="group flex items-center gap-3.5 rounded-[var(--radius-lg)] border border-transparent px-4 py-3 no-underline transition-[background-color,border-color] duration-150 hover:border-[var(--border-subtle)] hover:bg-[var(--surface-card)] hover:shadow-[var(--shadow-sm)]"
                     >
-                      <span class="flex-none inline-flex items-center justify-center w-11 h-11 rounded-[var(--radius-md)] bg-[var(--brand-accent-soft)] text-[var(--blue-700)]" aria-hidden="true">
-                        <UiIcon name="download" :size="20" :stroke="2" />
+                      <span
+                        class="inline-flex size-11 flex-none items-center justify-center rounded-[var(--radius-md)] bg-[var(--brand-accent-soft)] text-[var(--blue-700)]"
+                        aria-hidden="true"
+                      >
+                        <UiIcon
+                          name="download"
+                          :size="20"
+                          :stroke="2"
+                        />
                       </span>
-                      <span class="flex-1 min-w-0">
-                        <span class="block font-semibold text-[var(--text-strong)] group-hover:text-[var(--brand-primary)] truncate">
-                          <template v-for="(part, i) in highlightParts(d.title, queryText)" :key="i"><mark v-if="part.hit" class="bg-[var(--brand-highlight-soft)] rounded-[2px] px-0.5">{{ part.text }}</mark><template v-else>{{ part.text }}</template></template>
+                      <span class="min-w-0 flex-1">
+                        <span class="block truncate font-semibold text-[var(--text-strong)] group-hover:text-[var(--brand-primary)]">
+                          <template
+                            v-for="(part, i) in highlightParts(d.title, queryText)"
+                            :key="i"
+                          ><mark
+                            v-if="part.hit"
+                            class="rounded-[2px] bg-[var(--brand-highlight-soft)] px-0.5"
+                          >{{ part.text }}</mark><template v-else>{{ part.text }}</template></template>
                         </span>
-                        <span class="block text-[0.8125rem] text-[var(--text-muted)] mt-0.5">{{ [d.type, d.topic].filter(Boolean).join(' · ') }}</span>
+                        <span class="mt-0.5 block text-[0.8125rem] text-[var(--text-muted)]">{{ [d.type, d.topic].filter(Boolean).join(' · ') }}</span>
                       </span>
                     </a>
                   </li>
@@ -245,26 +350,42 @@ useSeoMeta({ robots: 'noindex', description: 'Search every page, news post, docu
 
               <!-- Links -->
               <div v-if="results.links.length">
-                <h3 class="font-[family-name:var(--font-display)] font-extrabold text-[length:var(--text-lg)] text-[var(--text-strong)] m-0 mb-4">
+                <h3 class="m-0 mb-4 font-[family-name:var(--font-display)] text-[length:var(--text-lg)] font-extrabold text-[var(--text-strong)]">
                   Links
-                  <span class="font-[family-name:var(--font-mono)] text-[0.8125rem] text-[var(--text-subtle)] font-medium ml-1">{{ results.counts.links }}</span>
+                  <span class="ml-1 font-[family-name:var(--font-mono)] text-[0.8125rem] font-medium text-[var(--text-subtle)]">{{ results.counts.links }}</span>
                 </h3>
-                <ul class="list-none p-0 m-0 grid gap-1.5 sm:grid-cols-2">
-                  <li v-for="l in results.links" :key="l.url">
+                <ul class="m-0 grid list-none gap-1.5 p-0 sm:grid-cols-2">
+                  <li
+                    v-for="l in results.links"
+                    :key="l.url"
+                  >
                     <a
                       :href="l.url"
                       target="_blank"
                       rel="noopener"
-                      class="group flex items-center gap-3.5 px-4 py-3 rounded-[var(--radius-lg)] border border-transparent no-underline hover:bg-[var(--surface-card)] hover:border-[var(--border-subtle)] hover:shadow-[var(--shadow-sm)] transition-[background-color,border-color] duration-150"
+                      class="group flex items-center gap-3.5 rounded-[var(--radius-lg)] border border-transparent px-4 py-3 no-underline transition-[background-color,border-color] duration-150 hover:border-[var(--border-subtle)] hover:bg-[var(--surface-card)] hover:shadow-[var(--shadow-sm)]"
                     >
-                      <span class="flex-none inline-flex items-center justify-center w-11 h-11 rounded-[var(--radius-md)] bg-[var(--brand-primary-soft)] text-[var(--brand-primary-strong)]" aria-hidden="true">
-                        <UiIcon name="arrowUpRight" :size="20" :stroke="2" />
+                      <span
+                        class="inline-flex size-11 flex-none items-center justify-center rounded-[var(--radius-md)] bg-[var(--brand-primary-soft)] text-[var(--brand-primary-strong)]"
+                        aria-hidden="true"
+                      >
+                        <UiIcon
+                          name="arrowUpRight"
+                          :size="20"
+                          :stroke="2"
+                        />
                       </span>
-                      <span class="flex-1 min-w-0">
-                        <span class="block font-semibold text-[var(--text-strong)] group-hover:text-[var(--brand-primary)] truncate">
-                          <template v-for="(part, i) in highlightParts(l.label, queryText)" :key="i"><mark v-if="part.hit" class="bg-[var(--brand-highlight-soft)] rounded-[2px] px-0.5">{{ part.text }}</mark><template v-else>{{ part.text }}</template></template>
+                      <span class="min-w-0 flex-1">
+                        <span class="block truncate font-semibold text-[var(--text-strong)] group-hover:text-[var(--brand-primary)]">
+                          <template
+                            v-for="(part, i) in highlightParts(l.label, queryText)"
+                            :key="i"
+                          ><mark
+                            v-if="part.hit"
+                            class="rounded-[2px] bg-[var(--brand-highlight-soft)] px-0.5"
+                          >{{ part.text }}</mark><template v-else>{{ part.text }}</template></template>
                         </span>
-                        <span class="block text-[0.8125rem] text-[var(--text-muted)] mt-0.5 truncate">{{ [l.note, searchHostLabel(l.url)].filter(Boolean).join(' · ') }}</span>
+                        <span class="mt-0.5 block truncate text-[0.8125rem] text-[var(--text-muted)]">{{ [l.note, searchHostLabel(l.url)].filter(Boolean).join(' · ') }}</span>
                       </span>
                     </a>
                   </li>

@@ -10,7 +10,7 @@ const HELP = [
 <template>
   <section
     id="help"
-    class="las-section bg-[var(--surface-card)] border-y border-[var(--border-subtle)]"
+    class="las-section border-y border-[var(--border-subtle)] bg-[var(--surface-card)]"
   >
     <div class="las-container">
       <UiSectionHead
@@ -20,21 +20,27 @@ const HELP = [
         title="Here for you, on and off shift"
         intro="Whatever you're facing at work or at home, your branch is behind you."
       />
-      <div class="grid gap-5 mt-11 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="mt-11 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         <div
           v-for="h in HELP"
           :key="h.title"
-          class="bg-[var(--surface-page)] border border-[var(--border-subtle)] rounded-[var(--radius-lg)] p-6"
+          class="rounded-[var(--radius-lg)] border border-[var(--border-subtle)] bg-[var(--surface-page)] p-6"
         >
           <div
-            class="w-[52px] h-[52px] rounded-[var(--radius-md)] bg-[var(--brand-primary-soft)] text-[var(--brand-primary)] inline-flex items-center justify-center mb-4"
+            class="mb-4 inline-flex size-[52px] items-center justify-center rounded-[var(--radius-md)] bg-[var(--brand-primary-soft)] text-[var(--brand-primary)]"
           >
-            <UiIcon :name="h.icon" :size="26" :stroke="1.8" />
+            <UiIcon
+              :name="h.icon"
+              :size="26"
+              :stroke="1.8"
+            />
           </div>
-          <h3 class="font-[family-name:var(--font-display)] font-extrabold text-[length:var(--text-lg)] text-[var(--text-strong)] mb-2">
+          <h3 class="mb-2 font-[family-name:var(--font-display)] text-[length:var(--text-lg)] font-extrabold text-[var(--text-strong)]">
             {{ h.title }}
           </h3>
-          <p class="text-[0.875rem] leading-[1.6] text-[var(--text-muted)] m-0">{{ h.body }}</p>
+          <p class="m-0 text-[0.875rem] leading-[1.6] text-[var(--text-muted)]">
+            {{ h.body }}
+          </p>
         </div>
       </div>
     </div>

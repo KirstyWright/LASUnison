@@ -21,26 +21,30 @@ const isInternal = computed(() => props.role.url.startsWith('/'))
     :href="isInternal ? undefined : role.url"
     :target="isInternal ? undefined : '_blank'"
     :rel="isInternal ? undefined : 'noopener noreferrer'"
-    class="group flex flex-col h-full bg-[var(--surface-card)] border border-[var(--border-subtle)] rounded-[var(--radius-lg)] shadow-[var(--shadow-sm)] p-5 no-underline transition-[transform,box-shadow,border-color] duration-200 ease-out hover:-translate-y-[3px] hover:shadow-[var(--shadow-lg)] hover:border-[var(--border-default)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
+    class="group flex h-full flex-col rounded-[var(--radius-lg)] border border-[var(--border-subtle)] bg-[var(--surface-card)] p-5 no-underline shadow-[var(--shadow-sm)] transition-[transform,box-shadow,border-color] duration-200 ease-out hover:translate-y-[-3px] hover:border-[var(--border-default)] hover:shadow-[var(--shadow-lg)] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
   >
     <span
-      class="inline-flex items-center justify-center w-12 h-12 rounded-[var(--radius-md)] bg-[var(--brand-primary-soft)] text-[var(--brand-primary-strong)] mb-4"
+      class="mb-4 inline-flex size-12 items-center justify-center rounded-[var(--radius-md)] bg-[var(--brand-primary-soft)] text-[var(--brand-primary-strong)]"
       aria-hidden="true"
     >
-      <UiIcon :name="role.icon ?? 'briefcase'" :size="24" :stroke="1.9" />
+      <UiIcon
+        :name="role.icon ?? 'briefcase'"
+        :size="24"
+        :stroke="1.9"
+      />
     </span>
 
     <span
-      class="block font-[family-name:var(--font-display)] font-extrabold tracking-[-0.01em] text-[1.25rem] leading-tight text-[var(--text-strong)]"
+      class="block font-[family-name:var(--font-display)] text-[1.25rem] leading-tight font-extrabold tracking-[-0.01em] text-[var(--text-strong)]"
     >{{ role.label }}</span>
 
     <span
       v-if="role.note"
-      class="block text-[length:var(--text-sm)] leading-[1.55] text-[var(--text-muted)] mt-2"
+      class="mt-2 block text-[length:var(--text-sm)] leading-[1.55] text-[var(--text-muted)]"
     >{{ role.note }}</span>
 
     <span
-      class="inline-flex items-center gap-1.5 font-bold text-[0.875rem] text-[var(--text-link)] mt-4 pt-3 border-t border-[var(--border-subtle)] group-hover:text-[var(--brand-primary-strong)]"
+      class="mt-4 inline-flex items-center gap-1.5 border-t border-[var(--border-subtle)] pt-3 text-[0.875rem] font-bold text-[var(--text-link)] group-hover:text-[var(--brand-primary-strong)]"
     >
       {{ role.cta ?? 'Learn more' }}
       <UiIcon
@@ -50,6 +54,9 @@ const isInternal = computed(() => props.role.url.startsWith('/'))
         class="transition-transform duration-200 group-hover:translate-x-0.5"
       />
     </span>
-    <span v-if="!isInternal" class="sr-only"> (opens in a new tab)</span>
+    <span
+      v-if="!isInternal"
+      class="sr-only"
+    > (opens in a new tab)</span>
   </component>
 </template>

@@ -11,17 +11,38 @@ const rest = computed(() => (posts.value ?? []).slice(1) as NewsItem[])
 </script>
 
 <template>
-  <section id="news" class="las-section">
+  <section
+    id="news"
+    class="las-section"
+  >
     <div class="las-container">
-      <div class="flex justify-between items-end gap-5 mb-9 flex-wrap">
+      <div class="mb-9 flex flex-wrap items-end justify-between gap-5">
         <UiSectionHead title="News &amp; bulletins" />
-        <UiButton variant="ghost" href="/news" icon-right="arrowRight">All news</UiButton>
+        <UiButton
+          variant="ghost"
+          href="/news"
+          icon-right="arrowRight"
+        >
+          All news
+        </UiButton>
       </div>
 
-      <NewsCard v-if="lead" :post="lead" featured class="mb-6" />
+      <NewsCard
+        v-if="lead"
+        :post="lead"
+        featured
+        class="mb-6"
+      />
 
-      <div v-if="rest.length" class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        <NewsCard v-for="p in rest" :key="p.path" :post="p" />
+      <div
+        v-if="rest.length"
+        class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
+      >
+        <NewsCard
+          v-for="p in rest"
+          :key="p.path"
+          :post="p"
+        />
       </div>
     </div>
   </section>
